@@ -27,7 +27,7 @@ const Hero = () => {
             Playy matches you with real players by sport, skill level, and availability. No group chat chaos. No mismatched games. Just play.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="h-14 px-8 text-base font-semibold rounded-xl gap-3">
+            <Button size="lg" className="h-14 px-8 text-base font-semibold rounded-xl gap-3 bg-brand-gradient hover:opacity-90 transition-opacity">
               <Apple className="w-5 h-5" />
               Download on App Store
             </Button>
