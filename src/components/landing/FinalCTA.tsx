@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
   return (
-    <section className="py-24 bg-secondary/30">
+    <section className="py-24 bg-secondary/30" id="download">
       <div className="container mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
