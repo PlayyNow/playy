@@ -5,19 +5,19 @@ const steps = [
   {
     icon: Target,
     title: "Pick Your Sport",
-    description: "Choose from padel, football, basketball, tennis, gym & more.",
+    description: "Choose from padel, football, basketball, tennis and gym.",
     step: "01",
   },
   {
     icon: Users,
     title: "Match Your Level",
-    description: "Get paired with players who actually match your skill.",
+    description: "Discover players who actually match your skill and availability.",
     step: "02",
   },
   {
     icon: MapPin,
     title: "Show Up & Play",
-    description: "Confirmed spots, real times, real people. Just show up.",
+    description: "Coordinate. Meet. Playy.",
     step: "03",
   },
 ];
@@ -35,9 +35,7 @@ const HowItWorks = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             How It <span className="text-gradient">Works</span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            Three steps. Zero hassle. All action.
-          </p>
+          <p className="text-muted-foreground text-lg max-w-xl mx-auto">Three steps. Zero hassle. All action.</p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -50,9 +48,7 @@ const HowItWorks = () => {
               transition={{ delay: i * 0.15 }}
               className="relative bg-card rounded-2xl p-8 text-center group hover:bg-card/80 transition-colors"
             >
-              <span className="text-6xl font-bold text-primary/10 absolute top-4 right-6">
-                {step.step}
-              </span>
+              <span className="text-6xl font-bold text-primary/10 absolute top-4 right-6">{step.step}</span>
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-6">
                 <step.icon className="w-7 h-7 text-primary" />
               </div>
