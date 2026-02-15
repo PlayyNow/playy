@@ -36,6 +36,7 @@ const SportsGrid = () => {
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
               className="bg-card rounded-2xl p-6 text-center cursor-pointer group hover:border-primary/50 border border-border transition-all hover:scale-105"
+              onClick={() => document.getElementById('download')?.scrollIntoView({ behavior: 'smooth' })}
             >
               <span className="text-4xl mb-4 block">{sport.emoji}</span>
               <h3 className="font-bold mb-2">{sport.name}</h3>
