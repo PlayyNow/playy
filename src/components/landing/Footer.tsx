@@ -1,4 +1,5 @@
 import { Instagram } from "lucide-react";
+import { Link } from "react-router-dom";
 import playyLogo3d from "@/assets/playy-logo-3d.png";
 
 const Footer = () => {
@@ -36,13 +37,13 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">
+            <Link to="/privacy" className="hover:text-foreground transition-colors">
               Privacy
-            </a>
-            <a href="#" className="hover:text-foreground transition-colors">
+            </Link>
+            <Link to="/terms" className="hover:text-foreground transition-colors">
               Terms
-            </a>
-            <a href="#" className="hover:text-foreground transition-colors">
+            </Link>
+            <a href="mailto:support@joinplayy.com" className="hover:text-foreground transition-colors">
               Contact
             </a>
           </div>
