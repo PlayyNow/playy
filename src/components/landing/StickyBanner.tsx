@@ -22,12 +22,11 @@ const StickyBanner = () => {
           className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-background/95 backdrop-blur-lg border-t border-border p-4"
         >
           <div className="flex gap-3">
-            <Button size="sm" className="flex-1 gap-2 rounded-xl font-semibold bg-brand-gradient hover:opacity-90">
-              <Apple className="w-4 h-4" /> App Store
-            </Button>
-            <Button size="sm" variant="outline" className="flex-1 gap-2 rounded-xl font-semibold border-foreground/20">
-              <Play className="w-4 h-4" /> Google Play
-            </Button>
+            <a href="https://apps.apple.com/us/app/playy-find-your-game/id6759396368" target="_blank" rel="noopener noreferrer" className="flex-1">
+              <Button size="sm" className="w-full gap-2 rounded-xl font-semibold bg-brand-gradient hover:opacity-90">
+                <Apple className="w-4 h-4" /> App Store
+              </Button>
+            </a>
           </div>
         </motion.div>
       )}
