@@ -27,14 +27,12 @@ const Hero = () => {
             Playy matches you with real players by sport, skill level, and availability. No group chat chaos. No mismatched games. Just play.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="h-14 px-8 text-base font-semibold rounded-xl gap-3 bg-brand-gradient hover:opacity-90 transition-opacity">
-              <Apple className="w-5 h-5" />
-              Download on App Store
-            </Button>
-            <Button size="lg" variant="outline" className="h-14 px-8 text-base font-semibold rounded-xl gap-3 border-foreground/20 hover:bg-foreground/5">
-              <Play className="w-5 h-5" />
-              Get it on Google Play
-            </Button>
+            <a href="https://apps.apple.com/us/app/playy-find-your-game/id6759396368" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="h-14 px-8 text-base font-semibold rounded-xl gap-3 bg-brand-gradient hover:opacity-90 transition-opacity">
+                <Apple className="w-5 h-5" />
+                Download on App Store
+              </Button>
+            </a>
           </div>
         </motion.div>
       </div>

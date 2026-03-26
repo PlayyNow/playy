@@ -15,9 +15,11 @@ const Navbar = () => {
           <a href="#benefits" className="hover:text-foreground transition-colors">Why Playy</a>
           <a href="#faq" className="hover:text-foreground transition-colors">FAQ</a>
         </div>
-        <Button size="sm" className="rounded-xl font-semibold bg-brand-gradient hover:opacity-90 transition-opacity">
-          Download
-        </Button>
+        <a href="https://apps.apple.com/us/app/playy-find-your-game/id6759396368" target="_blank" rel="noopener noreferrer">
+          <Button size="sm" className="rounded-xl font-semibold bg-brand-gradient hover:opacity-90 transition-opacity">
+            Download
+          </Button>
+        </a>
       </div>
     </nav>
   );
