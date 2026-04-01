@@ -59,7 +59,7 @@ const SocialProof = () => {
               viewport={{ once: true }}
               className="flex flex-col items-center gap-2"
             >
-              <Counter target={stat.value} suffix={stat.suffix} isDecimal={stat.isDecimal} />
+              <Counter target={stat.value} suffix={stat.suffix} />
               <span className="text-sm text-muted-foreground">{stat.label}</span>
             </motion.div>
           ))}
