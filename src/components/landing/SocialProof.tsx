@@ -50,7 +50,7 @@ const SocialProof = () => {
   return (
     <section className="py-16 border-y border-border/50">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-3 gap-8">
+        <div className="flex justify-center">
           {stats.map((stat) => (
             <motion.div
               key={stat.label}
