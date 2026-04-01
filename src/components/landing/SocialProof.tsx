@@ -2,9 +2,7 @@ import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: 10000, suffix: "+", label: "Players" },
-  { value: 5000, suffix: "+", label: "Games Matched" },
-  { value: 4.8, suffix: "★", label: "Rating", isDecimal: true },
+  { value: 5, suffix: "★", label: "Rating" },
 ];
 
 const Counter = ({ target, suffix, isDecimal }: { target: number; suffix: string; isDecimal?: boolean }) => {
@@ -61,7 +59,7 @@ const SocialProof = () => {
               viewport={{ once: true }}
               className="flex flex-col items-center gap-2"
             >
-              <Counter target={stat.value} suffix={stat.suffix} isDecimal={stat.isDecimal} />
+              <Counter target={stat.value} suffix={stat.suffix} />
               <span className="text-sm text-muted-foreground">{stat.label}</span>
             </motion.div>
           ))}
