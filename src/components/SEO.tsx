@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 
 type SEOProps = {
   title: string;
@@ -10,6 +10,26 @@ type SEOProps = {
   jsonLd?: Record<string, unknown>;
 };
 
+const upsertMeta = (selector: string, attr: "name" | "property", key: string, content: string) => {
+  let el = document.head.querySelector<HTMLMetaElement>(selector);
+  if (!el) {
+    el = document.createElement("meta");
+    el.setAttribute(attr, key);
+    document.head.appendChild(el);
+  }
+  el.setAttribute("content", content);
+};
+
+const upsertLink = (rel: string, href: string) => {
+  let el = document.head.querySelector<HTMLLinkElement>(`link[rel="${rel}"]`);
+  if (!el) {
+    el = document.createElement("link");
+    el.setAttribute("rel", rel);
+    document.head.appendChild(el);
+  }
+  el.setAttribute("href", href);
+};
+
 const SEO = ({
   title,
   description,
@@ -19,35 +39,54 @@ const SEO = ({
   publishedTime,
   jsonLd,
 }: SEOProps) => {
-  const absoluteImage = image
-    ? image.startsWith("http")
-      ? image
-      : `${typeof window !== "undefined" ? window.location.origin : ""}${image}`
-    : undefined;
+  useEffect(() => {
+    const absoluteImage = image
+      ? image.startsWith("http")
+        ? image
+        : `${window.location.origin}${image}`
+      : undefined;
 
-  return (
-    <Helmet>
-      <title>{title}</title>
-      <meta name="description" content={description} />
-      <link rel="canonical" href={canonical} />
+    document.title = title;
 
-      <meta property="og:type" content={type} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
-      <meta property="og:url" content={canonical} />
-      {absoluteImage && <meta property="og:image" content={absoluteImage} />}
-      {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    upsertMeta('meta[name="description"]', "name", "description", description);
+    upsertLink("canonical", canonical);
 
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      {absoluteImage && <meta name="twitter:image" content={absoluteImage} />}
+    upsertMeta('meta[property="og:type"]', "property", "og:type", type);
+    upsertMeta('meta[property="og:title"]', "property", "og:title", title);
+    upsertMeta('meta[property="og:description"]', "property", "og:description", description);
+    upsertMeta('meta[property="og:url"]', "property", "og:url", canonical);
+    if (absoluteImage) {
+      upsertMeta('meta[property="og:image"]', "property", "og:image", absoluteImage);
+    }
+    if (publishedTime) {
+      upsertMeta(
+        'meta[property="article:published_time"]',
+        "property",
+        "article:published_time",
+        publishedTime,
+      );
+    }
 
-      {jsonLd && (
-        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-      )}
-    </Helmet>
-  );
+    upsertMeta('meta[name="twitter:card"]', "name", "twitter:card", "summary_large_image");
+    upsertMeta('meta[name="twitter:title"]', "name", "twitter:title", title);
+    upsertMeta('meta[name="twitter:description"]', "name", "twitter:description", description);
+    if (absoluteImage) {
+      upsertMeta('meta[name="twitter:image"]', "name", "twitter:image", absoluteImage);
+    }
+
+    const scriptId = "seo-jsonld";
+    const existing = document.getElementById(scriptId);
+    if (existing) existing.remove();
+    if (jsonLd) {
+      const script = document.createElement("script");
+      script.type = "application/ld+json";
+      script.id = scriptId;
+      script.text = JSON.stringify(jsonLd);
+      document.head.appendChild(script);
+    }
+  }, [title, description, canonical, image, type, publishedTime, jsonLd]);
+
+  return null;
 };
 
 export default SEO;
