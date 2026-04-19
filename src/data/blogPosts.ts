@@ -1,7 +1,11 @@
+import padelHero from "@/assets/blog/padel-hero.jpeg";
+import padelAmericano from "@/assets/blog/padel-americano.png";
+import padelApp from "@/assets/blog/padel-app.jpeg";
+
 export type BlogBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
-  | { type: "image"; src?: string; alt: string; float: "left" | "right" }
+  | { type: "image"; src?: string; alt: string; float?: "left" | "right" | "none" }
   | { type: "cta"; text: string; href: string; label: string };
 
 export type BlogPost = {
@@ -20,7 +24,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Looking for a padel partner in Dubai? From Americano sessions to sports apps, here are the best ways to find a reliable player near you.",
     date: "April 29, 2025",
-    image: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=1600&q=80",
+    image: padelHero,
     content: [
       { type: "paragraph", text: "Dubai has one of the fastest growing padel scenes in the world. Courts are popping up across Motor City, JBR, Al Quoz, and beyond, and the demand for games has never been higher. The only problem? Showing up to a court without someone to play with." },
       { type: "paragraph", text: "If you have ever found yourself scrolling through WhatsApp groups hoping someone is free, or standing at a court waiting on a player who bailed, you are not alone. Finding a reliable padel partner in Dubai is one of the most common frustrations for players at every level." },
@@ -34,12 +38,12 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Americano is a padel format where partners rotate every set, meaning you end up playing with and against almost everyone on the court. Most padel venues in Dubai run regular Americano sessions open to all levels." },
       { type: "paragraph", text: "It is one of the best ways to meet players organically. Show up a few times and you will naturally find people who match your style and availability." },
 
-      { type: "image", alt: "Americano padel tournament in Dubai", float: "left" },
+      { type: "image", src: padelAmericano, alt: "Friends socialising on a padel court at sunset after an Americano session in Dubai", float: "none" },
 
       { type: "heading", text: "Ask at Your Local Court" },
       { type: "paragraph", text: "Simple but underrated. Court staff at most Dubai padel venues know their regulars well. Let them know you are looking for a hitting partner and they will often connect you with someone at a similar level. Some venues even have informal notice boards or player directories for exactly this reason." },
 
-      { type: "image", alt: "Playy app matching padel players in Dubai", float: "right" },
+      { type: "image", src: padelApp, alt: "Padel player checking the Playy app on her phone courtside", float: "none" },
 
       { type: "heading", text: "Use an App Built for This" },
       { type: "paragraph", text: "The most direct solution is using an app designed specifically to match sports players. Playy is a Dubai based app built for exactly this. You create a profile, set your sport, skill level, and availability, and connect with players near you who are looking for the same thing." },
