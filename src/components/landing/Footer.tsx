@@ -1,15 +1,15 @@
 import { Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
-import playyLogo3d from "@/assets/playy-logo-3d.png";
+import pLogo from "@/assets/p-logo.jpeg";
 
 const Footer = () => {
   return (
-    <footer className="py-12 border-t border-border">
+    <footer className="py-16 border-t border-border">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          <div className="text-center md:text-left">
-            <img src={playyLogo3d} alt="Playy" className="h-12 mb-2" />
-            <p className="text-sm text-muted-foreground">Stop Scrolling. Start Playing.</p>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+          <div className="flex items-center gap-3">
+            <img src={pLogo} alt="Playy" className="w-10 h-10 rounded-xl" />
+            <span className="text-xl font-bold text-gradient">Playy</span>
           </div>
 
           <div className="flex flex-col items-center gap-3">
@@ -52,7 +52,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-center mt-8 text-xs text-muted-foreground">Born in Dubai</div>
+        <div className="text-center mt-12 pt-8 border-t border-border/50 text-xs text-muted-foreground">
+          <p className="mb-2">Stop Scrolling. Start Playing.</p>
+          <p>Born in Dubai</p>
+        </div>
       </div>
     </footer>
   );
