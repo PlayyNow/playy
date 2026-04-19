@@ -4,10 +4,13 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useState } from "react";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
 import { blogPosts } from "@/data/blogPosts";
+
+const SITE_URL = "https://joinplayy.com";
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -23,6 +26,50 @@ const BlogPost = () => {
       description: "Thanks for subscribing. Best Dubai sports tips, incoming.",
     });
     setEmail("");
+  };
+
+  if (!post) {
+    return (
+      <main className="min-h-screen bg-background text-foreground">
+        <SEO
+          title="Post not found | Playy Blog"
+          description="The blog post you are looking for could not be found."
+          canonical={`${SITE_URL}/blog`}
+        />
+        <Navbar />
+        <section className="pt-40 pb-24 container mx-auto px-6 text-center">
+          <h1 className="text-4xl font-bold mb-4">Post not found</h1>
+          <Link to="/blog" className="text-primary hover:underline">
+            Back to Blog
+          </Link>
+        </section>
+        <Footer />
+      </main>
+    );
+  }
+
+  const canonical = `${SITE_URL}/blog/${post.slug}`;
+  const isoDate = new Date(post.date).toISOString();
+  const seoTitle = `${post.title} | Playy Blog`;
+  const absoluteImage = post.image.startsWith("http")
+    ? post.image
+    : `${SITE_URL}${post.image}`;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    image: absoluteImage,
+    datePublished: isoDate,
+    dateModified: isoDate,
+    author: { "@type": "Organization", name: "Playy" },
+    publisher: {
+      "@type": "Organization",
+      name: "Playy",
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/favicon.png` },
+    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
   };
 
   if (!post) {
