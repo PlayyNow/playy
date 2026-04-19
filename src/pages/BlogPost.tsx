@@ -86,26 +86,36 @@ const BlogPost = () => {
                   );
                 }
                 if (block.type === "image") {
-                  const floatClass =
-                    block.float === "left"
-                      ? "md:float-left md:mr-6 md:mb-4"
-                      : "md:float-right md:ml-6 md:mb-4";
+                  const isFloat = block.float === "left" || block.float === "right";
+                  if (isFloat) {
+                    const floatClass =
+                      block.float === "left"
+                        ? "md:float-left md:mr-6 md:mb-4"
+                        : "md:float-right md:ml-6 md:mb-4";
+                    return (
+                      <figure
+                        key={i}
+                        className={`not-prose w-full md:w-1/2 my-6 ${floatClass}`}
+                      >
+                        <div className="aspect-[3/2] w-full rounded-xl border border-border bg-card flex items-center justify-center overflow-hidden">
+                          {block.src ? (
+                            <img src={block.src} alt={block.alt} className="w-full h-full object-cover" />
+                          ) : (
+                            <span className="text-sm text-muted-foreground/70">Image coming soon</span>
+                          )}
+                        </div>
+                      </figure>
+                    );
+                  }
                   return (
-                    <figure
-                      key={i}
-                      className={`not-prose w-full md:w-1/2 my-6 ${floatClass}`}
-                    >
-                      <div className="aspect-[3/2] w-full rounded-xl border border-border bg-card flex items-center justify-center overflow-hidden">
+                    <figure key={i} className="not-prose my-12 w-full md:w-[70%] mx-auto">
+                      <div className="aspect-video w-full overflow-hidden rounded-2xl border border-border bg-card">
                         {block.src ? (
-                          <img
-                            src={block.src}
-                            alt={block.alt}
-                            className="w-full h-full object-cover"
-                          />
+                          <img src={block.src} alt={block.alt} className="w-full h-full object-cover" />
                         ) : (
-                          <span className="text-sm text-muted-foreground/70">
-                            Image coming soon
-                          </span>
+                          <div className="w-full h-full flex items-center justify-center">
+                            <span className="text-sm text-muted-foreground/70">Image coming soon</span>
+                          </div>
                         )}
                       </div>
                     </figure>
