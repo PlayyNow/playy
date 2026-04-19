@@ -1,6 +1,7 @@
 export type BlogBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
+  | { type: "image"; src?: string; alt: string; float: "left" | "right" }
   | { type: "cta"; text: string; href: string; label: string };
 
 export type BlogPost = {
@@ -33,8 +34,12 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Americano is a padel format where partners rotate every set, meaning you end up playing with and against almost everyone on the court. Most padel venues in Dubai run regular Americano sessions open to all levels." },
       { type: "paragraph", text: "It is one of the best ways to meet players organically. Show up a few times and you will naturally find people who match your style and availability." },
 
+      { type: "image", alt: "Americano padel tournament in Dubai", float: "left" },
+
       { type: "heading", text: "Ask at Your Local Court" },
       { type: "paragraph", text: "Simple but underrated. Court staff at most Dubai padel venues know their regulars well. Let them know you are looking for a hitting partner and they will often connect you with someone at a similar level. Some venues even have informal notice boards or player directories for exactly this reason." },
+
+      { type: "image", alt: "Playy app matching padel players in Dubai", float: "right" },
 
       { type: "heading", text: "Use an App Built for This" },
       { type: "paragraph", text: "The most direct solution is using an app designed specifically to match sports players. Playy is a Dubai based app built for exactly this. You create a profile, set your sport, skill level, and availability, and connect with players near you who are looking for the same thing." },

@@ -52,7 +52,7 @@ const BlogPost = () => {
               <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
             </div>
 
-            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+            <div className="text-lg text-muted-foreground leading-relaxed [&>*+*]:mt-6 after:content-[''] after:table after:clear-both">
               {post.content.map((block, i) => {
                 if (block.type === "heading") {
                   return (
@@ -83,6 +83,32 @@ const BlogPost = () => {
                         </Button>
                       </a>
                     </div>
+                  );
+                }
+                if (block.type === "image") {
+                  const floatClass =
+                    block.float === "left"
+                      ? "md:float-left md:mr-6 md:mb-4"
+                      : "md:float-right md:ml-6 md:mb-4";
+                  return (
+                    <figure
+                      key={i}
+                      className={`not-prose w-full md:w-1/2 my-6 ${floatClass}`}
+                    >
+                      <div className="aspect-[3/2] w-full rounded-xl border border-border bg-card flex items-center justify-center overflow-hidden">
+                        {block.src ? (
+                          <img
+                            src={block.src}
+                            alt={block.alt}
+                            className="w-full h-full object-cover"
+                          />
+                        ) : (
+                          <span className="text-sm text-muted-foreground/70">
+                            Image coming soon
+                          </span>
+                        )}
+                      </div>
+                    </figure>
                   );
                 }
                 return <p key={i}>{block.text}</p>;
