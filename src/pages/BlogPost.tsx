@@ -1,14 +1,29 @@
 import { Link, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import { useState } from "react";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { useToast } from "@/hooks/use-toast";
 import { blogPosts } from "@/data/blogPosts";
 
 const BlogPost = () => {
   const { slug } = useParams();
   const post = blogPosts.find((p) => p.slug === slug);
+  const [email, setEmail] = useState("");
+  const { toast } = useToast();
+
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email) return;
+    toast({
+      title: "You're in!",
+      description: "Thanks for subscribing. Best Dubai sports tips, incoming.",
+    });
+    setEmail("");
+  };
 
   if (!post) {
     return (
@@ -127,6 +142,41 @@ const BlogPost = () => {
           </motion.div>
         </div>
       </article>
+
+      {/* Email capture */}
+      <section className="py-16 md:py-24 bg-secondary/30 border-y border-border">
+        <div className="container mx-auto px-6 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl md:text-5xl font-bold mb-8 max-w-3xl mx-auto">
+              Get the best <span className="text-primary">Dubai</span> sports tips in your inbox
+            </h2>
+            <form
+              onSubmit={handleSubscribe}
+              className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+            >
+              <Input
+                type="email"
+                required
+                placeholder="you@example.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="h-12 bg-card border-border rounded-xl"
+              />
+              <Button
+                type="submit"
+                size="lg"
+                className="h-12 px-6 font-semibold rounded-xl bg-brand-gradient hover:opacity-90 transition-opacity"
+              >
+                Subscribe
+              </Button>
+            </form>
+          </motion.div>
+        </div>
+      </section>
 
       <Footer />
     </main>
