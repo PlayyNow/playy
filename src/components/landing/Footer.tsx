@@ -43,6 +43,9 @@ const Footer = () => {
             <Link to="/terms" className="hover:text-foreground transition-colors">
               Terms
             </Link>
+            <Link to="/blog" className="hover:text-foreground transition-colors">
+              Blog
+            </Link>
             <a href="mailto:support@joinplayy.com" className="hover:text-foreground transition-colors">
               Contact
             </a>
