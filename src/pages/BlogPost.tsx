@@ -1,8 +1,9 @@
 import { Link, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
+import { Button } from "@/components/ui/button";
 import { blogPosts } from "@/data/blogPosts";
 
 const BlogPost = () => {
@@ -52,9 +53,40 @@ const BlogPost = () => {
             </div>
 
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-              {post.content.map((para, i) => (
-                <p key={i}>{para}</p>
-              ))}
+              {post.content.map((block, i) => {
+                if (block.type === "heading") {
+                  return (
+                    <h2
+                      key={i}
+                      className="text-2xl md:text-3xl font-bold tracking-tight text-foreground pt-6"
+                    >
+                      {block.text}
+                    </h2>
+                  );
+                }
+                if (block.type === "cta") {
+                  return (
+                    <div
+                      key={i}
+                      className="not-prose mt-10 p-6 md:p-8 rounded-2xl border border-border bg-card"
+                    >
+                      <p className="text-lg md:text-xl font-semibold text-foreground mb-5">
+                        {block.text}
+                      </p>
+                      <a href={block.href} target="_blank" rel="noopener noreferrer">
+                        <Button
+                          size="lg"
+                          className="h-12 px-6 text-base font-semibold rounded-xl gap-2 bg-brand-gradient hover:opacity-90 transition-opacity"
+                        >
+                          {block.label}
+                          <ArrowRight className="w-4 h-4" />
+                        </Button>
+                      </a>
+                    </div>
+                  );
+                }
+                return <p key={i}>{block.text}</p>;
+              })}
             </div>
           </motion.div>
         </div>
