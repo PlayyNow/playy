@@ -5,11 +5,11 @@ import pLogo from "@/assets/p-logo.jpeg";
 const Footer = () => {
   return (
     <footer className="py-16 border-t border-border">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="flex items-center gap-3">
+      <div className="container mx-auto px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-12">
+          <div className="flex items-center justify-center md:justify-start gap-3">
             <img src={pLogo} alt="Playy" className="w-10 h-10 rounded-xl" />
-            <span className="text-xl font-bold text-gradient">Playy</span>
+            <span className="text-2xl font-bold text-gradient">Playy</span>
           </div>
 
           <div className="flex flex-col items-center gap-3">
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-6 text-sm text-muted-foreground">
+          <div className="flex items-center justify-center md:justify-end gap-6 text-sm text-muted-foreground">
             <Link to="/privacy" className="hover:text-foreground transition-colors">
               Privacy
             </Link>
@@ -52,9 +52,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-center mt-12 pt-8 border-t border-border/50 text-xs text-muted-foreground">
-          <p className="mb-2">Stop Scrolling. Start Playing.</p>
-          <p>Born in Dubai</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 mt-12 pt-8 border-t border-border/50 text-xs text-muted-foreground">
+          <div />
+          <div className="flex flex-col items-center gap-2 text-center">
+            <p>Stop Scrolling. Start Playing.</p>
+            <p>Born in Dubai</p>
+          </div>
+          <div />
         </div>
       </div>
     </footer>
