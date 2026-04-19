@@ -52,7 +52,7 @@ const BlogPost = () => {
               <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
             </div>
 
-            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+            <div className="text-lg text-muted-foreground leading-relaxed [&>*+*]:mt-6 after:content-[''] after:table after:clear-both">
               {post.content.map((block, i) => {
                 if (block.type === "heading") {
                   return (
