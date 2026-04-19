@@ -72,23 +72,17 @@ const BlogPost = () => {
     mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
   };
 
-  if (!post) {
-    return (
-      <main className="min-h-screen bg-background text-foreground">
-        <Navbar />
-        <section className="pt-40 pb-24 container mx-auto px-6 text-center">
-          <h1 className="text-4xl font-bold mb-4">Post not found</h1>
-          <Link to="/blog" className="text-primary hover:underline">
-            Back to Blog
-          </Link>
-        </section>
-        <Footer />
-      </main>
-    );
-  }
-
   return (
     <main className="min-h-screen bg-background text-foreground">
+      <SEO
+        title={seoTitle}
+        description={post.excerpt}
+        canonical={canonical}
+        image={absoluteImage}
+        type="article"
+        publishedTime={isoDate}
+        jsonLd={jsonLd}
+      />
       <Navbar />
 
       <article className="pt-32 pb-24 md:pt-40">
