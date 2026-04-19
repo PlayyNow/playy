@@ -1,6 +1,7 @@
 export type BlogBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
+  | { type: "image"; src?: string; alt: string; float: "left" | "right" }
   | { type: "cta"; text: string; href: string; label: string };
 
 export type BlogPost = {
