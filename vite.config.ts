@@ -40,11 +40,10 @@ export default defineConfig(({ mode }) => ({
           );
           return renderedRoute;
         },
-        renderer: "@prerenderer/renderer-puppeteer",
-        rendererOptions: {
+        renderer: new vitePrerender.PuppeteerRenderer({
           renderAfterTime: 1500,
           headless: true,
-        },
+        }),
       }),
   ].filter(Boolean),
   resolve: {
