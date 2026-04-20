@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
 import { blogPosts } from "@/data/blogPosts";
+import ShareButtons from "@/components/blog/ShareButtons";
 
 const SITE_URL = "https://joinplayy.com";
 
@@ -100,9 +101,11 @@ const BlogPost = () => {
             </Link>
 
             <p className="text-sm text-muted-foreground mb-3">{post.date}</p>
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-8">
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
               {post.title}
             </h1>
+
+            <ShareButtons url={canonical} title={post.title} className="mb-10" />
 
             <div className="aspect-video w-full overflow-hidden rounded-2xl bg-secondary mb-10 border border-border">
               <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
@@ -179,6 +182,10 @@ const BlogPost = () => {
                 }
                 return <p key={i}>{block.text}</p>;
               })}
+            </div>
+
+            <div className="mt-12 pt-8 border-t border-border">
+              <ShareButtons url={canonical} title={post.title} />
             </div>
           </motion.div>
         </div>
