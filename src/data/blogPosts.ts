@@ -1,3 +1,4 @@
+import padelHero from "@/assets/blog/padel-hero.jpeg";
 import padelAmericano from "@/assets/blog/padel-americano.png";
 import padelApp from "@/assets/blog/padel-app.jpeg";
 
@@ -13,6 +14,12 @@ export type BlogPost = {
   excerpt: string;
   date: string;
   image: string;
+  /**
+   * Absolute, publicly-resolvable URL for og:image / twitter:image.
+   * Required because social crawlers (X, Facebook, WhatsApp) don't
+   * execute JS and can't resolve Vite's hashed asset paths.
+   */
+  ogImage: string;
   content: BlogBlock[];
 };
 
@@ -23,11 +30,8 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Looking for a padel partner in Dubai? From Americano sessions to sports apps, here are the best ways to find a reliable player near you.",
     date: "April 29, 2025",
-    // Absolute, stable public URL so social crawlers (X, Facebook,
-    // WhatsApp) can fetch it for og:image previews. Do NOT replace
-    // with a Vite-imported asset — those get content-hashed paths
-    // that don't match what crawlers see.
-    image: "https://joinplayy.com/blog/padel-hero.jpeg",
+    image: padelHero,
+    ogImage: "https://joinplayy.com/blog/padel-hero.jpeg",
     content: [
       { type: "paragraph", text: "Dubai has one of the fastest growing padel scenes in the world. Courts are popping up across Motor City, JBR, Al Quoz, and beyond, and the demand for games has never been higher. The only problem? Showing up to a court without someone to play with." },
       { type: "paragraph", text: "If you have ever found yourself scrolling through WhatsApp groups hoping someone is free, or standing at a court waiting on a player who bailed, you are not alone. Finding a reliable padel partner in Dubai is one of the most common frustrations for players at every level." },
