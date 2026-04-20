@@ -52,9 +52,9 @@ const BlogPost = () => {
   const canonical = `${SITE_URL}/blog/${post.slug}`;
   const isoDate = new Date(post.date).toISOString();
   const seoTitle = `${post.title} | Playy Blog`;
-  const absoluteImage = post.image.startsWith("http")
-    ? post.image
-    : `${SITE_URL}${post.image}`;
+  // Always prefer the explicit absolute ogImage URL so social
+  // crawlers get a stable, hash-free path.
+  const absoluteImage = post.ogImage;
 
   const jsonLd = {
     "@context": "https://schema.org",
