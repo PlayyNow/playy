@@ -45,8 +45,11 @@ async function run() {
     renderer: new PuppeteerRenderer({
       // Wait long enough for React to mount and SEO useEffect to run.
       renderAfterTime: 2000,
-      headless: "new",
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      headless: true,
+      maxConcurrentRoutes: 4,
+      launchOptions: {
+        args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      },
     }),
   });
 
