@@ -1,31 +1,26 @@
 import { motion } from "framer-motion";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "Is Playy free?",
-    a: "Yes! Playy is completely free to download and use. Just grab it from the App Store or Google Play and start playing.",
+    q: "How do I find padel players in Dubai?",
+    a: "Download Playy from the iOS App Store, set your skill level and availability, and the app instantly matches you with nearby padel players in Dubai at your level. You can challenge them to a game, chat, and coordinate where to play — no group chats required.",
   },
   {
-    q: "What sports are available?",
-    a: "We currently support padel, football, basketball, tennis, and gym sessions — with more sports being added regularly.",
+    q: "What sports are available on Playy?",
+    a: "Playy is focused on padel — Dubai's fastest-growing sport — and also supports football, basketball, tennis, and gym sessions. More sports are added regularly based on community demand.",
   },
   {
-    q: "How does skill matching work?",
-    a: "When you sign up, you set your skill level for each sport. Our algorithm matches you with players at a similar level so every game is competitive and fun.",
+    q: "How does skill matching work on Playy?",
+    a: "When you sign up you set your skill level for each sport. Playy's matching algorithm then surfaces players nearby at a similar level and availability, so every game is competitive, fair, and fun — not a mismatch.",
   },
   {
-    q: "Is Playy only in Dubai?",
-    a: "We're launching in Dubai first, but we're expanding to other cities soon. Stay tuned!",
+    q: "Is Playy available outside Dubai?",
+    a: "Playy is currently focused on Dubai, UAE, where it was founded. Expansion to other cities in the region is planned — follow @joinplayy on Instagram or TikTok for updates.",
   },
   {
-    q: "Is it safe?",
-    a: "Absolutely. We use verified profiles and community guidelines to keep Playy a judge-free, respectful environment for everyone.",
+    q: "Is Playy free to use?",
+    a: "Yes. Playy is completely free to download and use on the iOS App Store. There are no subscriptions or hidden fees — just download, set your level, and start playing.",
   },
 ];
 
@@ -44,27 +39,44 @@ const FAQ = () => {
           </h2>
         </motion.div>
 
+        {/*
+          Native <details> so answers are present in server-rendered HTML
+          without requiring JS. Crawlers (LLMs, search) can read every
+          answer on initial load. We also mark up each Q&A with
+          itemscope/itemprop for FAQPage microdata as a belt-and-braces
+          alongside the JSON-LD on the page.
+        */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
+          className="space-y-3"
+          itemScope
+          itemType="https://schema.org/FAQPage"
         >
-          <Accordion type="single" collapsible className="space-y-3">
-            {faqs.map((faq, i) => (
-              <AccordionItem
-                key={i}
-                value={`item-${i}`}
-                className="bg-card rounded-xl border border-border px-6 data-[state=open]:border-primary/30"
+          {faqs.map((faq, i) => (
+            <details
+              key={i}
+              open={i === 0}
+              className="group bg-card rounded-xl border border-border px-6 open:border-primary/30 [&_summary::-webkit-details-marker]:hidden"
+              itemScope
+              itemProp="mainEntity"
+              itemType="https://schema.org/Question"
+            >
+              <summary className="flex items-center justify-between gap-4 cursor-pointer list-none text-left font-semibold py-5">
+                <span itemProp="name">{faq.q}</span>
+                <ChevronDown className="w-4 h-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
+              </summary>
+              <div
+                className="text-muted-foreground pb-5"
+                itemScope
+                itemProp="acceptedAnswer"
+                itemType="https://schema.org/Answer"
               >
-                <AccordionTrigger className="text-left font-semibold hover:no-underline py-5">
-                  {faq.q}
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground pb-5">
-                  {faq.a}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+                <p itemProp="text">{faq.a}</p>
+              </div>
+            </details>
+          ))}
         </motion.div>
       </div>
     </section>

@@ -2,7 +2,11 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 const sports = [
-  { name: "Padel", emoji: "🎾" },
+  {
+    name: "Padel",
+    emoji: "🎾",
+    description: "Dubai's fastest-growing sport — find your skill-matched padel partner now.",
+  },
   { name: "Football", emoji: "⚽" },
   { name: "Basketball", emoji: "🏀" },
   { name: "Tennis", emoji: "🏸" },
@@ -40,6 +44,11 @@ const SportsGrid = () => {
             >
               <span className="text-4xl mb-4 block">{sport.emoji}</span>
               <h3 className="font-bold mb-2">{sport.name}</h3>
+              {sport.description && (
+                <p className="text-xs text-muted-foreground mb-2 leading-snug">
+                  {sport.description}
+                </p>
+              )}
               <span className="text-xs text-primary flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
                 Find Players <ArrowRight className="w-3 h-3" />
               </span>
