@@ -54,9 +54,9 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 mt-12 pt-8 border-t border-border/50 text-xs text-muted-foreground">
           <div />
-          <div className="flex flex-col items-center gap-2 text-center">
-            <p>Stop Scrolling. Start Playing.</p>
-            <p>Born in Dubai</p>
+          <div className="flex flex-col items-center gap-2 text-center max-w-xl">
+            <p>Playy is a Dubai padel community app where players discover skill-matched opponents and build a consistent playing network.</p>
+            <p>Born in Dubai.</p>
           </div>
           <div />
         </div>

@@ -23,8 +23,11 @@ const Hero = () => {
             <br />
             <span className="text-gradient">Start Playing.</span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-            Playy matches you with real players by sport, skill level, and availability. No group chat chaos. No mismatched games. Just play.
+          <p className="text-xl md:text-2xl text-foreground/90 max-w-3xl mx-auto mb-6 font-medium">
+            Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network.
+          </p>
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-10">
+            Playy matches padel players in Dubai by skill level and availability — so you always have the right people to play with, without the chaos of group chats.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://apps.apple.com/us/app/playy-find-your-game/id6759396368" target="_blank" rel="noopener noreferrer">

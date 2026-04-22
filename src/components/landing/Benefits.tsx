@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageSquareOff, BarChart3, Heart, Zap } from "lucide-react";
+import { MessageSquareOff, BarChart3, Users, CalendarHeart } from "lucide-react";
 
 const benefits = [
   {
@@ -13,14 +13,14 @@ const benefits = [
     description: "Play with people at your level, every time.",
   },
   {
-    icon: Heart,
-    title: "Judge-Free Zone",
-    description: "A community built on inclusion, not clout.",
+    icon: Users,
+    title: "Connect Beyond the Court",
+    description: "Chat with players you meet, follow your regular squad, and build a consistent playing network in Dubai.",
   },
   {
-    icon: Zap,
-    title: "Built for Action",
-    description: "Less scrolling, more playing.",
+    icon: CalendarHeart,
+    title: "Community Events",
+    description: "Join or host padel events in Dubai — meet new players and grow your network beyond one-on-one games.",
   },
 ];
 
