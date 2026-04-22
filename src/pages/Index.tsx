@@ -128,8 +128,8 @@ const Index = () => {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <SEO
-        title="Playy — Find Players. Match Your Level. Just Playy."
-        description="Playy is Dubai's social sports app. Match with players by sport, skill level & availability. Padel, football, basketball, tennis & more. Download free."
+        title="Playy — Dubai Padel Community App | Find Skill-Matched Players"
+        description="Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network."
         canonical={SITE_URL + "/"}
         jsonLd={homeJsonLd}
       />
@@ -138,7 +138,6 @@ const Index = () => {
       <HowItWorks />
       <SportsGrid />
       <Benefits />
-      <SocialProof />
       <Testimonials />
       <FAQ />
       <FinalCTA />
