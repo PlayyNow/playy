@@ -81,42 +81,42 @@ const homeJsonLd = {
       mainEntity: [
         {
           "@type": "Question",
-          name: "Is Playy free?",
+          name: "How do I find padel players in Dubai?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes! Playy is completely free to download and use. Just grab it from the App Store and start playing.",
+            text: "Download Playy from the iOS App Store, set your skill level and availability, and the app instantly matches you with nearby padel players in Dubai at your level. You can challenge them to a game, chat, and coordinate where to play — no group chats required.",
           },
         },
         {
           "@type": "Question",
-          name: "What sports are available?",
+          name: "What sports are available on Playy?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "We currently support padel, football, basketball, tennis, and gym sessions — with more sports being added regularly.",
+            text: "Playy is focused on padel — Dubai's fastest-growing sport — and also supports football, basketball, tennis, and gym sessions. More sports are added regularly based on community demand.",
           },
         },
         {
           "@type": "Question",
-          name: "How does skill matching work?",
+          name: "How does skill matching work on Playy?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "When you sign up, you set your skill level for each sport. Our algorithm matches you with players at a similar level so every game is competitive and fun.",
+            text: "When you sign up you set your skill level for each sport. Playy's matching algorithm then surfaces players nearby at a similar level and availability, so every game is competitive, fair, and fun — not a mismatch.",
           },
         },
         {
           "@type": "Question",
-          name: "Is Playy only in Dubai?",
+          name: "Is Playy available outside Dubai?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "We're launching in Dubai first, but we're expanding to other cities soon.",
+            text: "Playy is currently focused on Dubai, UAE, where it was founded. Expansion to other cities in the region is planned — follow @joinplayy on Instagram or TikTok for updates.",
           },
         },
         {
           "@type": "Question",
-          name: "Is it safe?",
+          name: "Is Playy free to use?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. We use verified profiles and community guidelines to keep Playy a judge-free, respectful environment for everyone.",
+            text: "Yes. Playy is completely free to download and use on the iOS App Store. There are no subscriptions or hidden fees — just download, set your level, and start playing.",
           },
         },
       ],
