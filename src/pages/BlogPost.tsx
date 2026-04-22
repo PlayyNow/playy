@@ -58,19 +58,60 @@ const BlogPost = () => {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: post.title,
-    description: post.excerpt,
-    image: absoluteImage,
-    datePublished: isoDate,
-    dateModified: isoDate,
-    author: { "@type": "Organization", name: "Playy" },
-    publisher: {
-      "@type": "Organization",
-      name: "Playy",
-      logo: { "@type": "ImageObject", url: `${SITE_URL}/favicon.png` },
-    },
-    mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: post.title,
+        description: post.excerpt,
+        image: absoluteImage,
+        datePublished: isoDate,
+        dateModified: isoDate,
+        wordCount: post.content.reduce((n, b) => {
+          if (b.type === "paragraph" || b.type === "heading") {
+            return n + b.text.split(/\s+/).length;
+          }
+          return n;
+        }, 0),
+        author: {
+          "@type": "Organization",
+          name: "Playy",
+          url: SITE_URL,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Playy",
+          logo: { "@type": "ImageObject", url: `${SITE_URL}/favicon.png` },
+        },
+        about: [
+          { "@type": "Place", name: "Dubai" },
+          { "@type": "Thing", name: "Sports" },
+        ],
+        mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: SITE_URL + "/",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Blog",
+            item: `${SITE_URL}/blog`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: post.title,
+            item: canonical,
+          },
+        ],
+      },
+    ],
   };
 
   return (

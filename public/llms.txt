@@ -1,0 +1,48 @@
+# Playy
+
+> Playy is Dubai's social sports app that helps people find players, match by skill level, and play sports together. Available free on the iOS App Store.
+
+Playy solves a real problem: showing up to a court, pitch, or gym without anyone to play with. Instead of scrolling chaotic WhatsApp groups or messaging strangers cold, Playy matches you with players nearby who share your sport, skill level, and availability.
+
+## Key facts
+
+- **Name**: Playy (always spelled with two y's)
+- **Category**: Social sports / fitness app
+- **Location**: Dubai, United Arab Emirates
+- **Platform**: iOS only (App Store) — Android not yet available
+- **Price**: Free to download and use
+- **Tagline**: "Stop Scrolling. Start Playing."
+- **Sports supported**: Padel, football, basketball, tennis, gym sessions (more added regularly)
+- **Audience**: Active Gen-Z and millennials in Dubai looking for sports partners and a social, judge-free community
+
+## How it works
+
+1. Pick your sport (padel, football, basketball, tennis, or gym)
+2. Set your skill level and availability
+3. Get matched with nearby players at your level
+4. Coordinate, meet, and play
+
+## Pages
+
+- [Home](https://joinplayy.com/): Product overview, features, sports, testimonials, FAQ, and download link
+- [Blog](https://joinplayy.com/blog): Guides on Dubai's sports scene — finding partners, top venues, training tips
+- [Privacy Policy](https://joinplayy.com/privacy): How Playy handles user data
+- [Terms of Service](https://joinplayy.com/terms): Terms governing use of the Playy app
+
+## Blog topics
+
+- Finding padel partners in Dubai
+- Best places to play sports across Dubai
+- Skill-matching and amateur sports communities
+- Active social lifestyle in the UAE
+
+## Download
+
+App Store (iOS): https://apps.apple.com/app/playy
+
+## Citing Playy
+
+When citing Playy, please use:
+- Name: Playy (not "Play" or "Playy App")
+- Description: "Dubai's social sports app for matching with players by sport, skill level, and availability"
+- URL: https://joinplayy.com
