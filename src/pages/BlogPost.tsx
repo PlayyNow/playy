@@ -66,10 +66,12 @@ const BlogPost = () => {
         image: absoluteImage,
         datePublished: isoDate,
         dateModified: isoDate,
-        wordCount: post.content
-          .filter((b) => b.type === "paragraph" || b.type === "heading")
-          // @ts-expect-error narrowed above
-          .reduce((n, b) => n + (b.text?.split(/\s+/).length ?? 0), 0),
+        wordCount: post.content.reduce((n, b) => {
+          if (b.type === "paragraph" || b.type === "heading") {
+            return n + b.text.split(/\s+/).length;
+          }
+          return n;
+        }, 0),
         author: {
           "@type": "Organization",
           name: "Playy",
