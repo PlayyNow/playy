@@ -1,6 +1,5 @@
 import Navbar from "@/components/landing/Navbar";
 import Hero from "@/components/landing/Hero";
-import SocialProof from "@/components/landing/SocialProof";
 import HowItWorks from "@/components/landing/HowItWorks";
 import SportsGrid from "@/components/landing/SportsGrid";
 import Benefits from "@/components/landing/Benefits";
@@ -23,10 +22,11 @@ const homeJsonLd = {
       url: SITE_URL,
       logo: `${SITE_URL}/favicon.png`,
       description:
-        "Dubai's social sports app for matching with players by sport, skill level, and availability.",
+        "Playy is a Dubai padel community app where players discover skill-matched opponents and build a consistent playing network.",
+      foundingLocation: "Dubai, UAE",
       areaServed: { "@type": "City", name: "Dubai" },
       sameAs: [
-        "https://apps.apple.com/app/playy",
+        "https://apps.apple.com/us/app/playy-find-your-game/id6759396368",
         "https://www.instagram.com/joinplayy",
         "https://www.tiktok.com/@joinplayy",
       ],
@@ -45,14 +45,10 @@ const homeJsonLd = {
       operatingSystem: "iOS",
       applicationCategory: "SportsApplication",
       description:
-        "Playy is Dubai's social sports app. Match with players by sport, skill level & availability.",
+        "Playy is a Dubai padel community app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network.",
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "4.8",
-        ratingCount: "500",
-      },
-      downloadUrl: "https://apps.apple.com/app/playy",
+      downloadUrl:
+        "https://apps.apple.com/us/app/playy-find-your-game/id6759396368",
     },
     {
       "@type": "HowTo",
