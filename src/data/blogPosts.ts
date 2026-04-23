@@ -1,6 +1,9 @@
 import padelHero from "@/assets/blog/padel-hero.jpeg";
 import padelAmericano from "@/assets/blog/padel-americano.png";
 import padelApp from "@/assets/blog/padel-app.jpeg";
+import americanoHero from "@/assets/blog/americano-hero.jpeg";
+import americanoLaughing from "@/assets/blog/americano-laughing.jpeg";
+import americanoPhone from "@/assets/blog/americano-phone.jpeg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
