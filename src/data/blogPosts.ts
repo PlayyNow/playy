@@ -79,12 +79,13 @@ export const blogPosts: BlogPost[] = [
     image: padelAmericano,
     ogImage: "https://joinplayy.com/blog/padel-americano.png",
     content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network." },
       { type: "paragraph", text: "If you have spent any time on a padel court in Dubai you have probably heard someone mention an Americano. It keeps coming up in WhatsApp groups, venue schedules, and conversations between players warming up. But if you have never played one, the format can sound confusing at first." },
       { type: "paragraph", text: "Here is everything you need to know about the padel Americano, how it works, and why it is one of the best ways to meet new players in Dubai. If you are still looking for someone to play with, see our guide on how to find a padel partner in Dubai." },
 
       { type: "heading", text: "What is an Americano?" },
       { type: "paragraph", text: "An Americano is a padel format where every player gets to compete with and against everyone else on the court during a single session. Unlike a standard match where two fixed pairs play each other from start to finish, the Americano rotates partners after every set. By the end of the session you will have played alongside and against every other player at least once." },
-      { type: "paragraph", text: "The format is designed to be social first and competitive second. Points are tracked individually throughout the session and the player with the most points at the end wins, regardless of who they were partnered with at any given time." },
+      { type: "paragraph", text: "The format is designed to be social first and competitive second. Points are tracked individually throughout the session and the player with the most points at the end wins, regardless of who they were partnered with at any given time. The format originated in Spain, where padel has been played competitively since the 1990s through organisations like the World Padel Tour (https://www.worldpadeltour.com)." },
 
       { type: "heading", text: "How Does it Work?" },
       { type: "paragraph", text: "An Americano session typically runs with four to eight players, though four is the most common number on a single court. Each pair plays a short set, usually six games, then partners rotate. Your individual points carry over from set to set so every point you win counts toward your final total." },
@@ -99,7 +100,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "And because everyone is competing individually, there is no pressure to carry a weaker partner or frustration at being carried. Your score reflects your own performance." },
 
       { type: "heading", text: "Where to Find an Americano in Dubai" },
-      { type: "paragraph", text: "Most padel venues in Dubai run regular Americano sessions, usually on weekday evenings and weekend mornings when courts are most active. ISD Padel in Dubai Sports City, courts in JBR, and venues across Al Quoz all run sessions regularly. The easiest way to find one is to ask at your local court directly — staff will know the schedule and can add you to the list." },
+      { type: "paragraph", text: "Most padel venues in Dubai run regular Americano sessions, usually on weekday evenings and weekend mornings when courts are most active. ISD Padel in Dubai Sports City (https://isddubai.com), courts in JBR, and venues across Al Quoz all run sessions regularly. The easiest way to find one is to ask at your local court directly — staff will know the schedule and can add you to the list." },
       { type: "paragraph", text: "Some venues also post their Americano schedules on Instagram so following your nearest court is worth doing if you want to stay on top of upcoming sessions." },
 
       { type: "image", src: padelApp, alt: "Padel player checking the Playy app courtside in Dubai", float: "none" },
@@ -107,7 +108,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", text: "Use Playy to Find Americano Partners" },
       { type: "paragraph", text: "Playy is a free Dubai padel app that matches players by skill level and availability. If you want to join an Americano but do not have enough players to fill the court, Playy lets you find others in your area who are looking for exactly the same thing." },
       { type: "paragraph", text: "You can create a public session for others to join, or browse sessions that players have already set up near you. Instead of waiting on WhatsApp groups to fill up, you find your players, agree on a time, and show up ready to play." },
-      { type: "paragraph", text: "Playy is free to download on iOS and already used by padel players across Dubai." },
+      { type: "paragraph", text: "Playy is free to download on iOS and already used by padel players across Dubai. For a full list of padel venues running regular sessions in Dubai, the Dubai Sports Council (https://www.dsc.gov.ae) tracks active courts across the city." },
 
       { type: "heading", text: "The Bottom Line" },
       { type: "paragraph", text: "The Americano is one of padel's best formats — social, fast moving, and genuinely competitive in a way that works for every level. If you have not tried one yet, find a session near you this week. You will meet more players in two hours than you would in a month of standard matches." },
