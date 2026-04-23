@@ -29,7 +29,7 @@ export const blogPosts: BlogPost[] = [
     title: "How to Find a Padel Partner in Dubai",
     excerpt:
       "Looking for a padel partner in Dubai? From Americano sessions to sports apps, here are the best ways to find a reliable player near you.",
-    date: "April 29, 2025",
+    date: "April 20, 2025",
     image: padelHero,
     ogImage: "https://joinplayy.com/blog/padel-hero.jpeg",
     content: [
