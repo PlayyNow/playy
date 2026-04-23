@@ -79,12 +79,11 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Never heard of a padel Americano? Here is everything you need to know about the format, how it works, and where to find one in Dubai.",
     date: "April 23, 2026",
-    image: padelAmericano,
+    image: americanoHero,
     ogImage: "https://joinplayy.com/blog/padel-americano.png",
     content: [
-      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network." },
       { type: "paragraph", text: "If you have spent any time on a padel court in Dubai you have probably heard someone mention an Americano. It keeps coming up in WhatsApp groups, venue schedules, and conversations between players warming up. But if you have never played one, the format can sound confusing at first." },
-      { type: "paragraph", text: "Here is everything you need to know about the padel Americano, how it works, and why it is one of the best ways to meet new players in Dubai. If you are still looking for someone to play with, see our guide on how to find a padel partner in Dubai." },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the best ways to meet those players is through the Americano format — and here is everything you need to know about how it works." },
 
       { type: "heading", text: "What is an Americano?" },
       { type: "paragraph", text: "An Americano is a padel format where every player gets to compete with and against everyone else on the court during a single session. Unlike a standard match where two fixed pairs play each other from start to finish, the Americano rotates partners after every set. By the end of the session you will have played alongside and against every other player at least once." },
