@@ -75,7 +75,7 @@ export const blogPosts: BlogPost[] = [
     title: "What is an Americano in Padel?",
     excerpt:
       "Never heard of a padel Americano? Here is everything you need to know about the format, how it works, and where to find one in Dubai.",
-    date: "April 23, 2025",
+    date: "April 23, 2026",
     image: padelAmericano,
     ogImage: "https://joinplayy.com/blog/padel-americano.png",
     content: [
