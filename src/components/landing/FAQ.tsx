@@ -42,38 +42,30 @@ const FAQ = () => {
         {/*
           Native <details> so answers are present in server-rendered HTML
           without requiring JS. Crawlers (LLMs, search) can read every
-          answer on initial load. We also mark up each Q&A with
-          itemscope/itemprop for FAQPage microdata as a belt-and-braces
-          alongside the JSON-LD on the page.
+          answer on initial load. The structured FAQPage schema lives in
+          the JSON-LD on src/pages/Index.tsx — do NOT also add microdata
+          here, or Google Search Console will report a duplicate FAQPage.
         */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="space-y-3"
-          itemScope
-          itemType="https://schema.org/FAQPage"
         >
           {faqs.map((faq, i) => (
             <details
               key={i}
               open={i === 0}
               className="group bg-card rounded-xl border border-border px-6 open:border-primary/30 [&_summary::-webkit-details-marker]:hidden"
-              itemScope
-              itemProp="mainEntity"
-              itemType="https://schema.org/Question"
             >
               <summary className="flex items-center justify-between gap-4 cursor-pointer list-none text-left font-semibold py-5">
-                <span itemProp="name">{faq.q}</span>
+                <span>{faq.q}</span>
                 <ChevronDown className="w-4 h-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
               </summary>
               <div
                 className="text-muted-foreground pb-5"
-                itemScope
-                itemProp="acceptedAnswer"
-                itemType="https://schema.org/Answer"
               >
-                <p itemProp="text">{faq.a}</p>
+                <p>{faq.a}</p>
               </div>
             </details>
           ))}
