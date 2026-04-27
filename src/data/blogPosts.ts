@@ -90,7 +90,7 @@ export const blogPosts: BlogPost[] = [
 
       { type: "heading", text: "What is an Americano?" },
       { type: "paragraph", text: "An Americano is a padel format where every player gets to compete with and against everyone else on the court during a single session. Unlike a standard match where two fixed pairs play each other from start to finish, the Americano rotates partners after every set. By the end of the session you will have played alongside and against every other player at least once." },
-      { type: "paragraph", text: "The format is designed to be social first and competitive second. Points are tracked individually throughout the session and the player with the most points at the end wins, regardless of who they were partnered with at any given time. The format originated in Spain, where padel has been played competitively since the 1990s through organisations like the World Padel Tour (https://www.worldpadeltour.com)." },
+      { type: "paragraph", text: "The format is designed to be social first and competitive second. Points are tracked individually throughout the session and the player with the most points at the end wins, regardless of who they were partnered with at any given time. The format originated in Spain, where padel has been played competitively since the 1990s through organisations like the [World Padel Tour](https://www.worldpadeltour.com)." },
 
       { type: "heading", text: "How Does it Work?" },
       { type: "paragraph", text: "An Americano session typically runs with four to eight players, though four is the most common number on a single court. Each pair plays a short set, usually six games, then partners rotate. Your individual points carry over from set to set so every point you win counts toward your final total." },
@@ -105,7 +105,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "And because everyone is competing individually, there is no pressure to carry a weaker partner or frustration at being carried. Your score reflects your own performance." },
 
       { type: "heading", text: "Where to Find an Americano in Dubai" },
-      { type: "paragraph", text: "Most padel venues in Dubai run regular Americano sessions, usually on weekday evenings and weekend mornings when courts are most active. ISD Padel in Dubai Sports City (https://isddubai.com), courts in JBR, and venues across Al Quoz all run sessions regularly. The easiest way to find one is to ask at your local court directly — staff will know the schedule and can add you to the list." },
+      { type: "paragraph", text: "Most padel venues in Dubai run regular Americano sessions, usually on weekday evenings and weekend mornings when courts are most active. [ISD Padel in Dubai Sports City](https://isddubai.com), courts in JBR, and venues across Al Quoz all run sessions regularly. The easiest way to find one is to ask at your local court directly — staff will know the schedule and can add you to the list." },
       { type: "paragraph", text: "Some venues also post their Americano schedules on Instagram so following your nearest court is worth doing if you want to stay on top of upcoming sessions." },
 
       { type: "image", src: americanoPhone, alt: "Padel player smiling at the Playy app courtside in Dubai", float: "none" },
@@ -113,7 +113,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", text: "Use Playy to Find Americano Partners" },
       { type: "paragraph", text: "Playy is a free Dubai padel app that matches players by skill level and availability. If you want to join an Americano but do not have enough players to fill the court, Playy lets you find others in your area who are looking for exactly the same thing." },
       { type: "paragraph", text: "You can create a public session for others to join, or browse sessions that players have already set up near you. Instead of waiting on WhatsApp groups to fill up, you find your players, agree on a time, and show up ready to play." },
-      { type: "paragraph", text: "Playy is free to download on iOS and already used by padel players across Dubai. For a full list of padel venues running regular sessions in Dubai, the Dubai Sports Council (https://www.dsc.gov.ae) tracks active courts across the city." },
+      { type: "paragraph", text: "Playy is free to download on iOS and already used by padel players across Dubai. For a full list of padel venues running regular sessions in Dubai, the [Dubai Sports Council](https://www.dsc.gov.ae) tracks active courts across the city." },
 
       { type: "heading", text: "The Bottom Line" },
       { type: "paragraph", text: "The Americano is one of padel's best formats — social, fast moving, and genuinely competitive in a way that works for every level. If you have not tried one yet, find a session near you this week. You will meet more players in two hours than you would in a month of standard matches." },
@@ -155,15 +155,15 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", text: "Shorts and Bottoms" },
       { type: "paragraph", text: "Padel involves a lot of lateral movement, quick direction changes, and crouching low for defensive shots. Your bottoms need to move with you without restriction." },
       { type: "paragraph", text: "Standard athletic shorts in a lightweight polyester fabric work well. They should hit above the knee for maximum mobility. Compression shorts or leggings underneath are a personal preference but add a layer that can trap heat in warmer conditions, so consider the court type before adding them." },
-      { type: "paragraph", text: "For women, padel skirts with built-in shorts underneath have become the most popular choice across Dubai courts. They are designed specifically for racket sport movement and are widely available at Dubai sports retailers including Decathlon (https://www.decathlon.ae) and Adidas outlets across the city." },
+      { type: "paragraph", text: "For women, padel skirts with built-in shorts underneath have become the most popular choice across Dubai courts. They are designed specifically for racket sport movement and are widely available at Dubai sports retailers including [Decathlon](https://www.decathlon.ae) and Adidas outlets across the city." },
       { type: "paragraph", text: "Avoid denim, cargo shorts, or anything with heavy seams. The lateral movement in padel will make any non-athletic fabric uncomfortable within the first ten minutes." },
 
       { type: "heading", text: "The Most Important Thing: Your Shoes" },
-      { type: "paragraph", text: "If you only invest in one piece of padel-specific gear, make it the shoes. This is the single most important equipment decision for a padel player in Dubai and it affects both your performance and injury risk. The professional game on tours like the World Padel Tour (https://www.worldpadeltour.com) shows just how much footwork defines the sport at every level." },
+      { type: "paragraph", text: "If you only invest in one piece of padel-specific gear, make it the shoes. This is the single most important equipment decision for a padel player in Dubai and it affects both your performance and injury risk. The professional game on tours like the [World Padel Tour](https://www.worldpadeltour.com) shows just how much footwork defines the sport at every level." },
       { type: "paragraph", text: "Most padel courts in Dubai use artificial grass or sand-filled turf surfaces. Running shoes and general trainers are built for forward motion on smooth surfaces. They lack lateral support and do not grip turf correctly, which means you will be slipping on direction changes and rolling ankles on sharp cuts." },
       { type: "paragraph", text: "Padel-specific shoes have a herringbone or small-pattern outsole designed for artificial grass. They provide grip without over-gripping, lateral ankle support for the direction changes the sport demands, and cushioning appropriate for the hard court surface underneath the turf." },
       { type: "paragraph", text: "In the Dubai heat, breathability in the upper is also worth prioritising. Mesh uppers allow airflow around the foot and reduce moisture build-up during long sessions, which matters particularly from May through September even on indoor courts." },
-      { type: "paragraph", text: "Brands including Head, Babolat, and Adidas all produce dedicated padel footwear available in Dubai through major sports retailers and online at Amazon.ae (https://www.amazon.ae)." },
+      { type: "paragraph", text: "Brands including Head, Babolat, and Adidas all produce dedicated padel footwear available in Dubai through major sports retailers and online at [Amazon.ae](https://www.amazon.ae)." },
 
       { type: "image", src: heatShoes, alt: "Close-up of padel shoes with herringbone sole on artificial grass court", float: "none" },
 
@@ -181,13 +181,13 @@ export const blogPosts: BlogPost[] = [
 
       { type: "image", src: heatPhone, alt: "Padel player checking the Playy app courtside at sunset in Dubai", float: "none" },
 
-      { type: "paragraph", text: "Once you are geared up, read our guide on how to find a padel partner in Dubai (https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+      { type: "paragraph", text: "Once you are geared up, read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
 
       { type: "heading", text: "Find Players to Wear It All For" },
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Once you have the right gear sorted, finding the right people to play with is the next step." },
       { type: "paragraph", text: "You can create a public session for others to join, or browse sessions that players near you have already set up. Whether you are a complete beginner looking for a relaxed first game or a regular player wanting consistent opponents at your level, Playy connects you with the right people without the WhatsApp group chaos." },
 
-      { type: "paragraph", text: "A great way to meet new players once you are on the court is the Americano format — here is how it works (https://joinplayy.com/blog/what-is-an-americano-in-padel)." },
+      { type: "paragraph", text: "A great way to meet new players once you are on the court is [how the Americano format works](https://joinplayy.com/blog/what-is-an-americano-in-padel)." },
 
       { type: "heading", text: "The Bottom Line" },
       { type: "paragraph", text: "Playing padel in Dubai's heat is completely manageable when you are dressed for it. Moisture-wicking fabrics, padel-specific shoes, a cap for outdoor sessions, and a wristband for your grip hand cover the essentials. Get those right and the conditions stop being a factor." },
