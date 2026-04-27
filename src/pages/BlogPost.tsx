@@ -13,6 +13,57 @@ import ShareButtons from "@/components/blog/ShareButtons";
 
 const SITE_URL = "https://joinplayy.com";
 
+/**
+ * Renders paragraph text and converts patterns like
+ *   "anchor text (https://example.com)"
+ * into a real inline <a> on "anchor text" pointing to the URL.
+ * The URL itself is removed from the visible text.
+ * Falls back to plain text when no pattern is present.
+ */
+const renderParagraph = (text: string) => {
+  // Match: "<anchor> (<url>)" — anchor is the trailing words before the paren.
+  const regex = /([A-Za-z0-9][^()]*?)\s\((https?:\/\/[^\s)]+)\)/g;
+  const parts: Array<string | JSX.Element> = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+
+  while ((match = regex.exec(text)) !== null) {
+    const [full, anchor, url] = match;
+    const matchStart = match.index;
+    // Find where the anchor phrase actually starts within the match.
+    // We want to keep any leading punctuation/space before the anchor as plain text.
+    const anchorStart = matchStart + full.indexOf(anchor);
+
+    // Push text before the anchor.
+    if (anchorStart > lastIndex) {
+      parts.push(text.slice(lastIndex, anchorStart));
+    }
+
+    const isExternal = !url.startsWith(SITE_URL);
+    parts.push(
+      <a
+        key={`lnk-${key++}`}
+        href={url}
+        {...(isExternal
+          ? { target: "_blank", rel: "noopener noreferrer" }
+          : {})}
+        className="text-primary underline underline-offset-4 hover:opacity-80 transition-opacity"
+      >
+        {anchor}
+      </a>,
+    );
+
+    lastIndex = matchStart + full.length;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+
+  return parts.length ? parts : text;
+};
+
 const BlogPost = () => {
   const { slug } = useParams();
   const post = blogPosts.find((p) => p.slug === slug);
@@ -221,7 +272,7 @@ const BlogPost = () => {
                     </figure>
                   );
                 }
-                return <p key={i}>{block.text}</p>;
+                return <p key={i}>{renderParagraph(block.text)}</p>;
               })}
             </div>
 
