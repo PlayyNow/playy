@@ -21,21 +21,26 @@ const SITE_URL = "https://joinplayy.com";
  * Falls back to plain text when no pattern is present.
  */
 const renderParagraph = (text: string) => {
-  // Match: "<anchor> (<url>)" — anchor is the trailing words before the paren.
-  const regex = /([A-Za-z0-9][^()]*?)\s\((https?:\/\/[^\s)]+)\)/g;
+  // Match a URL in parentheses, then look back to grab the immediately
+  // preceding phrase (up to ~8 words, stopping at sentence punctuation)
+  // and turn that phrase into the visible link text.
+  const urlRegex = /\s\((https?:\/\/[^\s)]+)\)/g;
   const parts: Array<string | JSX.Element> = [];
   let lastIndex = 0;
   let match: RegExpExecArray | null;
   let key = 0;
 
-  while ((match = regex.exec(text)) !== null) {
-    const [full, anchor, url] = match;
-    const matchStart = match.index;
-    // Find where the anchor phrase actually starts within the match.
-    // We want to keep any leading punctuation/space before the anchor as plain text.
-    const anchorStart = matchStart + full.indexOf(anchor);
+  while ((match = urlRegex.exec(text)) !== null) {
+    const url = match[1];
+    const parenStart = match.index; // position of the leading space before "("
 
-    // Push text before the anchor.
+    // Find the anchor phrase ending at parenStart.
+    // Walk back from parenStart to find a sentence boundary or start.
+    const before = text.slice(lastIndex, parenStart);
+    const anchorMatch = before.match(/(?:^|[.!?]\s+|,\s+|—\s*|:\s+)([^.!?–—:,]+)$/);
+    const anchor = anchorMatch ? anchorMatch[1].trim() : before.trim().split(/\s+/).slice(-4).join(" ");
+    const anchorStart = parenStart - anchor.length;
+
     if (anchorStart > lastIndex) {
       parts.push(text.slice(lastIndex, anchorStart));
     }
@@ -54,7 +59,7 @@ const renderParagraph = (text: string) => {
       </a>,
     );
 
-    lastIndex = matchStart + full.length;
+    lastIndex = parenStart + match[0].length;
   }
 
   if (lastIndex < text.length) {
