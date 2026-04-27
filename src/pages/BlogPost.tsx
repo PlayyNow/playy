@@ -20,52 +20,37 @@ const SITE_URL = "https://joinplayy.com";
  * The URL itself is removed from the visible text.
  * Falls back to plain text when no pattern is present.
  */
+/**
+ * Renders paragraph text and turns markdown-style `[anchor](url)`
+ * patterns into real inline anchors.
+ */
 const renderParagraph = (text: string) => {
-  // Match a URL in parentheses, then look back to grab the immediately
-  // preceding phrase (up to ~8 words, stopping at sentence punctuation)
-  // and turn that phrase into the visible link text.
-  const urlRegex = /\s\((https?:\/\/[^\s)]+)\)/g;
+  const regex = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
   const parts: Array<string | JSX.Element> = [];
   let lastIndex = 0;
   let match: RegExpExecArray | null;
   let key = 0;
 
-  while ((match = urlRegex.exec(text)) !== null) {
-    const url = match[1];
-    const parenStart = match.index; // position of the leading space before "("
-
-    // Find the anchor phrase ending at parenStart.
-    // Walk back from parenStart to find a sentence boundary or start.
-    const before = text.slice(lastIndex, parenStart);
-    const anchorMatch = before.match(/(?:^|[.!?]\s+|,\s+|—\s*|:\s+)([^.!?–—:,]+)$/);
-    const anchor = anchorMatch ? anchorMatch[1].trim() : before.trim().split(/\s+/).slice(-4).join(" ");
-    const anchorStart = parenStart - anchor.length;
-
-    if (anchorStart > lastIndex) {
-      parts.push(text.slice(lastIndex, anchorStart));
+  while ((match = regex.exec(text)) !== null) {
+    const [full, anchor, url] = match;
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
     }
-
     const isExternal = !url.startsWith(SITE_URL);
     parts.push(
       <a
         key={`lnk-${key++}`}
         href={url}
-        {...(isExternal
-          ? { target: "_blank", rel: "noopener noreferrer" }
-          : {})}
+        {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
         className="text-primary underline underline-offset-4 hover:opacity-80 transition-opacity"
       >
         {anchor}
       </a>,
     );
-
-    lastIndex = parenStart + match[0].length;
+    lastIndex = match.index + full.length;
   }
 
-  if (lastIndex < text.length) {
-    parts.push(text.slice(lastIndex));
-  }
-
+  if (lastIndex < text.length) parts.push(text.slice(lastIndex));
   return parts.length ? parts : text;
 };
 
