@@ -17,9 +17,14 @@ async function getBlogPosts() {
     "utf-8",
   );
 
-  return Array.from(
-    file.matchAll(/slug:\s*["'`]([^"'`]+)["'`][\s\S]*?title:\s*["'`]([^"'`]+)["'`][\s\S]*?excerpt:\s*["'`]([^"'`]+)["'`]/g),
-  ).map((match) => ({ slug: match[1], title: match[2], excerpt: match[3] }));
+  // Capture the surrounding quote character so we only stop at the matching
+  // closing quote (titles/excerpts may contain apostrophes like "Dubai's").
+  const re = /slug:\s*(["'`])([^]*?)\1[\s\S]*?title:\s*(["'`])([^]*?)\3[\s\S]*?excerpt:\s*(["'`])([^]*?)\5/g;
+  return Array.from(file.matchAll(re)).map((match) => ({
+    slug: match[2],
+    title: match[4],
+    excerpt: match[6],
+  }));
 }
 
 function assertIncludes(html, expected, route, label) {
