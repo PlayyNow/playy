@@ -4,6 +4,9 @@ import padelApp from "@/assets/blog/padel-app.jpeg";
 import americanoHero from "@/assets/blog/americano-hero.jpeg";
 import americanoLaughing from "@/assets/blog/americano-laughing.jpeg";
 import americanoPhone from "@/assets/blog/americano-phone.jpeg";
+import heatHero from "@/assets/blog/heat-hero.jpeg";
+import heatShoes from "@/assets/blog/heat-shoes.jpeg";
+import heatPhone from "@/assets/blog/heat-phone.jpeg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -119,6 +122,80 @@ export const blogPosts: BlogPost[] = [
       {
         type: "cta",
         text: "Download Playy free on iOS and find your next Americano partner today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
+  {
+    slug: "what-to-wear-padel-dubai-heat",
+    title: "What to Wear for Padel in Dubai's Heat",
+    excerpt:
+      "Playing padel in Dubai's heat? Here is exactly what to wear — from moisture-wicking tops to the right shoes — so you stay cool and play your best.",
+    date: "April 27, 2026",
+    image: heatHero,
+    ogImage: "https://joinplayy.com/blog/heat-hero.jpeg",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Before you step onto the court and find your match, you need to make sure you are dressed for the conditions — because playing padel in Dubai is not the same as playing padel anywhere else in the world." },
+      { type: "paragraph", text: "Dubai's heat is a real factor. Outdoor temperatures regularly exceed 40 degrees Celsius in summer, and even indoor courts that are air-conditioned can feel intense once you start moving. Showing up in the wrong gear will not just be uncomfortable — it will genuinely affect how well you play and how quickly you fatigue." },
+      { type: "paragraph", text: "Here is exactly what to wear." },
+
+      { type: "heading", text: "Indoor vs Outdoor: The Dubai Difference" },
+      { type: "paragraph", text: "Most Dubai padel venues fall into one of two categories and what you wear changes depending on which one you are at." },
+      { type: "paragraph", text: "Indoor air-conditioned courts are the norm across most major venues in Dubai. The temperature is controlled and comfortable, so your main concern is breathability and freedom of movement, not sun protection. You can wear the same gear you would wear for any fast-paced sport." },
+      { type: "paragraph", text: "Outdoor courts are a different story. From May through September, outdoor play in Dubai is only practical in the early morning before 9am or in the evening after 7pm. During these hours the heat is manageable but still significant. UPF sun protection, lighter colours, and maximum breathability become essential rather than optional." },
+      { type: "paragraph", text: "Know which type of court you are playing at before you pack your bag." },
+
+      { type: "heading", text: "What to Wear on Top" },
+      { type: "paragraph", text: "The single most important feature of any top for padel in Dubai is moisture wicking. This means the fabric pulls sweat away from your skin and allows it to evaporate quickly, keeping you dry and cool throughout the session. Standard cotton t-shirts absorb sweat and hold it against your skin, which makes you feel heavier and hotter as the session goes on. Avoid them." },
+      { type: "paragraph", text: "Look for lightweight polyester or polyester-elastane blend tops specifically designed for racket sports. They should fit close enough not to get in the way of your swing but with enough stretch to allow full range of movement overhead and laterally." },
+      { type: "paragraph", text: "For outdoor morning or evening play, a light UPF 30 or 50 top adds sun protection without adding significant heat. For indoor play, a standard moisture-wicking t-shirt or tank top is all you need." },
+      { type: "paragraph", text: "Colour matters more than most people think. Light colours reflect sunlight and keep your core temperature lower on outdoor courts. Dark colours absorb heat. For outdoor summer sessions, white, light grey, and pastel tones are noticeably more comfortable than navy or black." },
+
+      { type: "heading", text: "Shorts and Bottoms" },
+      { type: "paragraph", text: "Padel involves a lot of lateral movement, quick direction changes, and crouching low for defensive shots. Your bottoms need to move with you without restriction." },
+      { type: "paragraph", text: "Standard athletic shorts in a lightweight polyester fabric work well. They should hit above the knee for maximum mobility. Compression shorts or leggings underneath are a personal preference but add a layer that can trap heat in warmer conditions, so consider the court type before adding them." },
+      { type: "paragraph", text: "For women, padel skirts with built-in shorts underneath have become the most popular choice across Dubai courts. They are designed specifically for racket sport movement and are widely available at Dubai sports retailers including Decathlon (https://www.decathlon.ae) and Adidas outlets across the city." },
+      { type: "paragraph", text: "Avoid denim, cargo shorts, or anything with heavy seams. The lateral movement in padel will make any non-athletic fabric uncomfortable within the first ten minutes." },
+
+      { type: "heading", text: "The Most Important Thing: Your Shoes" },
+      { type: "paragraph", text: "If you only invest in one piece of padel-specific gear, make it the shoes. This is the single most important equipment decision for a padel player in Dubai and it affects both your performance and injury risk. The professional game on tours like the World Padel Tour (https://www.worldpadeltour.com) shows just how much footwork defines the sport at every level." },
+      { type: "paragraph", text: "Most padel courts in Dubai use artificial grass or sand-filled turf surfaces. Running shoes and general trainers are built for forward motion on smooth surfaces. They lack lateral support and do not grip turf correctly, which means you will be slipping on direction changes and rolling ankles on sharp cuts." },
+      { type: "paragraph", text: "Padel-specific shoes have a herringbone or small-pattern outsole designed for artificial grass. They provide grip without over-gripping, lateral ankle support for the direction changes the sport demands, and cushioning appropriate for the hard court surface underneath the turf." },
+      { type: "paragraph", text: "In the Dubai heat, breathability in the upper is also worth prioritising. Mesh uppers allow airflow around the foot and reduce moisture build-up during long sessions, which matters particularly from May through September even on indoor courts." },
+      { type: "paragraph", text: "Brands including Head, Babolat, and Adidas all produce dedicated padel footwear available in Dubai through major sports retailers and online at Amazon.ae (https://www.amazon.ae)." },
+
+      { type: "image", src: heatShoes, alt: "Close-up of padel shoes with herringbone sole on artificial grass court", float: "none" },
+
+      { type: "heading", text: "Accessories Worth Bringing" },
+      { type: "paragraph", text: "A cap or visor is essential for any outdoor session. Even in the early morning or evening, direct sunlight on an outdoor court is significant. A lightweight cap also absorbs sweat and keeps it out of your eyes during longer rallies." },
+      { type: "paragraph", text: "A wristband on your dominant hand helps keep your grip dry, which matters in Dubai's humidity. When your hands sweat your grip on the racket loosens, which affects control and puts unnecessary strain on your wrist and elbow." },
+      { type: "paragraph", text: "Bring more water than you think you need. A minimum of one litre per hour of play is the standard recommendation for Dubai's climate, and more for outdoor summer sessions. Most venues have water dispensers but having your own bottle means you are not hunting for hydration between points." },
+      { type: "paragraph", text: "Finally, sunscreen for any outdoor session. SPF 50 on exposed skin is the minimum for a Dubai court in daylight hours." },
+
+      { type: "heading", text: "What to Avoid" },
+      { type: "paragraph", text: "Cotton in any form — tops, socks, or shorts — holds sweat and gets heavy quickly. It is the most common mistake new players make and the easiest to fix." },
+      { type: "paragraph", text: "Jeans or restrictive bottoms make lateral movement genuinely difficult and will leave you sore in ways that have nothing to do with the sport." },
+      { type: "paragraph", text: "Leaving your shoes in a hot car between sessions. Temperatures inside a parked car in Dubai can exceed 70 degrees Celsius in summer, which degrades the foam core and adhesives in padel shoes rapidly. Keep them in a bag inside when not in use." },
+      { type: "paragraph", text: "Playing outdoor sessions between 9am and 6pm in summer without proper heat precautions. The risk of heat exhaustion is real and not worth it when most Dubai venues offer excellent indoor alternatives." },
+
+      { type: "image", src: heatPhone, alt: "Padel player checking the Playy app courtside at sunset in Dubai", float: "none" },
+
+      { type: "paragraph", text: "Once you are geared up, read our guide on how to find a padel partner in Dubai (https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "Find Players to Wear It All For" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Once you have the right gear sorted, finding the right people to play with is the next step." },
+      { type: "paragraph", text: "You can create a public session for others to join, or browse sessions that players near you have already set up. Whether you are a complete beginner looking for a relaxed first game or a regular player wanting consistent opponents at your level, Playy connects you with the right people without the WhatsApp group chaos." },
+
+      { type: "paragraph", text: "A great way to meet new players once you are on the court is the Americano format — here is how it works (https://joinplayy.com/blog/what-is-an-americano-in-padel)." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Playing padel in Dubai's heat is completely manageable when you are dressed for it. Moisture-wicking fabrics, padel-specific shoes, a cap for outdoor sessions, and a wristband for your grip hand cover the essentials. Get those right and the conditions stop being a factor." },
+      { type: "paragraph", text: "The gear is sorted. Now you just need the players." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS and find your next padel partner today.",
         href: "https://joinplayy.com",
         label: "Download Playy",
       },
