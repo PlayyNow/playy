@@ -7,6 +7,9 @@ import americanoPhone from "@/assets/blog/americano-phone.jpeg";
 import heatHero from "@/assets/blog/heat-hero.jpeg";
 import heatShoes from "@/assets/blog/heat-shoes.jpeg";
 import heatPhone from "@/assets/blog/heat-phone.jpeg";
+import padelVsTennisHero from "@/assets/blog/padel-vs-tennis-hero.jpeg";
+import padelVsTennisRackets from "@/assets/blog/padel-vs-tennis-rackets.jpeg";
+import padelVsTennisAction from "@/assets/blog/padel-vs-tennis-action.jpeg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -192,6 +195,72 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", text: "The Bottom Line" },
       { type: "paragraph", text: "Playing padel in Dubai's heat is completely manageable when you are dressed for it. Moisture-wicking fabrics, padel-specific shoes, a cap for outdoor sessions, and a wristband for your grip hand cover the essentials. Get those right and the conditions stop being a factor." },
       { type: "paragraph", text: "The gear is sorted. Now you just need the players." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS and find your next padel partner today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
+  {
+    slug: "difference-between-padel-and-tennis",
+    title: "What is the Difference Between Padel and Tennis?",
+    excerpt:
+      "Padel and tennis look similar but play completely differently. Here is a clear breakdown of the key differences in court, equipment, rules, and gameplay.",
+    date: "April 30, 2026",
+    image: padelVsTennisHero,
+    ogImage: "https://joinplayy.com/blog/padel-vs-tennis-hero.jpeg",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One question we hear constantly from new players is this: how is padel actually different from tennis? The two sports look similar at first glance — rackets, a net, a ball, and a court — but the experience of playing them is completely different." },
+      { type: "paragraph", text: "Here is a clear breakdown of every key difference so you know exactly what you are getting into before you step on a padel court for the first time." },
+
+      { type: "heading", text: "The Court" },
+      { type: "paragraph", text: "The most obvious difference is the court itself. A padel court measures 20 metres by 10 metres and is completely enclosed by walls made of glass and metal mesh. Those walls are not just boundaries — they are part of the game. Players can use them to keep the ball in play, which is what creates the long tactical rallies padel is famous for." },
+      { type: "paragraph", text: "A tennis court is significantly larger at 23.77 metres by 10.97 metres for doubles, and it is completely open. There are no walls. If the ball crosses the lines it is out, full stop. Official court dimensions and rules are maintained by the [International Padel Federation](https://www.padelfip.com)." },
+      { type: "paragraph", text: "To put the size difference in perspective: you can fit roughly three padel courts into the space a single tennis court takes up. That smaller footprint is one of the main reasons padel has grown so fast in urban areas like Dubai, where space is at a premium." },
+
+      { type: "heading", text: "The Equipment" },
+      { type: "paragraph", text: "Padel rackets and tennis rackets look vaguely similar but are built completely differently. A padel racket is shorter at around 45 centimetres, solid rather than strung, and has a perforated face with holes through it. It is heavier overall but the shorter length makes it easier to manoeuvre in the tight spaces of a padel court." },
+      { type: "paragraph", text: "A tennis racket is longer at 68 to 74 centimetres, has an open frame strung with strings, and is designed to generate power and spin across a much larger court. The strung face gives tennis players far more control over the ball trajectory, which is why tennis requires significantly more technical practice to master." },
+      { type: "paragraph", text: "The balls look almost identical but padel balls have lower internal pressure — around 10 to 11 PSI compared to 14 PSI in a tennis ball. This means padel balls bounce lower and travel slower, which suits the enclosed court and keeps rallies alive longer." },
+
+      { type: "image", src: padelVsTennisRackets, alt: "Padel racket and tennis racket side by side showing the difference in size and design", float: "none" },
+
+      { type: "heading", text: "The Rules" },
+      { type: "paragraph", text: "Both sports use the same scoring system — 15, 30, 40, game, set, match — so if you know tennis scoring you already know padel scoring. But the rules around how you play are quite different." },
+      { type: "paragraph", text: "In padel the serve must be underhand, struck below waist level, and aimed diagonally into the opponent's service box. The ball can bounce off the back or side walls after the serve, which immediately adds a tactical element from the very first shot of each point." },
+      { type: "paragraph", text: "In tennis the serve is overhead and the ball must land directly in the service box without touching any walls, because there are none. A powerful serve in tennis is one of the most dominant weapons in the sport. In padel the serve is less of a weapon and more of a starting position." },
+      { type: "paragraph", text: "The wall rule is what truly separates padel from every other racket sport. After the ball bounces once on the ground, players can hit it after it has rebounded off the walls. This keeps rallies alive in ways that would be impossible in tennis and forces players to think constantly about angles and positioning rather than pure power." },
+
+      { type: "heading", text: "The Gameplay" },
+      { type: "paragraph", text: "Tennis rewards power, precision, and physical endurance. Matches can involve sprinting across a large court, covering significant distances, and sustaining that intensity across multiple sets. Singles tennis in particular is one of the most physically demanding individual sports in the world." },
+      { type: "paragraph", text: "Padel is almost always played in doubles and rewards strategy, positioning, and teamwork. Because the court is smaller and the walls keep the ball in play, rallies are longer and the pace is more sustained rather than explosive. The professional game on the [World Padel Tour](https://www.worldpadeltour.com) showcases just how tactical the sport becomes at the top level." },
+      { type: "paragraph", text: "Most players who come from a tennis background find padel easier to pick up than expected. The solid face of the padel racket makes ball contact more forgiving, and the smaller court means you spend less time chasing wide balls. Studies across padel clubs in Europe have found that 85 percent of beginners can sustain proper rallies within their first hour of play — something that typically takes tennis beginners months to achieve." },
+
+      { type: "heading", text: "Which One is Easier to Learn?" },
+      { type: "paragraph", text: "Padel is significantly easier for beginners. The combination of a smaller court, a solid racket with a predictable ball response, underhand serving, and the wall safety net means new players are rallying and enjoying themselves within their first session. There is less technical barrier to entry." },
+      { type: "paragraph", text: "Tennis has a steeper learning curve. The overhead serve alone can take weeks to develop reliably, and covering the court footwork requires real conditioning. That does not make tennis worse — it makes the progression more rewarding for players who enjoy technical mastery — but for someone who wants to get on a court and have fun immediately, padel wins." },
+
+      { type: "heading", text: "Which One is More Social?" },
+      { type: "paragraph", text: "Padel is almost always played in doubles which means you are always sharing the court with three other people. The smaller, enclosed space creates an intimate atmosphere where conversation is easy and the social element is built into every session. Americano tournaments, where partners rotate every set, make it even easier to meet new players every time you show up." },
+      { type: "paragraph", text: "Tennis can be social but singles tennis is by definition a one-on-one competition. Doubles tennis is more social but the larger court creates more distance between players and the intensity of the game makes casual conversation less natural during play." },
+      { type: "paragraph", text: "In Dubai specifically, the padel scene is built around community. Most venues run regular open sessions and Americanos where you show up and meet whoever is there." },
+
+      { type: "image", src: padelVsTennisAction, alt: "Four padel players mid-rally on an enclosed padel court at sunset in Dubai", float: "none" },
+
+      { type: "paragraph", text: "If you are ready to find players, read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "Find Padel Players in Dubai with Playy" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Whether you are picking up a padel racket for the first time or switching over from tennis, Playy makes it easy to find players at your level near you." },
+      { type: "paragraph", text: "You can create a public session for others to join or browse sessions that players near you have already set up. No WhatsApp groups, no chasing replies, just show up and play. For a wider view of active courts and clubs across the city, the [Dubai Sports Council](https://www.dsc.gov.ae) tracks venues across the emirate." },
+
+      { type: "paragraph", text: "One of the best ways to meet new players is through the Americano format — [here is how it works](https://joinplayy.com/blog/what-is-an-americano-in-padel)." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Padel and tennis are both brilliant racket sports but they offer completely different experiences. Tennis rewards individual power and technical mastery across a large open court. Padel rewards teamwork, strategy, and social play on a compact enclosed one." },
+      { type: "paragraph", text: "If you have never tried padel and you play tennis, you will pick it up faster than you think. And if you have never played either, padel is the easier starting point. Either way, Dubai has some of the best courts in the world to play on — you just need the right people to play with." },
 
       {
         type: "cta",
