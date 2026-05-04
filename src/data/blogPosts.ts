@@ -10,6 +10,9 @@ import heatPhone from "@/assets/blog/heat-phone.jpeg";
 import padelVsTennisHero from "@/assets/blog/padel-vs-tennis-hero.jpeg";
 import padelVsTennisRackets from "@/assets/blog/padel-vs-tennis-rackets.jpeg";
 import padelVsTennisAction from "@/assets/blog/padel-vs-tennis-action.jpeg";
+import beginnerHero from "@/assets/blog/beginner-hero.jpeg";
+import beginnerRacket from "@/assets/blog/beginner-racket.jpeg";
+import beginnerHighfive from "@/assets/blog/beginner-highfive.jpeg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
