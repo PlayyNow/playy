@@ -273,4 +273,65 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "is-padel-hard-to-learn-as-a-beginner",
+    title: "Is Padel Hard to Learn as a Beginner?",
+    excerpt:
+      "Thinking about trying padel? Here is what to expect as a beginner — why it is one of the easiest racket sports to pick up, and the one part that takes time.",
+    date: "May 4, 2026",
+    image: beginnerHero,
+    ogImage: "https://joinplayy.com/blog/beginner-hero.jpeg",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. If you are thinking about trying padel for the first time, one of the first questions most people ask is whether it is too hard to pick up. The honest answer is that padel has one of the most forgiving learning curves of any racket sport — but there is one part of the game that takes a bit longer to get comfortable with." },
+      { type: "paragraph", text: "Here is what to actually expect as a beginner." },
+
+      { type: "heading", text: "The Short Answer" },
+      { type: "paragraph", text: "Padel is not hard to learn. Most complete beginners can sustain rallies and genuinely enjoy themselves within their first session. The combination of a smaller court, a solid racket that responds predictably, and an underhand serve means there is far less technical barrier to entry than tennis or squash. You do not need to master a complex serve, cover a large court, or develop significant power before the game becomes fun." },
+      { type: "paragraph", text: "It has been said that it takes about ten minutes on a padel court to decide whether you love the sport. Almost everyone who tries it books a second session the same day. Official rules and the global growth of the game are tracked by the [International Padel Federation](https://www.padelfip.com)." },
+
+      { type: "heading", text: "What Makes Padel Easy to Pick Up" },
+      { type: "paragraph", text: "The solid face of the padel racket is the biggest reason beginners progress quickly. Unlike a tennis racket with strings that react differently depending on where the ball hits, a padel racket gives a consistent and forgiving response across the entire face. You do not need perfect technique to make clean contact." },
+      { type: "paragraph", text: "The smaller court also helps significantly. A padel court is roughly one third the size of a tennis court, which means you spend less time running and more time actually playing. Points happen closer to the net, rallies build naturally, and the pace is more sustained than explosive. This makes the game feel accessible from the very first point." },
+      { type: "paragraph", text: "The scoring system is identical to tennis — 15, 30, 40, game, set, match — so if you have any racket sport background you already understand how matches work. And because padel is almost always played in doubles, you always have a partner sharing the court with you, which takes pressure off every individual shot." },
+
+      { type: "image", src: beginnerRacket, alt: "Beginner padel player inspecting his racket on a court at sunset", float: "none" },
+
+      { type: "heading", text: "The One Part That Takes Time: The Walls" },
+      { type: "paragraph", text: "If there is one thing that challenges beginners it is learning to play the ball off the glass walls. The walls are a core part of padel — after the ball bounces once on the ground it can rebound off the back or side glass before you return it. This creates longer rallies and a completely different tactical dimension compared to any other racket sport." },
+      { type: "paragraph", text: "The instinct for most beginners, especially those coming from tennis, is to retreat when the ball heads toward the glass. The correct move is usually to hold your position or step toward the wall and let the ball come to you. This takes a few sessions to feel natural but it clicks faster than most people expect." },
+      { type: "paragraph", text: "The key in the early stages is not to overthink it. Focus on making contact, keep the ball in play, and let your understanding of the walls develop naturally through repetition. Padel coaches consistently note that beginners who focus on control over power improve significantly faster than those who try to hit the ball hard from session one." },
+
+      { type: "heading", text: "What to Expect in Your First Session" },
+      { type: "paragraph", text: "Your first session will likely feel chaotic for about ten minutes and then start clicking. The most common experience for complete beginners is getting frustrated by the walls early, then suddenly understanding how to use them and enjoying the rallies that follow." },
+      { type: "paragraph", text: "You will probably find the serve easier than expected. The underhand serve in padel — struck below waist level and bounced once before hitting — is straightforward to get consistent with quickly. It is nothing like the technically demanding overhead serve in tennis." },
+      { type: "paragraph", text: "By the end of a one hour session most beginners can sustain proper rallies, understand the basic positioning on court, and are already thinking about when to book their next game. The sport has an unusually short window between first session and genuine enjoyment." },
+
+      { type: "heading", text: "Tips to Progress Faster" },
+      { type: "paragraph", text: "Focus on control before power. The most common mistake beginners make is hitting the ball as hard as possible. Padel rewards placement and consistency far more than raw power. Most professional level padel — including matches on tours like [Premier Padel](https://www.premierpadel.com) — is played at around 50 percent power. Start by keeping the ball in play and building from there." },
+      { type: "paragraph", text: "Stay close to your partner. Padel doubles positioning is about covering the court together. Beginners who stay aware of where their partner is and move as a unit win significantly more points than those who play as two individuals." },
+      { type: "paragraph", text: "Get comfortable with the lob early. A high, well-placed lob toward the back corner is one of the most effective shots in padel and one of the easiest to execute as a beginner. When you are under pressure, lob. It resets the point and gives you time to recover." },
+      { type: "paragraph", text: "Play with people slightly better than you. The fastest way to improve at padel is to be on a court with players who are a level above. You will adapt to their pace naturally and pick up positioning and shot selection just by watching and responding." },
+
+      { type: "image", src: beginnerHighfive, alt: "Two padel players high-fiving on court after a rally", float: "none" },
+
+      { type: "paragraph", text: "One of the best formats for beginners is the Americano — [here is how it works](https://joinplayy.com/blog/what-is-an-americano-in-padel)." },
+
+      { type: "heading", text: "Find Someone to Learn With" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. If you are just starting out, finding someone at a similar level to learn with makes a significant difference. Playing with someone far more experienced when you are a complete beginner can feel discouraging. Playing with someone at the same stage means you both improve together." },
+      { type: "paragraph", text: "Playy matches you by skill level and availability, so you can find other beginners in Dubai who are looking for exactly the same thing — a relaxed game with no pressure, just learning the sport and enjoying it. For a wider view of active courts and clubs across the city, the [Dubai Sports Council](https://www.dsc.gov.ae) tracks venues across the emirate." },
+
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Padel is not hard to learn. It is one of the most beginner-friendly racket sports available, with a short path from first session to genuine enjoyment. The walls take a few sessions to feel natural but everything else clicks quickly. If you have been thinking about trying padel in Dubai, the barrier to entry is lower than you think." },
+      { type: "paragraph", text: "Get on a court. You will understand why the sport is growing so fast within the first ten minutes." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS and find a beginner padel partner in Dubai today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
 ];
