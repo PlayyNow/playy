@@ -13,6 +13,9 @@ import padelVsTennisAction from "@/assets/blog/padel-vs-tennis-action.jpeg";
 import beginnerHero from "@/assets/blog/beginner-hero.jpeg";
 import beginnerRacket from "@/assets/blog/beginner-racket.jpeg";
 import beginnerHighfive from "@/assets/blog/beginner-highfive.jpeg";
+import rulesHero from "@/assets/blog/rules-hero.jpeg";
+import rulesServe from "@/assets/blog/rules-serve.jpeg";
+import rulesHighfive from "@/assets/blog/rules-highfive.jpeg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -329,6 +332,75 @@ export const blogPosts: BlogPost[] = [
       {
         type: "cta",
         text: "Download Playy free on iOS and find a beginner padel partner in Dubai today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
+  {
+    slug: "what-are-the-rules-of-padel",
+    title: "What Are the Rules of Padel? A Simple Guide for Beginners",
+    excerpt:
+      "New to padel? Here is a simple beginner guide to padel rules — court, serve, wall play, scoring, and the golden point — so you can start playing with confidence.",
+    date: "May 7, 2026",
+    image: rulesHero,
+    ogImage: "https://joinplayy.com/blog/rules-hero.jpeg",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Before your first session on a Dubai padel court, it helps to know the basic rules so you can focus on enjoying the game rather than figuring out what is happening during points." },
+      { type: "paragraph", text: "The good news is that padel rules are straightforward. If you have ever played tennis, about half of them will feel immediately familiar. Here is everything you need to know." },
+
+      { type: "heading", text: "The Basics: What Kind of Sport is Padel?" },
+      { type: "paragraph", text: "Padel is a doubles racket sport played on an enclosed court roughly one third the size of a tennis court. It is always played four players — two per team — and the walls surrounding the court are an active part of gameplay. The sport combines the scoring of tennis with the wall play of squash and is widely considered the easiest racket sport for beginners to pick up quickly." },
+      { type: "paragraph", text: "As of 2025, the [International Padel Federation](https://www.padelfip.com) reports over 35 million active players worldwide, making it one of the fastest-growing sports on the planet. Dubai has one of the most active padel communities in the Middle East with courts across every major district in the city." },
+
+      { type: "heading", text: "The Court" },
+      { type: "paragraph", text: "A standard padel court measures 20 metres long by 10 metres wide. A net 88 centimetres high at the centre divides the court into two halves. Each half has two service boxes marked by a line 6.95 metres from the net, identical in purpose to tennis service boxes." },
+      { type: "paragraph", text: "The court is completely enclosed by walls — typically 3 metres of glass at the back and sides, extended upward by metal mesh fencing. The glass walls allow the ball to rebound back into play after bouncing, which is what makes padel unique among racket sports. The surface is usually artificial turf with sand infill, which gives the ball a consistent and controlled bounce." },
+
+      { type: "heading", text: "Serving Rules" },
+      { type: "paragraph", text: "The serve in padel is underhand, which is one of the biggest differences from tennis. The server stands behind the service line, bounces the ball once on the ground, and strikes it at or below waist height. The ball must travel diagonally over the net and land in the opponent's service box on the other side." },
+      { type: "paragraph", text: "After the ball lands in the service box, it is allowed to rebound off the back or side glass wall — this is a legal and expected part of the serve. However, if the ball hits the metal fence mesh directly without bouncing first, the serve is out. For an authoritative reference on the full rules, see [LTA Padel](https://www.ltapadel.org.uk)." },
+      { type: "paragraph", text: "If the ball clips the net and lands correctly in the service box, it is called a let and the serve is retaken. If the server's foot crosses the service line before making contact, it is a foot fault and counts as a fault." },
+      { type: "paragraph", text: "Each server gets two attempts, just like tennis. Two faults on the same point means the point is lost. Most beginners find the underhand serve much easier to execute consistently than the overhead tennis serve — it is one of the first things that clicks in a new player's first session." },
+
+      { type: "image", src: rulesServe, alt: "Padel player executing an underhand serve at sunset on a Dubai court", float: "none" },
+
+      { type: "heading", text: "The Wall Rules" },
+      { type: "paragraph", text: "The wall rules are what make padel different from every other racket sport and they are the part that takes the most time to feel natural. Here is how they work." },
+      { type: "paragraph", text: "During a rally, the ball must bounce once on the ground on your side of the court before it can touch the walls. If your opponent's shot lands on your side and bounces up into the glass wall, you can let it rebound off the glass and then play it. This is completely legal and is a core part of padel strategy." },
+      { type: "paragraph", text: "You lose the point if the ball bounces twice on your side of the court before you return it, if the ball hits the fence mesh without a ground bounce first, or if you or your racket touches the net at any point during play." },
+      { type: "paragraph", text: "One rule that surprises most beginners: if a powerful shot or smash bounces on your side and then exits the court over or through the gate, you can actually step outside the court and return it before it bounces a second time. Keeping the ball in play after it exits the court is legal and can produce some of the most memorable shots in the sport." },
+      { type: "paragraph", text: "The Americano format is a great way to practice wall play with different partners — [here is how it works](https://joinplayy.com/blog/what-is-an-americano-in-padel)." },
+
+      { type: "heading", text: "Scoring" },
+      { type: "paragraph", text: "Padel uses the exact same scoring system as tennis. Points are counted as 15, 30, 40, and game. A team needs to win at least six games with a two-game lead to win a set. If the score reaches 6-6, a tiebreak is played. Matches are typically played as the best of three sets." },
+      { type: "paragraph", text: "The only difference from standard tennis scoring is in how deuce is handled at professional level, which brings us to the golden point." },
+
+      { type: "heading", text: "The Golden Point" },
+      { type: "paragraph", text: "When a game reaches 40-40, many recreational and all professional padel matches use the golden point rule rather than standard deuce play. At 40-40, the receiving team chooses which player will receive the serve, and a single point decides the game. Whoever wins that one point wins the game immediately. This is the standard format used on tours like [Premier Padel](https://www.premierpadel.com)." },
+      { type: "paragraph", text: "This rule speeds up matches significantly and adds a layer of pressure and strategy to deuce situations. In recreational play in Dubai you will find some venues using the golden point and some playing standard advantage rules — it is worth clarifying with the other team before the match starts." },
+
+      { type: "heading", text: "Common Beginner Mistakes" },
+      { type: "paragraph", text: "Retreating from the back glass when the ball heads toward it is the most common error for new players. The instinct is to move away from the wall but the correct play is usually to hold your position or step toward the glass and let the ball come to you after the rebound." },
+      { type: "paragraph", text: "Hitting the ball too hard is the second most common mistake. Padel rewards control and placement over power. A well-placed soft shot to the corner is almost always more effective than a hard drive, especially at beginner level." },
+      { type: "paragraph", text: "Standing too close to the net when your opponents are about to lob is another frequent issue. At the net your priority is to cover the middle but you always need to be ready to retreat together with your partner when a lob is coming." },
+      { type: "paragraph", text: "Trying to play every ball as a volley before it bounces is also a mistake many tennis players make when transitioning to padel. Let the ball bounce, use the wall to your advantage, and build the point rather than trying to end it on every shot." },
+
+      { type: "image", src: rulesHighfive, alt: "Two padel players high-fiving over the net at sunset on a Dubai court", float: "none" },
+
+      { type: "paragraph", text: "Read our full guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "Now Find Someone to Play With" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Now that you know the rules, the next step is finding someone to practice them with." },
+      { type: "paragraph", text: "Playy matches you with players at your level and availability across Dubai so you can find a beginner partner, set up a session, and get on the court without the usual group chat back and forth. Whether you want a relaxed first game or a regular weekly partner, Playy connects you with the right people." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Padel rules are simple enough to understand in under ten minutes and intuitive enough that they click naturally once you are actually on the court. The scoring is identical to tennis, the serve is easier than tennis, and the only genuinely new concept is the wall play — which becomes one of the most enjoyable parts of the game once it starts to make sense." },
+      { type: "paragraph", text: "You now know everything you need to step onto a Dubai padel court and play your first proper game. The rest you will pick up as you go." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS and find your padel partner in Dubai today.",
         href: "https://joinplayy.com",
         label: "Download Playy",
       },
