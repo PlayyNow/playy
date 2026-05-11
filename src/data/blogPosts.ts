@@ -16,6 +16,9 @@ import beginnerHighfive from "@/assets/blog/beginner-highfive.jpeg";
 import rulesHero from "@/assets/blog/rules-hero.jpeg";
 import rulesServe from "@/assets/blog/rules-serve.jpeg";
 import rulesHighfive from "@/assets/blog/rules-highfive.jpeg";
+import bestTimeHero from "@/assets/blog/best-time-hero.jpeg";
+import bestTimeIndoor from "@/assets/blog/best-time-indoor.jpeg";
+import bestTimePhone from "@/assets/blog/best-time-phone.jpeg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -401,6 +404,68 @@ export const blogPosts: BlogPost[] = [
       {
         type: "cta",
         text: "Download Playy free on iOS and find your padel partner in Dubai today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
+  {
+    slug: "what-is-the-best-time-to-play-padel-in-dubai",
+    title: "What is the Best Time to Play Padel in Dubai?",
+    excerpt:
+      "Dubai padel changes by season. Here is exactly when to play outdoors, when to move indoors, and the best hours for every month of the year.",
+    date: "May 11, 2026",
+    image: bestTimeHero,
+    ogImage: "https://joinplayy.com/blog/best-time-hero.jpeg",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the first practical questions new players in Dubai ask is when to actually play — because unlike most cities, the answer here changes significantly depending on the month." },
+      { type: "paragraph", text: "Dubai's climate creates two completely different padel seasons. Here is exactly how to play smart all year round." },
+
+      { type: "image", src: bestTimeHero, alt: "Padel player on an outdoor court at sunset with the Dubai skyline and Burj Khalifa in the background", float: "none" },
+
+      { type: "heading", text: "The Short Answer" },
+      { type: "paragraph", text: "October through April is Dubai's padel high season. Outdoor conditions are perfect, temperatures sit between 18 and 30 degrees Celsius, and courts are at their busiest. This is when most outdoor venues run their best events, tournaments, and Americano sessions." },
+      { type: "paragraph", text: "May through September is summer. Outdoor padel becomes genuinely dangerous between 9am and 7pm as temperatures regularly exceed 40 degrees Celsius and humidity spikes. The adaptation is simple: you either shift to early morning or late evening outdoor slots, or you move indoors entirely. Dubai has enough high quality indoor padel courts across every district that the sport does not stop in summer — it just moves inside." },
+
+      { type: "heading", text: "October to April: Peak Padel Season" },
+      { type: "paragraph", text: "This is when outdoor padel in Dubai is at its best. Sunrise to sunset is comfortable, evenings are warm without being oppressive, and the social padel calendar fills up quickly. Most venues run their Americano tournaments, corporate events, and open social sessions during these months, many of which are publicised through the [Dubai Sports Council](https://www.dsc.gov.ae)." },
+      { type: "paragraph", text: "The sweet spot within peak season is November through March when temperatures during the day typically sit between 18 and 25 degrees Celsius. Playing at any hour is comfortable. Mornings and evenings are cooler but there is no real penalty for playing at noon in January the way there is in July." },
+      { type: "paragraph", text: "If you are new to Dubai and starting padel for the first time, arriving between October and April means you get the full outdoor experience without any heat management required. Courts at Kite Beach, Matcha Club in Al Quoz, and outdoor venues across the city are beautiful and accessible throughout this period." },
+      { type: "paragraph", text: "Peak season is also the best time to join Americano sessions — here is [how the format works](https://joinplayy.com/blog/what-is-an-americano-in-padel)." },
+
+      { type: "heading", text: "May to September: How Dubai Players Adapt" },
+      { type: "paragraph", text: "Summer in Dubai does not mean stopping padel. It means shifting your strategy. The city's indoor padel infrastructure is genuinely world class — most serious players actually prefer playing indoors year round because the controlled environment means consistent conditions regardless of weather." },
+      { type: "paragraph", text: "Dubai has indoor padel courts across every major district. [ISD Padel](https://isddubai.com) in Dubai Sports City offers six fully air-conditioned courts and operates from early morning until late at night. [Just Padel](https://justpadel.ae) at Mina Rashid has ten courts — six indoor and four outdoor — and operates almost 24 hours a day, making it one of the most accessible venues in the city year round. Danube Sports World in Al Qusais houses nine indoor courts inside a 25-metre-high dome, which gives enough ceiling height for unrestricted lob play. Central Padel in Al Quoz has seven indoor courts and runs regular community events and mix-in sessions throughout summer." },
+      { type: "paragraph", text: "Most indoor venues maintain court temperatures around 19 to 21 degrees Celsius regardless of outdoor conditions, making summer padel indoors genuinely comfortable and in many ways more enjoyable than playing outdoors on a humid October evening." },
+
+      { type: "image", src: bestTimeIndoor, alt: "Two players rallying on an indoor padel court in a climate-controlled facility", float: "none" },
+
+      { type: "heading", text: "The Best Hours for Outdoor Play in Summer" },
+      { type: "paragraph", text: "If you specifically want outdoor padel during the summer months, the window is narrow but manageable. Early morning between 6am and 8am is the most popular outdoor slot from May to September. Temperatures at sunrise sit between 28 and 34 degrees Celsius depending on the month, which is intense but playable with proper hydration and appropriate gear." },
+      { type: "paragraph", text: "Evening slots from 7pm to 10pm are the second viable outdoor window in summer. The sun drops around 7pm in June and July and temperatures begin falling quickly after sunset, typically reaching the low to mid 30s by 8pm. Many outdoor venues in Dubai run summer-specific evening sessions and tournaments during these hours precisely because the conditions become manageable again." },
+      { type: "paragraph", text: "The window between 9am and 6pm in summer should be avoided for outdoor play entirely. Temperatures during these hours regularly exceed 42 to 45 degrees Celsius in June and July, humidity is at its highest, and the risk of heat exhaustion is real. No padel session is worth that." },
+
+      { type: "heading", text: "What to Watch Out For" },
+      { type: "paragraph", text: "Hydration matters far more in Dubai than in most places. For outdoor sessions in any month bring at least one litre of water per hour of play. For indoor sessions bring at least 750ml. The air-conditioning in indoor venues can be deceptively drying even though it feels cool." },
+      { type: "paragraph", text: "Court surface temperature on outdoor courts in summer can be significantly higher than air temperature. Artificial turf surfaces absorb heat throughout the day and remain hot into the evening. After 7pm this is usually no longer an issue, but if you are playing in the 6am to 8am window be aware that the surface may still be retaining heat from the previous day." },
+      { type: "paragraph", text: "Peak season court availability can be tight, especially on weekends between November and February. Popular venues like Matcha Club and Central Padel book up days in advance during this period. If you play regularly, setting up a recurring weekly booking is worth doing rather than trying to find a slot last minute." },
+
+      { type: "image", src: bestTimePhone, alt: "Padel player checking the Playy app courtside at sunrise in Dubai", float: "none" },
+
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "Find Players for Any Time Slot" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Whether you are looking for a 6am outdoor session before work or a 9pm indoor game after dinner, finding players who match your schedule is as important as finding the right court." },
+      { type: "paragraph", text: "Playy matches you by sport, skill level, and availability so you can connect with players who are looking for the same time slots as you. Create a session, set your preferred time, and find your match without the usual group chat back and forth." },
+      { type: "paragraph", text: "Before you step on court in the Dubai heat, check our guide on [what to wear for padel in Dubai](https://joinplayy.com/blog/what-to-wear-for-padel-in-dubai-heat)." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "The best time to play padel in Dubai depends entirely on the month. October through April you can play any time of day outdoors and conditions are excellent. May through September the smart move is early morning or late evening for outdoor play, or any time at all in one of Dubai's many high-quality indoor venues." },
+      { type: "paragraph", text: "Dubai's padel scene does not slow down in summer — it just adapts. The infrastructure is there, the players are there, and the courts are there. You just need the right partner to show up with." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS at joinplayy.com and find your padel partner in Dubai today.",
         href: "https://joinplayy.com",
         label: "Download Playy",
       },
