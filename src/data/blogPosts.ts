@@ -457,7 +457,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", text: "Find Players for Any Time Slot" },
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Whether you are looking for a 6am outdoor session before work or a 9pm indoor game after dinner, finding players who match your schedule is as important as finding the right court." },
       { type: "paragraph", text: "Playy matches you by sport, skill level, and availability so you can connect with players who are looking for the same time slots as you. Create a session, set your preferred time, and find your match without the usual group chat back and forth." },
-      { type: "paragraph", text: "Before you step on court in the Dubai heat, check our guide on [what to wear for padel in Dubai](https://joinplayy.com/blog/what-to-wear-for-padel-in-dubai-heat)." },
+      { type: "paragraph", text: "Before you step on court in the Dubai heat, check our guide on [what to wear for padel in Dubai](https://joinplayy.com/blog/what-to-wear-padel-dubai-heat)." },
 
       { type: "heading", text: "The Bottom Line" },
       { type: "paragraph", text: "The best time to play padel in Dubai depends entirely on the month. October through April you can play any time of day outdoors and conditions are excellent. May through September the smart move is early morning or late evening for outdoor play, or any time at all in one of Dubai's many high-quality indoor venues." },
