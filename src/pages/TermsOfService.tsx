@@ -196,6 +196,14 @@ const TermsOfService = () => {
             <p>Users can report CSAE concerns directly through Playy's in-app reporting and blocking tools or by contacting our designated child safety point of contact at <a href="mailto:support@joinplayy.com" className="text-primary hover:underline">support@joinplayy.com</a>.</p>
           </section>
 
+          {/* Section 10 */}
+          <section>
+            <h2 className="text-xl font-semibold text-foreground mb-4">10. Fees and Future Services</h2>
+            <p>Community Sessions are currently free to use.</p>
+            <p className="mt-2">Official Events may require entry fees. Pricing, refund policies, and event specific conditions will be disclosed at registration and governed by separate terms.</p>
+            <p className="mt-2">Playy reserves the right to introduce paid features or services in the future.</p>
+          </section>
+
           {/* Section 11 */}
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">11. Privacy and Data Protection</h2>
