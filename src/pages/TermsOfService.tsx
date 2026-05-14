@@ -187,30 +187,41 @@ const TermsOfService = () => {
 
           {/* Section 9 */}
           <section>
-            <h2 className="text-xl font-semibold text-foreground mb-4">9. Fees and Future Services</h2>
+            <h2 className="text-xl font-semibold text-foreground mb-4">9. Child Safety and CSAE Policy</h2>
+            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">9.1 Zero Tolerance</h3>
+            <p>Playy maintains a zero-tolerance policy toward child sexual abuse and exploitation (CSAE) and child sexual abuse material (CSAM). Any content or behaviour that sexually exploits, abuses, grooms, or endangers children is strictly prohibited on the platform.</p>
+            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">9.2 Enforcement</h3>
+            <p>Any user found to be engaging in such activities will be immediately and permanently banned. Playy will report confirmed CSAM to the relevant authorities, including the National Center for Missing & Exploited Children (NCMEC) and applicable local law enforcement agencies.</p>
+            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">9.3 Reporting</h3>
+            <p>Users can report CSAE concerns directly through Playy's in-app reporting and blocking tools or by contacting our designated child safety point of contact at <a href="mailto:support@joinplayy.com" className="text-primary hover:underline">support@joinplayy.com</a>.</p>
+          </section>
+
+          {/* Section 10 */}
+          <section>
+            <h2 className="text-xl font-semibold text-foreground mb-4">10. Fees and Future Services</h2>
             <p>Community Sessions are currently free to use.</p>
             <p className="mt-2">Official Events may require entry fees. Pricing, refund policies, and event specific conditions will be disclosed at registration and governed by separate terms.</p>
             <p className="mt-2">Playy reserves the right to introduce paid features or services in the future.</p>
           </section>
 
-          {/* Section 10 */}
+          {/* Section 11 */}
           <section>
-            <h2 className="text-xl font-semibold text-foreground mb-4">10. Privacy and Data Protection</h2>
+            <h2 className="text-xl font-semibold text-foreground mb-4">11. Privacy and Data Protection</h2>
             <p>Use of the Services is governed by the <Link to="/privacy" className="text-primary hover:underline">Privacy Policy</Link>.</p>
             <p className="mt-2">We implement reasonable security measures, but no system is completely secure.</p>
           </section>
 
-          {/* Section 11 */}
+          {/* Section 12 */}
           <section>
-            <h2 className="text-xl font-semibold text-foreground mb-4">11. Disclaimers</h2>
+            <h2 className="text-xl font-semibold text-foreground mb-4">12. Disclaimers</h2>
             <p>Community Sessions are provided on an "as is" basis without warranties.</p>
             <p className="mt-2">We do not guarantee availability, safety, or suitability of any user or session.</p>
             <p className="mt-2">You acknowledge that you have not relied on any representations or statements not expressly set out in these Terms.</p>
           </section>
 
-          {/* Section 12 */}
+          {/* Section 13 */}
           <section>
-            <h2 className="text-xl font-semibold text-foreground mb-4">12. Limitation of Liability</h2>
+            <h2 className="text-xl font-semibold text-foreground mb-4">13. Limitation of Liability</h2>
             <p className="mb-2">To the maximum extent permitted by UAE law:</p>
             <ul className="list-disc pl-6 space-y-1">
               <li>Playy is not liable for indirect, incidental, or consequential damages.</li>
@@ -221,9 +232,9 @@ const TermsOfService = () => {
             <p className="mt-2">This does not limit liability that cannot legally be excluded, including fraud or gross negligence.</p>
           </section>
 
-          {/* Section 13 */}
+          {/* Section 14 */}
           <section>
-            <h2 className="text-xl font-semibold text-foreground mb-4">13. Indemnification</h2>
+            <h2 className="text-xl font-semibold text-foreground mb-4">14. Indemnification</h2>
             <p className="mb-2">To the fullest extent permitted by applicable law, you agree to indemnify and hold harmless Playy, its affiliates, and personnel from claims arising from:</p>
             <ul className="list-disc pl-6 space-y-1">
               <li>Your use of the Services</li>
@@ -235,38 +246,38 @@ const TermsOfService = () => {
             <p className="mt-2">This obligation survives termination.</p>
           </section>
 
-          {/* Section 14 */}
-          <section>
-            <h2 className="text-xl font-semibold text-foreground mb-4">14. Governing Law and Disputes</h2>
-            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">14.1 Governing Law</h3>
-            <p>These Terms shall be governed by the laws of the United Arab Emirates as applied in the Emirate of Dubai.</p>
-            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">14.2 Jurisdiction</h3>
-            <p>Subject to your mandatory consumer rights, disputes shall be resolved exclusively in the onshore courts of Dubai.</p>
-          </section>
-
           {/* Section 15 */}
           <section>
-            <h2 className="text-xl font-semibold text-foreground mb-4">15. Changes and Termination</h2>
-            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">15.1 Updates</h3>
-            <p>We may update these Terms with notice. Continued use of the Services after updated Terms take effect constitutes acceptance of the updated Terms.</p>
-            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">15.2 Termination Rights</h3>
-            <p>You may stop using the Services at any time. We may suspend or terminate accounts for violations of these Terms, for safety reasons, or where required by law.</p>
-            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">15.3 Effect of Termination</h3>
-            <p>Sections 6, 11, 12, 13, and 14 survive termination.</p>
+            <h2 className="text-xl font-semibold text-foreground mb-4">15. Governing Law and Disputes</h2>
+            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">15.1 Governing Law</h3>
+            <p>These Terms shall be governed by the laws of the United Arab Emirates as applied in the Emirate of Dubai.</p>
+            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">15.2 Jurisdiction</h3>
+            <p>Subject to your mandatory consumer rights, disputes shall be resolved exclusively in the onshore courts of Dubai.</p>
           </section>
 
           {/* Section 16 */}
           <section>
-            <h2 className="text-xl font-semibold text-foreground mb-4">16. Force Majeure</h2>
-            <p>Playy is not liable for delays or failures caused by events beyond its reasonable control.</p>
+            <h2 className="text-xl font-semibold text-foreground mb-4">16. Changes and Termination</h2>
+            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">16.1 Updates</h3>
+            <p>We may update these Terms with notice. Continued use of the Services after updated Terms take effect constitutes acceptance of the updated Terms.</p>
+            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">16.2 Termination Rights</h3>
+            <p>You may stop using the Services at any time. We may suspend or terminate accounts for violations of these Terms, for safety reasons, or where required by law.</p>
+            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">16.3 Effect of Termination</h3>
+            <p>Sections 6, 12, 13, 14, and 15 survive termination.</p>
           </section>
 
           {/* Section 17 */}
           <section>
-            <h2 className="text-xl font-semibold text-foreground mb-4">17. Entire Agreement</h2>
-            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">17.1 Entire Agreement</h3>
+            <h2 className="text-xl font-semibold text-foreground mb-4">17. Force Majeure</h2>
+            <p>Playy is not liable for delays or failures caused by events beyond its reasonable control.</p>
+          </section>
+
+          {/* Section 18 */}
+          <section>
+            <h2 className="text-xl font-semibold text-foreground mb-4">18. Entire Agreement</h2>
+            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">18.1 Entire Agreement</h3>
             <p>These Terms, the Privacy Policy, and any event specific terms constitute the entire agreement between you and Playy.</p>
-            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">17.2 Severability</h3>
+            <h3 className="text-base font-semibold text-foreground mt-4 mb-2">18.2 Severability</h3>
             <p>If any provision is found invalid or unenforceable, it shall be modified to the minimum extent necessary or severed, and the remaining provisions shall remain in full force.</p>
           </section>
 
