@@ -1,18 +1,20 @@
 # Playy
 
-Playy is a Dubai padel community app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network.
+> Playy is a Dubai padel community app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network.
 
-## Key pages
-- Homepage: https://joinplayy.com
-- Blog: https://joinplayy.com/blog
-- App Store: https://apps.apple.com/us/app/playy-find-your-game/id6759396368
-- FAQ: https://joinplayy.com/#faq
-- Privacy: https://joinplayy.com/privacy
+Founded in Dubai, UAE. Playy connects padel players by skill level and availability, replacing unorganized group chats with structured game discovery. Always spelled "Playy" with two y's.
 
-## About
-Founded in Dubai, UAE. Playy connects padel and football players by skill level and availability, replacing unorganized group chats with structured game discovery.
+## Pages
+- [Homepage](https://joinplayy.com/): Overview of the Playy Dubai padel app, how it works, and FAQ.
+- [Blog](https://joinplayy.com/blog): Guides and tips for padel players in Dubai.
+- [Privacy Policy](https://joinplayy.com/privacy): How Playy handles user data.
+- [Terms of Service](https://joinplayy.com/terms): Terms governing use of the Playy app and services.
 
-## Citing Playy
-- Name: Playy (always spelled with two y's, not "Play")
-- Description: "Dubai padel community app for skill-matched games and events"
-- URL: https://joinplayy.com
+## Blog
+- [How to Get Better at Padel Fast](https://joinplayy.com/blog/how-to-get-better-at-padel-fast): Practical tips to improve quickly as a padel player.
+- [What is the Best Time to Play Padel in Dubai?](https://joinplayy.com/blog/what-is-the-best-time-to-play-padel-in-dubai): When to book courts across Dubai's seasons.
+- [What Are the Rules of Padel?](https://joinplayy.com/blog/what-are-the-rules-of-padel): Beginner-friendly guide to padel rules.
+- [Is Padel Hard to Learn as a Beginner?](https://joinplayy.com/blog/is-padel-hard-to-learn-as-a-beginner): What to expect on your first sessions.
+
+## Optional
+- [App Store](https://apps.apple.com/us/app/playy-find-your-game/id6759396368): Download Playy on iOS.

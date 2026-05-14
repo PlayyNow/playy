@@ -8,7 +8,15 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="Athletes playing sports" className="w-full h-full object-cover" />
+        <img
+          src={heroBg}
+          alt="Athletes playing sports"
+          width={1920}
+          height={1080}
+          fetchPriority="high"
+          decoding="async"
+          className="w-full h-full object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
       </div>
 

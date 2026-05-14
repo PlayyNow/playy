@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import pLogo from "@/assets/p-logo.jpeg";
+import SEO from "@/components/SEO";
 
 const TermsOfService = () => {
   const handleDownload = () => {
@@ -17,6 +18,11 @@ const TermsOfService = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <SEO
+        title="Terms of Service | Playy"
+        description="The terms that govern your access to and use of the Playy mobile app, website, and related services in Dubai, UAE."
+        canonical="https://joinplayy.com/terms"
+      />
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">

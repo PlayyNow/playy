@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import pLogo from "@/assets/p-logo.jpeg";
+import SEO from "@/components/SEO";
 
 const PrivacyPolicy = () => {
   const handleDownload = () => {
@@ -17,6 +18,11 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <SEO
+        title="Privacy Policy | Playy"
+        description="How Playy collects, uses, and safeguards your information when you use our Dubai padel community app and related services."
+        canonical="https://joinplayy.com/privacy"
+      />
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">

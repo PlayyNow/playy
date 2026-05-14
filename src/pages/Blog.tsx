@@ -8,6 +8,9 @@ import { useState } from "react";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
 import { blogPosts } from "@/data/blogPosts";
+import SEO from "@/components/SEO";
+
+const SITE_URL = "https://joinplayy.com";
 
 const Blog = () => {
   const [email, setEmail] = useState("");
@@ -26,6 +29,30 @@ const Blog = () => {
 
   return (
     <main className="min-h-screen bg-background text-foreground">
+      <SEO
+        title="Playy Blog — Dubai Padel Tips, Guides & Community"
+        description="Guides, tips and stories for padel players in Dubai. Learn the rules, gear up, and find your next game with Playy."
+        canonical={`${SITE_URL}/blog`}
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          name: "Playy Blog",
+          url: `${SITE_URL}/blog`,
+          description:
+            "Guides, tips and stories for padel players in Dubai from the Playy community.",
+          publisher: {
+            "@type": "Organization",
+            name: "Playy",
+            url: SITE_URL,
+          },
+          blogPost: blogPosts.map((p) => ({
+            "@type": "BlogPosting",
+            headline: p.title,
+            url: `${SITE_URL}/blog/${p.slug}`,
+            datePublished: p.date,
+          })),
+        }}
+      />
       <Navbar />
 
       {/* Header */}
@@ -37,7 +64,7 @@ const Blog = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-              Find Your <span className="text-gradient">Game.</span>
+              Playy Blog: <span className="text-gradient">Find Your Game.</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
               Tips, guides, and everything Dubai sports.
