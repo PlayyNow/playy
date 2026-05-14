@@ -19,6 +19,9 @@ import rulesHighfive from "@/assets/blog/rules-highfive.jpeg";
 import bestTimeHero from "@/assets/blog/best-time-hero.jpeg";
 import bestTimeIndoor from "@/assets/blog/best-time-indoor.jpeg";
 import bestTimePhone from "@/assets/blog/best-time-phone.jpeg";
+import getBetterHero from "@/assets/blog/get-better-hero.png";
+import getBetterPartner from "@/assets/blog/get-better-partner.png";
+import getBetterServe from "@/assets/blog/get-better-serve.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -466,6 +469,74 @@ export const blogPosts: BlogPost[] = [
       {
         type: "cta",
         text: "Download Playy free on iOS at joinplayy.com and find your padel partner in Dubai today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
+  {
+    slug: "how-to-get-better-at-padel-fast",
+    title: "How to Get Better at Padel Fast",
+    excerpt:
+      "Want to improve at padel quickly? These high-impact mindset and tactical changes will level up your game faster than hours of drilling.",
+    date: "May 14, 2026",
+    image: getBetterHero,
+    ogImage: "https://joinplayy.com/blog/get-better-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Once the padel bug bites — and it almost always does within the first session — the next question is how to actually improve. The good news is that padel has a steep initial improvement curve. Small adjustments to how you think about the game produce significant results quickly, without needing hours of drilling or expensive coaching. Governing bodies like the [International Padel Federation](https://www.padelfip.com) emphasise the same fundamentals at every level." },
+      { type: "paragraph", text: "These are the highest impact changes you can make right now." },
+
+      { type: "heading", text: "The Single Biggest Mistake Holding You Back" },
+      { type: "paragraph", text: "Almost every beginner hits the ball too hard. It feels satisfying, the sound is good, and it looks impressive. But padel is not a power sport. Professional level padel is typically played at around 50 percent maximum power. At amateur level, playing hard consistently produces more unforced errors than winners." },
+      { type: "paragraph", text: "The first and most impactful adjustment you can make is to slow down your shots and focus on placement. A controlled ball aimed at the corner or down the middle will win you more points than a powerful shot aimed at nothing. Consistency beats power at every level below professional. Once you accept this and stop trying to smash your way through rallies, your game improves immediately." },
+
+      { type: "heading", text: "Control the Net" },
+      { type: "paragraph", text: "The team that controls the net in padel controls the match. This is one of the most fundamental principles of the sport and one that beginners consistently undervalue. When you are at the net you are applying constant pressure to your opponents, limiting their options and forcing them into mistakes. When you are at the baseline you are defending and waiting." },
+      { type: "paragraph", text: "The objective on every point should be to advance to the net together with your partner as quickly as possible and hold that position. Simple controlled volleys from the net are more effective than spectacular shots from the baseline. You do not need great technique to dominate from the net — you just need to be there." },
+      { type: "paragraph", text: "The exception is when your opponents lob. When a lob goes over your head, retreat together with your partner and rebuild from the back before advancing to the net again. The lob and the net battle is the central rhythm of padel at every level." },
+
+      { type: "heading", text: "Move With Your Partner" },
+      { type: "paragraph", text: "Padel is a doubles sport and the biggest positional mistake beginners make is playing as two individuals rather than one unit. If your partner moves left, you move left. If your partner advances to the net, you advance with them. The court should always be covered between you as a pair, with no large gaps in the middle." },
+      { type: "paragraph", text: "The middle of the court between two opponents is the most dangerous place to aim in padel. Miscommunication between partners over who takes a ball in the middle is one of the most common ways points are lost at beginner and intermediate level. Exploit this in your opponents and protect it in your own team by communicating clearly — a simple call of mine or yours is enough." },
+
+      { type: "image", src: getBetterPartner, alt: "Two padel players moving together as a unit on a Dubai court at sunset", float: "none" },
+
+      { type: "heading", text: "Use the Walls Instead of Fearing Them" },
+      { type: "paragraph", text: "The walls are what make padel unique and they are what most beginners instinctively retreat from. The correct approach is the opposite. When the ball is heading toward the back glass, hold your position or step toward the wall and let the ball come to you after the rebound. Moving away from the wall reduces your time and space to play the shot." },
+      { type: "paragraph", text: "Learning to read how the ball comes off the glass is the single skill that separates beginners from intermediate players most clearly. The ball behaves predictably off the glass once you have spent time watching it — topspin rises off the wall, slice drops, flat balls come back at approximately the same speed they arrived. Authoritative coaching resources like [LTA Padel](https://www.ltapadel.org.uk) cover wall technique in detail. Spend time in your sessions specifically practicing wall play rather than avoiding it." },
+      { type: "paragraph", text: "One practical tip: if you are struggling with a particular wall shot, focus only on getting the ball back over the net at medium pace. Do not try to do anything special with it. Survival is enough while you are learning — winners off the back wall come later." },
+      { type: "paragraph", text: "Read our [full breakdown of the padel rules](https://joinplayy.com/blog/what-are-the-rules-of-padel) including exactly how wall play works." },
+
+      { type: "heading", text: "Master the Lob Early" },
+      { type: "paragraph", text: "The lob is one of the most effective shots in padel and one of the easiest for beginners to execute well. When you or your partner are under pressure at the back of the court, a high ball aimed deep toward the back corners pushes your opponents away from the net and resets the point." },
+      { type: "paragraph", text: "Most beginners either never lob because it feels defensive or lob too early before their defensive position is established. The ideal moment for a lob is when you are in a stable position and facing a comfortable ball, not when you are scrambling. A well-placed lob from a calm position is one of the best shots in your arsenal. A rushed lob under pressure usually goes short and gets punished." },
+      { type: "paragraph", text: "Practice your lob during sessions specifically. It does not require great technique — a smooth swing with the racket face open and the ball aimed high and deep is all you need to start using it effectively." },
+
+      { type: "heading", text: "Play With Better Players" },
+      { type: "paragraph", text: "The fastest way to improve at padel is to consistently play with people who are slightly better than you. When you play with weaker players your game drops to their level without you noticing. When you play with stronger players your game rises to meet the challenge." },
+      { type: "paragraph", text: "You do not need to play with people far above your level — playing with opponents one level up is enough. You will naturally adapt to their pace, notice what they do differently, and find yourself making better decisions without consciously drilling them. Observation during play is one of the most underrated learning tools in padel." },
+      { type: "paragraph", text: "[Americano sessions](https://joinplayy.com/blog/what-is-an-americano-in-padel) are one of the best ways to play with a variety of levels — here is how the format works." },
+
+      { type: "heading", text: "Be Consistent First, Powerful Later" },
+      { type: "paragraph", text: "Consistency is the most important skill in padel below professional level. Research across amateur padel — and analysis from tours like [Premier Padel](https://www.premierpadel.com) — consistently shows that the majority of points at club level are lost through unforced errors rather than won through outstanding shots. If you make fewer mistakes than your opponents you will win more matches, regardless of how impressive your best shots are." },
+      { type: "paragraph", text: "Set yourself a simple target in your next session: keep the ball in play for one more shot than feels necessary. Do not go for the winner when a safe ball achieves the same result. This single mindset shift — choosing consistency over winners — tends to immediately change match outcomes for players who have been losing points through aggression." },
+      { type: "paragraph", text: "Power is a tool to be added on top of consistency, not instead of it. Once your baseline game is reliable, adding pace and aggression to specific shots becomes a genuine weapon. Before that point, it is just risk." },
+
+      { type: "image", src: getBetterServe, alt: "Padel player serving inside an indoor court at NAS Sports Complex Dubai", float: "none" },
+
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "Find the Right Players to Practice With" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Improving at padel requires regular play and that requires having the right people to play with. Finding someone slightly better than you, or a regular partner at your level who is equally motivated to improve, makes a significant difference to your progression." },
+      { type: "paragraph", text: "Playy matches you by skill level and availability so you can find players in Dubai who are at the right level for where you are in your game right now. Whether you want a competitive session or a relaxed practice game, the right player is out there." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Getting better at padel quickly is less about technical drilling and more about thinking differently. Stop hitting hard and start placing accurately. Get to the net and stay there. Move with your partner as a unit. Use the walls instead of avoiding them. Lob when under pressure. Play with people slightly better than you." },
+      { type: "paragraph", text: "Apply these consistently across your next few sessions and the improvement will be noticeable. The players who progress fastest in padel are not the ones with the best natural ability — they are the ones who stop making the same mistakes twice." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS at joinplayy.com and find the right padel partner to practice with in Dubai today.",
         href: "https://joinplayy.com",
         label: "Download Playy",
       },
