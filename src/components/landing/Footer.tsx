@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-12">
           <div className="flex items-center justify-center md:justify-start gap-3">
-            <img src={pLogo} alt="Playy" className="w-10 h-10 rounded-xl" />
+            <img src={pLogo} alt="Playy logo" className="w-10 h-10 rounded-xl" />
             <span className="text-2xl font-bold text-gradient">Playy</span>
           </div>
 
@@ -19,6 +19,7 @@ const Footer = () => {
                 href="https://www.instagram.com/playy.now/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Playy on Instagram"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Instagram className="w-5 h-5" />
@@ -27,6 +28,7 @@ const Footer = () => {
                 href="https://www.tiktok.com/@playy.now"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Playy on TikTok"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
