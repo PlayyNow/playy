@@ -22,6 +22,9 @@ import bestTimePhone from "@/assets/blog/best-time-phone.jpeg";
 import getBetterHero from "@/assets/blog/get-better-hero.png";
 import getBetterPartner from "@/assets/blog/get-better-partner.png";
 import getBetterServe from "@/assets/blog/get-better-serve.png";
+import gearHero from "@/assets/blog/gear-hero.png";
+import gearRackets from "@/assets/blog/gear-rackets.png";
+import gearShoes from "@/assets/blog/gear-shoes.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
