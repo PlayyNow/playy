@@ -22,6 +22,9 @@ import bestTimePhone from "@/assets/blog/best-time-phone.jpeg";
 import getBetterHero from "@/assets/blog/get-better-hero.png";
 import getBetterPartner from "@/assets/blog/get-better-partner.png";
 import getBetterServe from "@/assets/blog/get-better-serve.png";
+import gearHero from "@/assets/blog/gear-hero.png";
+import gearRackets from "@/assets/blog/gear-rackets.png";
+import gearShoes from "@/assets/blog/gear-shoes.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -537,6 +540,77 @@ export const blogPosts: BlogPost[] = [
       {
         type: "cta",
         text: "Download Playy free on iOS at joinplayy.com and find the right padel partner to practice with in Dubai today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
+  {
+    slug: "what-padel-gear-do-beginners-need",
+    title: "What Padel Gear Do Beginners Actually Need?",
+    excerpt:
+      "A racket, shoes and balls — that is it. Here is exactly what padel gear beginners in Dubai need, what to skip, and where to buy it.",
+    date: "May 18, 2026",
+    image: gearHero,
+    ogImage: "https://joinplayy.com/blog/gear-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the first questions new players ask before stepping on court for the first time is what gear they actually need. The good news is that padel — a sport governed globally by the [International Padel Federation](https://www.padelfip.com) — is one of the most affordable racket sports to get into. You do not need much. But what you do need matters." },
+      { type: "paragraph", text: "Here is exactly what to buy, what to skip for now, and where to find it in Dubai." },
+
+      { type: "heading", text: "The Short Answer: Three Things Only" },
+      { type: "paragraph", text: "As a beginner you need three things to play padel: a racket, shoes, and balls. That is it. Everything else is either provided by the venue, optional, or something to think about once you know the sport is for you. Most Dubai padel venues provide balls for casual hire sessions so you may not even need those immediately. The racket and shoes are the only non-negotiables." },
+
+      { type: "heading", text: "Your Racket: The Most Important Decision" },
+      { type: "paragraph", text: "Padel rackets come in three shapes and choosing the wrong one is the most common beginner mistake. Understanding the difference takes about two minutes and saves you spending money on something that actively makes the game harder to learn." },
+      { type: "paragraph", text: "Round rackets have the largest sweet spot and sit low in the frame, making them forgiving on off-centre hits. They prioritise control over power. This is what every beginner should buy. The extra forgiveness means more consistent contact, longer rallies, and a much more enjoyable first few sessions." },
+      { type: "paragraph", text: "Teardrop rackets balance power and control. The sweet spot is central. These work well for intermediate players who are comfortable with the basics and want more variety in their shots." },
+      { type: "paragraph", text: "Diamond rackets concentrate mass at the top of the frame for maximum power but have a smaller sweet spot and require consistent clean technique to use effectively. As a beginner these will actively hurt your game." },
+      { type: "paragraph", text: "For weight, look for something between 340 and 365 grams. Lighter rackets are easier to manoeuvre and reduce arm strain, which matters more than you think over a 90 minute session. Most padel rackets in Dubai cost between AED 300 and AED 500 for a solid beginner option. Brands including HEAD, Babolat, Bullpadel, and NOX all produce reliable beginner rackets widely available in Dubai. You will get far more benefit from coaching or playing regularly than from spending AED 1,500 on a pro-level racket you are not technically ready to use." },
+
+      { type: "image", src: gearRackets, alt: "Round, teardrop and diamond padel racket shapes compared side by side", float: "none" },
+
+      { type: "heading", text: "Your Shoes: Do Not Skip This" },
+      { type: "paragraph", text: "Most beginners show up to their first padel session in running shoes. This is a mistake that affects both your performance and your injury risk. Running shoes are built for forward motion on smooth surfaces. They lack lateral ankle support and do not grip artificial turf well, which means you will be slipping on direction changes and putting stress on your ankles every time you push off sideways." },
+      { type: "paragraph", text: "Padel-specific shoes have a herringbone or small-pattern outsole designed for the artificial grass turf surface used on most Dubai courts. They provide grip without over-gripping, proper lateral support for the side-to-side movement padel demands, and cushioning suited to the hard court surface underneath the turf." },
+      { type: "paragraph", text: "In Dubai specifically, shoes with mesh uppers are worth prioritising. The breathability matters particularly from May through September even on indoor air-conditioned courts, because your feet will still sweat significantly during a competitive session." },
+      { type: "paragraph", text: "Brands including HEAD, Babolat, Adidas, and ASICS all produce dedicated padel footwear available in Dubai at major sports retailers and online at Racketshop.ae and Amazon.ae. Budget around AED 300 to AED 500 for a solid pair that will last a full season." },
+      { type: "paragraph", text: "We covered footwear in more detail in our guide on [what to wear for padel in Dubai heat](https://joinplayy.com/blog/what-to-wear-padel-dubai-heat)." },
+
+      { type: "heading", text: "Padel Balls: One Small but Important Detail for Dubai" },
+      { type: "paragraph", text: "Padel balls look almost identical to tennis balls but are lower pressure — around 10 to 11 PSI compared to 14 PSI in a tennis ball. Using actual tennis balls on a padel court produces a faster, bouncier game that is harder to control and less fun, especially as a beginner." },
+      { type: "paragraph", text: "One detail specific to Dubai: because the city sits at sea level, you should use low-altitude padel balls. Standard balls are calibrated for higher altitudes and bounce noticeably too high on sea-level courts, making the game feel less controlled. HEAD Padel Pro and Wilson Padel balls are both widely available and designed for sea-level play." },
+      { type: "paragraph", text: "Dubai's heat also degrades balls faster than in cooler climates. A can of balls that might last ten sessions in Europe may feel flat after four or five in Dubai summer heat. When your balls lose their bounce and feel dead, replace them — playing with flat balls is one of the most common things that makes beginners feel like they are not improving when the issue is actually the equipment." },
+
+      { type: "heading", text: "What You Do Not Need Yet" },
+      { type: "paragraph", text: "A padel bag is not necessary when you are starting out. Any sports bag you already own works fine. Padel-specific bags with thermally lined racket sleeves are useful once you are playing regularly and transporting your gear in a hot car, but they are not a day-one purchase." },
+      { type: "paragraph", text: "An overgrip is worth knowing about but not urgent. Most new rackets come with a grip that is perfectly adequate for your first sessions. Once the original grip starts to feel slippery or worn you can replace it with an overgrip for around AED 10 to AED 20 at any padel retailer." },
+      { type: "paragraph", text: "A padel glove, wristbands, and padel-specific clothing are all optional. Breathable athletic wear you already own is entirely sufficient. The only clothing investment worth making early is padel shoes — everything else can wait." },
+
+      { type: "heading", text: "Nice to Have But Not Essential" },
+      { type: "paragraph", text: "A wristband on your dominant hand helps keep your grip dry during long sessions, which matters in Dubai's humidity. AED 20 to AED 30 from any sports retailer." },
+      { type: "paragraph", text: "A cap or visor for outdoor sessions. Even in the evening on outdoor courts the sun exposure adds up. Any lightweight cap works — you do not need a padel-specific one." },
+      { type: "paragraph", text: "A second overgrip or grip tape to keep in your bag. Grips wear out faster in heat and humidity, and having a spare means you are never mid-session with a slippery handle." },
+
+      { type: "image", src: gearShoes, alt: "Padel player lacing up court shoes beside her racket bag at sunset in Dubai", float: "none" },
+
+      { type: "heading", text: "Where to Buy Padel Gear in Dubai" },
+      { type: "paragraph", text: "[Decathlon UAE](https://www.decathlon.ae) is the most accessible option for budget-conscious beginners. Their Artengo and Kuikma padel ranges offer solid entry-level rackets and shoes at prices starting from AED 150, available at all major Decathlon outlets across Dubai and online at decathlon.ae." },
+      { type: "paragraph", text: "For a wider range of brands including HEAD, Babolat, Bullpadel, and NOX, [Racketshop.ae](https://racketshop.ae) and Sun and Sand Sports both stock dedicated padel sections with staff who can advise on racket selection for your level. El Padel in Dubai and Sanddune Padel Club in Al Quoz both have pro shops where you can try a racket before committing to a purchase, which is worth doing if you are unsure which shape and weight suits you." },
+      { type: "paragraph", text: "[Amazon.ae](https://www.amazon.ae) is a reliable option for balls and accessories with fast delivery across Dubai. For shoes specifically, the padel-dedicated sections at major sports retailers will give you better variety and the ability to try them on before buying, which matters more for footwear than for almost anything else." },
+      { type: "paragraph", text: "Read our guide on [the rules of padel](https://joinplayy.com/blog/what-are-the-rules-of-padel) so you know what to expect in your first session." },
+
+      { type: "heading", text: "Now Find Someone to Play With" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Once your gear is sorted, the next step is finding the right person to play with. Starting with someone at a similar level — another complete beginner — makes the learning process significantly more enjoyable than being thrown into a session with experienced players." },
+      { type: "paragraph", text: "Playy matches you by skill level and availability so you can find other beginners in Dubai who are looking for exactly the same thing. Download it, set up your profile, and your first game is closer than you think." },
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Starting padel in Dubai requires three things: a round beginner racket between AED 300 and AED 500, padel-specific shoes with lateral support and a turf outsole, and low-altitude padel balls. Everything else is optional until you know the sport is for you — which it almost certainly will be by the end of your first session." },
+      { type: "paragraph", text: "Keep it simple, get on the court, and add gear as your game develops. The racket does not make the player. Showing up consistently does." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS at joinplayy.com and find a beginner padel partner in Dubai today.",
         href: "https://joinplayy.com",
         label: "Download Playy",
       },
