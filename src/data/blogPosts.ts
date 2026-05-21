@@ -25,6 +25,9 @@ import getBetterServe from "@/assets/blog/get-better-serve.png";
 import gearHero from "@/assets/blog/gear-hero.png";
 import gearRackets from "@/assets/blog/gear-rackets.png";
 import gearShoes from "@/assets/blog/gear-shoes.png";
+import findPlayersHero from "@/assets/blog/find-players-hero.png";
+import findPlayersAmericano from "@/assets/blog/find-players-americano.png";
+import findPlayersPhone from "@/assets/blog/find-players-phone.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -48,6 +51,62 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-find-padel-players-and-events-in-dubai",
+    title: "How to Find Padel Players and Events in Dubai",
+    excerpt:
+      "Courts are not the problem in Dubai — finding the right players and events is. Here is how to plug into the padel community fast.",
+    date: "May 21, 2026",
+    image: findPlayersHero,
+    ogImage: "https://joinplayy.com/blog/find-players-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai has one of the most active padel communities in the world — courts are busy every evening and the social calendar around the sport has grown significantly over the past two years. The challenge is not finding courts. The challenge is finding the right players and events that match your level and schedule." },
+      { type: "paragraph", text: "Here are the most effective ways to plug into the Dubai padel community right now." },
+      { type: "paragraph", text: "We covered the basics of finding a padel partner in our earlier guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "Why Finding Players is the Hard Part" },
+      { type: "paragraph", text: "Court availability in Dubai has improved dramatically. There are now over 300 padel courts across more than 225 venues in the UAE, with new venues opening regularly across Dubai specifically. Global growth of the sport is tracked by the [International Padel Federation](https://www.padelfip.com). Getting on a court is not the problem." },
+      { type: "paragraph", text: "Finding consistent players at your level, who are available when you are, and who show up reliably — that is the problem almost every Dubai padel player faces regardless of how long they have been playing. The group chat system that most players rely on is noisy, unreliable, and depends entirely on having the right people in it already. If you are new to Dubai or new to padel, that network does not exist yet." },
+
+      { type: "heading", text: "Join a WhatsApp or Telegram Community" },
+      { type: "paragraph", text: "The fastest starting point for most new players is community groups. There are dozens of WhatsApp and Telegram groups for Dubai padel players, organised by area, nationality, skill level, and playing style. A quick search on Google or asking at your local venue will usually get you added within a day." },
+      { type: "paragraph", text: "The limitation of group chats is the noise. Finding a specific player for a specific time slot requires scrolling through unrelated messages, waiting for replies that may never come, and managing the back and forth of coordination. It works but it is not efficient, and for players with limited availability it often means missed games simply because the logistics do not come together in time." },
+
+      { type: "heading", text: "Show Up to Americano Sessions" },
+      { type: "paragraph", text: "Americano sessions are the single best way to meet padel players in Dubai organically. The format rotates partners after every set, meaning you play with and against everyone in the session over the course of an hour and a half. By the end you have a natural shortlist of players whose style, level, and reliability you have seen firsthand." },
+      { type: "paragraph", text: "Most Dubai venues run regular Americano sessions open to all levels. [ISD Padel](https://isddubai.com) in Dubai Sports City, Mantra Padel, Central Padel in Al Quoz, and courts across JBR all run sessions throughout the week. Showing up a few times consistently builds your network faster than any group chat." },
+      { type: "paragraph", text: "Not sure how the Americano format works? [Here is a full breakdown](https://joinplayy.com/blog/what-is-an-americano-in-padel)." },
+
+      { type: "image", src: findPlayersAmericano, alt: "Padel players high-fiving at the net after an Americano session in Dubai", float: "none" },
+
+      { type: "heading", text: "Look for Community Tournaments" },
+      { type: "paragraph", text: "Beyond regular Americano sessions, community tournaments are where the Dubai padel social scene really comes alive. These are organised events — usually 8 to 12 players — where the format is competitive but the atmosphere is deliberately social. You play with people you have never met, conversation happens naturally during changeovers, and you usually end up with a group of new contacts by the time the final is played." },
+      { type: "paragraph", text: "Playy hosts regular community Americano tournaments at Dubai venues for exactly this reason. A recent 10-player Americano at Mantra Padel brought together players from across the city who connected through the app — most of whom had never met before the event and left with regular playing partners. These events are announced through the Playy app and community so players at your level hear about them first." },
+      { type: "paragraph", text: "Keep an eye on venue Instagram accounts and padel community channels for tournament announcements. Events fill up quickly, particularly during peak season from October through April." },
+
+      { type: "heading", text: "Follow Your Local Venue on Instagram" },
+      { type: "paragraph", text: "Most active Dubai padel venues post their session schedules, Americano events, and open sessions on Instagram. Following two or three venues near you means you see availability in real time without having to check their websites or call ahead. Venues including [Just Padel](https://justpadel.ae), ISD Padel, Mantra Padel, and Sanddune Padel Club all maintain active Instagram pages with regular event announcements." },
+      { type: "paragraph", text: "Venues also occasionally post looking for players content themselves when a session is short a player or two. If you are active in the comments you become a recognisable face in the community faster than you might expect." },
+
+      { type: "image", src: findPlayersPhone, alt: "Padel player checking the Playy app on her phone courtside in Dubai", float: "none" },
+
+      { type: "heading", text: "Use an App Built for This" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Instead of relying on group chats and hoping the right person replies at the right time, Playy shows you players near you who are actively looking for a game at your level and availability." },
+      { type: "paragraph", text: "You can create a public session for others to join, browse sessions that players near you have already set up, and stay informed about community events and tournaments happening in your area. The app is free to download on iOS and is already used by padel players across Dubai looking for exactly what you are looking for." },
+      { type: "paragraph", text: "If you are just starting out, read our guide on [whether padel is hard to learn as a beginner](https://joinplayy.com/blog/is-padel-hard-to-learn-as-a-beginner)." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "The Dubai padel community is large, active, and genuinely welcoming to new players. The infrastructure is there — courts, events, regular sessions, and an active social scene built around the sport. The key is knowing where to look and showing up consistently enough to build the right connections." },
+      { type: "paragraph", text: "Start with your nearest venue's Americano sessions. Use Playy to find players between events. And keep showing up — in padel more than almost any other sport, your network grows on court." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS and find padel players and events in Dubai today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
   {
     slug: "how-to-find-a-padel-partner-in-dubai",
     title: "How to Find a Padel Partner in Dubai",
