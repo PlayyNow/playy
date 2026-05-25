@@ -28,6 +28,9 @@ import gearShoes from "@/assets/blog/gear-shoes.png";
 import findPlayersHero from "@/assets/blog/find-players-hero.png";
 import findPlayersAmericano from "@/assets/blog/find-players-americano.png";
 import findPlayersPhone from "@/assets/blog/find-players-phone.png";
+import serveHero from "@/assets/blog/serve-hero.png";
+import serveGrip from "@/assets/blog/serve-grip.png";
+import serveCourt from "@/assets/blog/serve-court.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -51,6 +54,84 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-improve-your-padel-serve",
+    title: "How to Improve Your Padel Serve",
+    excerpt:
+      "The padel serve is not about power — it is about consistency, placement and what you do right after contact. Here is exactly what to fix.",
+    date: "May 25, 2026",
+    image: serveHero,
+    ogImage: "https://joinplayy.com/blog/serve-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The padel serve is one of the most misunderstood shots in the game. Most beginners try to hit it hard. Most intermediate players try to make it too complicated. The reality is that a good padel serve is simple, consistent, and strategic — and improving it requires fixing a small number of specific things rather than starting from scratch. Global standards for the sport are set by the [International Padel Federation](https://www.padelfip.com)." },
+      { type: "paragraph", text: "Here is exactly what to work on." },
+      { type: "paragraph", text: "If you are still learning the basic rules, read our [full padel rules guide for beginners](https://joinplayy.com/blog/what-are-the-rules-of-padel) first." },
+
+      { type: "heading", text: "What the Padel Serve is Actually For" },
+      { type: "paragraph", text: "Before working on technique it helps to understand what you are trying to achieve. The padel serve is not a weapon the way an overhead tennis serve is. It is extremely rare to win a point directly from a padel serve at any level below professional. Attempting to do so usually results in double faults and lost points. For a technical breakdown of the shot, [LTA Padel](https://www.ltapadel.org.uk/play/padel-tips-and-techniques/serve/) has a useful overview." },
+      { type: "paragraph", text: "The serve in padel is a setup tool. Its job is to start the rally on your terms — to place the ball in a position that gives you an early advantage, ideally by forcing a weak return that you can punish at the net. Professional players on the [Premier Padel](https://www.premierpadel.com) tour serve at around 60 to 70 percent of maximum power with a focus on placement and spin rather than pace. That is the model to follow at every level." },
+      { type: "paragraph", text: "A consistent serve that lands in the correct box every time and allows you to move forward to the net immediately is more valuable than an occasional powerful serve that produces as many double faults as it does winners." },
+
+      { type: "heading", text: "The Grip" },
+      { type: "paragraph", text: "The continental grip is the correct grip for the padel serve and for most shots in padel generally. To find it, hold the racket as if you are shaking hands with the handle, or imagine using the side edge of the racket as a hammer. The base knuckle of your index finger should sit on the second bevel of the handle." },
+      { type: "paragraph", text: "This grip gives you the most control over the racket face angle at contact, which is what determines where the ball goes and what spin it carries. Beginners who grip the racket too tightly or use a forehand grip for the serve lose control over the contact point and produce inconsistent results regardless of how much they practice." },
+      { type: "paragraph", text: "Keep your grip pressure moderate — firm enough to control the racket but relaxed enough that your wrist can move freely during the swing. A tight grip creates tension that reduces feel and produces a jerky, inconsistent serve motion." },
+
+      { type: "image", src: serveGrip, alt: "Close-up of a player holding a padel racket with a continental grip", float: "none" },
+
+      { type: "heading", text: "The Stance" },
+      { type: "paragraph", text: "Stand behind the service line with your feet approximately shoulder-width apart. Your front foot should point diagonally toward the net and your back foot should be roughly parallel to the baseline. This stance gives you a stable base and allows a natural weight transfer from back foot to front foot during the swing." },
+      { type: "paragraph", text: "Your body should be positioned diagonally, not square to the net. This diagonal alignment allows your non-dominant shoulder to rotate through the shot naturally, which generates a smooth and consistent swing path without any conscious effort." },
+      { type: "paragraph", text: "Some players naturally stand more open or more closed depending on their body mechanics — minor adjustments are fine. What matters is that your stance feels stable and repeatable. If you are wobbling or shifting your weight awkwardly during serves, simplify your stance before working on anything else." },
+
+      { type: "heading", text: "The Ball Drop" },
+      { type: "paragraph", text: "The ball drop is the most overlooked part of the padel serve and one of the most important. Unlike tennis where the ball is tossed upward, padel requires the ball to bounce once on the ground before you hit it. The way you release the ball determines the height and consistency of the bounce, which in turn determines your contact point." },
+      { type: "paragraph", text: "Hold the ball in your non-dominant hand at around hip height. Release it gently — do not throw it down or push it forward. Let it fall naturally from your fingers. A clean, consistent drop produces a predictable bounce that lands in the same spot relative to your body every time." },
+      { type: "paragraph", text: "Most serve inconsistencies at beginner level come from an uneven ball drop rather than a flawed swing. If your serves are going in different directions or making contact at different heights, record your drop and look at it before changing anything else in your technique. The fix is almost always there." },
+
+      { type: "heading", text: "Contact Point and Swing" },
+      { type: "paragraph", text: "Contact the ball at its highest point after the bounce, just below waist height. This is the moment of maximum control — the ball is still moving upward slightly, which means a smooth swing will produce a clean, flat trajectory into the service box." },
+      { type: "paragraph", text: "Your swing should be fluid and forward, not jabbing or jerky. Think of it as brushing through the ball rather than hitting it. The racket face should be slightly open at contact for a flat serve, or angled further open to generate slice and keep the ball low after it bounces in the service box." },
+      { type: "paragraph", text: "Keep your follow-through smooth and directed toward your target. Stopping the swing abruptly at contact creates tension and produces inconsistent results. Let the racket carry through naturally after the ball leaves the strings." },
+      { type: "paragraph", text: "Aim for 60 to 70 percent of your maximum power. This gives you enough pace to make the serve meaningful while maintaining the control and consistency that makes it reliable under pressure." },
+
+      { type: "heading", text: "What to Do Immediately After Serving" },
+      { type: "paragraph", text: "This is where most players waste the advantage a good serve creates. The moment you make contact with the ball, move forward toward the net. Do not stand and watch the serve. Do not wait to see if it lands in. Move immediately." },
+      { type: "paragraph", text: "The reason is positioning. In padel the team at the net controls the point. A good serve followed by immediate net approach puts you in the strongest possible position for the second shot. A good serve followed by standing at the baseline gives your opponents time to recover and set up a comfortable return." },
+      { type: "paragraph", text: "Your partner should also move forward together with you as you advance. The coordinated net approach after the serve is one of the clearest tactical differences between beginner and intermediate padel and one of the simplest to implement once you are aware of it." },
+      { type: "paragraph", text: "Controlling the net after your serve is one of the key principles we covered in our guide on [how to get better at padel fast](https://joinplayy.com/blog/how-to-get-better-at-padel-fast)." },
+
+      { type: "heading", text: "Where to Aim Your Serve" },
+      { type: "paragraph", text: "The most effective serve target at beginner and intermediate level is toward the side glass at an angle. A serve that bounces and then kicks into the side wall creates an awkward rebound that is significantly harder to return cleanly than a serve to the centre of the service box. The angle and pace of the rebound off the glass gives your opponent less time to set up and forces a higher percentage of weak returns." },
+      { type: "paragraph", text: "Body serves are also underused at amateur level. Aiming directly at the opponent's body jams their swing and makes it difficult to return with any direction or pace. It feels unsporting the first time you try it but it is entirely within the rules and used extensively at every level of competitive padel." },
+      { type: "paragraph", text: "Wide serves that push the returner toward the side wall can be effective but require more precision to execute consistently. Until your serve is reliable in the middle and toward the glass, the wider target is not worth the extra risk of landing outside the service box." },
+
+      { type: "heading", text: "The Most Common Serve Mistakes" },
+      { type: "paragraph", text: "Hitting too hard is the most common error at every level below professional. A faster serve that misses the service box is worth zero. A slower consistent serve that lands every time is worth everything. Reduce your pace and prioritise landing the ball in the correct box before adding speed." },
+      { type: "paragraph", text: "Dropping the ball too far forward or to the side creates an awkward contact point and forces compensations in your swing that produce inconsistent results. Practice your drop independently until it feels automatic before combining it with the swing." },
+      { type: "paragraph", text: "Standing too close to the service line when serving is a foot fault waiting to happen and also reduces the angle available for your serve. Stand comfortably behind the line with a small margin, not right on the edge of it." },
+      { type: "paragraph", text: "Failing to move to the net after serving gives away the positional advantage a good serve creates. Even if your serve is not yet strong enough to force a weak return, developing the habit of advancing to the net immediately after contact builds the correct tactical pattern that becomes increasingly important as your serve improves." },
+
+      { type: "image", src: serveCourt, alt: "Padel player moving forward on court after serving", float: "none" },
+
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai) to practice with." },
+
+      { type: "heading", text: "Find Players to Practice Your Serve Against" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Improving your serve requires repetition against real opponents, not just solo practice. Finding a regular partner at a similar level to your own means you can work on your serve in the context of actual points rather than isolated drilling." },
+      { type: "paragraph", text: "Playy matches you by skill level and availability across Dubai so you can find the right practice partner without the group chat back and forth. Download the app, set your level, and find someone to practice with this week." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "A good padel serve is consistent, placed with intention, and followed immediately by a move to the net. It is not about power. It is about reliability and positioning. Fix your grip, clean up your ball drop, contact the ball at the right height, and move forward after every single serve." },
+      { type: "paragraph", text: "These are small adjustments. The improvement they produce is not small at all." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS and find a padel partner in Dubai to practice your serve with today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
   {
     slug: "how-to-find-padel-players-and-events-in-dubai",
     title: "How to Find Padel Players and Events in Dubai",
