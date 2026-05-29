@@ -15,7 +15,10 @@ const SITE_URL = "https://joinplayy.com";
 const Blog = () => {
   const [email, setEmail] = useState("");
   const { toast } = useToast();
-  const [featured, ...rest] = blogPosts;
+  const sortedPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+  const [featured, ...rest] = sortedPosts;
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
