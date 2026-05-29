@@ -31,6 +31,9 @@ import findPlayersPhone from "@/assets/blog/find-players-phone.png";
 import serveHero from "@/assets/blog/serve-hero.png";
 import serveGrip from "@/assets/blog/serve-grip.png";
 import serveCourt from "@/assets/blog/serve-court.png";
+import expatsHero from "@/assets/blog/expats-hero.png";
+import expatsFistbump from "@/assets/blog/expats-fistbump.png";
+import expatsPhone from "@/assets/blog/expats-phone.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -54,6 +57,69 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-expats-make-friends-through-sport-in-dubai",
+    title: "How Expats Make Friends Through Sport in Dubai",
+    excerpt:
+      "Dubai can feel isolating at first — sport is the fastest, most reliable way to build real friendships here. Here is how to use it.",
+    date: "May 29, 2026",
+    image: expatsHero,
+    ogImage: "https://joinplayy.com/blog/expats-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai is home to over 3.5 million expats from more than 200 nationalities, making it one of the most international cities on the planet. And yet one of the most common experiences among people who move here is a period of genuine loneliness — a feeling that despite being surrounded by millions of people, real connection is hard to find." },
+      { type: "paragraph", text: "Sport solves this faster and more reliably than almost any other approach. Here is why it works so well in Dubai specifically, and how to use it." },
+
+      { type: "heading", text: "Why Dubai Can Feel Isolating at First" },
+      { type: "paragraph", text: "Dubai is a transient city. People arrive with ambition, leave when circumstances change, and the social fabric reflects this constant movement. Unlike cities where people grow up together and maintain decades-long friendships, Dubai social circles tend to be newer, faster-forming, and less rooted in shared history." },
+      { type: "paragraph", text: "This is both a challenge and an opportunity. The challenge is that there is no automatic social structure waiting for you when you arrive — no school reunion, no neighbourhood pub, no hometown network. The opportunity is that almost everyone you meet is in the same position. Most people in Dubai are actively looking for connection, which makes them unusually open to new friendships compared to more established cities." },
+      { type: "paragraph", text: "The people who build strong social lives in Dubai quickly tend to share one characteristic: they found a regular, structured activity that put them in the same room with the same people week after week. Sport does this better than almost anything else." },
+
+      { type: "heading", text: "Why Sport Works Better Than Other Methods" },
+      { type: "paragraph", text: "Networking events, brunches, and social apps all produce the same result: a surface-level conversation with a stranger you may never see again. The follow-up is awkward, the shared context is thin, and the friendship rarely develops beyond that first interaction." },
+      { type: "paragraph", text: "Sport removes all of that friction. When you play padel with someone for 90 minutes, you have a shared experience, a shared challenge, a natural topic of conversation, and a built-in reason to meet again. The relationship starts with something real rather than a business card exchange." },
+      { type: "paragraph", text: "Research consistently shows that repeated, low-stakes contact is the most reliable mechanism for friendship formation in adults. A weekly padel session with the same group of people provides exactly this — casual, regular exposure that builds familiarity and trust naturally over time without any of the social effort that networking events require." },
+      { type: "paragraph", text: "Dubai's sport community also has a specific cultural characteristic worth noting. Because so many people are new to the city or in a social rebuilding phase, sports communities here tend to be unusually welcoming to newcomers. Showing up for the first time at an Americano session or a group run and being absorbed into the group within an hour is a genuinely common experience in Dubai in a way it might not be in London or New York." },
+
+      { type: "heading", text: "Padel: The Best Sport for Meeting People in Dubai" },
+      { type: "paragraph", text: "Among all sports available in Dubai, padel currently offers the best combination of social accessibility, community infrastructure, and growth momentum for meeting new people. The sport is played in doubles which means you are always sharing a court with three other people. The Americano format rotates partners after every set, meaning a single session can introduce you to six or eight players you had never met before. The enclosed glass court creates a naturally intimate atmosphere where conversation happens easily between points." },
+      { type: "paragraph", text: "Dubai's padel scene has grown dramatically over the past three years. According to the [International Padel Federation](https://www.padelfip.com), there are now over 300 padel courts across more than 225 venues in the UAE, with regular community sessions, open Americanos, and social tournaments running throughout the week at venues including [ISD Padel](https://isddubai.com) in Dubai Sports City, Central Padel in Al Quoz, Mantra Padel, and Just Padel at Mina Rashid." },
+      { type: "paragraph", text: "Community-led padel groups like The Padel Mob have emerged specifically to create a more curated social experience around the sport, organising sessions for people who want to play and connect rather than compete. The social infrastructure around padel in Dubai is genuinely well developed and accessible to newcomers at every level." },
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai) to get started." },
+      { type: "paragraph", text: "The Americano format is one of the best ways to meet players organically — [here is how it works](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai)." },
+
+      { type: "image", src: expatsFistbump, alt: "Four padel players fist-bumping over the net at sunset on a Dubai court", float: "none" },
+
+      { type: "heading", text: "Other Sports That Build Strong Communities in Dubai" },
+      { type: "paragraph", text: "Padel is the most socially efficient sport in Dubai right now but it is not the only option. Several other sports have built strong expat communities worth knowing about." },
+      { type: "paragraph", text: "Running communities are among the most established. The [Dubai Hash House Harriers](https://www.dh3.com) organise weekly runs followed by social gatherings and have been building community in the city for decades. Adidas Runners Dubai runs free weekly events with a focus on both fitness and social connection. These groups attract a wide mix of nationalities and are genuinely welcoming to newcomers regardless of pace or experience." },
+      { type: "paragraph", text: "Beach volleyball groups at Kite Beach run regular meetups several times a week and attract a consistent mix of locals and expats. The outdoor setting, the team format, and the casual atmosphere make it one of the more relaxed ways to meet people through sport in the city." },
+      { type: "paragraph", text: "Football through five-a-side communities and organised leagues connects a huge cross-section of Dubai's expat population. Platforms like GoSporty and local Facebook groups organise pickup games across the city regularly." },
+      { type: "paragraph", text: "Basketball pickup games at courts in Dubai Sports City, JBR, and several community parks draw regular players. Showing up consistently at the same court at the same time each week is usually enough to become a recognised face and get picked up into regular games." },
+      { type: "paragraph", text: "Cycling through groups like the Dubai Roadsters creates community through long rides followed by social stops. The shared challenge of distance riding produces the kind of sustained shared experience that converts acquaintances into friends quickly." },
+
+      { type: "heading", text: "How to Turn a Playing Partner Into a Real Friend" },
+      { type: "paragraph", text: "Meeting someone at a padel session and never seeing them again is a real risk if you do not take a small number of deliberate steps. The transition from playing partner to actual friend requires a little intentionality." },
+      { type: "paragraph", text: "Get their number on the day. Do not rely on a venue WhatsApp group or social media connection to maintain contact. A direct message or number exchange at the end of a session converts a one-time encounter into a potential ongoing relationship." },
+      { type: "paragraph", text: "Suggest the same time slot the following week. The single most effective thing you can do to convert a positive first session into a friendship is to make the second meeting easy to arrange. Ask them if they are playing next week and suggest the same time. Most people will say yes." },
+      { type: "paragraph", text: "Introduce people to each other. In a new social network, being the person who connects others rather than just the person being connected positions you as a hub rather than a node. If you are playing padel with two separate groups, bring them together for a session. The value you create for others comes back in the form of a stronger network for yourself." },
+      { type: "paragraph", text: "Show up consistently. In Dubai's transient social environment, reliability is rare and therefore highly valued. The people who show up to the same session week after week become the social infrastructure that others attach to. Consistency is the single most important factor in building a real social life in Dubai through sport." },
+
+      { type: "image", src: expatsPhone, alt: "A padel player checking the Playy app courtside in Dubai", float: "none" },
+
+      { type: "paragraph", text: "Read our guide on [how to find padel players and events in Dubai](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai) for the full picture." },
+
+      { type: "heading", text: "Use Playy to Find Your People" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. For expats who are new to Dubai or building a sports social life from scratch, Playy removes the hardest part of the process: finding the right people in the first place." },
+      { type: "paragraph", text: "Instead of hoping the right person replies to a group chat message, Playy shows you players near you who are actively looking for a game at your level and availability. You can create a public session for others to join, browse sessions that players near you have already set up, and stay informed about community events and tournaments across the city." },
+      { type: "paragraph", text: "The app is free to download on iOS and already used by padel players across Dubai who are looking for exactly what most new expats need: a consistent playing network and the genuine friendships that come from it." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Building a real social life as an expat in Dubai takes intentionality but it does not take long when you approach it through sport. The city is full of people who are actively looking for connection. The padel courts, running tracks, and football pitches of Dubai are where those connections happen most naturally and most reliably." },
+      { type: "paragraph", text: "Show up. Be consistent. Get someone's number after a good session. The rest takes care of itself." },
+
+      { type: "cta", text: "Download Playy free on iOS and find your sports community in Dubai today.", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368", label: "Download Playy" },
+    ],
+  },
   {
     slug: "how-to-improve-your-padel-serve",
     title: "How to Improve Your Padel Serve",
