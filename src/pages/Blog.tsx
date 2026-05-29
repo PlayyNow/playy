@@ -8,7 +8,6 @@ import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
-import { blogPosts } from "@/data/blogPosts";
 import SEO from "@/components/SEO";
 
 const SITE_URL = "https://joinplayy.com";
