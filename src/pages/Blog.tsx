@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { blogPosts } from "@/data/blogPosts";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -7,7 +8,6 @@ import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
-import { blogPosts } from "@/data/blogPosts";
 import SEO from "@/components/SEO";
 
 const SITE_URL = "https://joinplayy.com";
@@ -15,7 +15,10 @@ const SITE_URL = "https://joinplayy.com";
 const Blog = () => {
   const [email, setEmail] = useState("");
   const { toast } = useToast();
-  const [featured, ...rest] = blogPosts;
+  const sortedPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+  const [featured, ...rest] = sortedPosts;
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
