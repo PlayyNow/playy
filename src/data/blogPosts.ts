@@ -34,6 +34,9 @@ import serveCourt from "@/assets/blog/serve-court.png";
 import expatsHero from "@/assets/blog/expats-hero.png";
 import expatsFistbump from "@/assets/blog/expats-fistbump.png";
 import expatsPhone from "@/assets/blog/expats-phone.png";
+import scoringHero from "@/assets/blog/scoring-hero.png";
+import scoringAction from "@/assets/blog/scoring-action.png";
+import scoringFistbump from "@/assets/blog/scoring-fistbump.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -57,6 +60,76 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "the-padel-scoring-system-explained-simply",
+    title: "The Padel Scoring System Explained Simply",
+    excerpt:
+      "Points, games, sets, tiebreaks, the golden point and the 2026 Star Point rule — padel scoring made simple.",
+    date: "June 1, 2026",
+    image: scoringHero,
+    ogImage: "https://joinplayy.com/blog/scoring-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Padel scoring is one of the first things new players get confused about — and one of the things experienced players get asked most often. The good news is that once you understand the structure, it is straightforward. And if you have ever watched or played tennis, you already know most of it." },
+      { type: "paragraph", text: "Here is the complete padel scoring system explained clearly, including the golden point and the brand new 2026 Star Point rule that changed professional padel this year." },
+      { type: "paragraph", text: "For the full rules of the game beyond scoring, read our [complete padel rules guide for beginners](/blog/what-are-the-rules-of-padel)." },
+
+      { type: "heading", text: "The Quick Summary" },
+      { type: "paragraph", text: "A padel match is made up of points, which form games, which form sets. Points are scored as 15, 30, 40, and game — identical to tennis. The first team to win six games wins a set. Matches are typically best of three sets, so the first team to win two sets wins the match. At 40-40, either the golden point or advantage scoring decides the game depending on where you are playing. That is the entire framework. For an authoritative overview, see [Wilson Padel](https://www.wilson.com/en-us/blog/padel/how-tos/how-do-you-score-point-padel-and-other-common-rules)." },
+
+      { type: "heading", text: "Points: 15, 30, 40, Game" },
+      { type: "paragraph", text: "Points in padel follow the exact same sequence as tennis. Zero is called love. Win one point and the score is 15. Win a second and it is 30. Win a third and it is 40. Win the fourth point and you win the game — unless the score reaches 40-40, which is called deuce." },
+      { type: "paragraph", text: "The numbers 15, 30, and 40 are historical and have no mathematical logic behind them. They come from the old French scoring system used in early tennis. You do not need to understand why they are 15, 30, and 40 rather than 1, 2, 3 — just accept them as given and they become automatic within a few sessions." },
+      { type: "paragraph", text: "One small but important detail: in padel, as in tennis, you must win a game by at least two points from deuce. This is where the golden point rule comes in, which we cover below." },
+
+      { type: "heading", text: "Games and Sets" },
+      { type: "paragraph", text: "To win a set you need to win six games with at least a two-game lead. So 6-0, 6-1, 6-2, 6-3, and 6-4 are all straightforward set wins. If the score reaches 5-5, play continues until one team reaches 7-5 or the score goes to 6-6, at which point a tiebreak is played." },
+      { type: "paragraph", text: "A standard padel match is best of three sets. The first team to win two sets wins the match. Professional matches at Premier Padel follow the same structure for most rounds, with best of five sets reserved for certain finals." },
+      { type: "paragraph", text: "Rest periods between games are 90 seconds. At the change of a set, players get 120 seconds. These are the official [International Padel Federation](https://www.padelfip.com) rules and apply across competitive play at all levels." },
+
+      { type: "heading", text: "The Tiebreak" },
+      { type: "paragraph", text: "When a set reaches 6-6, a tiebreak decides the set. The tiebreak uses a completely different counting system from the rest of the match. Points are counted as 1, 2, 3, 4, and so on rather than 15, 30, 40." },
+      { type: "paragraph", text: "The first team to reach 7 points with at least a two-point lead wins the tiebreak and the set. If the tiebreak reaches 6-6, play continues until one team leads by two — so 8-6, 9-7, 10-8, and so on. There is no cap on tiebreak scores under standard rules." },
+      { type: "paragraph", text: "Service in the tiebreak alternates every two points after the first point. The team that did not serve at the start of the tiebreak serves the first point, then the other team serves two points, then the first team serves two, and so on. Players on each team continue to alternate who receives serve as normal." },
+
+      { type: "image", src: scoringAction, alt: "Professional padel match at the FIP Finals showing live scoreboard during a tiebreak" },
+
+      { type: "heading", text: "Deuce and the Golden Point" },
+      { type: "paragraph", text: "When a game reaches 40-40 it is called deuce. How deuce is resolved depends on which rules are being used at your venue or event." },
+      { type: "paragraph", text: "Traditional advantage scoring works exactly like tennis. The team that wins the next point after deuce has advantage. If they win the following point they win the game. If they lose it the score returns to deuce and the process repeats. This can cycle multiple times in a single game and produces some of the longest, most dramatic games in padel." },
+      { type: "paragraph", text: "The golden point rule replaces all of that with a single deciding point. When the score reaches 40-40 under the golden point system, one point decides the game immediately. There is no advantage and no return to deuce. The team that wins that single point wins the game." },
+      { type: "paragraph", text: "There is a strategic element to the golden point that most beginners are not aware of: the receiving team chooses which side of the court the server must serve to. This gives the receiving pair a meaningful tactical decision — they put their stronger returner on the side that faces the server's likely direction. The serving pair must adapt but cannot override the choice. At club level in Dubai most venues use the golden point to keep matches moving efficiently." },
+
+      { type: "heading", text: "The 2026 Star Point Rule" },
+      { type: "paragraph", text: "In January 2026 [Premier Padel](https://www.premierpadel.com) introduced a new hybrid scoring system called the Star Point, which is now used across Premier Padel, the CUPRA FIP Tour, FIP Promises, and the FIP Beyond amateur circuit. It is worth knowing about because professional matches you watch will follow this system." },
+      { type: "paragraph", text: "Under the Star Point system, deuce games use traditional advantage scoring — two consecutive points required to win — but only up to three deuces. If the score returns to 40-40 for a third time in the same game, the next point is a Star Point. The Star Point works exactly like a golden point: one point decides the game, and the receiving team chooses which side receives the serve." },
+      { type: "paragraph", text: "In practice the Star Point rarely changes outcomes because most deuce situations are resolved before three deuces are reached. Its purpose is to prevent the longest possible games from going on indefinitely while preserving the drama of advantage scoring for the typical case. For recreational padel in Dubai the golden point is still the standard at deuce — the Star Point is a professional circuit rule." },
+
+      { type: "heading", text: "Who Serves and When" },
+      { type: "paragraph", text: "Service in padel alternates between teams after each game. One team serves the entire first game, then the other team serves the entire second game, and so on. Within each team, the two players alternate who serves at the start of each new set — so if Player A served first in set one, Player B serves first in set two." },
+      { type: "paragraph", text: "During a single service game, both players on the serving team serve alternately point by point. So Player A serves the first point, Player B serves the second, Player A the third, and so on for the entire game." },
+      { type: "paragraph", text: "On the receiving side, the receiving team also decides which player will receive each serve. Both receiving players must stay in position — one at the baseline to receive and one at the net — though they can switch positions between points." },
+
+      { type: "heading", text: "How Scoring Works in an Americano" },
+      { type: "paragraph", text: "The Americano format uses a completely different scoring approach from standard padel matches. In an Americano, points are tracked individually rather than by team, and partners rotate after every short set." },
+      { type: "paragraph", text: "Each set in an Americano is typically played to six games. Points you win during the set count toward your individual total regardless of your partner. By the end of the session the player with the highest individual point total wins, not the best partnership." },
+      { type: "paragraph", text: "This format removes the dependency on having a consistent partner and makes every point feel personally meaningful. It is also why Americano sessions are so good for meeting new players — the individual scoring means everyone is equally invested in every point regardless of who they are partnered with at any given time." },
+      { type: "paragraph", text: "Read our full guide on [what an Americano is and how it works](/blog/what-is-an-americano-in-padel)." },
+
+      { type: "image", src: scoringFistbump, alt: "Two padel players fist-bumping on court after a point" },
+
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "Find Players to Put It Into Practice" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Understanding the scoring system is one thing — experiencing it in a real match is another. The fastest way to make scoring feel natural is simply to play more." },
+      { type: "paragraph", text: "Playy matches you with players at your level and availability across Dubai so you can find a partner for your next session without the group chat back and forth. Download the app, set your level and sport, and find your match today." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Padel scoring follows the same structure as tennis — 15, 30, 40, game, set, match. The only genuinely new concepts are the golden point at deuce and the tiebreak, both of which are simple once you have seen them play out once in a real game. The 2026 Star Point rule matters if you are watching professional padel but does not affect recreational play in Dubai." },
+      { type: "paragraph", text: "The best way to stop being confused by padel scoring is to play a few sets and keep score out loud as you go. It becomes automatic faster than you think." },
+
+      { type: "cta", text: "Download Playy free on iOS and find your next padel partner in Dubai today.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "how-expats-make-friends-through-sport-in-dubai",
     title: "How Expats Make Friends Through Sport in Dubai",
