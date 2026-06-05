@@ -37,6 +37,9 @@ import expatsPhone from "@/assets/blog/expats-phone.png";
 import scoringHero from "@/assets/blog/scoring-hero.png";
 import scoringAction from "@/assets/blog/scoring-action.png";
 import scoringFistbump from "@/assets/blog/scoring-fistbump.png";
+import footballHero from "@/assets/blog/football-hero.png";
+import footballIndoor from "@/assets/blog/football-indoor.png";
+import footballCelebration from "@/assets/blog/football-celebration.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -60,6 +63,67 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "pickup-football-in-dubai",
+    title: "Pickup Football in Dubai: The Complete Guide",
+    excerpt:
+      "With World Cup fever in the air, here is how to actually get on the pitch — venues, platforms, communities and how to play through the Dubai summer.",
+    date: "June 4, 2026",
+    image: footballHero,
+    ogImage: "https://joinplayy.com/blog/football-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. With the 2026 FIFA World Cup dominating conversations and screens across Dubai right now, football fever is at an all-time high in the city. And for anyone wanting to get off the sofa and actually play rather than just watch, Dubai has one of the most active casual football scenes in the region." },
+      { type: "paragraph", text: "The challenge is knowing where to find it. Here is the complete guide to pickup football in Dubai right now." },
+
+      { type: "heading", text: "The Challenge With Football in Dubai" },
+      { type: "paragraph", text: "Unlike padel where you only need four players and a relatively small court, football requires more organisation. A 5-a-side game needs at least eight players including substitutes, a pitch booking, and enough people who actually show up. The coordination problem is real and it is why so many casual football players in Dubai end up playing less than they want to." },
+      { type: "paragraph", text: "The group chat model that most people default to — texting a sprawling WhatsApp group hoping ten people are free at the same time — works occasionally but fails often. Pitch bookings get wasted, games fall apart at the last minute, and the enthusiasm around watching football never quite converts into actually playing." },
+      { type: "paragraph", text: "The good news is that Dubai's football infrastructure has improved significantly and there are now several ways to get into a game without having to organise one yourself from scratch." },
+
+      { type: "heading", text: "Join a WhatsApp or Facebook Football Group" },
+      { type: "paragraph", text: "The fastest starting point for most players is an existing community group. Dubai Football Players on Facebook is one of the largest and most active, with games announced regularly across multiple venues and formats from 5-a-side to 11-a-side. WhatsApp groups organised by area — JBR, JLT, Downtown, Dubai Sports City — also coordinate regular games and are worth searching for through existing contacts at your nearest pitch." },
+      { type: "paragraph", text: "The limitation of groups is the same as always: noise, unreliability, and a lot of coordination effort for the person running each game. They work well once you are embedded in a community but can feel chaotic when you are new and do not know who to trust to actually show up." },
+
+      { type: "heading", text: "Best Venues for Pickup Football in Dubai" },
+      { type: "paragraph", text: "Dubai has a strong selection of 5-a-side and 7-a-side venues spread across the city. These are the most active for casual and pickup play right now." },
+      { type: "paragraph", text: "[Ballers Dubai](https://ballers.ae) at Downtown Dubai has four 5-a-side and two 8-a-side outdoor pitches with a prime location near the fountain. Court hire starts at around AED 500 per hour for 5-a-side and the venue runs open sessions alongside private bookings. Open daily from 6am to midnight." },
+      { type: "paragraph", text: "ISD Padel and Sports in Dubai Sports City offers multiple pitches including 5-a-side and 7-a-side formats. It is one of the most popular venues for casual mid-morning and weekend games, with quality surfaces and consistent availability. The indoor option makes it viable year round." },
+      { type: "paragraph", text: "MVP Lab in Al Quoz is one of Dubai's most social football venues, known for its high-energy atmosphere and well-maintained turf. Particularly popular with expats for after-work and weekend games. Pickup sessions run regularly throughout the week." },
+      { type: "paragraph", text: "Al Barsha Pond Park has outdoor 5-a-side pitches with evening lighting, making it one of the more affordable options for casual games. Free access for casual players during off-peak hours with a family-friendly surrounding environment." },
+      { type: "paragraph", text: "Zabeel Park near Sheikh Zayed Road has a full-size grass pitch at affordable hourly rates and is well positioned for players based in Downtown, DIFC, and the surrounding areas. Popular for lunchtime and early evening games." },
+      { type: "paragraph", text: "JLT Football Field in Cluster O is one of the most convenient options for players living in JLT, Marina, and JBR. After-work games are the primary use case here and the location fills a real gap in the western Dubai football map." },
+      { type: "paragraph", text: "[Dubai Sports World](https://dubaisportsworld.ae) operates seasonally as the region's largest indoor sports venue covering 300,000 square feet, including 5-a-side pitches. Pitch hire starts from around AED 350 per hour at off-peak times. Check their schedule for seasonal opening dates." },
+
+      { type: "image", src: footballIndoor, alt: "Indoor 5-a-side football pitch in Dubai at night with city skyline visible through the windows" },
+
+      { type: "heading", text: "Organised Pickup Game Platforms" },
+      { type: "paragraph", text: "For players who want to join a game without organising one, several platforms now run organised pickup football in Dubai on a regular schedule." },
+      { type: "paragraph", text: "[GoSporty](https://gosporty.com) is one of the most established platforms for organised casual sport in Dubai, running pickup football games across multiple venues throughout the week. You book a spot in an existing game rather than organising one from scratch, which removes the coordination problem entirely. Games are typically 5-a-side and 7-a-side with mixed ability levels." },
+      { type: "paragraph", text: "Playo is a court booking and player matching platform active across Dubai that lists available pitches and connects players looking for games. Useful both for finding a pitch to book and for finding other players who need someone to fill a spot." },
+      { type: "paragraph", text: "Facebook Events and Meetup also surface regular organised football games across Dubai, particularly for expat-focused communities. Searching football Dubai on both platforms will surface active groups worth joining." },
+
+      { type: "heading", text: "Playing Football in Dubai Summer" },
+      { type: "paragraph", text: "The same heat management principles that apply to padel apply to football in Dubai summer. Outdoor football between 9am and 7pm from May through September is genuinely dangerous in peak heat. The only viable outdoor slots are early morning before 8am or evening after 7pm when temperatures drop to manageable levels." },
+      { type: "paragraph", text: "The better option for summer football is indoor venues with air conditioning. ISD Sports, MVP Lab, and Dubai Sports World all offer fully air-conditioned indoor pitches that make competitive football comfortable year round regardless of outdoor conditions. Most serious Dubai football players treat summer as an indoor season rather than a break from the sport." },
+      { type: "paragraph", text: "Hydration during any summer session matters significantly more than in cooler months. Budget at least one litre of water per hour of play and arrive already hydrated rather than trying to catch up during the game." },
+      { type: "paragraph", text: "Our guide on [the best time to play padel in Dubai](/blog/what-is-the-best-time-to-play-padel-in-dubai) covers the heat management principles that apply to football just as much." },
+
+      { type: "image", src: footballCelebration, alt: "Group of football players celebrating a goal at an indoor pitch in Dubai" },
+
+      { type: "paragraph", text: "Read our guide on [how expats make friends through sport in Dubai](/blog/how-expats-make-friends-through-sport-in-dubai) for the broader picture." },
+
+      { type: "heading", text: "Use Playy to Find Football Players" },
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Beyond padel, Playy connects football players in Dubai who are looking for the same thing — consistent partners at their level without the group chat back and forth." },
+      { type: "paragraph", text: "Whether you need one more player to complete your 5-a-side lineup or you are looking to join an existing session, Playy matches you by sport, skill level, and availability. Create a session, browse what is already happening near you, and find your players today." },
+      { type: "paragraph", text: "The app is free to download on iOS and available across Dubai for padel, football, basketball, tennis, and gym sessions." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Pickup football in Dubai is more accessible than most people realise. The infrastructure is there, the communities exist, and the organised platforms have made it possible to join a game without owning an entire football team. With the World Cup running and football energy at its highest in years, there has never been a better moment to get on the pitch." },
+      { type: "paragraph", text: "Find your venue, find your players, and get playing. The group chat can wait." },
+
+      { type: "cta", text: "Download Playy free on iOS at joinplayy.com and find football players in Dubai today.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "the-padel-scoring-system-explained-simply",
     title: "The Padel Scoring System Explained Simply",
