@@ -40,6 +40,9 @@ import scoringFistbump from "@/assets/blog/scoring-fistbump.png";
 import footballHero from "@/assets/blog/football-hero.png";
 import footballIndoor from "@/assets/blog/football-indoor.png";
 import footballCelebration from "@/assets/blog/football-celebration.png";
+import worldcupHero from "@/assets/blog/worldcup-hero.png";
+import worldcupFanzone from "@/assets/blog/worldcup-fanzone.png";
+import worldcupBeach from "@/assets/blog/worldcup-beach.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -63,6 +66,71 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "where-to-watch-the-2026-fifa-world-cup-in-dubai",
+    title: "Where to Watch the 2026 FIFA World Cup in Dubai",
+    excerpt:
+      "Match times, the best sports bars, fan zones and beach screenings — the complete Dubai guide to the 2026 FIFA World Cup.",
+    date: "June 8, 2026",
+    image: worldcupHero,
+    ogImage: "https://joinplayy.com/blog/worldcup-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The <a href=\"https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026\" target=\"_blank\" rel=\"noopener noreferrer\">2026 FIFA World Cup</a> is here, running from June 11 to July 19, and Dubai is fully locked in. Sports bars are packed, fan zones are opening across the city, and the energy around football in Dubai right now is genuinely unlike anything outside of a host city." },
+      { type: "paragraph", text: "Whether you are watching alone, with friends, or looking to meet new people over a match, here is the complete guide to where and how to watch every game in Dubai this summer." },
+      { type: "paragraph", text: "If you are new to Dubai and looking to build a sports community, read our guide on <a href=\"/blog/how-expats-make-friends-through-sport-in-dubai\">how expats make friends through sport in Dubai</a>." },
+
+      { type: "heading", text: "Match Times in Dubai" },
+      { type: "paragraph", text: "The 2026 World Cup is hosted across the United States, Canada, and Mexico, which creates some unusual timing for Dubai viewers. The UAE is GMT+4, which means match times fall across three main windows depending on the time zone of the host city." },
+      { type: "paragraph", text: "Most group stage matches kick off at 11pm, 2am, or 5am UAE time. The 11pm slot is the most manageable for an evening out at a sports bar. The 2am matches are late but very much part of Dubai's World Cup culture — the city runs late enough that venues filling up at 1.30am for a 2am kickoff is completely normal. The 5am matches are the hardest to catch live, which is why several venues are running breakfast or early morning specials to make them social occasions rather than solitary alarm-clock events." },
+      { type: "paragraph", text: "As the tournament progresses into the knockout stages the scheduling becomes more concentrated and the biggest matches tend to fall in the 11pm or 2am slots, which makes the later rounds easier to follow from Dubai." },
+
+      { type: "heading", text: "How to Watch at Home" },
+      { type: "paragraph", text: "<a href=\"https://www.beinsports.com/en-mena/\" target=\"_blank\" rel=\"noopener noreferrer\">beIN Sports</a> is the official broadcaster for the 2026 FIFA World Cup in the UAE and holds exclusive rights to all 104 matches. A beIN Sports subscription gives you access to the full tournament including every group stage game, all knockout rounds, and the final on July 19." },
+      { type: "paragraph", text: "beIN Connect is the streaming platform for watching on phones, tablets, and smart TVs. TOD by beIN also offers the full World Cup with additional features including MultiView for watching two matches simultaneously, 4K and HDR streaming, real-time statistics, and automatic match highlights. talabat has also partnered with TOD to offer access through their platform for subscribers." },
+      { type: "paragraph", text: "For casual viewers who only want specific matches, single-match or short-term subscriptions are available through beIN Connect rather than committing to a full season package." },
+
+      { type: "heading", text: "Best Sports Bars in Dubai for the World Cup" },
+      { type: "paragraph", text: "Dubai's sports bar scene is well developed and almost every established venue is showing the full tournament. These are the ones most worth knowing about right now." },
+      { type: "paragraph", text: "The Coterie has been named Dubai's Best Sports Bar 2025 and is going all out for the tournament with its Festiball concept — giant screens, CO2 cannons, flags, drums, and live DJs for headline fixtures. One of the most atmospheric options in the city for big match nights." },
+      { type: "paragraph", text: "Seven Sports Bar at the Marriott Resort Palm Jumeirah has 13 big screens, PlayStation gaming stations, darts, and a live DJ between matches. Open from 5pm to 3am daily throughout the tournament with happy hour from 5pm to 7pm. Free entry." },
+      { type: "paragraph", text: "The Croft at Dubai Marriott Harbour Hotel in Dubai Marina is screening every match across six indoor screens with drinks from AED 17. Their Predict and Win competition runs throughout the tournament with a AED 10,000 bar tab as the grand prize for the best prediction record." },
+      { type: "paragraph", text: "Crafty Fox Gastropub at Jumeirah Golf Estates holds up to 400 guests across its air-conditioned tent with two giant LED screens and 16 TVs throughout the venue. Breakfast options for morning matches, happy hour from AED 35, and group packages available for bigger nights." },
+      { type: "paragraph", text: "McGettigan's at JLT is Dubai's first official McGettigan's Fan Zone and the base of the official England Supporters Club in the UAE during the World Cup. All 104 matches shown live on giant screens with entry from AED 60 fully redeemable on food and drinks." },
+      { type: "paragraph", text: "McCafferty's in JVC is the local Irish pub option — popular with the community crowd, big games and big atmospheres without the hotel pricing. Showing all matches live from June 11." },
+      { type: "paragraph", text: "The Irish Village in Al Garhoud is a legendary Dubai sports venue that has been a fixture of the city's football watching culture for years. Always busy for big matches and genuinely good for a mixed crowd from across the city." },
+      { type: "paragraph", text: "Footy Central at Emirates Golf Club is showing the full World Cup across two giant screens and LED displays with a dedicated match-day menu and a spend-and-win promotion offering a chance to win a trip to New York." },
+      { type: "paragraph", text: "Joe's Backyard is screening every match at both its Jumeirah Islands Clubhouse and Dubai Festival City locations, with daily breakfast service for the early kickoffs and a special World Cup breakfast menu at Festival City." },
+      { type: "paragraph", text: "Kickers at Dubai Sports City deserves a special mention for the setting alone — it is the only venue where you can watch the World Cup overlooking an actual football pitch." },
+      { type: "image", src: worldcupFanzone, alt: "Fans waving scarves inside a packed Dubai sports bar watching a World Cup match on a big screen" },
+
+      { type: "heading", text: "Fan Zones and Big Venue Screenings" },
+      { type: "paragraph", text: "Beyond sports bars, several larger venues are creating dedicated World Cup fan zone experiences across Dubai." },
+      { type: "paragraph", text: "The Stadium at Tent nightclub is a purpose-built immersive fan zone experience designed to replicate the atmosphere of a live stadium. Tickets are priced at AED 160 including one drink and entry to the opening game screening. Bookable through <a href=\"https://www.platinumlist.net\" target=\"_blank\" rel=\"noopener noreferrer\">Platinumlist</a>." },
+      { type: "paragraph", text: "Barasti at Le Meridien Mina Seyahi offers a beachside viewing experience with massive outdoor screens, live DJ sets, and post-match celebrations. One of Dubai's most iconic outdoor venues and particularly good for the later evening matches when the heat drops." },
+      { type: "paragraph", text: "Chalco's Cantina in Dubai Marina is screening every match with Mexican food and drinks promotions running throughout the tournament. A more relaxed alternative to the packed sports bars for fans who want to watch without a crowd-heavy atmosphere." },
+      { type: "paragraph", text: "Lock, Stock and Barrel across multiple Dubai locations is running laser shows, balloon drops, and live bands for headline fixtures — festival-level production for the biggest games." },
+      { type: "paragraph", text: "The Yard Sports Bar at Topgolf Dubai is combining live match screenings with the driving range experience. A genuinely different option for fans who want to mix watching football with hitting a few balls between halves." },
+
+      { type: "heading", text: "Tips for Getting the Most Out of Match Nights in Dubai" },
+      { type: "paragraph", text: "Book ahead for the big matches. Semi-finals and the final fill up days in advance at every quality venue. Group bookings especially need early reservations." },
+      { type: "paragraph", text: "Arrive 30 minutes before kickoff minimum. Dubai sports bars fill extremely quickly for knockout matches and finding a decent seat after kickoff is difficult at popular venues." },
+      { type: "paragraph", text: "For the 5am matches, several venues running breakfast specials make the early starts genuinely social. Joe's Backyard and Crafty Fox are both good options for early morning kickoffs with food options rather than just drinks." },
+      { type: "paragraph", text: "For the 2am matches, Uber availability drops significantly at 3 to 4am after popular events. Book your return in advance or plan to stay until later when availability improves." },
+      { type: "paragraph", text: "Always use licensed venues and official broadcasters. Unauthorised streaming or unapproved public screenings may breach UAE copyright and broadcasting regulations." },
+      { type: "image", src: worldcupBeach, alt: "Outdoor beach screening of a World Cup match in Dubai with the city skyline at night" },
+      { type: "paragraph", text: "Read our guide on <a href=\"/blog/pickup-football-in-dubai\">how to find pickup football games in Dubai</a>." },
+
+      { type: "heading", text: "From Watching to Playing" },
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The World Cup has a way of making people want to get off the sofa and actually play. If watching four weeks of elite football has inspired you to find a game, Playy connects football players across Dubai for exactly this — casual sessions, pickup games, and consistent playing partners at your level." },
+      { type: "paragraph", text: "The app is free to download on iOS and available for football, padel, basketball, tennis, and gym sessions across Dubai." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Dubai is one of the best cities in the world to experience a major football tournament from the outside. The infrastructure, the international crowd, and the genuine passion across more than 200 nationalities living in the city creates a World Cup atmosphere that is hard to find anywhere else that is not a host nation." },
+      { type: "paragraph", text: "The tournament runs until July 19. There is still plenty of football to watch and plenty of venues to watch it from. Get out and enjoy it." },
+      { type: "paragraph", text: "Download Playy free on iOS at joinplayy.com — find football players in Dubai and keep playing after the final whistle." },
+      { type: "cta", text: "Find football players in Dubai", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "pickup-football-in-dubai",
     title: "Pickup Football in Dubai: The Complete Guide",
