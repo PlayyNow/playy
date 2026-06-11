@@ -43,6 +43,9 @@ import footballCelebration from "@/assets/blog/football-celebration.png";
 import worldcupHero from "@/assets/blog/worldcup-hero.png";
 import worldcupFanzone from "@/assets/blog/worldcup-fanzone.png";
 import worldcupBeach from "@/assets/blog/worldcup-beach.png";
+import watchTogetherHero from "@/assets/blog/watch-together-hero.png";
+import watchTogetherFanzone from "@/assets/blog/watch-together-fanzone.png";
+import watchTogetherPhones from "@/assets/blog/watch-together-phones.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -66,6 +69,63 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-find-people-to-watch-the-world-cup-with-in-dubai",
+    title: "How to Find People to Watch the World Cup With in Dubai",
+    excerpt:
+      "Nationality supporters clubs, Reddit, fan zones and sports bars — how to find people to watch the 2026 World Cup with in Dubai.",
+    date: "June 11, 2026",
+    image: watchTogetherHero,
+    ogImage: "https://joinplayy.com/blog/watch-together-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The <a href=\"https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026\" target=\"_blank\" rel=\"noopener noreferrer\">2026 FIFA World Cup</a> kicked off on June 11 and runs until July 19 — and Dubai, with its 200-plus nationalities and deeply international character, is one of the most electric cities in the world to experience it from. Every match night feels like a micro-World Cup of its own, with fans from dozens of countries packed into the same venues cheering for completely different teams." },
+      { type: "paragraph", text: "The problem is that watching a major tournament alone is one of the lonelier experiences a person can have. If you are new to Dubai, between social circles, or simply do not have the right people around for match nights, here is exactly how to fix that." },
+      { type: "paragraph", text: "Check our full guide on <a href=\"/blog/where-to-watch-the-2026-fifa-world-cup-in-dubai\">where to watch the World Cup in Dubai</a> for the best venues." },
+
+      { type: "heading", text: "Why Watching Alone in Dubai Happens More Than It Should" },
+      { type: "paragraph", text: "Dubai is a city of over 3.5 million people and yet the experience of watching a major sporting event without anyone to share it with is genuinely common, particularly among people who are newer to the city or whose social circles have not yet aligned around sport." },
+      { type: "paragraph", text: "The challenge is not a lack of people — it is a lack of the right structure for finding them. Most people in Dubai are open to new social connections, particularly around shared experiences like football. The barrier is almost never willingness. It is visibility. Nobody knows you are looking for someone to watch the match with unless you make that visible somehow." },
+      { type: "paragraph", text: "The World Cup is actually one of the easiest moments in the year to meet new people in Dubai because everyone has a ready-made conversation starter and a shared emotional context. Use that." },
+
+      { type: "heading", text: "Join a Nationality Supporters Group" },
+      { type: "paragraph", text: "The fastest way to find a ready-made group for World Cup viewing is to connect with your own national supporters community. Almost every nation with a team in the tournament has an official or unofficial supporters club in Dubai, and many without a team still have communities that gather around the football." },
+      { type: "paragraph", text: "McGettigan's at JLT is the official base of the England Supporters Club in the UAE during the tournament — a useful starting point if you are English. Most national groups can be found through a quick Facebook search combining your nationality and Dubai, or through <a href=\"https://www.meetup.com\" target=\"_blank\" rel=\"noopener noreferrer\">Meetup</a> where many supporters clubs post their match-watching events publicly." },
+      { type: "paragraph", text: "The advantage of nationality groups is the instant shared context. You already have a team, a history, and a level of invested emotion in common with everyone else in the room. Conversation starts itself." },
+      { type: "paragraph", text: "If your country is not in the tournament, adopting a team is a completely accepted practice in Dubai's football culture. Pick a team with a style of play you enjoy, show up to their matches at the right venues, and you will find people who feel exactly the same way." },
+
+      { type: "heading", text: "Use Reddit and Facebook Groups" },
+      { type: "paragraph", text: "Reddit's <a href=\"https://www.reddit.com/r/dubai\" target=\"_blank\" rel=\"noopener noreferrer\">r/dubai</a> is one of the most active and genuinely helpful expat communities in the city. Posting a simple message — looking for people to watch the Argentina match tonight, anyone heading to a venue in Marina — gets real responses from real people. The community is used to this kind of request and the football context makes it even more natural than usual." },
+      { type: "paragraph", text: "Facebook Groups including Dubai Expats, Dubai Football Players, and numerous nationality-specific groups also surface World Cup watch party announcements, organised group bookings at venues, and people looking for others to join them. Searching World Cup Dubai or match night Dubai in any of these groups right now will return current activity." },
+      { type: "paragraph", text: "WhatsApp communities for specific venues are also worth knowing about. Several Dubai sports bars maintain community WhatsApp groups where match plans are announced and people coordinate around specific games. Ask at the bar on your first visit." },
+
+      { type: "image", src: watchTogetherFanzone, alt: "Group of friends laughing together at a Dubai Fan Zone with the Burj Khalifa skyline in the background" },
+
+      { type: "heading", text: "Show Up to Fan Zones and Sports Bars Solo" },
+      { type: "paragraph", text: "This is the most underrated approach and it works better than most people expect. Dubai's football watching culture is unusually open to solo arrivals. The shared context of a major tournament, the mix of nationalities in any given venue, and the emotional highs and lows of match football all combine to create an environment where strangers talk to each other naturally." },
+      { type: "paragraph", text: "Arriving at a venue like The Irish Village, McGettigan's, or Barasti for a big group stage match as a solo fan is not socially awkward — it is just what a large percentage of the room is also doing. Sit at a bar rather than a table, which positions you for conversation rather than isolation. Wear your team's jersey or colours if you have them, which is the single most effective conversation starter in a football venue." },
+      { type: "paragraph", text: "Fan zones specifically are designed for exactly this dynamic. The Stadium experience at Tent nightclub, Barasti's outdoor screenings, and the Footy Central setup at Emirates Golf Club all create enough crowd energy and physical proximity that meeting people happens organically without needing to engineer it." },
+
+      { type: "heading", text: "Turn Match Night Into a Regular Thing" },
+      { type: "paragraph", text: "The World Cup runs for five weeks and the group stage alone gives you multiple matches every day. That is enough time to convert a one-off encounter at a sports bar into a genuine ongoing connection if you are intentional about it." },
+      { type: "paragraph", text: "The move is simple: when you have a good experience watching a match with someone — whether a stranger you met at the bar or a new acquaintance who invited you to a venue — get their number before you leave. Suggest the next match. The shared investment in the tournament gives you a natural reason to meet again that does not require either person to make a bigger social ask than a text message." },
+      { type: "paragraph", text: "By the time the knockout stages arrive, the people you have watched the group stage with have shared enough genuine emotional experiences — goals, penalties, upsets — to have the foundation of a real friendship. The World Cup is a compressed relationship-building environment. Use it deliberately." },
+      { type: "paragraph", text: "Once the tournament ends, read our guide on <a href=\"/blog/pickup-football-in-dubai\">how to find pickup football games in Dubai</a> to keep playing." },
+
+      { type: "image", src: watchTogetherPhones, alt: "Two football fans in jerseys exchanging numbers on their phones at a Dubai sports bar" },
+
+      { type: "paragraph", text: "Read our guide on <a href=\"/blog/how-expats-make-friends-through-sport-in-dubai\">how expats make friends through sport in Dubai</a> for the longer term picture." },
+
+      { type: "heading", text: "Use Playy to Find Your Sports Community" },
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The World Cup ends on July 19 but the sports community you build around it does not have to. Playy connects football players, padel players, basketball players, and gym-goers across Dubai who are looking for exactly what most people want from sport in this city — consistent playing partners and the genuine friendships that come from showing up together week after week." },
+      { type: "paragraph", text: "If you meet people during the World Cup who love football as much as you do, Playy is how you keep playing together after the final whistle. Download it free on iOS and find your sports community in Dubai today." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Watching the World Cup alone in Dubai is a choice, not an inevitability. The city is full of people who are actively looking for the same experience you are — a group, a venue, a shared investment in the tournament. The tools to find them are there. Reddit, Facebook groups, nationality supporters clubs, fan zones, and simply showing up and talking to the person next to you at the bar all work." },
+      { type: "paragraph", text: "The tournament runs until July 19. There are still weeks of football left. Make the most of it." },
+
+      { type: "cta", text: "Download Playy free on iOS at joinplayy.com and find your sports community in Dubai today.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "where-to-watch-the-2026-fifa-world-cup-in-dubai",
     title: "Where to Watch the 2026 FIFA World Cup in Dubai",
