@@ -46,6 +46,9 @@ import worldcupBeach from "@/assets/blog/worldcup-beach.png";
 import watchTogetherHero from "@/assets/blog/watch-together-hero.png";
 import watchTogetherFanzone from "@/assets/blog/watch-together-fanzone.png";
 import watchTogetherPhones from "@/assets/blog/watch-together-phones.png";
+import playersHero from "@/assets/blog/players-hero.png";
+import playersCelebration from "@/assets/blog/players-celebration.png";
+import playersBar from "@/assets/blog/players-bar.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -69,6 +72,66 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "best-football-players-to-watch-2026-world-cup",
+    title: "The Best Football Players to Watch at the 2026 World Cup",
+    excerpt:
+      "Messi, Ronaldo, Mbappe, Yamal and the breakout stars defining the 2026 FIFA World Cup — and who Dubai is watching.",
+    date: "June 15, 2026",
+    image: playersHero,
+    ogImage: "https://joinplayy.com/blog/players-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The <a href=\"https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026\" target=\"_blank\" rel=\"noopener noreferrer\">2026 FIFA World Cup</a> is already underway and the early matches have delivered exactly what a 48-team expanded tournament promised — upsets, breakout performances, and moments that will be replayed for years. With the group stage in full swing, here are the players who are defining this tournament and who are worth clearing your schedule to watch. Follow <a href=\"https://www.aljazeera.com/sports/football/world-cup\" target=\"_blank\" rel=\"noopener noreferrer\">Al Jazeera World Cup coverage</a> for ongoing match analysis." },
+      { type: "paragraph", text: "Check our guide on <a href=\"/blog/where-to-watch-the-2026-fifa-world-cup-in-dubai\">where to watch the World Cup in Dubai</a> for the best venues." },
+
+      { type: "heading", text: "The Legends Playing Their Last World Cup" },
+      { type: "paragraph", text: "This tournament carries a particular emotional weight because several of the sport's all-time greats are making their final World Cup appearance." },
+      { type: "paragraph", text: "Lionel Messi at 38 years old is at his sixth and almost certainly final World Cup. The defending champion with Argentina arrived in North America carrying a different kind of pressure than any previous tournament — not the weight of unfulfilled potential but the responsibility of a defending champion. His role has evolved from explosive forward to creative orchestrator, and his influence on Argentina's attacking play remains decisive even as his workload is managed more carefully than in previous tournaments." },
+      { type: "paragraph", text: "Cristiano Ronaldo is making what is widely expected to be his final World Cup appearance with Portugal. Now 41, Ronaldo has spent the last two seasons in the Saudi Pro League with Al Nassr and arrived in North America with something to prove to a football world that has debated whether his best days are behind him. His ability to deliver in big moments at major tournaments is well documented and Portugal's chances in the knockout rounds will be closely tied to whether he can find that gear one more time." },
+      { type: "paragraph", text: "Luka Modric with Croatia and Robert Lewandowski with Poland are similarly finishing World Cup careers that have defined midfield and striker play respectively for over a decade. Each match involving these players carries the awareness that it could be among their last at this level." },
+
+      { type: "heading", text: "The Favourites to Win the Golden Boot" },
+      { type: "paragraph", text: "The <a href=\"https://www.premierpadel.com\" target=\"_blank\" rel=\"noopener noreferrer\">Golden Boot race</a> at the 2026 World Cup is already taking shape with several players making early statements in the group stage." },
+      { type: "paragraph", text: "Kylian Mbappe arrives as the most dangerous big-stage performer in the tournament. Playing for Real Madrid and already one goal shy of France's all-time scoring record, Mbappe enters this World Cup as arguably the most complete attacker in world football. He already owns a World Cup title and a World Cup final hat trick. If France progress as far as their squad depth suggests they should, Mbappe will be at the centre of everything." },
+      { type: "paragraph", text: "Erling Haaland with Norway is the tournament's most intriguing dark horse story. Norway enter as genuine contenders despite being overlooked by most pre-tournament predictions, and Haaland's relentless goal-scoring record at club level with Manchester City makes him a constant threat every time he is on the pitch. A deep Norway run would make him one of the stories of the summer." },
+      { type: "paragraph", text: "Harry Kane with England enters arguably the most important tournament of his career. He has scored 36 goals in 25 games for Bayern Munich last season and carries the hopes of a nation that last won the World Cup in 1966. England have the squad depth to go deep and Kane remains one of the most clinical finishers in the game when the pressure is highest." },
+
+      { type: "heading", text: "The Young Stars to Watch" },
+      { type: "paragraph", text: "Every World Cup produces its generation-defining young talent and 2026 is no different. Several players under 22 are already standing out in the early matches." },
+      { type: "paragraph", text: "Lamine Yamal at 18 years old is the player the entire football world has been waiting to see at a World Cup. The Spain winger helped his country win Euro 2024 at 16 and arrives at this tournament as the most exciting young talent in the game. His combination of pace, technique, and composure under pressure is genuinely unusual for someone his age and Spain's early performances suggest he will have multiple opportunities to produce the kind of moments that define careers." },
+      { type: "paragraph", text: "Gilberto Mora of Mexico is the youngest participant in the entire tournament at 17 years old. The wunderkind enters carrying enormous expectations in a host nation desperate for a deep run, and his potential is such that a single defining performance could turn him into a global star overnight." },
+      { type: "paragraph", text: "Folarin Balogun has already announced himself with a strong opening performance for the United States in their group stage opener, scoring and showing the movement and finishing that has made him one of the most exciting young American forwards in a generation. With the US as co-hosts, the pressure and the spotlight are enormous and Balogun appears to thrive in both." },
+      { type: "paragraph", text: "Giovanni Reyna also impressed in the United States opening match, showing the creativity and quality that has always suggested he could be one of the defining players of his generation when fully fit and confident. This tournament feels like the moment that potential finally converts into consistent major tournament performance." },
+
+      { type: "image", src: playersCelebration, alt: "Young football stars celebrating a goal in front of a packed stadium of waving flags" },
+
+      { type: "heading", text: "The Dark Horse Performers" },
+      { type: "paragraph", text: "Beyond the favourites and the headline names, every World Cup produces players who arrive relatively unknown and leave as global stars. Several are already emerging in the early group stage matches." },
+      { type: "paragraph", text: "Luis Diaz of Colombia brings speed, flair and unpredictability that makes him one of the most difficult players in the tournament to defend against. Colombia are a genuine dark horse team and Diaz is the player most likely to be the reason they go further than expected." },
+      { type: "paragraph", text: "William Saliba of France may not be the name most casual fans know yet but he is anchoring what is arguably the strongest defensive unit in the tournament. Arsenal's Premier League-winning defender is the kind of player who makes elite defending look straightforward — often the most impressive thing to watch at a World Cup for anyone who understands the game beyond just goals." },
+      { type: "paragraph", text: "Michael Olise of Bayern Munich is described by some analysts as the breakout star casual fans have not fully discovered yet. By the time the knockout stages arrive, that could change dramatically." },
+
+      { type: "heading", text: "Who Dubai is Watching" },
+      { type: "paragraph", text: "Dubai's 200-plus nationalities make the city one of the most genuinely multi-national World Cup viewing environments in the world. Every match has a substantial local following in the city for both teams regardless of who is playing." },
+      { type: "paragraph", text: "The strongest passions in Dubai this tournament are tracking closely with the Arab world's traditional footballing allegiances — Morocco, who became the first African team to reach a World Cup semi-final in Qatar 2022 and enter this tournament with even higher expectations, are widely followed. Saudi Arabia, Egypt, and Tunisia all have significant followings across the city." },
+      { type: "paragraph", text: "The European giants command their usual passionate followings from their respective expatriate communities — England fans at McGettigan's, French supporters spread across the Marina and JBR venues, Spanish fans particularly concentrated around their community clubs. Argentina's defending champion status has given them a broader following than just the South American expatriate community in Dubai." },
+      { type: "paragraph", text: "Read our guide on <a href=\"/blog/how-to-find-people-to-watch-the-world-cup-with-in-dubai\">how to find people to watch the World Cup with in Dubai</a>." },
+
+      { type: "image", src: playersBar, alt: "Mixed nationality group of fans celebrating a goal together at a Dubai sports bar" },
+
+      { type: "paragraph", text: "Read our guide on <a href=\"/blog/pickup-football-in-dubai\">how to find pickup football games in Dubai</a>." },
+
+      { type: "heading", text: "From Watching to Playing" },
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Watching elite football at a World Cup has a way of making people want to get out and play. If the tournament has inspired you to find a game in Dubai, Playy connects football players across the city by skill level and availability so you can find your people without the group chat back and forth." },
+      { type: "paragraph", text: "The app is free to download on iOS and available for football, padel, basketball, tennis, and gym sessions across Dubai." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "The 2026 World Cup is already delivering on its promise as the most star-studded tournament in history. Messi and Ronaldo writing their final chapters, Mbappe and Yamal defining the next decade of world football, and a new generation of Americans, Norwegians, and Colombians announcing themselves on the biggest stage the sport offers." },
+      { type: "paragraph", text: "There are still weeks of football left. Clear your schedule for the knockout rounds and find your people to watch it with." },
+
+      { type: "cta", text: "Download Playy free on iOS at joinplayy.com — find football players in Dubai and keep playing after the final whistle.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "how-to-find-people-to-watch-the-world-cup-with-in-dubai",
     title: "How to Find People to Watch the World Cup With in Dubai",
