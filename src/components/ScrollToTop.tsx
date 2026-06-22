@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 /**
  * Scrolls the window to the top whenever the route pathname changes.
@@ -7,19 +7,6 @@ import { useLocation, useNavigate } from "react-router-dom";
  */
 const ScrollToTop = () => {
   const { pathname, hash } = useLocation();
-  const navigate = useNavigate();
-
-  // Strip trailing slash (except root "/") and replace history entry so
-  // /blog/foo/ canonicalises to /blog/foo. Mirrors a 301 for client nav.
-  useEffect(() => {
-    if (pathname.length > 1 && pathname.endsWith("/")) {
-      const stripped = pathname.replace(/\/+$/, "") || "/";
-      navigate(
-        { pathname: stripped, search: window.location.search, hash },
-        { replace: true },
-      );
-    }
-  }, [pathname, hash, navigate]);
 
   useEffect(() => {
     if (hash) {
