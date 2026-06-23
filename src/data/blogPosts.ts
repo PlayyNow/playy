@@ -76,6 +76,68 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-meet-people-through-sports-in-dubai",
+    title: "How to Meet People Through Sports in Dubai",
+    excerpt:
+      "Padel, running, football and the Dubai Mallathon — exactly how to use sport to build a real social life in Dubai right now.",
+    date: "June 19, 2026",
+    image: meetPeopleHero,
+    ogImage: "https://joinplayy.com/blog/meet-people-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai is home to over 3.5 million people from more than 200 nationalities, and yet one of the most common experiences in the city is a quiet kind of loneliness — the feeling of being surrounded by millions of people without quite belonging to any of them." },
+      { type: "paragraph", text: "Sport solves this faster and more reliably than almost anything else. Here is exactly how to use it in Dubai right now." },
+
+      { type: "heading", text: "Why Sport Works Better Than Any Other Approach" },
+      { type: "paragraph", text: "Networking events, brunches, and social apps all produce the same result — a surface level conversation with someone you are unlikely to see again. The follow-up is awkward, the shared context is thin, and the friendship rarely develops beyond the first encounter." },
+      { type: "paragraph", text: "Sport removes all of that friction. When you play padel with someone for 90 minutes you have a shared experience, a shared challenge, real emotions in common, and a built-in reason to meet again next week. The relationship starts with something genuine rather than a business card exchange or a mutual swipe." },
+      { type: "paragraph", text: "Research consistently shows that repeated low-stakes contact is the most reliable mechanism for friendship formation in adults. A weekly sports session with the same group provides exactly this — casual, regular exposure that builds familiarity and trust naturally over time. Dubai's sports communities have a specific characteristic worth knowing about: because so many people in the city are in a social rebuilding phase, they are unusually welcoming to newcomers. Showing up to an Americano session or a group run as a stranger and being absorbed into the group within an hour is a genuinely common experience here." },
+
+      { type: "heading", text: "Padel: The Best Sport for Meeting People in Dubai Right Now" },
+      { type: "paragraph", text: "Among all the sports available in Dubai, padel currently offers the best combination of social accessibility, community infrastructure, and growth momentum for meeting new people. The sport is always played in doubles which means you are immediately sharing a court with three other people. The Americano format rotates partners every set, meaning a single 90-minute session can introduce you to six or more players you had never met before. The enclosed glass court creates a naturally intimate atmosphere where conversation happens easily between points." },
+      { type: "paragraph", text: "Dubai's padel community has grown dramatically over the past three years. According to the [International Padel Federation](https://www.padelfip.com), there are now over 300 padel courts across more than 225 venues in the UAE, with regular community sessions, open Americanos, and social tournaments running throughout the week. The social infrastructure around padel in Dubai is genuinely well developed and accessible to newcomers at every level." },
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai) to get started." },
+      { type: "paragraph", text: "The Americano format is one of the best ways to meet new players — [here is how it works](https://joinplayy.com/blog/what-is-an-americano-padel-session)." },
+
+      { type: "image", src: meetPeoplePadel, alt: "Four padel players shaking hands across the net on a blue padel court in Dubai at sunset" },
+
+      { type: "heading", text: "Running Communities in Dubai" },
+      { type: "paragraph", text: "Running is the most accessible entry point into Dubai's sports social scene because it requires no court booking, no equipment beyond shoes, and no prior skill level. The running community in Dubai is large, well-organised, and genuinely welcoming to newcomers." },
+      { type: "paragraph", text: "Adidas Runners Dubai organises free weekly group runs with a strong social element after each session. The group attracts a wide mix of nationalities and fitness levels and is one of the easiest communities to walk into cold. [Dubai Hash House Harriers](https://www.dh3.com) run weekly social runs followed by gatherings that have been bringing the expat community together in the city for decades. Nike Run Club Dubai similarly runs regular free sessions with pacing groups for different abilities." },
+      { type: "paragraph", text: "The Dubai Mallathon launched in June 2026 and is running daily from 6am to 10am across six major malls with free entry and no registration required. It features dedicated walking and running tracks, fitness activities, and community events throughout a three-month programme. The inaugural edition in 2025 secured a Guinness World Record for the largest mall running event of its kind with over 1,300 participants in a single race at Dubai Hills Mall. For anyone looking for the lowest possible barrier to entry into Dubai's sports social scene right now, this is it." },
+
+      { type: "heading", text: "Football and Basketball" },
+      { type: "paragraph", text: "Football connects a broader cross-section of Dubai's population than almost any other sport and the World Cup running through July 2026 has pushed football energy in the city to a genuine high. Five-a-side and seven-a-side communities organise pickup games across venues including Ballers at Downtown Dubai, MVP Lab in Al Quoz, and ISD Sports in Dubai Sports City throughout the week. Facebook groups including Dubai Football Players surface regular games open to newcomers." },
+      { type: "paragraph", text: "Basketball pickup games run regularly at courts in Dubai Sports City, JBR, and community parks across the city. Showing up consistently at the same court at the same time each week is enough to become a recognised face and get pulled into regular games without any formal introduction." },
+      { type: "paragraph", text: "Read our full guide on [how to find pickup football games in Dubai](https://joinplayy.com/blog/pickup-football-in-dubai)." },
+
+      { type: "heading", text: "The Dubai Mallathon — Free and Happening Now" },
+      { type: "paragraph", text: "The Dubai Mallathon deserves its own section because it is the most immediately accessible free community sports event running in Dubai right now. Organised in collaboration with the [Dubai Sports Council](https://www.dsc.gov.ae) as part of the UAE Year of the Family 2026 initiative, it runs daily across Dubai Hills Mall, Mall of the Emirates, and four other major malls through the summer months." },
+      { type: "paragraph", text: "Participation is completely free with no prior registration required. You collect a wristband on arrival which gives you access to exclusive offers from participating venues. Weekend races with prizes and medals run throughout the programme for those who want a competitive element. Major weekend races are held across all six malls with prizes, medals, and gifts awarded to participants." },
+      { type: "paragraph", text: "Whether you walk, jog, or run, showing up daily at the same time to the same mall creates exactly the kind of repeated low-stakes contact that converts strangers into sports friends. The community around the Mallathon is already building and it is genuinely one of the friendliest entry points into Dubai's active community right now." },
+
+      { type: "heading", text: "How to Turn a Sports Contact Into a Real Friend" },
+      { type: "paragraph", text: "Meeting someone at a padel session or a group run and never seeing them again is a common outcome if you do not take a few deliberate steps. The transition from sports contact to actual friend requires a little intentionality but very little effort." },
+      { type: "paragraph", text: "Get their number on the day. Do not rely on a venue WhatsApp group or an Instagram follow to maintain contact. A direct number exchange at the end of a good session converts a one-time encounter into a potential ongoing connection." },
+      { type: "paragraph", text: "Suggest the same time slot the following week. The single most effective thing you can do to convert a positive first session into a friendship is to make the second meeting easy to arrange. Most people will say yes when asked directly at the end of a session they enjoyed." },
+      { type: "paragraph", text: "Show up consistently. In Dubai's transient social environment reliability is rare and therefore highly valued. The people who show up to the same session week after week become the social infrastructure that others attach to. Consistency is the single most important factor in building a real social life through sport in this city." },
+
+      { type: "image", src: meetPeoplePhone, alt: "Young man smiling at his phone in a Dubai padel club lounge with players in the background" },
+
+      { type: "paragraph", text: "Read our guide on [how expats specifically make friends through sport in Dubai](https://joinplayy.com/blog/how-expats-make-friends-through-sport-in-dubai)." },
+
+      { type: "heading", text: "Use Playy to Find Your People" },
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. For anyone who wants to meet people through sport but does not yet have the right network to find them, Playy removes the hardest part of the process." },
+      { type: "paragraph", text: "Instead of hoping the right person replies to a group chat message, Playy shows you players near you who are actively looking for a game at your level and availability across padel, football, basketball, tennis, and gym sessions. You can create a public session for others to join or browse what is already happening near you. Community events and tournaments announced through Playy connect players who might never have found each other otherwise." },
+      { type: "paragraph", text: "The app is free to download on iOS and already used by players across Dubai who are building exactly what most people want from sport in this city — a consistent playing network and the genuine friendships that come with it." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Meeting people through sport in Dubai is not complicated. The infrastructure exists, the communities are active, and the city is full of people actively looking for the same connections you are. The only variable is showing up consistently enough for those connections to form." },
+      { type: "paragraph", text: "Pick your sport, find your community, and get on the court or the track. The rest takes care of itself." },
+
+      { type: "cta", text: "Download Playy free on iOS at joinplayy.com and find your sports community in Dubai today.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
+  {
     slug: "best-football-players-to-watch-2026-world-cup",
     title: "The Best Football Players to Watch at the 2026 World Cup",
     excerpt:
