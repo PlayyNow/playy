@@ -49,6 +49,9 @@ import watchTogetherPhones from "@/assets/blog/watch-together-phones.png";
 import playersHero from "@/assets/blog/players-hero.png";
 import playersCelebration from "@/assets/blog/players-celebration.png";
 import playersBar from "@/assets/blog/players-bar.png";
+import meetPeopleHero from "@/assets/blog/meet-people-hero.png";
+import meetPeoplePadel from "@/assets/blog/meet-people-padel.png";
+import meetPeoplePhone from "@/assets/blog/meet-people-phone.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
