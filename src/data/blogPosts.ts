@@ -55,6 +55,9 @@ import meetPeoplePhone from "@/assets/blog/meet-people-phone.png";
 import gymBuddyHero from "@/assets/blog/gym-buddy-hero.png";
 import gymBuddyGroup from "@/assets/blog/gym-buddy-group.png";
 import gymBuddyPhone from "@/assets/blog/gym-buddy-phone.png";
+import volleyHero from "@/assets/blog/volley-hero.png";
+import volleyWomen from "@/assets/blog/volley-women.png";
+import volleyBackhand from "@/assets/blog/volley-backhand.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -78,6 +81,87 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-improve-your-padel-volley",
+    title: "How to Improve Your Padel Volley",
+    excerpt:
+      "The compact technique, positioning, and net habits that separate beginner padel players from intermediate ones in Dubai.",
+    date: "June 25, 2026",
+    image: volleyHero,
+    ogImage: "https://joinplayy.com/blog/volley-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. If there is one shot that separates beginner padel players from intermediate ones it is the volley. Players who control the net control the match — and controlling the net means being able to execute clean, consistent volleys under pressure without thinking about technique. According to the [International Padel Federation](https://www.padelfip.com), padel is now one of the fastest growing racket sports in the world, and the net game is where matches at every level are won and lost." },
+      { type: "paragraph", text: "The good news is that the padel volley is simpler than it looks. Most problems with it come from a small number of fixable habits rather than a fundamental lack of skill. Here is exactly what to work on." },
+      { type: "paragraph", text: "Read our guide on [how to improve your padel serve](https://joinplayy.com/blog/how-to-improve-your-padel-serve) — the shot that sets up your volley opportunity." },
+
+      { type: "heading", text: "What the Volley is Actually For in Padel" },
+      { type: "paragraph", text: "Before working on technique it helps to understand the purpose of the volley in padel specifically. Unlike tennis where a net player might look to end the point with a powerful winner, the padel volley is primarily a pressure tool. Its job is to keep your team in the dominant net position while forcing your opponents into increasingly difficult situations at the back of the court." },
+      { type: "paragraph", text: "The majority of padel volleys at amateur level should be controlled, angled, and placed rather than hit hard. A soft angled volley that drops into the corner near the glass is far more effective than a powerful drive that your opponent can redirect. Professional padel players at the [Premier Padel](https://www.premierpadel.com) level volley at roughly 40 to 60 percent of their maximum power in most situations — pace is used selectively, not as the default." },
+      { type: "paragraph", text: "This mindset shift — from power to placement — is the single most important adjustment most players need to make at the net before anything else." },
+
+      { type: "heading", text: "The Ready Position" },
+      { type: "paragraph", text: "Everything about your volley starts from your ready position at the net. If your ready position is wrong your volleys will be inconsistent regardless of how good your technique is when you are set up correctly." },
+      { type: "paragraph", text: "Stand approximately two to three metres back from the net, not pressed right up against it. Being too close to the net leaves you vulnerable to lobs and reduces your reaction time for balls hit directly at you. Being too far back turns your volley into a half-volley situation where the ball is already falling by the time you make contact." },
+      { type: "paragraph", text: "Your racket should be held in front of your body at approximately chest height with your elbow slightly bent. This is the position from which you can move to either a forehand or backhand volley with the smallest possible adjustment. Holding your racket low at your side or letting it drop between points forces you to lift it before each shot which costs you reaction time." },
+      { type: "paragraph", text: "Your weight should be on the balls of your feet, not your heels. This keeps you ready to move in any direction instantly. Players who stand flat-footed at the net are consistently late to the ball." },
+      { type: "paragraph", text: "Your knees should be slightly bent throughout. A completely upright stance at the net makes it very difficult to get low for balls that drop below net height, which is one of the most common volley situations in padel." },
+
+      { type: "heading", text: "The Forehand Volley" },
+      { type: "paragraph", text: "The forehand volley in padel is a compact, punching motion rather than a full swing. This is the most important technical distinction from tennis — the backswing for a padel volley should be minimal, no more than a few centimetres behind the contact point. The [LTA Padel technique guides](https://www.ltapadel.org.uk) cover this in more detail and are a useful authoritative reference for players who want to go deeper." },
+      { type: "paragraph", text: "Use a continental grip, the same grip recommended for the serve. Hold the racket with the base knuckle of your index finger on the second bevel. This grip gives you control over the racket face angle and allows you to direct the ball without needing to adjust your wrist significantly." },
+      { type: "paragraph", text: "At contact, your racket face should be slightly open — angled upward slightly — and you should be making contact in front of your body, not beside or behind you. Contact in front gives you the best sight of the ball and the most control over direction." },
+      { type: "paragraph", text: "The motion is a short, firm forward punch. Think of it as catching the ball on the strings and redirecting it rather than hitting through it. Follow through slightly toward your target but keep the motion compact — a long follow through on a volley wastes time and reduces control." },
+      { type: "paragraph", text: "Aim for the middle of your strings on every volley. The sweet spot in the centre gives the most consistent feel and control. Shots off the frame or the edge of the strings produce unpredictable results regardless of how good your technique is." },
+
+      { type: "heading", text: "The Backhand Volley" },
+      { type: "paragraph", text: "The backhand volley follows the same principles as the forehand but deserves specific attention because it is where most intermediate players lose points at the net. The instinct for many players is to let backhand volleys drop too low before making contact, which puts them in a defensive position rather than an attacking one." },
+      { type: "paragraph", text: "The fix is to intercept the ball early — make contact as high as you can comfortably reach on the backhand side rather than letting it drop to a more comfortable height. An early interception gives you more options for placement and keeps pressure on your opponents. A late interception forces you into a defensive upward pop that they can easily attack." },
+      { type: "paragraph", text: "Keep the backhand volley compact just like the forehand. The most common backhand volley error at amateur level is taking too big a backswing which causes the player to muscle the ball rather than redirect it cleanly. Shorten your backswing, make contact in front, and punch through toward your target." },
+      { type: "paragraph", text: "For balls that arrive at your body on the backhand side, rotate your shoulder to get your racket face in front of the ball. Do not try to play a backhand volley with the ball behind your shoulder — it will always be late and inaccurate. Create space by stepping to the side if needed." },
+
+      { type: "heading", text: "Positioning at the Net" },
+      { type: "paragraph", text: "Individual volley technique only matters if you are in the right position to use it. Net positioning in padel doubles is a shared responsibility between you and your partner and getting it right is what turns individual volleys into point-winning net dominance." },
+      { type: "paragraph", text: "You and your partner should move as a unit at the net — when one of you shifts left, the other shifts left to maintain coverage of the middle. The middle of the court between two net players is the most dangerous space in padel. Most amateur pairs leave a gap in the middle that opponents exploit repeatedly. Closing that gap by moving together eliminates the most common attacking option your opponents have." },
+      { type: "paragraph", text: "Your positioning should adjust to where the ball is. When the ball is on your forehand side, shade slightly right. When it is on your backhand side, shade left. You are always trying to cover the most likely return angles from where your opponents are hitting." },
+      { type: "paragraph", text: "Stay alert but relaxed. Tension in your shoulders and arms at the net makes you slow to react and stiff on the volley. Breathe, keep your weight on the balls of your feet, and stay mentally present on every point rather than thinking about the last one." },
+
+      { type: "image", src: volleyWomen, alt: "Two female padel players at the net holding their rackets up on a sunlit Dubai padel court" },
+
+      { type: "paragraph", text: "Net control is one of the core principles we covered in our guide on [how to get better at padel fast](https://joinplayy.com/blog/how-to-get-better-at-padel-fast)." },
+
+      { type: "heading", text: "The Lob Counter — What to Do When They Lob Over You" },
+      { type: "paragraph", text: "The lob is the primary weapon used against a net position in padel and knowing how to handle it is essential for any player who wants to hold the net effectively. When a lob comes over your head the worst thing you can do is try to stay at the net and hope it lands out." },
+      { type: "paragraph", text: "As soon as you read a lob coming — from your opponent's racket angle, their body position, or the trajectory of the ball — both you and your partner retreat together toward the back of the court. The player who is closer to the path of the ball takes the shot after it bounces off the back glass. Do not split — if one player retreats and the other stays at the net you leave a massive gap that is impossible to defend." },
+      { type: "paragraph", text: "After playing the ball from the back following a lob, look to advance to the net again together on the next shot where you have enough quality of ball to do so safely. The game in padel is a constant cycle of advancing to the net, being lobbed back, recovering, and advancing again. Players who understand this cycle and execute it consistently win the majority of their net battles." },
+
+      { type: "heading", text: "The Most Common Volley Mistakes" },
+      { type: "paragraph", text: "Taking too big a backswing is the most common error and the one that causes the most chain reactions of other problems. A long backswing at the net means you are always late, always muscling the ball, and always losing control. Shorten everything." },
+      { type: "paragraph", text: "Making contact with the ball too close to your body is the second most common issue. When the ball is too close you cannot extend properly and your wrist gets involved, which produces inconsistent results. Create space by moving your feet to the right distance before making contact." },
+      { type: "paragraph", text: "Watching your shot after contact instead of resetting to the ready position immediately. After every volley your eyes should go straight back to your opponents to read what is coming next. Looking at where your volley went costs you the reaction time you need for the next ball." },
+      { type: "paragraph", text: "Volleying downward too aggressively from a non-dominant position. When you are under pressure at the net — a ball hit hard at your body, a low ball below net height — the right play is a controlled reset, not an attempted winner. Get the ball back over the net safely and rebuild the point from there." },
+      { type: "paragraph", text: "Standing still between shots. Active footwork between every ball at the net — small steps, weight adjustment, constant readiness — makes every volley technically easier because you are already in a good position when the ball arrives." },
+
+      { type: "heading", text: "How to Practice Your Volley" },
+      { type: "paragraph", text: "The most effective volley practice is cooperative rather than competitive. Ask your training partner to feed you balls from the baseline at a controlled pace while you stand at the net and volley back. Focus on one specific element per practice session — just the contact point, just the backswing length, just the follow through direction — rather than trying to fix everything at once." },
+      { type: "paragraph", text: "Wall practice is underused for volley development. Standing close to a wall and volleying against it forces you to develop a compact, quick motion because the ball comes back immediately with no time for a long backswing. This is one of the fastest ways to shorten a volley motion that is too big." },
+      { type: "paragraph", text: "Practising the ready position reset between volleys is worth doing specifically. After each volley during practice, consciously reset to your ready position — racket up, weight forward, knees bent — before the next ball arrives. This builds the habit that makes your volley feel automatic in match situations." },
+
+      { type: "image", src: volleyBackhand, alt: "Padel player executing a low backhand volley against the glass on a Dubai padel court" },
+
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai) to practice with." },
+      { type: "paragraph", text: "Read our guide on [how to find padel players and events in Dubai](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai)." },
+
+      { type: "heading", text: "Find Players to Practice With" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Improving your volley requires court time with a patient practice partner who is willing to feed balls and work on specific shots rather than just playing competitive points. Playy connects you with players in Dubai at your level who are looking for exactly the same kind of structured practice session." },
+      { type: "paragraph", text: "Download the app free on iOS, set your skill level and availability, and find your practice partner today." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "A better padel volley comes from fixing a small number of specific habits rather than a complete technique overhaul. Shorten your backswing. Make contact in front of your body. Stay compact. Move with your partner. Reset to your ready position after every shot." },
+      { type: "paragraph", text: "The players who dominate at the net in Dubai padel are not the ones with the most powerful volleys. They are the ones who are in the right position, making clean contact, and resetting faster than anyone else. Those are all learnable skills that improve quickly with focused practice." },
+
+      { type: "cta", text: "Download Playy free on iOS at joinplayy.com and find a padel partner in Dubai to practice your volley with today.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "how-to-find-a-gym-buddy-in-dubai",
     title: "How to Find a Gym Buddy in Dubai",
