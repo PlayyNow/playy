@@ -149,7 +149,7 @@ export const blogPosts: BlogPost[] = [
       { type: "image", src: volleyBackhand, alt: "Padel player executing a low backhand volley against the glass on a Dubai padel court" },
 
       { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai) to practice with." },
-      { type: "paragraph", text: "Read our guide on [how to find padel players and events in Dubai](https://joinplayy.com/blog/how-to-find-padel-players-in-dubai)." },
+      { type: "paragraph", text: "Read our guide on [how to find padel players and events in Dubai](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai)." },
 
       { type: "heading", text: "Find Players to Practice With" },
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Improving your volley requires court time with a patient practice partner who is willing to feed balls and work on specific shots rather than just playing competitive points. Playy connects you with players in Dubai at your level who are looking for exactly the same kind of structured practice session." },
