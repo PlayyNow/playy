@@ -44,6 +44,12 @@ const Hero = () => {
                 Download on App Store
               </Button>
             </a>
+            <a href="https://play.google.com/store/apps/details?id=com.playynow.app" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="h-14 px-8 text-base font-semibold rounded-xl gap-3 border-2 hover:bg-accent transition-colors">
+                <Play className="w-5 h-5" />
+                Get it on Google Play
+              </Button>
+            </a>
           </div>
         </motion.div>
       </div>

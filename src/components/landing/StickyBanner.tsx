@@ -27,6 +27,11 @@ const StickyBanner = () => {
                 <Apple className="w-4 h-4" /> App Store
               </Button>
             </a>
+            <a href="https://play.google.com/store/apps/details?id=com.playynow.app" target="_blank" rel="noopener noreferrer" className="flex-1">
+              <Button size="sm" variant="outline" className="w-full gap-2 rounded-xl font-semibold border-2 hover:bg-accent transition-colors">
+                <Play className="w-4 h-4" /> Google Play
+              </Button>
+            </a>
           </div>
         </motion.div>
       )}
