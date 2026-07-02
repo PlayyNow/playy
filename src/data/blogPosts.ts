@@ -61,6 +61,9 @@ import volleyBackhand from "@/assets/blog/volley-backhand.png";
 import tennisPartnerHero from "@/assets/blog/tennis-partner-hero.png";
 import tennisPartnerHandshake from "@/assets/blog/tennis-partner-handshake.png";
 import tennisPartnerPhone from "@/assets/blog/tennis-partner-phone.png";
+import basketballHero from "@/assets/blog/basketball-hero.png";
+import basketballNight from "@/assets/blog/basketball-night.png";
+import basketballPhone from "@/assets/blog/basketball-phone.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -84,6 +87,72 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-find-a-basketball-game-in-dubai",
+    title: "How to Find a Basketball Game in Dubai",
+    excerpt:
+      "Where to find pickup basketball in Dubai — the best outdoor courts, indoor summer options, regular runs, WhatsApp and Facebook groups, and how Playy connects skill-matched players.",
+    date: "July 2, 2026",
+    image: basketballHero,
+    ogImage: "https://joinplayy.com/blog/basketball-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Basketball has a strong and growing community in Dubai — courts exist across the city from JBR to Dubai Sports City, supported by initiatives from the [Dubai Sports Council](https://www.dsc.gov.ae), and the [NBA](https://www.nba.com)'s global reach means the sport connects players from dozens of nationalities under the same hoop. The challenge is not finding a court. It is finding the run." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
+      { type: "paragraph", text: "Here is exactly how to find pickup basketball in Dubai right now." },
+      { type: "paragraph", text: "Read our broader guide on [how to meet people through sports in Dubai](https://joinplayy.com/blog/how-to-meet-people-through-sports-in-dubai)." },
+
+      { type: "heading", text: "The Best Outdoor Basketball Courts in Dubai" },
+      { type: "paragraph", text: "Dubai has a solid spread of outdoor basketball courts across the city, most of which are free to use and accessible year round in the cooler months. The key is knowing which ones have consistent runs — regular groups of players who show up at predictable times." },
+      { type: "paragraph", text: "JBR Beach Courts near The Walk are among the most social basketball spots in Dubai. The outdoor courts sit close to the beach promenade and attract a consistent mix of players in the evenings from October through April. The foot traffic and visibility mean pickup games form naturally, particularly on weekend evenings when the area is busiest." },
+      { type: "paragraph", text: "Dubai Sports City has multiple outdoor courts that attract serious ballers. The standard of play tends to be higher here than at more casual community courts, which makes it better for intermediate and experienced players looking for a competitive run." },
+      { type: "paragraph", text: "Al Barsha Pond Park has a full outdoor court with evening lighting, free access, and a regular community of players who show up on weekday evenings. It is one of the most accessible options for players based in Al Barsha, JVC, and the surrounding areas." },
+      { type: "paragraph", text: "Wasl Park in Al Kifaf has recently upgraded courts and is building a growing basketball community. Particularly good for players based in the Bur Dubai and Oud Metha areas." },
+      { type: "paragraph", text: "Community courts in Jumeirah, Mirdif, and various residential compounds across Dubai also have regular runs — these are usually found through word of mouth or local community apps like Nextdoor. If you live in a large residential community, ask at the facilities desk whether there is a regular basketball group." },
+
+      { type: "heading", text: "Indoor Basketball in Dubai" },
+      { type: "paragraph", text: "From May through September the outdoor courts become impractical during daylight hours. Dubai's indoor basketball infrastructure is solid enough that the game does not stop in summer — it just moves inside." },
+      { type: "paragraph", text: "[Hamdan Sports Complex](https://www.hamsasc.ae) in Al Qusais is one of the premier indoor basketball facilities in Dubai, with full NBA-standard courts and regular open sessions. The complex hosts leagues, tournaments, and open court sessions throughout the year and is worth knowing about for any serious basketball player in the city." },
+      { type: "paragraph", text: "Insports in JBR and Business Bay offers indoor courts with court rental and pickup session availability. Their courts are well-maintained and the air conditioning makes summer play genuinely comfortable." },
+      { type: "paragraph", text: "Fit Republik in Motor City has indoor courts alongside a full gym facility. The Motor City location makes it particularly convenient for players based in Sports City, Motor City, and the surrounding western Dubai communities." },
+      { type: "paragraph", text: "GEMS World Academy and several other school facilities in Dubai open their courts for community use during non-school hours. These are often available at lower cost than dedicated sports facilities and are worth checking in your area." },
+
+      { type: "image", src: basketballNight, alt: "Basketball players competing on a lit outdoor court at night with the Dubai Marina skyline in the background" },
+
+      { type: "heading", text: "Find the Regular Runs" },
+      { type: "paragraph", text: "The most valuable thing in Dubai basketball is not knowing where the courts are — it is knowing which courts have regular runs and when. A run is a consistent group of players who show up at the same court at the same time on the same days. Once you find one and become a regular face you have effectively joined a basketball community." },
+      { type: "paragraph", text: "The best way to find runs is to show up at the courts listed above at peak times — weekday evenings from 7pm to 10pm and weekend mornings from 8am to 11am — and ask the players there when they usually play. Most basketball communities in Dubai are welcoming to new players who show genuine commitment to showing up consistently." },
+      { type: "paragraph", text: "The second visit is more important than the first. Players remember faces, not one-time visitors. Show up twice to the same court at the same time in the same week and you shift from a stranger to a familiar face. By the fourth or fifth visit you are part of the run." },
+
+      { type: "heading", text: "Use Facebook and Reddit to Find Games" },
+      { type: "paragraph", text: "Dubai Basketball Community on Facebook is the most active online group for pickup games in the city. Players post game announcements, court availability, and looking-for-players messages regularly. A post specifying your location, available times, and rough skill level generates responses quickly." },
+      { type: "paragraph", text: "WhatsApp groups for specific courts or communities are worth getting added to — ask at any court whether there is a group and request to join. These groups are often where last-minute games are organised and where you hear about runs before they fill up." },
+      { type: "paragraph", text: "Reddit's r/dubai also surfaces regular basketball posts. A short message asking about pickup runs near your area of the city consistently gets useful responses from players who know the local scene." },
+
+      { type: "heading", text: "Playing Basketball in Dubai Summer" },
+      { type: "paragraph", text: "June through September outdoor basketball in Dubai during daylight hours is genuinely dangerous. Court surface temperatures can exceed 60 degrees Celsius and air temperatures regularly hit 42 to 45 degrees in peak summer. Any outdoor run between 9am and 7pm in these months carries real heat exhaustion risk." },
+      { type: "paragraph", text: "The viable outdoor windows in summer are early morning before 8am and evening after 7pm when temperatures drop to the low to mid 30s. Most serious outdoor basketball communities in Dubai shift their runs to these windows in summer rather than stopping entirely." },
+      { type: "paragraph", text: "For anyone who wants to play consistently through summer the indoor options — Hamdan Sports Complex, Insports, Fit Republik — are the practical solution. The air conditioning makes the game comfortable year round regardless of what is happening outside." },
+      { type: "paragraph", text: "Hydration matters significantly more in Dubai than in most cities. Bring at least one litre of water per hour of play to any outdoor summer session, and arrive already hydrated rather than trying to catch up mid-game. A good [sports water bottle](https://s.noon.com/x1LsWvMUhNk) that keeps water cold through a session is worth having." },
+
+      { type: "heading", text: "Quick Gear Note" },
+      { type: "paragraph", text: "Basketball is a high-impact sport on joints and the hard court surfaces common in Dubai — both indoor and outdoor — add to that load over time. [Kinesiology tape](https://s.noon.com/_ewLjb5k-qo) on knees and ankles is worth keeping in your bag, particularly if you are playing multiple sessions per week. It provides light joint support without restricting movement and is a standard part of most regular ballers' preparation." },
+
+      { type: "image", src: basketballPhone, alt: "Basketball player courtside with a ball under his arm checking his phone at dusk" },
+
+      { type: "paragraph", text: "Read our guide on [how to find pickup football games in Dubai](https://joinplayy.com/blog/pickup-football-games-dubai) — the same community approach works for basketball." },
+
+      { type: "heading", text: "Use Playy to Find Basketball Players in Dubai" },
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. For basketball players in Dubai who want to find opponents at their level without relying on knowing the right Facebook groups or WhatsApp chains, Playy connects players by sport, skill level, and availability." },
+      { type: "paragraph", text: "Set your sport as basketball, add your level and available times, and Playy shows you other basketball players near you who are actively looking for a game. Create a session and invite others to join, or browse sessions that players near you have already set up. The app is free to download on iOS and available across Dubai for basketball, padel, football, tennis, and gym sessions." },
+      { type: "paragraph", text: "The same timing principles apply to padel — read our guide on the [best time to play sports in Dubai heat](https://joinplayy.com/blog/best-time-to-play-padel-dubai)." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Finding basketball in Dubai comes down to showing up consistently at the right courts at the right times and becoming a recognised face in the community that already exists there. JBR, Dubai Sports City, and Al Barsha Pond Park are your best starting points outdoors. Hamdan Sports Complex and Insports cover you through summer indoors." },
+      { type: "paragraph", text: "The run is out there. You just need to show up enough times to find it." },
+
+      { type: "cta", text: "Download Playy free on iOS at joinplayy.com and find a basketball game in Dubai today.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "how-to-find-a-tennis-partner-in-dubai",
     title: "How to Find a Tennis Partner in Dubai",
