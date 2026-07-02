@@ -91,6 +91,7 @@ export const blogPosts: BlogPost[] = [
     ogImage: "https://joinplayy.com/blog/volley-hero.png",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. If there is one shot that separates beginner padel players from intermediate ones it is the volley. Players who control the net control the match — and controlling the net means being able to execute clean, consistent volleys under pressure without thinking about technique. According to the [International Padel Federation](https://www.padelfip.com), padel is now one of the fastest growing racket sports in the world, and the net game is where matches at every level are won and lost." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
       { type: "paragraph", text: "The good news is that the padel volley is simpler than it looks. Most problems with it come from a small number of fixable habits rather than a fundamental lack of skill. Here is exactly what to work on." },
       { type: "paragraph", text: "Read our guide on [how to improve your padel serve](https://joinplayy.com/blog/how-to-improve-your-padel-serve) — the shot that sets up your volley opportunity." },
 
@@ -144,6 +145,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", text: "How to Practice Your Volley" },
       { type: "paragraph", text: "The most effective volley practice is cooperative rather than competitive. Ask your training partner to feed you balls from the baseline at a controlled pace while you stand at the net and volley back. Focus on one specific element per practice session — just the contact point, just the backswing length, just the follow through direction — rather than trying to fix everything at once." },
       { type: "paragraph", text: "Wall practice is underused for volley development. Standing close to a wall and volleying against it forces you to develop a compact, quick motion because the ball comes back immediately with no time for a long backswing. This is one of the fastest ways to shorten a volley motion that is too big." },
+      { type: "paragraph", text: "Fresh [padel balls](https://s.noon.com/x7KQxCSIcxk) matter for practice too — flat balls bounce inconsistently off the strings and hide the real technique issues you are trying to fix." },
       { type: "paragraph", text: "Practising the ready position reset between volleys is worth doing specifically. After each volley during practice, consciously reset to your ready position — racket up, weight forward, knees bent — before the next ball arrives. This builds the habit that makes your volley feel automatic in match situations." },
 
       { type: "image", src: volleyBackhand, alt: "Padel player executing a low backhand volley against the glass on a Dubai padel court" },
@@ -172,6 +174,7 @@ export const blogPosts: BlogPost[] = [
     ogImage: "https://joinplayy.com/blog/gym-buddy-hero.png",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai has some of the best gym facilities in the world — from massive multi-floor megaGyms in JBR and DIFC to specialist box gyms and boutique studios across every district. The infrastructure is not the problem. Finding someone reliable to train with is." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
       { type: "paragraph", text: "A gym buddy who matches your schedule, your training style, and your commitment level is genuinely hard to find in a city where people are always moving. Here is the most effective way to find one right now." },
       { type: "paragraph", text: "Read our broader guide on [how to meet people through sports in Dubai](https://joinplayy.com/blog/how-to-meet-people-through-sports-in-dubai)." },
 
@@ -212,6 +215,8 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "A shared goal helps but is not essential. Training partners with different specific goals — one building strength, one losing weight — can still work well together if their approaches to training are compatible and their schedules align." },
 
       { type: "image", src: gymBuddyPhone, alt: "Woman smiling at her phone in a Dubai gym next to her gym bag" },
+
+      { type: "paragraph", text: "A few basics make every session easier no matter who you train with — a set of [resistance bands](https://s.noon.com/70fF8Hi-WRk) for warm-ups and mobility, a decent [protein](https://s.noon.com/vUtJ6LoMo8w) source for post-workout recovery, and a proper [water bottle](https://s.noon.com/x1LsWvMUhNk) to stay hydrated between sets. Small stuff, real difference over a few weeks." },
 
       { type: "paragraph", text: "Read our guide on [how expats make friends through sport in Dubai](https://joinplayy.com/blog/how-expats-make-friends-through-sport-in-dubai) for the wider picture." },
 
@@ -481,10 +486,11 @@ export const blogPosts: BlogPost[] = [
     ogImage: "https://joinplayy.com/blog/football-hero.png",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. With the 2026 FIFA World Cup dominating conversations and screens across Dubai right now, football fever is at an all-time high in the city. And for anyone wanting to get off the sofa and actually play rather than just watch, Dubai has one of the most active casual football scenes in the region." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
       { type: "paragraph", text: "The challenge is knowing where to find it. Here is the complete guide to pickup football in Dubai right now." },
 
       { type: "heading", text: "The Challenge With Football in Dubai" },
-      { type: "paragraph", text: "Unlike padel where you only need four players and a relatively small court, football requires more organisation. A 5-a-side game needs at least eight players including substitutes, a pitch booking, and enough people who actually show up. The coordination problem is real and it is why so many casual football players in Dubai end up playing less than they want to." },
+      { type: "paragraph", text: "Unlike padel where you only need four players and a relatively small court, football requires more organisation. A [5-a-side](https://s.noon.com/lrjK5et_7zQ) game needs at least eight players including substitutes, a pitch booking, and enough people who actually show up. The coordination problem is real and it is why so many casual football players in Dubai end up playing less than they want to." },
       { type: "paragraph", text: "The group chat model that most people default to — texting a sprawling WhatsApp group hoping ten people are free at the same time — works occasionally but fails often. Pitch bookings get wasted, games fall apart at the last minute, and the enthusiasm around watching football never quite converts into actually playing." },
       { type: "paragraph", text: "The good news is that Dubai's football infrastructure has improved significantly and there are now several ways to get into a game without having to organise one yourself from scratch." },
 
@@ -514,6 +520,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "The same heat management principles that apply to padel apply to football in Dubai summer. Outdoor football between 9am and 7pm from May through September is genuinely dangerous in peak heat. The only viable outdoor slots are early morning before 8am or evening after 7pm when temperatures drop to manageable levels." },
       { type: "paragraph", text: "The better option for summer football is indoor venues with air conditioning. ISD Sports, MVP Lab, and Dubai Sports World all offer fully air-conditioned indoor pitches that make competitive football comfortable year round regardless of outdoor conditions. Most serious Dubai football players treat summer as an indoor season rather than a break from the sport." },
       { type: "paragraph", text: "Hydration during any summer session matters significantly more than in cooler months. Budget at least one litre of water per hour of play and arrive already hydrated rather than trying to catch up during the game." },
+      { type: "paragraph", text: "It is also worth keeping basic recovery gear in your bag — kinesiology tape and simple [injury](https://s.noon.com/_ewLjb5k-qo) support for ankles and knees takes a beating on turf and saves you the walk-off." },
       { type: "paragraph", text: "Our guide on [the best time to play padel in Dubai](/blog/what-is-the-best-time-to-play-padel-in-dubai) covers the heat management principles that apply to football just as much." },
 
       { type: "image", src: footballCelebration, alt: "Group of football players celebrating a goal at an indoor pitch in Dubai" },
@@ -675,6 +682,7 @@ export const blogPosts: BlogPost[] = [
     ogImage: "https://joinplayy.com/blog/serve-hero.png",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The padel serve is one of the most misunderstood shots in the game. Most beginners try to hit it hard. Most intermediate players try to make it too complicated. The reality is that a good padel serve is simple, consistent, and strategic — and improving it requires fixing a small number of specific things rather than starting from scratch. Global standards for the sport are set by the [International Padel Federation](https://www.padelfip.com)." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
       { type: "paragraph", text: "Here is exactly what to work on." },
       { type: "paragraph", text: "If you are still learning the basic rules, read our [full padel rules guide for beginners](https://joinplayy.com/blog/what-are-the-rules-of-padel) first." },
 
@@ -699,6 +707,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "The ball drop is the most overlooked part of the padel serve and one of the most important. Unlike tennis where the ball is tossed upward, padel requires the ball to bounce once on the ground before you hit it. The way you release the ball determines the height and consistency of the bounce, which in turn determines your contact point." },
       { type: "paragraph", text: "Hold the ball in your non-dominant hand at around hip height. Release it gently — do not throw it down or push it forward. Let it fall naturally from your fingers. A clean, consistent drop produces a predictable bounce that lands in the same spot relative to your body every time." },
       { type: "paragraph", text: "Most serve inconsistencies at beginner level come from an uneven ball drop rather than a flawed swing. If your serves are going in different directions or making contact at different heights, record your drop and look at it before changing anything else in your technique. The fix is almost always there." },
+      { type: "paragraph", text: "One equipment note: consistent [padel balls](https://s.noon.com/x7KQxCSIcxk) matter for serve rhythm — flat or worn balls change the bounce off the ground and throw off your drop before you have even swung." },
 
       { type: "heading", text: "Contact Point and Swing" },
       { type: "paragraph", text: "Contact the ball at its highest point after the bounce, just below waist height. This is the moment of maximum control — the ball is still moving upward slightly, which means a smooth swing will produce a clean, flat trajectory into the service box." },
@@ -906,6 +915,7 @@ export const blogPosts: BlogPost[] = [
     ogImage: "https://joinplayy.com/blog/heat-hero.jpeg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Before you step onto the court and find your match, you need to make sure you are dressed for the conditions — because playing padel in Dubai is not the same as playing padel anywhere else in the world." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
       { type: "paragraph", text: "Dubai's heat is a real factor. Outdoor temperatures regularly exceed 40 degrees Celsius in summer, and even indoor courts that are air-conditioned can feel intense once you start moving. Showing up in the wrong gear will not just be uncomfortable — it will genuinely affect how well you play and how quickly you fatigue." },
       { type: "paragraph", text: "Here is exactly what to wear." },
 
@@ -932,14 +942,14 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Most padel courts in Dubai use artificial grass or sand-filled turf surfaces. Running shoes and general trainers are built for forward motion on smooth surfaces. They lack lateral support and do not grip turf correctly, which means you will be slipping on direction changes and rolling ankles on sharp cuts." },
       { type: "paragraph", text: "Padel-specific shoes have a herringbone or small-pattern outsole designed for artificial grass. They provide grip without over-gripping, lateral ankle support for the direction changes the sport demands, and cushioning appropriate for the hard court surface underneath the turf." },
       { type: "paragraph", text: "In the Dubai heat, breathability in the upper is also worth prioritising. Mesh uppers allow airflow around the foot and reduce moisture build-up during long sessions, which matters particularly from May through September even on indoor courts." },
-      { type: "paragraph", text: "Brands including Head, Babolat, and Adidas all produce dedicated padel footwear available in Dubai through major sports retailers and online at [Amazon.ae](https://www.amazon.ae)." },
+      { type: "paragraph", text: "[Brands including Head, Babolat, and Adidas](https://s.noon.com/WlP39WWK4PM) all produce dedicated padel footwear available in Dubai through major sports retailers and online at [Amazon.ae](https://www.amazon.ae)." },
 
       { type: "image", src: heatShoes, alt: "Close-up of padel shoes with herringbone sole on artificial grass court", float: "none" },
 
       { type: "heading", text: "Accessories Worth Bringing" },
       { type: "paragraph", text: "A cap or visor is essential for any outdoor session. Even in the early morning or evening, direct sunlight on an outdoor court is significant. A lightweight cap also absorbs sweat and keeps it out of your eyes during longer rallies." },
       { type: "paragraph", text: "A wristband on your dominant hand helps keep your grip dry, which matters in Dubai's humidity. When your hands sweat your grip on the racket loosens, which affects control and puts unnecessary strain on your wrist and elbow." },
-      { type: "paragraph", text: "Bring more water than you think you need. A minimum of one litre per hour of play is the standard recommendation for Dubai's climate, and more for outdoor summer sessions. Most venues have water dispensers but having your own bottle means you are not hunting for hydration between points." },
+      { type: "paragraph", text: "Bring more water than you think you need. A minimum of one litre per hour of play is the standard recommendation for Dubai's climate, and more for outdoor summer sessions. Most venues have water dispensers but having your own [water bottle](https://s.noon.com/x1LsWvMUhNk) means you are not hunting for hydration between points." },
       { type: "paragraph", text: "Finally, sunscreen for any outdoor session. SPF 50 on exposed skin is the minimum for a Dubai court in daylight hours." },
 
       { type: "heading", text: "What to Avoid" },
@@ -980,6 +990,7 @@ export const blogPosts: BlogPost[] = [
     ogImage: "https://joinplayy.com/blog/padel-vs-tennis-hero.jpeg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One question we hear constantly from new players is this: how is padel actually different from tennis? The two sports look similar at first glance — rackets, a net, a ball, and a court — but the experience of playing them is completely different." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
       { type: "paragraph", text: "Here is a clear breakdown of every key difference so you know exactly what you are getting into before you step on a padel court for the first time." },
 
       { type: "heading", text: "The Court" },
@@ -991,6 +1002,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Padel rackets and tennis rackets look vaguely similar but are built completely differently. A padel racket is shorter at around 45 centimetres, solid rather than strung, and has a perforated face with holes through it. It is heavier overall but the shorter length makes it easier to manoeuvre in the tight spaces of a padel court." },
       { type: "paragraph", text: "A tennis racket is longer at 68 to 74 centimetres, has an open frame strung with strings, and is designed to generate power and spin across a much larger court. The strung face gives tennis players far more control over the ball trajectory, which is why tennis requires significantly more technical practice to master." },
       { type: "paragraph", text: "The balls look almost identical but padel balls have lower internal pressure — around 10 to 11 PSI compared to 14 PSI in a tennis ball. This means padel balls bounce lower and travel slower, which suits the enclosed court and keeps rallies alive longer." },
+      { type: "paragraph", text: "If you also play tennis on the side, [HEAD tennis balls](https://s.noon.com/T4HVe6Gq5Tw) are a widely available option in Dubai and hold their pressure well in the heat." },
 
       { type: "image", src: padelVsTennisRackets, alt: "Padel racket and tennis racket side by side showing the difference in size and design", float: "none" },
 
@@ -1176,6 +1188,7 @@ export const blogPosts: BlogPost[] = [
     ogImage: "https://joinplayy.com/blog/best-time-hero.jpeg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the first practical questions new players in Dubai ask is when to actually play — because unlike most cities, the answer here changes significantly depending on the month." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
       { type: "paragraph", text: "Dubai's climate creates two completely different padel seasons. Here is exactly how to play smart all year round." },
 
       { type: "image", src: bestTimeHero, alt: "Padel player on an outdoor court at sunset with the Dubai skyline and Burj Khalifa in the background", float: "none" },
@@ -1203,7 +1216,8 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "The window between 9am and 6pm in summer should be avoided for outdoor play entirely. Temperatures during these hours regularly exceed 42 to 45 degrees Celsius in June and July, humidity is at its highest, and the risk of heat exhaustion is real. No padel session is worth that." },
 
       { type: "heading", text: "What to Watch Out For" },
-      { type: "paragraph", text: "Hydration matters far more in Dubai than in most places. For outdoor sessions in any month bring at least one litre of water per hour of play. For indoor sessions bring at least 750ml. The air-conditioning in indoor venues can be deceptively drying even though it feels cool." },
+      { type: "paragraph", text: "Hydration matters far more in Dubai than in most places. For outdoor sessions in any month bring at least one litre of water per hour of play. For indoor sessions bring at least 750ml. A proper insulated [water bottle](https://s.noon.com/x1LsWvMUhNk) that keeps water cold on court is worth the small upgrade. The air-conditioning in indoor venues can be deceptively drying even though it feels cool." },
+      { type: "paragraph", text: "Ball condition matters more in Dubai heat too. Fresh low-altitude [padel balls](https://s.noon.com/x7KQxCSIcxk) lose their bounce faster in the summer months, so replace them more often than you would in cooler climates." },
       { type: "paragraph", text: "Court surface temperature on outdoor courts in summer can be significantly higher than air temperature. Artificial turf surfaces absorb heat throughout the day and remain hot into the evening. After 7pm this is usually no longer an issue, but if you are playing in the 6am to 8am window be aware that the surface may still be retaining heat from the previous day." },
       { type: "paragraph", text: "Peak season court availability can be tight, especially on weekends between November and February. Popular venues like Matcha Club and Central Padel book up days in advance during this period. If you play regularly, setting up a recurring weekly booking is worth doing rather than trying to find a slot last minute." },
 
@@ -1238,11 +1252,13 @@ export const blogPosts: BlogPost[] = [
     ogImage: "https://joinplayy.com/blog/get-better-hero.png",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Once the padel bug bites — and it almost always does within the first session — the next question is how to actually improve. The good news is that padel has a steep initial improvement curve. Small adjustments to how you think about the game produce significant results quickly, without needing hours of drilling or expensive coaching. Governing bodies like the [International Padel Federation](https://www.padelfip.com) emphasise the same fundamentals at every level." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
       { type: "paragraph", text: "These are the highest impact changes you can make right now." },
 
       { type: "heading", text: "The Single Biggest Mistake Holding You Back" },
       { type: "paragraph", text: "Almost every beginner hits the ball too hard. It feels satisfying, the sound is good, and it looks impressive. But padel is not a power sport. Professional level padel is typically played at around 50 percent maximum power. At amateur level, playing hard consistently produces more unforced errors than winners." },
       { type: "paragraph", text: "The first and most impactful adjustment you can make is to slow down your shots and focus on placement. A controlled ball aimed at the corner or down the middle will win you more points than a powerful shot aimed at nothing. Consistency beats power at every level below professional. Once you accept this and stop trying to smash your way through rallies, your game improves immediately." },
+      { type: "paragraph", text: "One small equipment note that helps consistency: use proper low-pressure [padel balls](https://s.noon.com/x7KQxCSIcxk) rather than worn or dead ones. Flat balls hide real technique issues and make the game feel harder than it is." },
 
       { type: "heading", text: "Control the Net" },
       { type: "paragraph", text: "The team that controls the net in padel controls the match. This is one of the most fundamental principles of the sport and one that beginners consistently undervalue. When you are at the net you are applying constant pressure to your opponents, limiting their options and forcing them into mistakes. When you are at the baseline you are defending and waiting." },
@@ -1306,6 +1322,7 @@ export const blogPosts: BlogPost[] = [
     ogImage: "https://joinplayy.com/blog/gear-hero.png",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the first questions new players ask before stepping on court for the first time is what gear they actually need. The good news is that padel — a sport governed globally by the [International Padel Federation](https://www.padelfip.com) — is one of the most affordable racket sports to get into. You do not need much. But what you do need matters." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
       { type: "paragraph", text: "Here is exactly what to buy, what to skip for now, and where to find it in Dubai." },
 
       { type: "heading", text: "The Short Answer: Three Things Only" },
@@ -1316,7 +1333,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Round rackets have the largest sweet spot and sit low in the frame, making them forgiving on off-centre hits. They prioritise control over power. This is what every beginner should buy. The extra forgiveness means more consistent contact, longer rallies, and a much more enjoyable first few sessions." },
       { type: "paragraph", text: "Teardrop rackets balance power and control. The sweet spot is central. These work well for intermediate players who are comfortable with the basics and want more variety in their shots." },
       { type: "paragraph", text: "Diamond rackets concentrate mass at the top of the frame for maximum power but have a smaller sweet spot and require consistent clean technique to use effectively. As a beginner these will actively hurt your game." },
-      { type: "paragraph", text: "For weight, look for something between 340 and 365 grams. Lighter rackets are easier to manoeuvre and reduce arm strain, which matters more than you think over a 90 minute session. Most padel rackets in Dubai cost between AED 300 and AED 500 for a solid beginner option. Brands including HEAD, Babolat, Bullpadel, and NOX all produce reliable beginner rackets widely available in Dubai. You will get far more benefit from coaching or playing regularly than from spending AED 1,500 on a pro-level racket you are not technically ready to use." },
+      { type: "paragraph", text: "For weight, look for something between 340 and 365 grams. Lighter rackets are easier to manoeuvre and reduce arm strain, which matters more than you think over a 90 minute session. Most padel rackets in Dubai cost between AED 300 and AED 500 for a solid beginner option. Brands including [HEAD, Babolat, Bullpadel, and NOX](https://s.noon.com/ScJE8usl0fw) all produce reliable beginner rackets widely available in Dubai. You will get far more benefit from coaching or playing regularly than from spending AED 1,500 on a pro-level racket you are not technically ready to use." },
 
       { type: "image", src: gearRackets, alt: "Round, teardrop and diamond padel racket shapes compared side by side", float: "none" },
 
@@ -1324,12 +1341,12 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Most beginners show up to their first padel session in running shoes. This is a mistake that affects both your performance and your injury risk. Running shoes are built for forward motion on smooth surfaces. They lack lateral ankle support and do not grip artificial turf well, which means you will be slipping on direction changes and putting stress on your ankles every time you push off sideways." },
       { type: "paragraph", text: "Padel-specific shoes have a herringbone or small-pattern outsole designed for the artificial grass turf surface used on most Dubai courts. They provide grip without over-gripping, proper lateral support for the side-to-side movement padel demands, and cushioning suited to the hard court surface underneath the turf." },
       { type: "paragraph", text: "In Dubai specifically, shoes with mesh uppers are worth prioritising. The breathability matters particularly from May through September even on indoor air-conditioned courts, because your feet will still sweat significantly during a competitive session." },
-      { type: "paragraph", text: "Brands including HEAD, Babolat, Adidas, and ASICS all produce dedicated padel footwear available in Dubai at major sports retailers and online at Racketshop.ae and Amazon.ae. Budget around AED 300 to AED 500 for a solid pair that will last a full season." },
+      { type: "paragraph", text: "Brands including HEAD, Babolat, Adidas, and ASICS all produce dedicated padel footwear available in Dubai at major sports retailers and online at [Racketshop.ae and Amazon.ae](https://s.noon.com/WlP39WWK4PM). Budget around AED 300 to AED 500 for a solid pair that will last a full season." },
       { type: "paragraph", text: "We covered footwear in more detail in our guide on [what to wear for padel in Dubai heat](https://joinplayy.com/blog/what-to-wear-padel-dubai-heat)." },
 
       { type: "heading", text: "Padel Balls: One Small but Important Detail for Dubai" },
       { type: "paragraph", text: "Padel balls look almost identical to tennis balls but are lower pressure — around 10 to 11 PSI compared to 14 PSI in a tennis ball. Using actual tennis balls on a padel court produces a faster, bouncier game that is harder to control and less fun, especially as a beginner." },
-      { type: "paragraph", text: "One detail specific to Dubai: because the city sits at sea level, you should use low-altitude padel balls. Standard balls are calibrated for higher altitudes and bounce noticeably too high on sea-level courts, making the game feel less controlled. HEAD Padel Pro and Wilson Padel balls are both widely available and designed for sea-level play." },
+      { type: "paragraph", text: "One detail specific to Dubai: because the city sits at sea level, you should use low-altitude padel balls. Standard balls are calibrated for higher altitudes and bounce noticeably too high on sea-level courts, making the game feel less controlled. [HEAD Padel Pro and Wilson Padel balls](https://s.noon.com/x7KQxCSIcxk) are both widely available and designed for sea-level play." },
       { type: "paragraph", text: "Dubai's heat also degrades balls faster than in cooler climates. A can of balls that might last ten sessions in Europe may feel flat after four or five in Dubai summer heat. When your balls lose their bounce and feel dead, replace them — playing with flat balls is one of the most common things that makes beginners feel like they are not improving when the issue is actually the equipment." },
 
       { type: "heading", text: "What You Do Not Need Yet" },
@@ -1341,6 +1358,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "A wristband on your dominant hand helps keep your grip dry during long sessions, which matters in Dubai's humidity. AED 20 to AED 30 from any sports retailer." },
       { type: "paragraph", text: "A cap or visor for outdoor sessions. Even in the evening on outdoor courts the sun exposure adds up. Any lightweight cap works — you do not need a padel-specific one." },
       { type: "paragraph", text: "A second overgrip or grip tape to keep in your bag. Grips wear out faster in heat and humidity, and having a spare means you are never mid-session with a slippery handle." },
+      { type: "paragraph", text: "A proper [water bottle](https://s.noon.com/x1LsWvMUhNk) you actually enjoy carrying to court. Dubai's heat means you will drink more than you think, and having your own bottle beats hunting for water dispensers between games." },
 
       { type: "image", src: gearShoes, alt: "Padel player lacing up court shoes beside her racket bag at sunset in Dubai", float: "none" },
 
