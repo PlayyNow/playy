@@ -58,6 +58,9 @@ import gymBuddyPhone from "@/assets/blog/gym-buddy-phone.png";
 import volleyHero from "@/assets/blog/volley-hero.png";
 import volleyWomen from "@/assets/blog/volley-women.png";
 import volleyBackhand from "@/assets/blog/volley-backhand.png";
+import tennisPartnerHero from "@/assets/blog/tennis-partner-hero.png";
+import tennisPartnerHandshake from "@/assets/blog/tennis-partner-handshake.png";
+import tennisPartnerPhone from "@/assets/blog/tennis-partner-phone.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -81,6 +84,70 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-find-a-tennis-partner-in-dubai",
+    title: "How to Find a Tennis Partner in Dubai",
+    excerpt:
+      "The most effective ways to find a reliable, skill-matched tennis hitting partner in Dubai — from club ladders to social nights, WhatsApp groups, and Playy.",
+    date: "June 29, 2026",
+    image: tennisPartnerHero,
+    ogImage: "https://joinplayy.com/blog/tennis-partner-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai has an active tennis scene with well-maintained courts across JBR, Dubai Sports City, Motor City, and most major residential communities, and the sport is governed globally by the [International Tennis Federation](https://www.itftennis.com). The courts are not the problem. Finding someone who plays at your level, is available when you are, and actually shows up is." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
+      { type: "paragraph", text: "Here is exactly how to find a reliable tennis partner in Dubai right now." },
+      { type: "paragraph", text: "Curious how tennis compares to padel? Read our breakdown of the [differences between padel and tennis](https://joinplayy.com/blog/difference-between-padel-and-tennis)." },
+
+      { type: "heading", text: "Why Finding a Tennis Partner in Dubai is Harder Than It Should Be" },
+      { type: "paragraph", text: "Tennis has a structural problem that padel does not — it is fundamentally a singles or doubles sport where mismatched skill levels produce a miserable experience for both players. A beginner paired with an intermediate player spends most of the session chasing balls they cannot return. An advanced player paired with someone two levels below them gets no workout and no enjoyment." },
+      { type: "paragraph", text: "This means skill-level matching matters more in tennis than in almost any other sport. A casual five-a-side football game absorbs different ability levels naturally. Tennis does not. Finding a true hitting partner at your level in a city where most players rely on informal networks takes real effort." },
+      { type: "paragraph", text: "The good news is that Dubai's tennis community is established and well-organised once you know where to look." },
+
+      { type: "heading", text: "Join Your Club's Ladder or Matchmaking Program" },
+      { type: "paragraph", text: "The most structured way to find consistent opponents at your level is through a tennis club ladder. Most tennis clubs in Dubai run internal matchmaking systems where members are ranked and can challenge others within their tier for social matches. The Dubai Tennis Academy, [Aviation Club Tennis Centre](https://www.aviationclub.ae), and Meydan Tennis Academy all run active social programmes alongside their coaching operations." },
+      { type: "paragraph", text: "Aviation Club Tennis Centre in particular has one of the strongest social tennis communities in Dubai, with regular round robins, mixed doubles evenings, and open ladder challenges that connect players across all levels. If you are a member or considering joining a club, ask specifically about their ladder or social matchmaking programme before committing — not all clubs maintain them equally well." },
+      { type: "paragraph", text: "For players who are not club members, several independent Dubai tennis communities organise open social sessions at public courts across JBR, Zabeel Park, and community courts in Jumeirah and Al Barsha. A quick search on Facebook for Dubai Tennis Community or Dubai Social Tennis will surface the most active groups." },
+
+      { type: "heading", text: "Show Up to Social Tennis Nights" },
+      { type: "paragraph", text: "Social tennis nights are the tennis equivalent of a padel Americano — organised sessions where you play with a rotating set of partners over a fixed time period. The format removes the pressure of finding a single reliable partner and replaces it with a ready-made group of players at broadly similar levels." },
+      { type: "paragraph", text: "Most Dubai clubs run at least one social tennis night per week, typically on weekday evenings when courts are available. These sessions are often open to non-members for a guest fee. Showing up three or four times to the same session consistently is usually enough to identify one or two players whose level and schedule matches yours, which is where a regular hitting partnership typically starts." },
+      { type: "paragraph", text: "The [Dubai Lawn Tennis Association](https://www.dlta.ae) organises regular events and tournaments across the emirate and is a good starting point for finding active tennis communities beyond individual club boundaries." },
+
+      { type: "image", src: tennisPartnerHandshake, alt: "Four tennis players shaking hands over the net at sunset on a Dubai tennis court" },
+
+      { type: "heading", text: "Use WhatsApp and Facebook Groups" },
+      { type: "paragraph", text: "Dubai Tennis Community on Facebook is one of the most active online communities for tennis players in the city, with regular posts from players looking for hitting partners, game announcements, and court recommendations. Posting a straightforward message — your approximate level, your available times, your location in Dubai — generates responses within a few hours." },
+      { type: "paragraph", text: "WhatsApp groups organised by community or skill level are also worth finding. Ask at any tennis facility in Dubai whether they have a player WhatsApp group and request to be added. These groups are often the fastest route to a same-day hitting session when your usual partner cancels." },
+      { type: "paragraph", text: "Reddit's r/dubai also surfaces tennis partner requests regularly. A post in that community reaches a broad expat audience and is worth trying if the Facebook groups do not produce a match at your specific level and location." },
+
+      { type: "heading", text: "What to Look For in a Tennis Partner" },
+      { type: "paragraph", text: "Skill level compatibility is the most important factor in a tennis partnership and worth being honest about on both sides. Most players overestimate their level slightly — describing yourself accurately as intermediate rather than advanced produces better matches and more enjoyable sessions." },
+      { type: "paragraph", text: "Availability alignment matters as much as skill. A hitting partner who plays at completely different times than you provides no consistency benefit. Be specific about your available windows — morning weekdays, weekend evenings, post-work Tuesdays — and find someone whose schedule genuinely overlaps." },
+      { type: "paragraph", text: "Commitment level should match. Someone who cancels at short notice regularly is worse than training alone. In the first few sessions, how a potential partner handles rescheduling tells you everything about whether they will be a reliable long-term hitting partner." },
+      { type: "paragraph", text: "Playing style is a secondary but useful consideration. A heavy topspin baseliner and a serve-and-volley player can work well together because they challenge each other in complementary ways. Two players with identical games can feel stale after a while. A slight style difference often produces better practice sessions." },
+
+      { type: "heading", text: "The One Gear Item Worth Getting Right — Tennis Balls" },
+      { type: "paragraph", text: "Dubai's heat degrades tennis balls significantly faster than in cooler climates. A can of balls that lasts ten sessions in Europe might feel dead after four or five sessions in Dubai summer heat, particularly on outdoor courts where the surface temperature compounds the effect." },
+      { type: "paragraph", text: "Playing with flat, dead balls is one of the most common reasons Dubai tennis players feel like they are not improving — the ball does not respond correctly to spin, the bounce is unpredictable, and the feel on the strings is wrong. Replace your balls regularly. [HEAD Pro tennis balls](https://s.noon.com/T4HVe6Gq5Tw) are widely available across Dubai and designed for the kind of consistent play that club and social tennis in this city demands. You can find them on Noon for next-day delivery across Dubai." },
+      { type: "paragraph", text: "A cold [water bottle](https://s.noon.com/x1LsWvMUhNk) at the changeover is the other item you will thank yourself for having on every Dubai court session." },
+
+      { type: "image", src: tennisPartnerPhone, alt: "Female tennis player sitting courtside looking at her phone with other players in the background on a Dubai tennis court" },
+
+      { type: "paragraph", text: "Read our broader guide on [how to meet people through sports in Dubai](https://joinplayy.com/blog/how-to-meet-people-through-sports-in-dubai)." },
+
+      { type: "heading", text: "Use Playy to Find a Tennis Partner in Dubai" },
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. For tennis players in Dubai who want to find a hitting partner without relying on club membership or knowing the right WhatsApp groups, Playy connects players by sport, skill level, and availability." },
+      { type: "paragraph", text: "Set your sport as tennis, add your level and available times, and Playy shows you other tennis players near you who are actively looking for a hitting partner. You can create a session and invite others to join, or browse sessions that players near you have already set up. No group chats, no back and forth — just find your match and get on the court. Bring your [water bottle](https://s.noon.com/x1LsWvMUhNk), your racket, and turn up." },
+      { type: "paragraph", text: "The app is free to download on iOS and available across Dubai for tennis, padel, football, basketball, and gym sessions." },
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai) — the same approach works for tennis." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Finding a tennis partner in Dubai is about knowing where the community already exists and showing up consistently enough to become part of it. Club ladders, social tennis nights, and Facebook groups all work. Apps like Playy make the process faster by removing the need to already know the right people." },
+      { type: "paragraph", text: "The hardest part is always the first session. After that, reliable hitting partnerships tend to build themselves." },
+
+      { type: "cta", text: "Download Playy free on iOS at joinplayy.com and find a tennis partner in Dubai today.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "how-to-improve-your-padel-volley",
     title: "How to Improve Your Padel Volley",
