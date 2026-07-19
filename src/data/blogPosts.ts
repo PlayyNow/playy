@@ -64,6 +64,9 @@ import tennisPartnerPhone from "@/assets/blog/tennis-partner-phone.png";
 import basketballHero from "@/assets/blog/basketball-hero.png";
 import basketballNight from "@/assets/blog/basketball-night.png";
 import basketballPhone from "@/assets/blog/basketball-phone.png";
+import summerFitHero from "@/assets/blog/summer-fit-hero.png";
+import summerFitPadel from "@/assets/blog/summer-fit-padel.png";
+import summerFitPhone from "@/assets/blog/summer-fit-phone.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -87,6 +90,74 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-stay-fit-in-dubai-during-summer",
+    title: "How to Stay Fit in Dubai During Summer",
+    excerpt:
+      "How to keep your fitness routine intact through Dubai summer — early morning and evening windows, indoor sports, gyms, home workouts, the Mallathon, and recovery essentials.",
+    date: "July 6, 2026",
+    image: summerFitHero,
+    ogImage: "https://joinplayy.com/blog/summer-fit-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Every year when June arrives in Dubai the same thing happens — the outdoor sessions stop, the routines fall apart, and by September people are starting from scratch. It does not have to go that way. Dubai in summer is genuinely manageable for anyone who knows how to adapt." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
+      { type: "paragraph", text: "Here is exactly how to keep your fitness routine intact through the hottest months of the year." },
+
+      { type: "heading", text: "Why Dubai Summer Kills Fitness Routines" },
+      { type: "paragraph", text: "The problem is not laziness — it is a genuine environmental barrier. Temperatures regularly exceed 42 degrees Celsius from June through September and humidity in coastal areas like JBR and Dubai Marina makes the heat feel significantly more intense than the number suggests. Heat index values of 50 degrees or above are common on summer afternoons." },
+      { type: "paragraph", text: "The outdoor activities that formed the backbone of a winter fitness routine — the evening padel sessions, the JBR runs, the outdoor basketball — become dangerous during daylight hours. Without a plan for what replaces them, the routine collapses. Most people do not choose to stop training in Dubai summer. They just run out of options that feel manageable." },
+      { type: "paragraph", text: "The solution is not willpower. It is having the right indoor alternatives ready before the outdoor options become impossible." },
+
+      { type: "heading", text: "Shift Outdoor Sessions to Early Morning or Late Evening" },
+      { type: "paragraph", text: "The first adaptation is timing. Dubai summer does not make outdoor exercise impossible — it makes outdoor exercise during certain hours dangerous. The two viable outdoor windows are early morning before 8am and evening after 7pm." },
+      { type: "paragraph", text: "Early morning before 8am is the most underused fitness window in Dubai. Temperatures at sunrise sit between 28 and 34 degrees depending on the month — intense but manageable with proper hydration and the right gear. The city is quieter, the air is marginally cooler, and finishing a workout before 8am leaves the rest of the day completely free. Players who shift their padel, football, or basketball sessions to 6am in summer often report they prefer the early morning timing even after temperatures drop in October." },
+      { type: "paragraph", text: "Evening after 7pm is the second viable window. The sun drops around 7pm in June and July and temperatures begin falling quickly after sunset, typically reaching the low to mid 30s by 8pm. Most outdoor venues in Dubai that operate through summer schedule their sessions specifically within these windows." },
+
+      { type: "heading", text: "Move Your Sport Indoors" },
+      { type: "paragraph", text: "Dubai's indoor sports infrastructure is one of the best arguments for staying active through summer. Almost every sport available outdoors in winter has a high-quality indoor alternative that operates year round with full air conditioning." },
+      { type: "paragraph", text: "For padel, indoor courts are available at [ISD Padel](https://isddubai.com) in Dubai Sports City, Central Padel in Al Quoz, Danube Sports World in Al Qusais, and venues across JBR and Downtown. Most maintain court temperatures around 19 to 21 degrees regardless of outdoor conditions. The glass-enclosed padel court in summer is one of Dubai's genuinely great sporting experiences — competitive, social, and completely divorced from the heat outside." },
+      { type: "paragraph", text: "For football, indoor five-a-side pitches at venues including MVP Lab in Al Quoz and ISD Sports operate year round. The artificial turf and controlled temperature make summer indoor football a different but equally competitive game to outdoor winter football." },
+      { type: "paragraph", text: "For basketball, Hamdan Sports Complex and Insports provide full-size indoor courts with year-round availability. The NBA-standard facilities at Hamdan in particular make summer basketball in Dubai a genuinely premium experience." },
+      { type: "paragraph", text: "For tennis, most club facilities in Dubai are indoor or covered, making them viable year round. The Aviation Club Tennis Centre and several community courts operate through summer without interruption." },
+      { type: "paragraph", text: "Read our full guide on the [best time to play padel in Dubai](https://joinplayy.com/blog/best-time-to-play-padel-dubai) including how players adapt in summer." },
+
+      { type: "image", src: summerFitPadel, alt: "Players in an indoor air-conditioned padel court in Dubai during summer" },
+
+      { type: "heading", text: "Make the Gym Your Summer Base" },
+      { type: "paragraph", text: "Summer is Dubai's gym season. The consistent air conditioning, the year-round availability, and the absence of competing outdoor options make the gym the most reliable fitness anchor through the hot months. Players who treat summer as a strength and conditioning block rather than a gap in training often come back to their outdoor sports in October noticeably stronger and more athletic." },
+      { type: "paragraph", text: "The gyms worth knowing about for summer training in Dubai include Warehouse Gym across multiple locations, GymNation at Al Quoz and Mirdif, and Cafit at Jumeirah. CrossFit boxes including CrossFit Yas and CrossFit 971 run full summer programmes that combine strength work with conditioning in ways that directly translate to on-court performance in any sport." },
+      { type: "paragraph", text: "If cost is a consideration, Dubai Sports City's community facilities and several municipal gyms operated by the [Dubai Sports Council](https://www.dsc.gov.ae) offer quality equipment at significantly lower price points than premium gym chains. Ask at your nearest sports facility for current membership rates." },
+      { type: "paragraph", text: "Read our guide on [how to find a gym buddy in Dubai](https://joinplayy.com/blog/how-to-find-a-gym-buddy-in-dubai) to keep you accountable through summer." },
+
+      { type: "heading", text: "Home and Hotel Workouts" },
+      { type: "paragraph", text: "For anyone whose summer schedule includes travel or long working hours, home-based training is the most flexible way to maintain fitness through the season. A resistance band set covers the majority of strength training needs and packs into a bag for travel. A jump rope adds cardiovascular conditioning in a space the size of a yoga mat. These two items combined are enough for a complete 30 to 45 minute full-body workout anywhere with no gym required. A quality set of [resistance bands](https://s.noon.com/70fF8Hi-WRk) is one of the most versatile pieces of home fitness equipment you can own." },
+      { type: "paragraph", text: "Hotel gyms across Dubai vary enormously in quality but almost all have enough equipment for a basic maintenance workout. If you are staying at a hotel with a gym through the summer months, treating that gym visit as non-negotiable — the same way you would a morning meeting — is the mindset that keeps the routine alive through travel periods." },
+
+      { type: "heading", text: "The Dubai Mallathon — Free Indoor Activity Right Now" },
+      { type: "paragraph", text: "The [Dubai Mallathon](https://www.dubaimallathon.com) is running daily through summer 2026 across six major malls including Dubai Hills Mall and Mall of the Emirates, with free entry and no registration required. Dedicated walking and running tracks inside air-conditioned malls make it one of the most accessible fitness options currently available in the city, particularly for anyone who finds gym environments uninspiring." },
+      { type: "paragraph", text: "The social element of the Mallathon is also worth noting. The same people show up at the same malls at the same times each morning, which creates the kind of repeated low-stakes contact that builds genuine community connections. Several regular participants have formed running groups and social friendships entirely through the Mallathon since it launched." },
+
+      { type: "heading", text: "Recovery Matters More in the Heat" },
+      { type: "paragraph", text: "One aspect of summer fitness that most people underestimate is recovery. The heat places additional physiological stress on the body beyond the exercise itself — the cardiovascular system works harder to regulate temperature, sweat rates are higher, and electrolyte loss is more significant than in cooler conditions." },
+      { type: "paragraph", text: "Hydration before, during, and after any session is more important in Dubai summer than anywhere else. A litre of water per hour of exercise is the minimum recommendation for indoor sessions and significantly more for any outdoor activity. Carry a good insulated [water bottle](https://s.noon.com/x1LsWvMUhNk) that keeps water cold through a session — drinking warm water in a Dubai gym is genuinely unpleasant and reduces how much you actually consume." },
+      { type: "paragraph", text: "Post-workout nutrition and protein intake matters more in summer when the body is managing additional heat stress alongside muscle recovery. Getting adequate [protein supplement](https://s.noon.com/vUtJ6LoMo8w) in the two hours after training — whether from food or a supplement — supports recovery significantly better than leaving it until the next meal." },
+
+      { type: "image", src: summerFitPhone, alt: "Woman in gym gear sitting on a bench checking her phone with earbuds in" },
+
+      { type: "paragraph", text: "Read our guide on [how to meet people through sports in Dubai](https://joinplayy.com/blog/how-to-meet-people-through-sports-in-dubai)." },
+
+      { type: "heading", text: "Use Playy to Stay Active All Summer" },
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the biggest challenges of summer in Dubai is that the people you usually train with also disappear — travel, schedule changes, and the general disruption of the season breaks the social routines that made winter training consistent." },
+      { type: "paragraph", text: "Playy connects you with players in Dubai across padel, football, basketball, tennis, and gym sessions who are available when you are, regardless of what season it is. Create a session, find players near you who are looking for the same indoor game, and keep your sports routine going through the summer months." },
+      { type: "paragraph", text: "The app is free to download on iOS and the community is active year round — summer included." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Staying fit in Dubai summer is about adaptation not willpower. Shift outdoor sessions to early morning or late evening. Move your sport indoors — the infrastructure is there. Make the gym your summer base. Keep your recovery sharp with proper hydration and nutrition." },
+      { type: "paragraph", text: "The players who come back in October strongest are the ones who treated summer as a different training environment rather than a break from training. Dubai gives you every tool you need to stay active. The only thing required is knowing how to use them." },
+
+      { type: "cta", text: "Download Playy free on iOS at joinplayy.com and find active players in Dubai all summer long.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "how-to-find-a-basketball-game-in-dubai",
     title: "How to Find a Basketball Game in Dubai",
