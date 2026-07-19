@@ -10,7 +10,7 @@ const sports = [
   {
     name: "Football",
     emoji: "⚽",
-    description: "Join pickup games and find 5-a-side players near you in Dubai.",
+    description: "Find football players and 5-a-side games near you in Dubai.",
   },
   {
     name: "Basketball",
@@ -20,7 +20,7 @@ const sports = [
   {
     name: "Tennis",
     emoji: "🏸",
-    description: "Connect with tennis partners in Dubai who match your level and schedule.",
+    description: "Find tennis partners in Dubai who match your skill level and schedule.",
   },
 ];
 
