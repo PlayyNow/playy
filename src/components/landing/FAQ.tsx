@@ -20,7 +20,11 @@ const faqs = [
   },
   {
     q: "Is Playy free to use?",
-    a: "Yes. Playy is completely free to download and use on the iOS App Store. There are no subscriptions or hidden fees — just download, set your level, and start playing.",
+    a: "Yes. Playy is completely free to download and use on both the iOS App Store and Google Play Store. There are no subscriptions or hidden fees — just download, set your level, and start playing.",
+  },
+  {
+    q: "Is Playy on Android?",
+    a: "Yes. Playy is available on both iOS via the Apple App Store and Android via Google Play. Download free on either platform and start finding players near you today.",
   },
 ];
 
