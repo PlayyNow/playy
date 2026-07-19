@@ -4,11 +4,11 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "How do I find padel players in Dubai?",
-    a: "Download Playy from the iOS App Store, set your skill level and availability, and the app instantly matches you with nearby padel players in Dubai at your level. You can challenge them to a game, chat, and coordinate where to play — no group chats required.",
+    a: "Download Playy from the iOS App Store or Google Play, set your skill level and availability, and the app instantly matches you with nearby padel players in Dubai at your level. You can challenge them to a game, chat, and coordinate where to play — no group chats required.",
   },
   {
     q: "What sports are available on Playy?",
-    a: "Playy is focused on padel — Dubai's fastest-growing sport — and also supports football, basketball, tennis, and gym sessions. More sports are added regularly based on community demand.",
+    a: "Playy currently supports padel, football, basketball, and tennis in Dubai. More sports are coming soon based on community demand — tap the More Sports card on the homepage to vote for what we add next.",
   },
   {
     q: "How does skill matching work on Playy?",
