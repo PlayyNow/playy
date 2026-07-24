@@ -67,6 +67,9 @@ import basketballPhone from "@/assets/blog/basketball-phone.png";
 import summerFitHero from "@/assets/blog/summer-fit-hero.png";
 import summerFitPadel from "@/assets/blog/summer-fit-padel.png";
 import summerFitPhone from "@/assets/blog/summer-fit-phone.png";
+import nutritionHero from "@/assets/blog/nutrition-hero.jpg";
+import nutritionSnacks from "@/assets/blog/nutrition-snacks.jpg";
+import nutritionCourt from "@/assets/blog/nutrition-court.jpg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -90,6 +93,76 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "what-to-eat-before-and-after-playing-padel",
+    title: "What to Eat Before and After Playing Padel",
+    excerpt:
+      "Exactly what to eat before and after padel in Dubai — timing, portions, hydration in the heat, and the recovery window that matters most.",
+    date: "July 9, 2026",
+    image: nutritionHero,
+    ogImage: "https://joinplayy.com/blog/nutrition-hero.jpg",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Most padel players think about technique, fitness, and finding the right partners. Almost nobody thinks about what they eat before a session — until they hit a wall twenty minutes in and wonder why their legs feel heavy and their concentration has evaporated. For the wider game context, the [International Padel Federation](https://www.padelfip.com) tracks how quickly the sport is growing worldwide." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
+      { type: "paragraph", text: "Nutrition for padel is simpler than most people think. You do not need a sports dietitian. You need to understand a few basic principles and apply them consistently. Here is exactly what to eat before and after your padel sessions in Dubai." },
+      { type: "paragraph", text: "Already sorted your nutrition? Read our guide on [what to wear for padel in Dubai heat](https://joinplayy.com/blog/what-to-wear-for-padel-in-dubai-heat)." },
+
+      { type: "heading", text: "Why Nutrition Actually Matters for Padel" },
+      { type: "paragraph", text: "Padel is an intermittent high-intensity sport. A typical session — the kind you see on the [Premier Padel](https://www.premierpadel.com) tour and replicated at every level below it — involves repeated short explosive bursts, sprinting to the wall, lunging for a wide ball, driving forward to the net, separated by brief recovery periods between points. This pattern places significant demands on your muscle glycogen stores, your cardiovascular system, and your ability to concentrate under pressure." },
+      { type: "paragraph", text: "The food you eat in the hours before a session directly determines how much fuel is available for those explosive bursts. The food you eat after determines how quickly your muscles recover for the next session. Getting both right does not require dramatic changes — it requires timing and a few consistent choices. The [British Nutrition Foundation](https://www.nutrition.org.uk) publishes clear guidance on sports nutrition principles that apply directly to intermittent sports like padel." },
+      { type: "paragraph", text: "In Dubai specifically, the heat adds an additional layer of physiological stress. Your body is managing temperature regulation on top of athletic performance, which increases caloric and hydration demands beyond what the same session would require in a cooler climate. This makes pre and post session nutrition more important here than almost anywhere else." },
+
+      { type: "heading", text: "What to Eat 2 to 3 Hours Before" },
+      { type: "paragraph", text: "The ideal pre-padel meal eaten two to three hours before your session is moderate in carbohydrates, moderate in protein, and low in fat and fibre. Fat and fibre both slow gastric emptying — they sit in your stomach longer and can cause discomfort during the explosive movements padel demands." },
+      { type: "paragraph", text: "Good options for a pre-padel meal at this window include grilled chicken or fish with rice, a pasta dish with a light tomato or olive oil base, eggs on toast with minimal butter, or oats with banana and a small amount of honey. All of these provide sustained energy from carbohydrates with enough protein to prime your muscles without weighing you down." },
+      { type: "paragraph", text: "Portion size matters more than most people account for. A large meal even of the right foods two hours before a session can still cause discomfort on court. Aim for a comfortable but not full feeling when you finish eating — roughly 60 to 70 percent of your normal meal size." },
+      { type: "paragraph", text: "Avoid heavy red meat, fried foods, large salads with high fibre vegetables, and dairy-heavy meals in the two to three hours before padel. These are all nutritionally fine in general but poorly timed for court performance." },
+
+      { type: "heading", text: "What to Eat 30 to 60 Minutes Before" },
+      { type: "paragraph", text: "At the thirty to sixty minute mark before your session, a small fast-digesting carbohydrate snack is ideal if you have not eaten in the past few hours or if your previous meal was light." },
+      { type: "paragraph", text: "The best options at this window are a banana, a small handful of dates, a rice cake with a thin spread of peanut butter, or a small energy bar with simple ingredients. These digest quickly, raise blood glucose without causing a spike and crash, and provide immediately available fuel for the first sets of the session." },
+      { type: "paragraph", text: "Avoid protein-heavy snacks at this window — a protein bar, a chicken wrap, or a handful of nuts at thirty minutes before will not have digested in time to contribute meaningfully to your performance and may sit uncomfortably. Save the protein for after." },
+      { type: "paragraph", text: "If you play early morning sessions before breakfast — which is common in Dubai during summer to avoid the heat — eating a banana and drinking 400 to 500ml of water thirty minutes before is the minimum viable pre-session nutrition. Fasted padel is not ideal but manageable for sessions under 90 minutes with this minimal approach." },
+
+      { type: "heading", text: "What to Eat if You Have Less Than 30 Minutes" },
+      { type: "paragraph", text: "If you are heading directly to the court with less than thirty minutes before play, eat nothing solid. A small amount of fast-acting glucose — two or three dates, a few sports gummies, or a small glass of juice — is fine, but solid food at this point will not digest in time and may cause cramps or nausea during explosive movement." },
+      { type: "paragraph", text: "Focus entirely on hydration in this window. Arrive at the court already hydrated rather than trying to catch up on water in the final fifteen minutes." },
+
+      { type: "image", src: nutritionSnacks, alt: "Pre-workout snacks — banana, oats, nuts, energy bar and water bottle on a bright kitchen counter" },
+
+      { type: "heading", text: "Hydration in Dubai — More Important Than Anywhere Else" },
+      { type: "paragraph", text: "Hydration for padel in Dubai is not a nice-to-have. It is a performance variable that affects your speed, concentration, and recovery more directly than almost any food choice you make." },
+      { type: "paragraph", text: "The standard recommendation for sports hydration is to start any session already hydrated — light yellow urine is the target indicator, not clear and not dark. Drink 400 to 600ml of water in the two hours before your session rather than trying to drink large amounts immediately before." },
+      { type: "paragraph", text: "During a padel session aim for 150 to 250ml every fifteen to twenty minutes. For sessions over ninety minutes or any outdoor session in Dubai summer, adding an electrolyte tablet or sachet to your water replaces the sodium and potassium lost through sweat and prevents the dilution effect that comes from drinking large amounts of plain water during extended exercise." },
+      { type: "paragraph", text: "A good insulated [water bottle](https://s.noon.com/x1LsWvMUhNk) that keeps water cold through a Dubai session is worth having — warm water in summer heat is unpleasant and reduces how much you actually drink. Cold water also has a mild cooling effect on core temperature which matters in outdoor sessions." },
+      { type: "paragraph", text: "Read our guide on the [best time to play padel in Dubai](https://joinplayy.com/blog/best-time-to-play-padel-dubai) — timing your sessions around the heat is just as important as what you eat." },
+
+      { type: "heading", text: "What to Eat Immediately After" },
+      { type: "paragraph", text: "The thirty to sixty minutes immediately after a padel session is the most important nutritional window of the entire session cycle. Your muscles are depleted of glycogen and primed to absorb nutrients at a higher rate than at any other time. What you eat in this window directly determines how quickly you recover and how you feel in your next session." },
+      { type: "paragraph", text: "The immediate post-session priority is a combination of fast-digesting carbohydrates and protein. The carbohydrates replenish muscle glycogen. The protein provides the amino acids your muscle fibres need to repair the micro-damage that exercise creates." },
+      { type: "paragraph", text: "A banana with a [protein supplement](https://s.noon.com/vUtJ6LoMo8w) shake is the most convenient option for players who are heading home or continuing their day immediately after the session. The banana provides fast carbohydrates and the protein supplement provides twenty to twenty-five grams of quickly absorbed protein. A chocolate milk is a surprisingly well-researched recovery option that hits the same carbohydrate-to-protein ratio at a lower cost. Greek yoghurt with honey and fruit works equally well for players who prefer whole food options." },
+
+      { type: "heading", text: "What to Eat in the 2 Hours After" },
+      { type: "paragraph", text: "The full recovery meal in the two hours after your session should be your most complete nutritional intake of the day. This is when your body is doing the majority of the repair and adaptation work from the session." },
+      { type: "paragraph", text: "Aim for a balanced meal with a significant protein source — grilled chicken, fish, eggs, or legumes — a generous portion of complex carbohydrates such as brown rice, sweet potato, or whole grain bread, and vegetables for micronutrients and fibre. This combination supports muscle protein synthesis, refills glycogen stores, and provides the vitamins and minerals that support recovery." },
+      { type: "paragraph", text: "Do not skip this meal even if you are not hungry after a session. Post-exercise appetite suppression is common, particularly after intense sessions in the heat, but the recovery meal is too important to skip. If solid food feels difficult, a smoothie with fruit, oats, Greek yoghurt, and a scoop of protein powder covers the same bases in liquid form." },
+      { type: "paragraph", text: "Sleep is also part of recovery nutrition. Growth hormone — which drives muscle repair — is released primarily during deep sleep. The meal you eat in the two hours before bed on the night of a hard padel session should include a slow-digesting protein source such as cottage cheese, casein protein, or eggs to support overnight muscle repair." },
+
+      { type: "image", src: nutritionCourt, alt: "Padel player rehydrating and eating a banana courtside between sets" },
+
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "Find Players to Put This Into Practice With" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The best nutrition plan in the world only matters if you are actually getting on the court consistently. Playy connects padel players in Dubai by skill level and availability so you always have someone to play with — no group chat chaos, no last-minute cancellations from people who were never serious." },
+      { type: "paragraph", text: "Download the app free on iOS or Android, set your sport and skill level, and find your next session today." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Padel nutrition does not need to be complicated. Eat a moderate carbohydrate and protein meal two to three hours before. Have a small fast-digesting snack thirty to sixty minutes before if needed. Arrive already hydrated. Eat a combination of carbohydrates and protein within thirty minutes of finishing. Eat a full recovery meal within two hours." },
+      { type: "paragraph", text: "Apply those five principles consistently and the difference in how you feel on court — particularly in the third set of a long session — will be noticeable within a few weeks. The physical preparation is just as important as the technical one." },
+
+      { type: "cta", text: "Download Playy free on iOS or Android at joinplayy.com and find your next padel session in Dubai today.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "how-to-stay-fit-in-dubai-during-summer",
     title: "How to Stay Fit in Dubai During Summer",
