@@ -70,6 +70,9 @@ import summerFitPhone from "@/assets/blog/summer-fit-phone.png";
 import nutritionHero from "@/assets/blog/nutrition-hero.jpg";
 import nutritionSnacks from "@/assets/blog/nutrition-snacks.jpg";
 import nutritionCourt from "@/assets/blog/nutrition-court.jpg";
+import pickleballHero from "@/assets/blog/pickleball-hero.png";
+import pickleballRackets from "@/assets/blog/pickleball-rackets.png";
+import pickleballPlayers from "@/assets/blog/pickleball-players.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -93,6 +96,73 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "padel-vs-pickleball",
+    title: "Padel vs Pickleball: What is the Difference?",
+    excerpt:
+      "Padel and pickleball look similar but play completely differently. Here is a clear breakdown of courts, equipment, rules, and which one is right for you.",
+    date: "July 13, 2026",
+    image: pickleballHero,
+    ogImage: "https://joinplayy.com/blog/pickleball-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Two of the fastest-growing racket sports in the world right now are padel and pickleball. Both use solid paddles instead of strung rackets. Both are social, accessible, and easy to pick up. And both are frequently confused for each other by people who have not played either." },
+      { type: "paragraph", text: "They are completely different sports. Here is a clear breakdown of every key difference." },
+      { type: "paragraph", text: "Already know tennis? Read our breakdown of the [differences between padel and tennis](https://joinplayy.com/blog/difference-between-padel-and-tennis)." },
+
+      { type: "heading", text: "The Short Answer" },
+      { type: "paragraph", text: "Padel is played on an enclosed 20 by 10 metre glass court where the walls are part of the game. Pickleball is played on a smaller open 13.4 by 6.1 metre court with no walls and a non-volley zone called the kitchen near the net. Padel is always doubles. Pickleball can be singles or doubles. The balls, the rackets, the rules, and the gameplay feel are all different. The only things they share are a net, an underhand serve, and the fact that both are significantly easier to learn than tennis." },
+
+      { type: "heading", text: "The Court" },
+      { type: "paragraph", text: "A padel court measures 20 metres long by 10 metres wide — roughly one third the size of a tennis court — and is completely enclosed by walls. The back walls are typically glass three metres high with metal mesh fencing extending above. The side walls follow a similar construction. These walls are not boundaries in the traditional sense. They are part of the game. After the ball bounces on your side it can rebound off the back or side glass and you can still play it, which is what creates the long tactical rallies padel is known for." },
+      { type: "paragraph", text: "A pickleball court is significantly smaller at 13.4 metres long by 6.1 metres wide — roughly the same dimensions as a doubles badminton court. There are no walls. The court has a non-volley zone called the kitchen extending 2.13 metres from each side of the net. Players cannot volley the ball while standing in or touching the kitchen line, which is the single most distinctive strategic element of pickleball. Out of bounds in pickleball means the ball is gone — there is no wall to keep it in play." },
+      { type: "paragraph", text: "The enclosed padel court requires a purpose-built facility. Dubai has over 300 padel courts across more than 225 venues because the investment in building dedicated padel infrastructure has followed the sport's popularity here. Pickleball courts can be marked on any flat surface including existing tennis courts, basketball courts, or carparks, which explains why pickleball has spread so rapidly in the United States where public court access is the norm." },
+
+      { type: "heading", text: "The Equipment" },
+      { type: "paragraph", text: "Both sports use solid-faced paddles rather than strung rackets, which is the main visual similarity that causes confusion. The paddles themselves are quite different." },
+      { type: "paragraph", text: "A padel racket is larger, measuring approximately 45 centimetres long with a solid face that has circular perforations across it. Weights typically range from 340 to 380 grams. Padel rackets come in round, teardrop, and diamond head shapes that trade control for power at different points on the spectrum. Round shapes are ideal for beginners because of the larger sweet spot and forgiving contact." },
+      { type: "paragraph", text: "A pickleball paddle is typically shorter at around 40 centimetres and lighter at 200 to 250 grams. The face can be made from graphite, carbon fibre, or composite materials. The lighter weight and shorter length make pickleball paddles easier to manoeuvre at the kitchen line where most pickleball points are decided." },
+      { type: "paragraph", text: "The balls are completely different. Padel uses a pressurised rubber ball similar to a tennis ball but with slightly lower internal pressure — around 10 to 11 PSI versus 14 PSI in tennis. It bounces higher and faster than a pickleball. Pickleball uses a hard perforated plastic ball similar to a wiffle ball that travels more slowly and bounces lower. The ball difference alone changes the entire feel of each sport — padel is faster and more dynamic, pickleball is slower and more tactical near the net." },
+      { type: "image", src: pickleballRackets, alt: "Padel racket and pickleball paddle side by side on a blue court surface" },
+
+      { type: "heading", text: "The Rules" },
+      { type: "paragraph", text: "Both sports require an underhand serve. Both have a two-bounce rule — the serve must bounce before being returned and the return must also bounce before volleys are allowed. Both are played to a net. Beyond that the rules diverge significantly." },
+      { type: "paragraph", text: "The padel wall rule is what makes the sport unique. After the ball bounces once on the ground on your side, it can hit the back or side walls and you can still return it. This keeps rallies alive in ways that are impossible in any open-court sport and forces players to think constantly about angles and rebound trajectories. Players can even step outside the court through the gate doors to play a ball that exits over the back wall — one of the most spectacular shots in the sport when executed well." },
+      { type: "paragraph", text: "Pickleball's kitchen rule is equally central to that sport's identity. The 2.13 metre non-volley zone on each side of the net means players cannot volley — hit the ball before it bounces — while standing in or touching the kitchen. This forces a specific style of play near the net that rewards soft hands, patience, and the dinking game over power. It is the opposite of what you do in padel, where controlling the net with aggressive volleys is the dominant strategy." },
+      { type: "paragraph", text: "Padel is always played in doubles — two players per side on the same court. Pickleball can be played as singles or doubles on the same court size, though doubles is the more common and social format." },
+
+      { type: "heading", text: "The Scoring" },
+      { type: "paragraph", text: "Padel uses the same scoring system as tennis — 15, 30, 40, game, set, match. Best of three sets with a tiebreak at 6-6. The golden point rule applies at deuce in most recreational padel, meaning a single point decides each deuce game rather than requiring a two-point advantage." },
+      { type: "paragraph", text: "Pickleball traditionally uses rally scoring where points can be scored by either side regardless of who is serving, and games are played to 11 points with a two-point lead required to win. This makes pickleball games significantly shorter than padel sets — a typical pickleball game takes 15 to 25 minutes while a padel set can run 45 minutes to an hour." },
+      { type: "paragraph", text: "The shorter game format makes pickleball easier to fit into a lunch break or a quick evening session. Padel's longer format rewards sustained fitness and tactical consistency in ways that shorter formats do not." },
+
+      { type: "heading", text: "Which One is Easier to Learn?" },
+      { type: "paragraph", text: "Both are significantly easier to learn than tennis. Pickleball has the lowest barrier of any racket sport — most complete beginners can rally within their first fifteen minutes because the slower ball, smaller court, and simple rules remove most of the technical obstacles that make other racket sports frustrating for new players." },
+      { type: "paragraph", text: "Padel has a slightly steeper initial learning curve because of the wall play. Reading how the ball comes off the glass takes a few sessions to feel natural. The court is also larger than pickleball which requires more movement. That said, most padel beginners are genuinely enjoying themselves and sustaining rallies within their first session — it is one of the most beginner-friendly sports for its skill ceiling." },
+      { type: "paragraph", text: "If you want to be rallying and having fun within your first fifteen minutes, pickleball wins. If you want a sport that gets more complex and strategically rewarding faster as you improve, padel has the edge. Both sports have a much shorter path from complete beginner to genuinely competitive than tennis." },
+      { type: "paragraph", text: "Read our beginner guide on [whether padel is hard to learn](https://joinplayy.com/blog/is-padel-hard-to-learn-as-a-beginner)." },
+
+      { type: "heading", text: "Which One is More Popular?" },
+      { type: "paragraph", text: "Globally pickleball has a significant numerical lead, particularly in North America. According to the 2026 Sports and Fitness Industry Association report cited by [USA Pickleball](https://www.usapickleball.org), approximately 24.3 million Americans played pickleball in 2025, a 22.8 percent year-over-year increase. The sport's growth in the United States has been driven by its accessibility, the availability of public courts, and a demographic that skews older than most racket sports." },
+      { type: "paragraph", text: "Padel has a stronger foothold in Europe, Latin America, and the Middle East. The [International Padel Federation](https://www.padelfip.com) estimates over 35 million active players worldwide across more than 90 countries. Growth is particularly strong in Spain, Sweden, Argentina, and the UAE where the sport has built significant infrastructure investment and professional competition through [Premier Padel](https://www.premierpadel.com)." },
+      { type: "paragraph", text: "Neither sport is truly global yet. Pickleball dominates in North America. Padel dominates in Europe and the Middle East. Both are in the early stages of international expansion that will likely make them mainstream globally within the next decade." },
+
+      { type: "heading", text: "Which One is Bigger in Dubai?" },
+      { type: "paragraph", text: "Padel is significantly more established in Dubai than pickleball. The city has over 300 padel courts across more than 225 venues — dedicated glass-walled facilities across every major district from JBR to Dubai Sports City to Al Quoz. The social padel scene is active, well-organised, and growing rapidly with regular Americano sessions, community tournaments, and player communities that make it easy to get into the sport quickly." },
+      { type: "paragraph", text: "Pickleball exists in Dubai but is significantly smaller. A handful of facilities have added pickleball courts in recent years, primarily serving the American and Canadian expat communities who bring familiarity with the sport from home. For anyone moving to Dubai from North America where pickleball is dominant, the transition to padel is worth considering — the sports share enough DNA in terms of social format and accessibility that the learning curve is manageable and the community infrastructure in Dubai is vastly better for padel." },
+      { type: "image", src: pickleballPlayers, alt: "Four players mid-rally on a glass-walled padel court in Dubai at golden hour" },
+
+      { type: "heading", text: "Try Padel in Dubai with Playy" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. If this comparison has you curious about padel and you are based in Dubai, Playy is the fastest way to get on a court with the right people. You set your skill level — whether you are a complete beginner or coming from a pickleball or tennis background — and Playy matches you with players near you who are actively looking for a game at your level." },
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai) to get started. The Americano format is one of the best ways to try padel socially — [here is how it works](https://joinplayy.com/blog/what-is-an-americano-in-padel)." },
+      { type: "paragraph", text: "The app is free to download on iOS and Android. No group chats, no back and forth — just find your match and start playing." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Padel and pickleball are both brilliant racket sports with low barriers to entry and strong social formats. They are not the same sport and they do not feel the same to play. Padel is faster, more dynamic, wall-dependent, and always doubles. Pickleball is slower, more tactical near the kitchen, open-court, and flexible on format." },
+      { type: "paragraph", text: "In Dubai, padel wins on infrastructure, community, and court availability by a significant margin. If you are in the city and curious about getting into a racket sport, padel is the one with a ready-made community waiting for you." },
+
+      { type: "cta", text: "Download Playy free on iOS or Android at joinplayy.com and find your first padel partner in Dubai today.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "what-to-eat-before-and-after-playing-padel",
     title: "What to Eat Before and After Playing Padel",
