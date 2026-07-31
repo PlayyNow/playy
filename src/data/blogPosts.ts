@@ -73,6 +73,9 @@ import nutritionCourt from "@/assets/blog/nutrition-court.jpg";
 import pickleballHero from "@/assets/blog/pickleball-hero.png";
 import pickleballRackets from "@/assets/blog/pickleball-rackets.png";
 import pickleballPlayers from "@/assets/blog/pickleball-players.png";
+import exerciseHero from "@/assets/blog/exercise-hero.png";
+import exerciseWatch from "@/assets/blog/exercise-watch.png";
+import exerciseSocial from "@/assets/blog/exercise-social.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -96,6 +99,74 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "is-padel-good-exercise",
+    title: "Is Padel Good Exercise? What You Actually Burn and Build",
+    excerpt:
+      "Is padel good exercise? The short answer is yes — but here is the science behind what padel actually does to your body, your fitness, and your health.",
+    date: "July 17, 2026",
+    image: exerciseHero,
+    ogImage: "https://joinplayy.com/blog/exercise-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the most common questions from people considering padel for the first time is whether it actually counts as a proper workout. The short answer is yes — significantly so. But the more interesting answer is why, and what specifically padel does to your body that other sports do not. The [International Padel Federation](https://www.padelfip.com) tracks just how fast the sport is growing worldwide." },
+      { type: "paragraph", text: "Here is the science behind padel as exercise, broken down simply." },
+      { type: "paragraph", text: "Planning to start? Read our guide on [what to wear for padel in Dubai heat](https://joinplayy.com/blog/what-to-wear-padel-dubai-heat)." },
+
+      { type: "heading", text: "The Short Answer" },
+      { type: "paragraph", text: "Padel is a high-intensity interval sport that burns between 400 and 600 calories per hour depending on your weight, intensity, and skill level. It builds cardiovascular fitness, develops fast-twitch muscle fibres in your legs, core, and shoulders, improves coordination and reaction time, and has been shown in multiple studies to have measurable benefits for mental health and social wellbeing. It is also significantly easier on the joints than running or tennis, making it a sustainable long-term exercise option for players at any age." },
+
+      { type: "heading", text: "How Many Calories Does Padel Burn?" },
+      { type: "paragraph", text: "[University of Seville padel research](https://www.us.es), one of the most-cited padel studies in sports science, found that padel burns approximately 400 to 500 calories per hour for the average recreational player. At higher intensities — competitive matches between evenly matched players where rallies are long and court coverage is high — that figure rises to 500 to 600 calories per hour." },
+      { type: "paragraph", text: "To put that in context, a 90-minute padel session burns roughly 600 to 900 calories. That is comparable to an hour of moderate running, a solid cycling session, or a high-intensity gym workout. The difference is that most people find padel significantly more enjoyable than any of those alternatives, which means they play longer, more consistently, and with more genuine effort." },
+      { type: "paragraph", text: "The calorie burn in padel is not linear. The sport involves repeated explosive bursts — sprinting to the back glass, driving forward to the net, lunging for a wide ball — interspersed with brief recovery periods between points. This intermittent high-intensity pattern is metabolically demanding in a way that steady-state cardio like jogging is not. Your cardiovascular system and your muscles are both working hard even during the recovery periods between points." },
+      { type: "paragraph", text: "Read our guide on [what to eat before and after playing padel](https://joinplayy.com/blog/what-to-eat-before-and-after-playing-padel) to fuel your sessions properly." },
+
+      { type: "heading", text: "What Padel Does to Your Cardiovascular Fitness" },
+      { type: "paragraph", text: "Studies tracking heart rate during padel sessions consistently find that recreational players maintain an average heart rate of 70 to 85 percent of their maximum throughout a match. This is the cardiovascular training zone where meaningful aerobic fitness improvements occur — the same zone targeted in structured cardio workouts." },
+      { type: "paragraph", text: "A study published in the [Journal of Human Kinetics](https://www.termedia.pl/Journal/Journal_of_Human_Kinetics-18) found that regular padel players showed significant improvements in VO2 max — the measure of cardiovascular efficiency — after twelve weeks of twice-weekly play compared to a control group. The intermittent nature of the sport, with its combination of explosive sprints and brief recovery, produces adaptations similar to high-intensity interval training which is currently considered the most time-efficient form of cardiovascular exercise." },
+      { type: "paragraph", text: "For players in Dubai where the heat adds additional cardiovascular stress — your heart works harder to pump blood to the skin for cooling on top of its athletic demands — padel sessions in summer particularly develop heat tolerance and cardiovascular resilience over time." },
+
+      { type: "heading", text: "What Padel Does to Your Muscles" },
+      { type: "paragraph", text: "Padel develops a specific combination of muscle groups that most gym-based exercise programmes do not address as efficiently. The sport requires constant rotational power through the core for every shot, lateral explosive speed in the legs for court coverage, shoulder stability and wrist control for racket precision, and lower body endurance for the sustained movement across a 90-minute session." },
+      { type: "paragraph", text: "The fast-twitch muscle fibres in your legs — the ones responsible for explosive speed and change of direction — are particularly well-developed through padel because the sport demands repeated short sprints and rapid directional changes in a way that steady cardio does not. Players who play padel regularly typically notice improvements in their explosiveness and lateral movement speed within a few months." },
+      { type: "paragraph", text: "The core benefits are significant and often underestimated. Every padel shot involves a rotational movement through the hips and torso. The defensive movements — lunging low for a drop shot, reaching wide for a passing ball, twisting to play a back glass rebound — require sustained core activation that develops functional strength more effectively than isolated core exercises in a gym." },
+      { type: "image", src: exerciseWatch, alt: "Padel player checking her fitness watch courtside after a session" },
+
+      { type: "heading", text: "What Padel Does to Your Mental Health" },
+      { type: "paragraph", text: "This is arguably the most underappreciated benefit of padel as exercise. Research published in the International Journal of Environmental Research and Public Health found that padel players reported significantly lower levels of anxiety, depression, and perceived stress compared to non-players, and that these benefits were attributable to a combination of the physical exercise, the social interaction, and the cognitive demands of the sport." },
+      { type: "paragraph", text: "The cognitive element matters. Padel requires constant tactical thinking — reading your opponents, anticipating wall rebounds, positioning with your partner, deciding in milliseconds whether to lob or drive. This active mental engagement during exercise produces different neurological benefits from passive exercise like running on a treadmill while watching a screen. The focus required by padel essentially forces a meditative state where the mental chatter of daily life stops because the game demands your full attention." },
+      { type: "paragraph", text: "The social dimension compounds the mental health benefit further. Padel is always played in doubles, which means every session involves human connection and shared experience. The research on social fitness — exercise done in groups or with partners — consistently shows greater mental health benefits than solo exercise, even when the physical workload is identical." },
+
+      { type: "heading", text: "How Padel Compares to Other Sports" },
+      { type: "paragraph", text: "Compared to running, padel burns a similar number of calories but is significantly lower impact on the joints. The stop-start nature of padel means peak joint loading is distributed differently than the sustained repetitive impact of running. For players with knee or hip concerns, padel is often a more sustainable long-term exercise option." },
+      { type: "paragraph", text: "Compared to tennis, padel is slightly less physically demanding per hour because the court is smaller and the serve is underhand rather than overhead. However, padel sessions typically last longer than tennis matches at recreational level because the format encourages extended social play, so total caloric expenditure per session is comparable." },
+      { type: "paragraph", text: "Compared to gym training, padel develops cardiovascular fitness, functional strength, and coordination simultaneously in a way that isolated resistance training does not. Padel does not replace strength training for players who want to build significant muscle mass, but as a complete fitness activity that develops multiple physical qualities at once it is highly efficient." },
+      { type: "paragraph", text: "Compared to football or basketball, padel is lower impact, more accessible at older ages, and easier to play consistently because it does not require assembling a large group of players. A padel session requires only four people and a court — logistically much simpler than organising a football match." },
+
+      { type: "heading", text: "Is Padel Good Exercise for Beginners?" },
+      { type: "paragraph", text: "Padel is one of the best exercise options specifically for beginners because the physical demand is immediately real without being overwhelming. You are moving, sweating, and working your cardiovascular system from your very first session — even when your technique is poor and your rallies are short. The exercise benefit does not require mastery." },
+      { type: "paragraph", text: "As your skill improves over weeks and months, the physical demand increases naturally because better technique produces longer rallies, faster movement, and more precise court coverage. The exercise scales with your ability in a way that benefits beginners and advanced players equally." },
+      { type: "paragraph", text: "For players coming from a sedentary lifestyle, padel is often described as the sport that made exercise feel like something they look forward to rather than something they force themselves to do. The social format, the game-like engagement, and the immediate sense of progression combine to produce a sustained exercise habit that many people fail to build through gym-going alone." },
+      { type: "paragraph", text: "Read our guide on [whether padel is hard to learn as a beginner](https://joinplayy.com/blog/is-padel-hard-to-learn-as-a-beginner)." },
+
+      { type: "heading", text: "Is Padel Good Exercise for Weight Loss?" },
+      { type: "paragraph", text: "Padel can absolutely be part of an effective weight loss programme. Burning 600 to 900 calories per 90-minute session, two to three times per week, creates a meaningful caloric deficit when combined with reasonable dietary choices. The social and enjoyable nature of the sport means adherence is typically higher than with gym-based exercise programmes, which is the most important variable in any long-term weight management approach." },
+      { type: "paragraph", text: "The realistic expectation for padel as a weight loss tool is gradual, sustainable progress rather than dramatic rapid change. Players who play twice a week consistently and make modest dietary adjustments typically lose one to two kilograms per month without aggressive restriction. The fitness improvements — better cardiovascular health, increased muscle tone, improved energy levels — are often noticed before significant scale changes, which helps maintain motivation through the early weeks." },
+      { type: "paragraph", text: "For maximum weight loss benefit from padel, play at the highest intensity you can sustain, choose opponents at or slightly above your level so rallies are longer and more physically demanding, and eat in support of your sessions rather than eating back the calories immediately after." },
+      { type: "image", src: exerciseSocial, alt: "Four padel players laughing together after a session on an outdoor Dubai court" },
+
+      { type: "heading", text: "Find Players and Start Today" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. If this has convinced you to try padel as your primary exercise, the next step is finding the right people to play with. Playy matches you with padel players in Dubai at your level and availability so your first session is with someone at a similar starting point rather than someone who will outclass you and make the experience discouraging." },
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+      { type: "paragraph", text: "The app is free to download on iOS and Android. Find your partner, book a court, and start burning those calories today." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Padel is genuinely good exercise. It burns 400 to 600 calories per hour, builds cardiovascular fitness comparable to HIIT training, develops functional strength through the core and legs, improves coordination and reaction time, and delivers measurable mental health benefits through its combination of physical demand, cognitive engagement, and social connection." },
+      { type: "paragraph", text: "It is also more enjoyable than most forms of exercise, which is the quality that actually determines whether you do it consistently. And consistent exercise is the only kind that produces lasting results." },
+
+      { type: "cta", text: "Download Playy free on iOS or Android at joinplayy.com and find your padel partner in Dubai today.", label: "Download Playy", href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368" },
+    ],
+  },
   {
     slug: "padel-vs-pickleball",
     title: "Padel vs Pickleball: What is the Difference?",
