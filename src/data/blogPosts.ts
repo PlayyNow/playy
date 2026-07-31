@@ -73,6 +73,9 @@ import nutritionCourt from "@/assets/blog/nutrition-court.jpg";
 import pickleballHero from "@/assets/blog/pickleball-hero.png";
 import pickleballRackets from "@/assets/blog/pickleball-rackets.png";
 import pickleballPlayers from "@/assets/blog/pickleball-players.png";
+import exerciseHero from "@/assets/blog/exercise-hero.png";
+import exerciseWatch from "@/assets/blog/exercise-watch.png";
+import exerciseSocial from "@/assets/blog/exercise-social.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
