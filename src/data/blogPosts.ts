@@ -119,7 +119,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "In Dubai, the weather is the central organising principle of the entire padel calendar. From October through April conditions are genuinely excellent — warm evenings, low humidity, outdoor courts at their best. This is Dubai's padel peak season and it is arguably better than almost anywhere in Europe for comfortable outdoor play." },
       { type: "paragraph", text: "From May through September everything shifts. Outdoor padel during the day becomes dangerous with temperatures regularly exceeding 42 degrees Celsius. The entire community migrates indoors or shifts to early morning and late evening outdoor slots. Players who come from Europe and try to maintain their usual midday or early evening outdoor session habits in a Dubai summer find out quickly why this does not work." },
       { type: "paragraph", text: "The adaptation is not difficult once you understand it — Dubai has excellent indoor padel infrastructure across every district — but it requires a mental shift from European padel habits where outdoor courts are the default year round." },
-      { type: "paragraph", text: "Read our [full guide on the best time to play padel in Dubai](https://joinplayy.com/blog/best-time-to-play-padel-dubai) across different seasons." },
+      { type: "paragraph", text: "Read our [full guide on the best time to play padel in Dubai](https://joinplayy.com/blog/what-is-the-best-time-to-play-padel-in-dubai) across different seasons." },
       { type: "paragraph", text: "Read our guide on [what to wear for padel in Dubai heat](https://joinplayy.com/blog/what-to-wear-padel-dubai-heat)." },
 
       { type: "heading", text: "Court Culture and Etiquette" },
@@ -354,7 +354,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "The standard recommendation for sports hydration is to start any session already hydrated — light yellow urine is the target indicator, not clear and not dark. Drink 400 to 600ml of water in the two hours before your session rather than trying to drink large amounts immediately before." },
       { type: "paragraph", text: "During a padel session aim for 150 to 250ml every fifteen to twenty minutes. For sessions over ninety minutes or any outdoor session in Dubai summer, adding an electrolyte tablet or sachet to your water replaces the sodium and potassium lost through sweat and prevents the dilution effect that comes from drinking large amounts of plain water during extended exercise." },
       { type: "paragraph", text: "A good insulated [water bottle](https://s.noon.com/x1LsWvMUhNk) that keeps water cold through a Dubai session is worth having — warm water in summer heat is unpleasant and reduces how much you actually drink. Cold water also has a mild cooling effect on core temperature which matters in outdoor sessions." },
-      { type: "paragraph", text: "Read our guide on the [best time to play padel in Dubai](https://joinplayy.com/blog/best-time-to-play-padel-dubai) — timing your sessions around the heat is just as important as what you eat." },
+      { type: "paragraph", text: "Read our guide on the [best time to play padel in Dubai](https://joinplayy.com/blog/what-is-the-best-time-to-play-padel-in-dubai) — timing your sessions around the heat is just as important as what you eat." },
 
       { type: "heading", text: "What to Eat Immediately After" },
       { type: "paragraph", text: "The thirty to sixty minutes immediately after a padel session is the most important nutritional window of the entire session cycle. Your muscles are depleted of glycogen and primed to absorb nutrients at a higher rate than at any other time. What you eat in this window directly determines how quickly you recover and how you feel in your next session." },
@@ -411,7 +411,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "For football, indoor five-a-side pitches at venues including MVP Lab in Al Quoz and ISD Sports operate year round. The artificial turf and controlled temperature make summer indoor football a different but equally competitive game to outdoor winter football." },
       { type: "paragraph", text: "For basketball, Hamdan Sports Complex and Insports provide full-size indoor courts with year-round availability. The NBA-standard facilities at Hamdan in particular make summer basketball in Dubai a genuinely premium experience." },
       { type: "paragraph", text: "For tennis, most club facilities in Dubai are indoor or covered, making them viable year round. The Aviation Club Tennis Centre and several community courts operate through summer without interruption." },
-      { type: "paragraph", text: "Read our full guide on the [best time to play padel in Dubai](https://joinplayy.com/blog/best-time-to-play-padel-dubai) including how players adapt in summer." },
+      { type: "paragraph", text: "Read our full guide on the [best time to play padel in Dubai](https://joinplayy.com/blog/what-is-the-best-time-to-play-padel-in-dubai) including how players adapt in summer." },
 
       { type: "image", src: summerFitPadel, alt: "Players in an indoor air-conditioned padel court in Dubai during summer" },
 
@@ -507,7 +507,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", text: "Use Playy to Find Basketball Players in Dubai" },
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. For basketball players in Dubai who want to find opponents at their level without relying on knowing the right Facebook groups or WhatsApp chains, Playy connects players by sport, skill level, and availability." },
       { type: "paragraph", text: "Set your sport as basketball, add your level and available times, and Playy shows you other basketball players near you who are actively looking for a game. Create a session and invite others to join, or browse sessions that players near you have already set up. The app is free to download on iOS and available across Dubai for basketball, padel, football, tennis, and gym sessions." },
-      { type: "paragraph", text: "The same timing principles apply to padel — read our guide on the [best time to play sports in Dubai heat](https://joinplayy.com/blog/best-time-to-play-padel-dubai)." },
+      { type: "paragraph", text: "The same timing principles apply to padel — read our guide on the [best time to play sports in Dubai heat](https://joinplayy.com/blog/what-is-the-best-time-to-play-padel-in-dubai)." },
 
       { type: "heading", text: "The Bottom Line" },
       { type: "paragraph", text: "Finding basketball in Dubai comes down to showing up consistently at the right courts at the right times and becoming a recognised face in the community that already exists there. JBR, Dubai Sports City, and Al Barsha Pond Park are your best starting points outdoors. Hamdan Sports Complex and Insports cover you through summer indoors." },
