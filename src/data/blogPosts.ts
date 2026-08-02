@@ -74,6 +74,9 @@ import pickleballHero from "@/assets/blog/pickleball-hero.png";
 import pickleballRackets from "@/assets/blog/pickleball-rackets.png";
 import pickleballPlayers from "@/assets/blog/pickleball-players.png";
 import exerciseHero from "@/assets/blog/exercise-hero.png";
+import dubaiVsEuropeHero from "@/assets/blog/dubai-vs-europe-hero.png";
+import dubaiVsEuropeNight from "@/assets/blog/dubai-vs-europe-night.png";
+import dubaiVsEuropeGroup from "@/assets/blog/dubai-vs-europe-group.jpg";
 import exerciseWatch from "@/assets/blog/exercise-watch.png";
 import exerciseSocial from "@/assets/blog/exercise-social.png";
 
@@ -99,6 +102,81 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "padel-dubai-vs-europe",
+    title: "How Padel in Dubai is Different From Padel in Europe",
+    excerpt:
+      "Same glass walls, same scoring — completely different context. Here is how padel in Dubai compares to padel in Europe on weather, culture, cost and community.",
+    date: "July 21, 2026",
+    image: dubaiVsEuropeHero,
+    ogImage: "https://joinplayy.com/blog/dubai-vs-europe-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. If you played padel regularly in Spain, Sweden, the UK, or anywhere else in Europe and have recently moved to Dubai, you will notice the game feels familiar but the context around it is completely different. Same glass walls, same underhand serve, same scoring — but almost everything else about the experience varies in ways that take a few sessions to adjust to. The [International Padel Federation](https://www.padelfip.com) governs the sport in both regions, yet the day-to-day reality of playing is not the same." },
+      { type: "paragraph", text: "Here is a straight comparison of what is genuinely different about padel in Dubai versus padel in Europe, based on what players who have experienced both consistently describe." },
+
+      { type: "heading", text: "The Weather Changes Everything" },
+      { type: "paragraph", text: "This is the most obvious difference and the one with the most practical consequences. In most of Europe, padel is played outdoors year round with some seasonal variation — cooler winters slow things down, spring and summer are peak season. The weather is a background factor, not a dominant one." },
+      { type: "paragraph", text: "In Dubai, the weather is the central organising principle of the entire padel calendar. From October through April conditions are genuinely excellent — warm evenings, low humidity, outdoor courts at their best. This is Dubai's padel peak season and it is arguably better than almost anywhere in Europe for comfortable outdoor play." },
+      { type: "paragraph", text: "From May through September everything shifts. Outdoor padel during the day becomes dangerous with temperatures regularly exceeding 42 degrees Celsius. The entire community migrates indoors or shifts to early morning and late evening outdoor slots. Players who come from Europe and try to maintain their usual midday or early evening outdoor session habits in a Dubai summer find out quickly why this does not work." },
+      { type: "paragraph", text: "The adaptation is not difficult once you understand it — Dubai has excellent indoor padel infrastructure across every district — but it requires a mental shift from European padel habits where outdoor courts are the default year round." },
+      { type: "paragraph", text: "Read our [full guide on the best time to play padel in Dubai](https://joinplayy.com/blog/best-time-to-play-padel-dubai) across different seasons." },
+      { type: "paragraph", text: "Read our guide on [what to wear for padel in Dubai heat](https://joinplayy.com/blog/what-to-wear-padel-dubai-heat)." },
+
+      { type: "heading", text: "Court Culture and Etiquette" },
+      { type: "paragraph", text: "European padel culture, particularly in Spain where the sport originated, has well-established unwritten rules around court time, etiquette, and social behaviour. Players generally know the conventions around warming up, changing sides, and post-match interaction because padel culture has developed over decades." },
+      { type: "paragraph", text: "Dubai padel culture is younger and more international. With over 200 nationalities in the city and the sport still growing rapidly here, the social conventions are less uniform. You will encounter players from Spanish, Swedish, British, Argentine, Lebanese, and dozens of other padel traditions all playing on the same courts with slightly different assumptions about etiquette." },
+      { type: "paragraph", text: "This makes Dubai courts generally more relaxed and forgiving than established European club environments. The unspoken rules are less rigid, newcomers are welcomed more openly, and there is less of the club hierarchy that can make entry into established European padel communities feel intimidating. The trade-off is less consistency — what is considered normal court etiquette varies significantly between venues and player groups." },
+      { type: "paragraph", text: "One specific difference: in Spain and Sweden it is very common to play with strangers who fill empty spots in your booking. In Dubai this is less common — most bookings are with established groups. The Americano session format is the main exception and is how most new players in Dubai get court time with people they have not met before." },
+
+      { type: "heading", text: "When People Actually Play" },
+      { type: "paragraph", text: "In European cities padel typically runs across the full day with morning, midday, and evening slots all well-used depending on the day of the week. After-work evening slots from 6pm to 9pm are the most competitive to book in most European cities." },
+      { type: "paragraph", text: "In Dubai the peak slots are different and more concentrated. The after-work window of 7pm to 10pm is the primary session time for most players throughout the year. Morning slots before 9am are heavily used during summer as the only viable outdoor alternative to the evening. Midday padel exists but is almost exclusively indoor during summer and less common overall than in European markets." },
+      { type: "paragraph", text: "Weekend timing also differs. Friday and Saturday are the UAE weekend rather than Saturday and Sunday. Friday morning padel is particularly popular in Dubai — the equivalent of a European Saturday morning session in terms of social energy and court demand. If you are used to booking weekend morning slots easily in Europe, Friday morning courts in Dubai fill up quickly and need advance booking." },
+
+      { type: "image", src: dubaiVsEuropeNight, alt: "Four padel players on a floodlit court at night with the Dubai skyline behind them", float: "none" },
+
+      { type: "heading", text: "The Skill Level Landscape" },
+      { type: "paragraph", text: "European padel markets particularly in Spain and Sweden have been developing for twenty to thirty years and have a much deeper pool of experienced players at every level. Club systems, professional coaching pathways fed by tours like [Premier Padel](https://www.premierpadel.com), and junior development programmes mean the average skill level in an established European padel market is higher than in Dubai where the sport has been growing rapidly but from a much shorter base." },
+      { type: "paragraph", text: "This has practical implications for finding the right opponents. In Dubai there is a larger proportion of players at beginner and lower intermediate level than you would find in a typical Spanish or Swedish club environment. If you came from a competitive European club and are searching for high-level recreational opponents in Dubai, they exist but you need to know where to look — the competitive player community is more concentrated at specific venues and events rather than spread evenly across all courts." },
+      { type: "paragraph", text: "The flip side is that if you are at beginner or intermediate level, Dubai is a genuinely great place to develop. The community is supportive of new players, coaching is widely available, and Americano sessions provide regular access to different opponents without the intimidation factor that can come with entering an established European club environment as a newcomer." },
+
+      { type: "heading", text: "The Social Scene" },
+      { type: "paragraph", text: "The social dimension of padel in Dubai is arguably its most distinctive quality compared to Europe. Dubai's padel community is overwhelmingly expat-driven and built around connection and community in a way that reflects the broader social needs of the city's transient population." },
+      { type: "paragraph", text: "In Europe, especially in Spain where padel is as common as tennis, the sport is embedded in existing social networks. You play padel with your colleagues, your neighbours, your school friends. The sport is a way to spend time with people you already know." },
+      { type: "paragraph", text: "In Dubai, padel functions differently. It is often the mechanism through which people build their social networks from scratch. Players who moved to Dubai without an existing circle frequently describe padel as the sport that gave them their first real friends in the city. The Americano format — which rotates partners throughout the session so you play with everyone — is far more central to Dubai padel culture than it is in most European markets for exactly this reason." },
+      { type: "paragraph", text: "Community events, social tournaments, and open sessions attract players who are actively looking to meet people, not just play sport. This gives Dubai padel a distinctly social and community-oriented energy that is different from the more established club cultures of European padel." },
+      { type: "paragraph", text: "The Americano format is central to Dubai padel culture — [here is how it works](https://joinplayy.com/blog/what-is-an-americano-in-padel)." },
+
+      { type: "heading", text: "Court Quality and Availability" },
+      { type: "paragraph", text: "Dubai has invested heavily in padel infrastructure over the past five years. The city now has over 300 courts across more than 225 venues — a density that rivals established European padel cities. The quality of facilities at premium Dubai venues including [ISD Padel](https://isddubai.com), Just Padel, and Central Padel is genuinely world class by any standard." },
+      { type: "paragraph", text: "The difference from European markets is consistency. European padel clubs, particularly in Spain and Sweden, have decades of established infrastructure with consistent standards across different price points. In Dubai the range is wider — the best venues are excellent but the variation between top and bottom tier is larger than in mature European markets." },
+      { type: "paragraph", text: "Court availability in Dubai's peak season from October through April requires advance booking at popular venues, particularly on weekend evenings. This is comparable to major European cities in peak season. During summer the outdoor courts are underused due to heat and indoor courts at good venues can book up quickly for evening slots — book two to three days in advance for peak times." },
+
+      { type: "heading", text: "The Cost Difference" },
+      { type: "paragraph", text: "Court hire in Dubai typically costs between AED 200 and AED 400 per hour depending on the venue, time of day, and whether the court is indoor or outdoor. At current exchange rates this is broadly comparable to premium European padel markets like Sweden and the UK, and more expensive than Spain where court hire at many clubs runs below AED 100 equivalent per hour." },
+      { type: "paragraph", text: "The overall cost of padel in Dubai is higher when you factor in the higher cost of living context — coaching, equipment, and club membership fees all trend toward the premium end by global standards. Players coming from Spain in particular will find Dubai padel noticeably more expensive for equivalent court time." },
+      { type: "paragraph", text: "The trade-off is facility quality and year-round playability. The best Dubai padel venues offer an experience that matches or exceeds anything available in most European markets, and the ability to play at 9pm on a warm evening in January with shorts and a t-shirt is something no European market can offer." },
+
+      { type: "image", src: dubaiVsEuropeGroup, alt: "Group of padel players chatting on a Dubai court with the Burj Khalifa in the background", float: "none" },
+
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "Finding Players in Dubai" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the most common frustrations for European players who move to Dubai is that their existing padel network does not transfer. The WhatsApp groups, the club contacts, the regular partners — all of that stays in Europe." },
+      { type: "paragraph", text: "Playy exists specifically to solve this. Whether you are a competitive intermediate player looking for opponents at your level or a beginner who wants to build a playing network from scratch, Playy matches you with padel players in Dubai by sport, skill level, and availability. Download it free on iOS or Android and start building your Dubai padel network from your first week in the city." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Padel in Dubai is the same sport as padel in Europe with a different context built around it. The biggest adjustments are timing your sessions around the heat, understanding that the social energy here is more community-driven and connection-focused than in established European club environments, and building a new player network from scratch in a city where almost everyone else is doing the same thing." },
+      { type: "paragraph", text: "The good news is that Dubai's padel infrastructure is world class, the community is genuinely welcoming, and the winter season from October through April offers outdoor padel conditions that are genuinely better than most of Europe. Once you find your people and your venues, the game feels exactly like home." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS or Android at joinplayy.com and find your padel network in Dubai today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
   {
     slug: "is-padel-good-exercise",
     title: "Is Padel Good Exercise? What You Actually Burn and Build",
