@@ -79,6 +79,9 @@ import dubaiVsEuropeNight from "@/assets/blog/dubai-vs-europe-night.png";
 import dubaiVsEuropeGroup from "@/assets/blog/dubai-vs-europe-group.jpg";
 import exerciseWatch from "@/assets/blog/exercise-watch.png";
 import exerciseSocial from "@/assets/blog/exercise-social.png";
+import injuriesHero from "@/assets/blog/injuries-hero.jpg";
+import injuriesElbow from "@/assets/blog/injuries-elbow.jpg";
+import injuriesCooldown from "@/assets/blog/injuries-cooldown.jpg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
