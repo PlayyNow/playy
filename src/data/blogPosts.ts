@@ -79,6 +79,9 @@ import dubaiVsEuropeNight from "@/assets/blog/dubai-vs-europe-night.png";
 import dubaiVsEuropeGroup from "@/assets/blog/dubai-vs-europe-group.jpg";
 import exerciseWatch from "@/assets/blog/exercise-watch.png";
 import exerciseSocial from "@/assets/blog/exercise-social.png";
+import injuriesHero from "@/assets/blog/injuries-hero.jpg";
+import injuriesElbow from "@/assets/blog/injuries-elbow.jpg";
+import injuriesCooldown from "@/assets/blog/injuries-cooldown.jpg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -102,6 +105,88 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "common-padel-injuries-and-how-to-prevent-them",
+    title: "Common Padel Injuries and How to Prevent Them",
+    excerpt:
+      "Padel elbow, shoulder pain, knee strains and back issues — the most common padel injuries, why they happen, and exactly how to prevent them.",
+    date: "July 24, 2026",
+    image: injuriesHero,
+    ogImage: "https://joinplayy.com/blog/injuries-hero.jpg",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Padel is one of the safest racket sports available — lower impact than tennis, less physical contact than football, and more controlled movement patterns than basketball. The [International Padel Federation](https://www.padelfip.com) promotes the sport as accessible to players of all ages and fitness levels. But injuries still happen, particularly among players who ramp up their session frequency quickly, skip warm-ups, or play through early warning signs that something is wrong." },
+      { type: "paragraph", text: "Here are the most common padel injuries, why they happen, and exactly how to prevent them." },
+      { type: "paragraph", text: "This article is for general information only and is not a substitute for professional medical advice. If you are experiencing pain or an injury, consult a qualified healthcare professional before returning to play." },
+      { type: "paragraph", text: "Read our guide on whether [padel is good exercise](https://joinplayy.com/blog/is-padel-good-exercise) for a full breakdown of what the sport does to your body." },
+
+      { type: "heading", text: "Why Padel Players Get Injured" },
+      { type: "paragraph", text: "Most padel injuries fall into one of two categories — overuse injuries from playing too frequently without adequate recovery, and acute injuries from movement patterns the body is not conditioned for." },
+      { type: "paragraph", text: "Overuse injuries are the most common among players who take up padel enthusiastically and quickly move from one session per week to four or five. The tendons and connective tissue in the elbow, shoulder, and knee adapt more slowly than cardiovascular fitness and muscular strength, which means players often feel physically capable of playing more before their joints are actually ready for the increased load." },
+      { type: "paragraph", text: "Acute injuries typically happen during explosive movements — lunging wide for a ball, pushing off hard to reach the back glass, or landing awkwardly after a jump smash. These are harder to predict but significantly reduced by proper warm-up and conditioning." },
+      { type: "paragraph", text: "In Dubai specifically, the heat adds an additional injury risk factor. Dehydration reduces muscle elasticity and increases the risk of cramps and strains. Playing in heat without adequate hydration also impairs reaction time and coordination, increasing the likelihood of awkward movements that cause acute injuries." },
+
+      { type: "heading", text: "Padel Elbow — The Most Common Injury" },
+      { type: "paragraph", text: "Padel elbow is the most frequently reported injury among recreational padel players. It is effectively the same condition as tennis elbow — lateral epicondylitis — an overuse injury affecting the tendons on the outside of the elbow where the forearm muscles attach. The [British Journal of Sports Medicine](https://bjsm.bmj.com) documents lateral epicondylitis as one of the most common overuse injuries across racket sports." },
+      { type: "paragraph", text: "The condition develops when these tendons are repeatedly loaded beyond their capacity to recover. In padel this typically happens through a combination of incorrect technique and excessive volume. The most common technical causes are gripping the racket too tightly, using a racket that is too heavy or stiff for your current level, and muscling the ball on volleys and ground strokes rather than using a relaxed, fluid swing." },
+      { type: "paragraph", text: "Symptoms start as a mild ache on the outside of the elbow after sessions and progress to pain during play and eventually pain during everyday activities. The key is catching it early. If you feel outside elbow discomfort after sessions, reduce your playing volume immediately, ice the area for ten to fifteen minutes after sessions, and review your grip pressure and racket choice before the pain becomes chronic." },
+      { type: "paragraph", text: "Prevention focuses on technique and equipment. Use a continental grip with relaxed pressure — squeezing the racket tightly is the single most common contributor to padel elbow. Choose a round beginner or intermediate racket with a softer core if you are playing more than three sessions per week. Strengthen the forearm flexors and extensors with simple wrist curls and reverse wrist curls two or three times per week as part of your general conditioning." },
+
+      { type: "image", src: injuriesElbow, alt: "Padel player resting her elbow on her racket courtside with a focus on forearm and grip", float: "none" },
+
+      { type: "heading", text: "Shoulder Injuries" },
+      { type: "paragraph", text: "Shoulder injuries in padel most commonly affect the rotator cuff — the group of four muscles and their tendons that stabilise the shoulder joint. The overhead smash and the bandeja — a controlled overhead slice played near the back glass — are the shots most associated with shoulder stress because they require rapid deceleration of the arm after an explosive motion." },
+      { type: "paragraph", text: "Rotator cuff injuries in padel typically develop gradually rather than as a single acute event. The early warning signs are a dull ache deep in the shoulder during or after overhead shots, weakness when reaching overhead, and discomfort when sleeping on the affected side. These signs should prompt a reduction in session frequency and an assessment of smash technique before the injury becomes a full tear." },
+      { type: "paragraph", text: "Prevention combines technique refinement with rotator cuff strengthening. The bandeja — where you slow the ball down and place it rather than smashing it — is technically safer for the shoulder than an aggressive smash from a deep defensive position. Learning to use the bandeja as your primary defensive overhead rather than attempting to smash from difficult positions reduces shoulder load significantly." },
+      { type: "paragraph", text: "For strengthening, internal and external rotation exercises with a light resistance band performed two to three times per week build the rotator cuff stability that protects against overuse injury. These exercises take five minutes and make a measurable difference to shoulder resilience over six to eight weeks of consistent practice." },
+
+      { type: "heading", text: "Knee and Ankle Injuries" },
+      { type: "paragraph", text: "Knee pain in padel most commonly presents as patellar tendinopathy — pain at the front of the knee around the kneecap — or as medial knee pain from the lateral movements the sport demands. The repeated lunging, cutting, and pushing off the legs that padel requires places significant load on the knee tendons and ligaments over time." },
+      { type: "paragraph", text: "Ankle sprains are the most common acute injury in padel, typically occurring when a player lands awkwardly after a smash or changes direction rapidly on a court surface. Most Dubai padel courts use artificial turf with sand infill which provides reasonable grip but can catch a foot awkwardly during fast lateral movements." },
+      { type: "paragraph", text: "Prevention for both starts with footwear. Padel-specific shoes with proper lateral support and a herringbone sole pattern designed for artificial turf are not optional — they meaningfully reduce the risk of both ankle sprains and the knee stress that comes from inappropriate footwear on padel surfaces. Running shoes or general trainers do not provide adequate lateral ankle support for padel movement patterns." },
+      { type: "paragraph", text: "Strength training for the quads, hamstrings, and glutes reduces the load on the knee joint during lunging and lateral movement. Single-leg exercises — split squats, single-leg Romanian deadlifts, lateral band walks — are particularly effective because they replicate the single-leg loading patterns that padel demands." },
+
+      { type: "heading", text: "Lower Back Pain" },
+      { type: "paragraph", text: "Lower back pain is common among padel players who play frequently, particularly those who have a history of back issues or who play with a consistently bent-over posture at the net. The repeated rotational movements of padel — particularly the backhand volley and the bandeja — load the lumbar spine in ways that can irritate the lower back over time." },
+      { type: "paragraph", text: "Most padel-related lower back pain is muscular rather than structural and responds well to rest, gentle movement, and addressing the postural and strength factors that caused it. Core strengthening — particularly the deep stabilising muscles of the trunk rather than superficial ab exercises — significantly reduces lower back injury risk in padel players who play more than twice per week." },
+      { type: "paragraph", text: "If lower back pain is severe, radiates down the leg, or does not improve with a week of rest, seek assessment from a physiotherapist or sports medicine doctor before returning to play. Back injuries that are played through can become significantly more serious than those that are properly rested." },
+
+      { type: "heading", text: "How to Warm Up Properly Before Padel" },
+      { type: "paragraph", text: "A proper padel warm-up takes eight to ten minutes and directly reduces your injury risk. The goal is to raise muscle temperature, increase joint mobility, and activate the specific movement patterns the sport demands before asking your body to perform them at full speed and intensity." },
+      { type: "paragraph", text: "Start with three to five minutes of light cardiovascular movement — a gentle jog around the court perimeter, skipping, or light lateral shuffles. This raises core temperature and increases blood flow to the working muscles." },
+      { type: "paragraph", text: "Follow with dynamic mobility work targeting the areas most loaded in padel. Hip circles and leg swings address hip and groin mobility. Arm circles and shoulder rotations prepare the shoulder joint. Thoracic rotations — standing and rotating your upper body side to side with your arms extended — mobilise the spine for the rotational demands of padel." },
+      { type: "paragraph", text: "Finish your warm-up on court with two to three minutes of gentle rallying at reduced speed and intensity before starting proper play. This last phase is the most important for injury prevention because it acclimatises your nervous system to the specific movement patterns of the session before you ask your body to execute them under match pressure." },
+
+      { type: "heading", text: "How to Cool Down After Padel" },
+      { type: "paragraph", text: "The cool-down is the most consistently skipped part of a padel session and one of the most important for injury prevention over time. Five to eight minutes of static stretching after play — when your muscles are warm and pliable — significantly improves flexibility and reduces the next-day stiffness that accumulates into chronic tightness and eventual injury." },
+      { type: "paragraph", text: "Focus the cool-down on the areas that worked hardest. Calf and Achilles stretches address the ankle and lower leg. Quad and hip flexor stretches target the front of the leg loaded during lunging. Shoulder cross-body stretches and chest openers address the upper body. Hold each stretch for twenty to thirty seconds without bouncing." },
+      { type: "paragraph", text: "Hydrate immediately after play and continue drinking water in the hour following your session. In Dubai's heat, post-session dehydration is more significant than in cooler climates and affects recovery speed measurably. A brief cold shower or cold water on the wrists and neck accelerates core temperature reduction after outdoor summer sessions." },
+
+      { type: "image", src: injuriesCooldown, alt: "Padel player stretching and cooling down on a Dubai court after a session", float: "none" },
+
+      { type: "paragraph", text: "Read our guide on [what to eat before padel](https://joinplayy.com/blog/what-to-eat-before-and-after-playing-padel) to fuel your sessions and support recovery." },
+
+      { type: "heading", text: "When to Rest and When to Play Through" },
+      { type: "paragraph", text: "The most important injury prevention decision is knowing when something requires rest and when it is safe to continue playing. A useful general rule is the pain scale approach. Discomfort that sits at a two or three out of ten during play and disappears within twenty-four hours is typically safe to continue playing with while monitoring. Pain that sits at four or above during play, worsens during the session, or persists more than forty-eight hours after play is a signal to rest and seek professional assessment." },
+      { type: "paragraph", text: "Never play through sharp, sudden pain. Never play through pain that changes your movement mechanics — if you are compensating for pain in your knee by altering your footwork or grip, you are creating secondary injury risk in other parts of the body. And never play through neurological symptoms like tingling, numbness, or weakness regardless of where they appear." },
+      { type: "paragraph", text: "A physiotherapist with sports experience is the most valuable professional resource for any persistent padel injury. In Dubai, sports physiotherapy is widely available at clinics across the city including at Dubai Sports City, JBR, and most major residential areas. [Dubai Sports Medicine](https://www.dsmc.ae) is one example of a clinic offering sports physiotherapy and injury assessment. An early assessment of a developing injury is always cheaper and faster than treating a chronic one." },
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)." },
+
+      { type: "heading", text: "Find Players Who Take Their Game Seriously" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Playing with partners who share your approach to warming up, cooling down, and taking care of their bodies makes a real difference to how sustainably you can play. Playy matches you with padel players in Dubai at your skill level and availability — find partners who are as serious about their game as you are." },
+      { type: "paragraph", text: "Download the app free on iOS or Android and find your next session today." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Most padel injuries are preventable. Warm up properly before every session. Cool down and stretch after. Use the right equipment — padel shoes, an appropriate racket weight, a relaxed grip. Build your session frequency gradually rather than dramatically. Rest when your body signals it needs to." },
+      { type: "paragraph", text: "The players who stay injury-free longest are not the most talented or the fittest. They are the ones who treat their bodies as the equipment that makes everything else possible." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS or Android at joinplayy.com and find your padel partner in Dubai today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
   {
     slug: "padel-dubai-vs-europe",
     title: "How Padel in Dubai is Different From Padel in Europe",
