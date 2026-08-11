@@ -131,7 +131,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Symptoms start as a mild ache on the outside of the elbow after sessions and progress to pain during play and eventually pain during everyday activities. The key is catching it early. If you feel outside elbow discomfort after sessions, reduce your playing volume immediately, ice the area for ten to fifteen minutes after sessions, and review your grip pressure and racket choice before the pain becomes chronic." },
       { type: "paragraph", text: "Prevention focuses on technique and equipment. Use a continental grip with relaxed pressure — squeezing the racket tightly is the single most common contributor to padel elbow. Choose a round beginner or intermediate racket with a softer core if you are playing more than three sessions per week. Strengthen the forearm flexors and extensors with simple wrist curls and reverse wrist curls two or three times per week as part of your general conditioning." },
 
-      { type: "image", src: injuriesElbow, alt: "Padel player resting her elbow on her racket courtside with a focus on forearm and grip", float: "none" },
+      { type: "image", src: injuriesElbow, alt: "Close-up of a padel player's elbow wrapped in black support tape while holding a racket on a blue court", float: "none" },
 
       { type: "heading", text: "Shoulder Injuries" },
       { type: "paragraph", text: "Shoulder injuries in padel most commonly affect the rotator cuff — the group of four muscles and their tendons that stabilise the shoulder joint. The overhead smash and the bandeja — a controlled overhead slice played near the back glass — are the shots most associated with shoulder stress because they require rapid deceleration of the arm after an explosive motion." },
@@ -161,7 +161,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Focus the cool-down on the areas that worked hardest. Calf and Achilles stretches address the ankle and lower leg. Quad and hip flexor stretches target the front of the leg loaded during lunging. Shoulder cross-body stretches and chest openers address the upper body. Hold each stretch for twenty to thirty seconds without bouncing." },
       { type: "paragraph", text: "Hydrate immediately after play and continue drinking water in the hour following your session. In Dubai's heat, post-session dehydration is more significant than in cooler climates and affects recovery speed measurably. A brief cold shower or cold water on the wrists and neck accelerates core temperature reduction after outdoor summer sessions." },
 
-      { type: "image", src: injuriesCooldown, alt: "Padel player stretching and cooling down on a Dubai court after a session", float: "none" },
+      { type: "image", src: injuriesCooldown, alt: "Two padel players stretching their quads and chatting on court after a session at golden hour", float: "none" },
 
       { type: "paragraph", text: "Read our guide on [what to eat before padel](https://joinplayy.com/blog/what-to-eat-before-and-after-playing-padel) to fuel your sessions and support recovery." },
 
