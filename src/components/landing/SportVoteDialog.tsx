@@ -73,7 +73,7 @@ const SportVoteDialog = ({ open, onOpenChange }: SportVoteDialogProps) => {
             </div>
             <DialogTitle className="mb-2 text-xl">Vote counted</DialogTitle>
             <DialogDescription className="mb-6">
-              Thanks — we'll let the community decide what lands next.
+              Thanks, we will prioritise sports based on community votes.
             </DialogDescription>
             <Button className="w-full" onClick={() => handleOpenChange(false)}>
               Done
