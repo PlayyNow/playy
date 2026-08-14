@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Plus } from "lucide-react";
+import { useState } from "react";
+import SportVoteDialog from "./SportVoteDialog";
 
 const sports = [
   {
@@ -25,6 +27,8 @@ const sports = [
 ];
 
 const SportsGrid = () => {
+  const [voteOpen, setVoteOpen] = useState(false);
+
   return (
     <section className="py-24 bg-secondary/30" id="sports">
       <div className="container mx-auto px-6">
@@ -64,10 +68,9 @@ const SportsGrid = () => {
             </motion.div>
           ))}
 
-          <motion.a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc4hkLEGhBRmQhknW5WZW9KHXxqhuYiKjLYWUXQrx85NZhu_g/viewform?usp=dialog"
-            target="_blank"
-            rel="noopener noreferrer"
+          <motion.button
+            type="button"
+            onClick={() => setVoteOpen(true)}
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -81,9 +84,10 @@ const SportsGrid = () => {
             <p className="text-xs text-muted-foreground mb-2 leading-snug">
               Tell us what you want next
             </p>
-          </motion.a>
+          </motion.button>
         </div>
       </div>
+      <SportVoteDialog open={voteOpen} onOpenChange={setVoteOpen} />
     </section>
   );
 };
