@@ -15,7 +15,7 @@ const Hero = () => {
           height={1080}
           fetchPriority="high"
           decoding="async"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover animate-ken-burns motion-reduce:animate-none"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
       </div>
@@ -27,9 +27,9 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-            Stop Scrolling.
+            Start Playing.
             <br />
-            <span className="text-gradient">Start Playing.</span>
+            <span className="text-gradient">Build Your Squad.</span>
           </h1>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-10">
             Find players. Book sessions. Build your squad.
