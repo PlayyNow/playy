@@ -50,7 +50,7 @@ async function run() {
     assertIncludes(html, post.title, route, "article title");
     assertIncludes(html, post.excerpt, route, "article excerpt metadata");
 
-    if (html.includes("Stop Scrolling. Start Playing.")) {
+    if (html.includes("Start Playing. Build Your Squad.")) {
       throw new Error(`${route} contains homepage content instead of article content.`);
     }
 
