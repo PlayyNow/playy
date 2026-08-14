@@ -83,12 +83,18 @@ export default {
           from: { opacity: "0", transform: "translateY(30px)" },
           to: { opacity: "1", transform: "translateY(0)" },
         },
+        "ken-burns": {
+          "0%": { transform: "scale(1) translate3d(0, 0, 0)" },
+          "50%": { transform: "scale(1.12) translate3d(-1.5%, -1%, 0)" },
+          "100%": { transform: "scale(1) translate3d(0, 0, 0)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "count-up": "count-up 0.6s ease-out forwards",
         "fade-up": "fade-up 0.6s ease-out forwards",
+        "ken-burns": "ken-burns 28s ease-in-out infinite",
       },
     },
   },
