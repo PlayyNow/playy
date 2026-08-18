@@ -85,6 +85,9 @@ import padelCityCourt from "@/assets/blog/padel-city-court.png";
 import padelCityCommunity from "@/assets/blog/padel-city-community.jpg";
 import injuriesElbow from "@/assets/blog/injuries-elbow.jpg";
 import injuriesCooldown from "@/assets/blog/injuries-cooldown.jpg";
+import netHero from "@/assets/blog/net-hero.png";
+import netAngle from "@/assets/blog/net-angle.png";
+import netFistbump from "@/assets/blog/net-fistbump.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -108,6 +111,83 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-win-more-points-at-the-net-in-padel",
+    title: "How to Win More Points at the Net in Padel",
+    excerpt:
+      "Net dominance decides padel matches. Positioning, angles, the chiquita, lob reading and golden point strategy to win more points at the net.",
+    date: "August 4, 2026",
+    image: netHero,
+    ogImage: "https://joinplayy.com/blog/net-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The difference between a padel player who wins consistently and one who plays the same number of hours and keeps losing is almost always one thing: net dominance. The team that controls the net controls the match. This is not a preference or a style choice — it is the foundational tactical principle of padel at every level from beginner to professional, as recognised by the [International Padel Federation](https://www.padelfip.com)." },
+      { type: "paragraph", text: "Here are the specific things you need to do differently to win more points at the net starting from your next session." },
+      { type: "paragraph", text: "Read our guide on [how to improve your padel volley](https://joinplayy.com/blog/how-to-improve-your-padel-volley) — the technical foundation for net play." },
+
+      { type: "heading", text: "Why the Net is Where Padel is Won and Lost" },
+      { type: "paragraph", text: "Data from [Premier Padel](https://www.premierpadel.com) professional matches consistently shows that the team at the net wins the point in over 70 percent of exchanges where one team is at the net and the other is at the baseline. At amateur level the proportion is similar or even higher because the defensive options available at the baseline are more limited." },
+      { type: "paragraph", text: "The physics are simple. From the net you have more angles available, the ball travels a shorter distance to your opponent, and your opponents have less time to react and recover. From the baseline you are defending, running, and hoping for an error rather than creating pressure. Every tactical decision in padel should be oriented around one question: how do I get to the net and stay there?" },
+
+      { type: "heading", text: "Get to the Net Faster" },
+      { type: "paragraph", text: "The most common mistake intermediate padel players make is treating the net as a destination they reach eventually rather than a position they move toward aggressively on every available opportunity. After your serve, advance to the net immediately. After a strong return that pushes your opponents back, advance together. After a successful lob defense that gives you a quality ball, advance." },
+      { type: "paragraph", text: "The serve-and-advance is the most important habit to build. The moment you make contact with the serve, start moving forward. Do not stand and watch whether the serve lands in. Do not wait to see how your opponents react. Move. By the time the return is coming back across the net you should already be at or approaching the net position rather than still standing on the service line." },
+      { type: "paragraph", text: "Your partner needs to move with you simultaneously. A net approach where one player advances and the other stays back creates a split that your opponents can exploit easily with a ball aimed at the gap between you. Advance together or do not advance at all." },
+      { type: "paragraph", text: "Net control is covered in our guide on [how to get better at padel fast](https://joinplayy.com/blog/how-to-get-better-at-padel-fast)." },
+
+      { type: "heading", text: "Cover the Middle Relentlessly" },
+      { type: "paragraph", text: "The most valuable real estate at the net in padel is the middle of the court between you and your partner. Most padel points at amateur level are won by hitting the ball through the middle of the net pair rather than down the line or into the corners. The gap between two players is the most consistent target because it forces a communication decision — who takes it? — and when that communication breaks down the point is over." },
+      { type: "paragraph", text: "The tactical response is to shade toward the middle constantly. Your default net position should have both you and your partner slightly closer to the centre line than the sideline. When the ball moves to one side, the player on that side shifts to cover the angle while the other player shifts toward the middle to close the central gap. This movement should be automatic and constant — you are essentially a single unit that expands and contracts based on where the ball is." },
+      { type: "paragraph", text: "When a ball comes through the middle and both players go for it, the forehand player should take it. Establish this rule with your partner before the match and call it out loud during practice. Miscommunication in the middle costs more points than almost any other error in padel doubles." },
+
+      { type: "heading", text: "Use the Angle Not the Power" },
+      { type: "paragraph", text: "The most common tactical error at the net among intermediate players is trying to hit winners with pace. A fast volley aimed roughly at the middle of the court gives your opponents time to react and a predictable ball to defend. A slower, angled volley aimed at the sideline close to the net forces your opponents to cover significantly more court and gives them a much harder defensive problem." },
+      { type: "paragraph", text: "The arithmetic of angles at the net is in your favour. From a net position, a volley angled toward the sideline at a 30-degree angle sends the ball to a point two to three metres wide of your opponent's position. They have to sprint laterally while you are already in position for the next ball. A hard drive at the same opponent requires them only to react quickly, which good defenders do well." },
+      { type: "paragraph", text: "Practice aiming volleys at the junction of the sideline and the service line — the T-junction. This area is consistently difficult to defend because it is low, wide, and forces the defender to make contact close to the ground while moving laterally. You do not need pace to make this shot effective. Control and placement are entirely sufficient." },
+
+      { type: "image", src: netAngle, alt: "Padel player stretching wide at the net to play an angled volley on an outdoor court", float: "none" },
+
+      { type: "heading", text: "The Chiquita — Your Most Underused Net Weapon" },
+      { type: "paragraph", text: "The chiquita is one of the most effective net weapons in padel and one of the least used at amateur level. It is a low, fast topspin ball hit from the net position that skims over the net and dips sharply into the opponent's feet. The shot gives the opponent virtually no time to react because of its combination of pace and downward trajectory, and it is significantly more effective than a standard volley against players who are themselves at the net." },
+      { type: "paragraph", text: "The technique is a compact topspin brushing motion with the racket face moving from low to high at contact, as described in the [LTA Padel technique guides](https://www.ltapadel.org.uk). Think of it as a heavy topspin drive reduced to a very short swing. The ball should clear the net by a small margin and dip quickly toward the opponent's feet rather than staying in a comfortable hitting zone." },
+      { type: "paragraph", text: "Use the chiquita specifically when your opponents are also at the net and a standard angled volley is less effective because they are already covering the angles. The chiquita at their feet forces a defensive reflex volley or a half volley that is easily attacked on the next ball. It is the shot that changes the dynamic when two net pairs are in a battle for net dominance." },
+
+      { type: "heading", text: "Read the Lob Early and Retreat Together" },
+      { type: "paragraph", text: "The lob is the primary counter to net dominance and handling it correctly is what separates players who hold the net effectively from those who get lobbed off it constantly. The key is reading the lob before it happens rather than reacting to it after." },
+      { type: "paragraph", text: "The signals that a lob is coming are visible in your opponent's body position, racket preparation, and the quality of the ball you just played. An opponent who is in a low defensive position with an open racket face is preparing to lob. An opponent who received a comfortable ball at medium height is more likely to drive. Learn to read these signals and start retreating before the ball is struck rather than after." },
+      { type: "paragraph", text: "When a lob goes over your head both you and your partner retreat together — not just the player on the side the ball is passing. A solo retreat leaves a gap that your opponents will attack immediately. Retreat together, let the ball bounce off the back glass, take your time to construct a good response rather than rushing, and then look to advance to the net again on the next quality ball you hit." },
+      { type: "paragraph", text: "The cycle of advance, get lobbed, retreat, rebuild, advance again is the central rhythm of padel net play. The teams that do this cycle well and without frustration are the ones that win the most points at the net over the course of a match." },
+
+      { type: "heading", text: "How to Handle Balls Hit Directly at Your Body" },
+      { type: "paragraph", text: "A ball hit directly at your body at the net is one of the most effective weapons your opponents have and one of the most commonly mishandled situations among intermediate players. The instinct is to panic and hit the ball with whatever movement is available — usually a wild, cramped swing that produces an error." },
+      { type: "paragraph", text: "The correct response is a compact backhand volley that deflects the ball down the middle or across to the open court. As the ball approaches your body, rotate your shoulder to create space between the ball and your torso, shorten your backswing to almost zero, and punch through the ball with a firm wrist. The goal is control and redirection rather than power." },
+      { type: "paragraph", text: "Players who learn to handle body balls cleanly neutralise one of the most common attacking weapons at amateur level. Players who panic and miss them give away easy points. Practice this specifically in training — ask your partner to feed balls directly at your body from the baseline while you practice the deflection response." },
+
+      { type: "heading", text: "The Golden Point Net Strategy" },
+      { type: "paragraph", text: "The golden point — the single deciding point at deuce in most recreational padel — demands specific net strategy. Both teams know this point decides the game which raises the pressure on every shot. The most common error at golden point is changing your game entirely under pressure and attempting shots you would not normally play." },
+      { type: "paragraph", text: "The correct approach is the opposite: simplify. Get to the net as quickly as possible after the serve. Cover the middle. Aim volleys at the corners with control rather than pace. Take away the lob with good positioning rather than leaving yourself exposed to it. The team that plays their normal net game under golden point pressure wins the majority of deuce games over the course of a match." },
+      { type: "paragraph", text: "The receiving team at golden point has the tactical advantage of choosing which side receives the serve. Put your stronger returner on the side the server is most likely to serve to. A strong return that puts pressure on the serving team immediately is worth more at golden point than any subsequent shot." },
+      { type: "paragraph", text: "Read our full [padel scoring system guide including how the golden point works](https://joinplayy.com/blog/the-padel-scoring-system-explained-simply)." },
+
+      { type: "image", src: netFistbump, alt: "Two padel players fist-bumping at the net on a Dubai court with the city skyline behind them", float: "none" },
+
+      { type: "paragraph", text: "Read our guide on [how to find a padel partner in Dubai](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai) to practice with." },
+
+      { type: "heading", text: "Find Players to Practice With" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Net dominance is a skill that develops through match play rather than solo drilling. You need opponents who challenge your positioning, punish gaps in your coverage, and lob you enough times that retreating and re-advancing becomes automatic. Playy connects you with padel players in Dubai at your level so your practice sessions are competitive enough to actually develop your game." },
+      { type: "paragraph", text: "Download the app free on iOS or Android and find your next session today." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Winning more points at the net in padel comes down to a small number of principles applied consistently. Get to the net faster after the serve. Cover the middle with your partner as a unit. Use angles rather than pace. Learn the chiquita for net-versus-net battles. Read lobs early and retreat together. Handle body balls with a compact deflection. Play your normal game under golden point pressure." },
+      { type: "paragraph", text: "None of these require extraordinary talent. They require deliberate awareness and consistent application. Apply them starting from your next session and the point count at the net will shift in your favour immediately." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS or Android at joinplayy.com and find a padel partner in Dubai to practice your net game with today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
   {
     slug: "why-dubai-became-a-padel-city",
     title: "Why Dubai Became a Padel City",
