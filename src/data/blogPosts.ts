@@ -88,6 +88,9 @@ import injuriesCooldown from "@/assets/blog/injuries-cooldown.jpg";
 import netHero from "@/assets/blog/net-hero.png";
 import netAngle from "@/assets/blog/net-angle.png";
 import netFistbump from "@/assets/blog/net-fistbump.png";
+import busyProHero from "@/assets/blog/busy-pro-hero.png";
+import busyProCourt from "@/assets/blog/busy-pro-court.jpg";
+import busyProPhone from "@/assets/blog/busy-pro-phone.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
