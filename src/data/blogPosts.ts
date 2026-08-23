@@ -118,6 +118,84 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "padel-etiquette-what-you-need-to-know-before-you-play",
+    title: "Padel Etiquette — What You Need to Know Before You Play",
+    excerpt:
+      "The unwritten rules of padel: arriving on time, honest levels, calling your own faults, line call conventions, Americano etiquette and post-match manners.",
+    date: "August 11, 2026",
+    image: etiquetteHero,
+    ogImage: "https://joinplayy.com/blog/etiquette-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Every sport has unwritten rules — the things experienced players know automatically that nobody explicitly teaches you when you are new. Padel is no different. The formal rules of the game as set out by the [International Padel Federation](https://www.padelfip.com) are straightforward, but the etiquette around how you show up, how you behave on court, and how you conduct yourself before and after a session shapes how welcome you feel in the community and how likely other players are to want to play with you again. With the sport growing as fast as it is under the support of the [Dubai Sports Council](https://www.dsc.gov.ae), more new players are joining every week." },
+      { type: "paragraph", text: "Here is everything you need to know." },
+      { type: "paragraph", text: "[Read our full guide to the rules of padel before your first session.](https://joinplayy.com/blog/what-are-the-rules-of-padel)" },
+
+      { type: "heading", text: "Before the Session" },
+      { type: "paragraph", text: "Arrive on time. This sounds obvious but it is the most frequently violated piece of padel etiquette in Dubai and the one that causes the most frustration among regular players. A padel session with four people cannot start without all four people. Arriving late does not just affect you — it cuts into the court time of three other people who planned around the agreed start time. A good rule is to aim to arrive five to ten minutes before the start time so you are ready to play when the clock starts, not just arriving." },
+      { type: "paragraph", text: "Bring your own water. Sharing water bottles is common among friends but should not be assumed with players you are meeting for the first time. Most Dubai courts have water dispensers or vending machines but bringing your own ensures you are hydrated without depending on venue facilities." },
+      { type: "paragraph", text: "Bring the right equipment. Padel-specific shoes are important not just for your own performance but for court maintenance — running shoes can mark the turf surface and are frowned upon at many Dubai venues. If you are a complete beginner and do not own a padel racket yet, most venues offer rentals. Let the other players know in advance if you are planning to rent so there is no confusion or delay at the start." },
+      { type: "paragraph", text: "Let the other players know your level honestly. Overstating your skill level to get into a session with more experienced players is one of the most complained-about behaviours in the Dubai padel community. A significant skill mismatch makes the session less enjoyable for everyone. Be honest — there are players at your level and sessions designed for your stage, and being in the right one produces a better experience than being in the wrong one." },
+
+      { type: "heading", text: "At the Start of the Match" },
+      { type: "paragraph", text: "Decide on pairings fairly. For a casual session there is no formal seeding. A common approach is to spin a racket to decide who has the first pick of partner, or to draw at random. Avoid insisting on the pairing you want or manoeuvring to always play with the strongest player in the group — it is noticed and it is not good form." },
+      { type: "paragraph", text: "Warm up together. A two to three minute cooperative rally at the start of the session before competitive play begins is standard padel etiquette. This gives everyone a chance to find their timing and touch before points matter. It is also a matter of injury prevention — jumping straight into competitive intensity without warming up the joints and muscles is how strains happen." },
+      { type: "paragraph", text: "Decide in advance how you will handle deuce. Will you play golden point or full advantage? This is especially important in recreational sessions where there is no formal tournament rule. Agree before you start and both pairs know what to expect when the score reaches 40-40." },
+
+      { type: "heading", text: "During Play" },
+      { type: "paragraph", text: "Call your own faults. If your serve lands out or you commit a foot fault, call it yourself. Do not wait for your opponents to call it. Self-officiating is the norm in recreational padel and players who consistently benefit from not calling their own faults are quickly identified and unwelcome in future sessions." },
+      { type: "paragraph", text: "Do not coach or give unsolicited advice during the match. Telling your partner what they did wrong immediately after losing a point is one of the fastest ways to create tension on court. Save the tactical discussion for changeovers and keep it brief and positive even then. Nobody plays better when they are feeling criticised mid-match." },
+      { type: "paragraph", text: "Keep the energy positive. Celebrating a great shot is completely normal and part of what makes padel enjoyable. Celebrating your opponents' errors excessively is not. Watch any [Premier Padel](https://www.premierpadel.com) match and you will see the professional standard — there is a clear difference between the natural reaction to winning a hard-fought point and rubbing an unforced error in your opponents' faces. The former is sportsmanship. The latter is not and it is remembered." },
+      { type: "paragraph", text: "Do not throw or slam your racket. Beyond the obvious risk of damage or injury, racket throwing is considered poor sportsmanship in padel culture universally. If you are getting frustrated, take a breath between points. The game will not improve if you escalate your frustration physically." },
+
+      { type: "image", src: etiquetteCourt, alt: "Two padel players talking on a blue outdoor court at golden hour with rackets in hand", float: "none" },
+
+      { type: "heading", text: "Calling the Score and Calling Balls In or Out" },
+      { type: "paragraph", text: "The server's pair is responsible for calling the score before each point. Call it clearly so both pairs can hear. If you are unsure of the score, ask — do not assume. A quick score check takes five seconds and prevents the confusion and argument that can result from a disputed score later in the game." },
+      { type: "paragraph", text: "Line calls should be made immediately and clearly. If a ball lands out, call it straight away with a clear verbal or hand signal. A delayed call after you have already attempted to play the ball is not valid — the convention is that if you play the ball you have implicitly accepted it as in. When in genuine doubt about whether a ball was in or out, give the point to your opponents. The benefit of the doubt always goes to the team hitting the ball in recreational padel." },
+      { type: "paragraph", text: "Never call a ball out if you are not certain. Calling balls out on close calls to win points is the most serious etiquette violation in recreational padel and the one most likely to damage your reputation in the Dubai padel community permanently. If you are not sure, it was in." },
+      { type: "paragraph", text: "[Read our padel scoring system guide if you are still getting familiar with the numbers.](https://joinplayy.com/blog/the-padel-scoring-system-explained-simply)" },
+
+      { type: "heading", text: "Between Points and Games" },
+      { type: "paragraph", text: "Keep the pace of play moving. Between points, retrieve your ball promptly and be ready to serve or receive within a reasonable time. Extended pauses between points to complain, adjust your outfit, or discuss what just happened slow the session down and frustrate the other players. A brief moment to compose yourself is completely normal — extended delays are not." },
+      { type: "paragraph", text: "At changeovers between games, keep the break to 90 seconds. Take a sip of water, say something brief to your partner, and be ready to continue. Changeovers are not timeouts for extended tactical discussions or physical recovery beyond what the time naturally allows." },
+      { type: "paragraph", text: "If a ball from an adjacent court rolls onto your court during a point, stop play and replay the point. Do not play through an interrupted point — it is unsafe and the right thing to do is replay it without argument. This applies equally when your ball rolls onto someone else's court — wait for a break in play before retrieving it and always ask permission before entering an adjacent court." },
+
+      { type: "heading", text: "After the Match" },
+      { type: "paragraph", text: "Shake hands or tap rackets with all four players at the net at the end of the match. This is standard in all levels of padel from recreational to professional and takes five seconds. Skipping the post-match greeting — walking straight off court without acknowledging the other pair — is considered genuinely poor form." },
+      { type: "paragraph", text: "Win graciously and lose graciously. Congratulate the winning pair specifically on things they did well rather than attributing your loss entirely to your own errors or luck. If you won, acknowledge the competition was real rather than making your opponents feel the result was inevitable. Good sportsmanship after a loss is remembered just as positively as a well-played point." },
+      { type: "paragraph", text: "The post-match social conversation is part of padel culture, particularly in Dubai where the sport is as much about community as competition. Take five minutes after the session to chat, recap highlights, and arrange the next game. This is where padel partnerships are formed and where the social network that makes the sport sustainable actually develops." },
+
+      { type: "heading", text: "Americano-Specific Etiquette" },
+      { type: "paragraph", text: "In an Americano session where partners rotate, a few additional conventions apply. When the rotation changes, move promptly to your new position on the court rather than lingering in conversation with your previous partner. The session has a schedule and delays in rotation cut into everyone's playing time." },
+      { type: "paragraph", text: "Count your points honestly. In an Americano, points are tracked individually and the temptation to miscount in your favour is real but quickly noticed by experienced players. Any scoring dispute should be resolved by giving the point in question to the other player — the same benefit of the doubt principle that applies to line calls applies equally to score disagreements." },
+      { type: "paragraph", text: "Adjust your intensity appropriately. An Americano session is social padel — the competitive element is real but the emphasis is on inclusion and enjoyment for all players present. If you are significantly stronger than the weakest player in the session, moderate your intensity slightly when partnered with or against them. Dominating a less experienced player technically might feel satisfying but it damages the session's atmosphere and makes that player less likely to return." },
+      { type: "paragraph", text: "[Read our guide on what an Americano is and how it works.](https://joinplayy.com/blog/what-is-an-americano-in-padel)" },
+
+      { type: "heading", text: "What to Do When You Are Unsure" },
+      { type: "paragraph", text: "If you are genuinely unsure about a rule, a line call, or a point of etiquette during a session, ask. The padel community in Dubai is generally welcoming and experienced players are usually happy to clarify. What is not acceptable is making confident decisions based on incomplete knowledge — particularly on line calls or score disputes — because confident incorrectness is more disruptive than honest uncertainty." },
+      { type: "paragraph", text: "If a dispute arises that cannot be resolved, replay the point. This is the universal resolution to genuinely contested situations in recreational padel. Both pairs should feel comfortable with this outcome rather than one pair feeling they were robbed." },
+
+      { type: "image", src: etiquetteSocial, alt: "Four padel players laughing together on a court at sunset after a session", float: "none" },
+
+      { type: "paragraph", text: "[Read our guide on how to find a padel partner in Dubai.](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)" },
+
+      { type: "heading", text: "Find Players Who Share Your Standards" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Good etiquette is easier when you are playing with people who share the same standards. Playy matches you with padel players in Dubai at your skill level and availability — players who are part of a community that takes both the sport and the social experience around it seriously." },
+      { type: "paragraph", text: "Download the app free on iOS or Android and find your next session today." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Padel etiquette is not complicated — it is mostly common sense applied to a sporting context. Arrive on time, be honest about your level, call your own faults, give the benefit of the doubt on close calls, win and lose graciously, and take five minutes after the session to be a person rather than just a player." },
+      { type: "paragraph", text: "The players who are most welcomed back, most often invited to sessions, and most embedded in the Dubai padel community are not necessarily the best players. They are the players who make every session better simply by being in it." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS or Android at joinplayy.com and find your padel community in Dubai today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
+  {
     slug: "why-padel-is-the-perfect-sport-for-busy-professionals-in-dubai",
     title: "Why Padel is the Perfect Sport for Busy Professionals in Dubai",
     excerpt:
