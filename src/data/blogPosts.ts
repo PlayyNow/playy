@@ -91,6 +91,9 @@ import netFistbump from "@/assets/blog/net-fistbump.png";
 import busyProHero from "@/assets/blog/busy-pro-hero.png";
 import busyProCourt from "@/assets/blog/busy-pro-court.jpg";
 import busyProPhone from "@/assets/blog/busy-pro-phone.png";
+import etiquetteHero from "@/assets/blog/etiquette-hero.png";
+import etiquetteCourt from "@/assets/blog/etiquette-court.png";
+import etiquetteSocial from "@/assets/blog/etiquette-social.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
