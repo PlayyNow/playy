@@ -121,6 +121,86 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+  {
+    slug: "best-padel-drills-you-can-practice-alone",
+    title: "Best Padel Drills You Can Practice Alone",
+    excerpt:
+      "Wall drills, serve targets, footwork patterns, racket control and shadow swings — the most effective solo padel drills and how to structure a session.",
+    date: "August 14, 2026",
+    image: soloDrillsHero,
+    ogImage: "https://joinplayy.com/blog/solo-drills-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the most common frustrations in padel — a sport governed globally by the [International Padel Federation](https://www.padelfip.com) — is wanting to improve between sessions but not having a partner available to practice with. The good news is that a significant portion of the skills that determine your padel level can be developed completely alone, with nothing more than a racket, a few balls, and access to a court or even just a wall." },
+      { type: "paragraph", text: "Here are the most effective solo padel drills available and exactly how to execute them." },
+      { type: "paragraph", text: "[Read our guide on how to get better at padel fast for the broader improvement picture.](https://joinplayy.com/blog/how-to-get-better-at-padel-fast)" },
+
+      { type: "heading", text: "What You Can Actually Improve Alone" },
+      { type: "paragraph", text: "Solo practice cannot replicate the tactical and reactive elements of match play — for that you need opponents. But several foundational skills that directly determine your match performance are best developed alone, where you can focus entirely on the movement or technique without the pressure of a live point." },
+      { type: "paragraph", text: "The skills most improved through solo practice are wall reading and rebound anticipation, serve consistency and placement, racket control and touch on low-pressure balls, footwork patterns and agility, and the muscle memory for specific shot techniques through shadow swings. These are all technical and physical foundations that transfer directly into better match performance once you have a partner again." },
+
+      { type: "heading", text: "Back Glass Wall Drills" },
+      { type: "paragraph", text: "The back glass wall is your most versatile solo practice tool in padel. Every padel court's back wall reflects the ball in predictable ways that you can learn to read and use. Solo wall drills develop your wall reading ability faster than match play because you are getting dozens of wall contacts per session rather than the handful that occur naturally in a match." },
+      { type: "paragraph", text: "Basic continuous wall rally: Stand approximately three to four metres from the back glass. Hit a forehand or backhand groundstroke into the wall at medium pace and let it bounce once before hitting it again. Focus on consistent contact point, relaxed grip, and staying balanced between shots. The goal is a continuous rhythm — not hitting the ball as hard as possible. Start with ten consecutive contacts as your target and build from there." },
+      { type: "paragraph", text: "Varied height wall drill: From the same position, alternate hitting the ball at different heights on the wall — low, medium, and high. Each height produces a different rebound trajectory that forces you to adjust your positioning and contact point. This develops the reading ability that experienced padel players use automatically to judge where a wall rebound will land." },
+      { type: "paragraph", text: "Step-in wall drill: Start further from the wall — five to six metres — and after each contact step one pace toward the wall. This replicates the movement pattern of closing in on a rebound during match play and combines footwork with wall contact in a single drill. When you reach two metres from the wall, restart from the original distance." },
+      { type: "paragraph", text: "[Read our guide on how to improve your padel volley — wall drills directly develop your net game.](https://joinplayy.com/blog/how-to-improve-your-padel-volley)" },
+
+      { type: "heading", text: "Side Glass Wall Drills" },
+      { type: "paragraph", text: "Side wall practice develops one of the most technically challenging aspects of padel — reading balls that have rebounded off the side glass at an angle rather than coming straight back. In match play, balls that rebound off the side glass at sharp angles cause more errors than almost any other situation. Developing comfort with these angles in solo practice makes them manageable in competition." },
+      { type: "paragraph", text: "Basic side wall drill: Stand near the side wall at the back third of the court. Hit a forehand into the side glass at a 45-degree angle and position yourself to receive the rebound as it crosses toward the centre of the court. This replicates the movement required when you or your partner hits a shot that bounces off the side glass during a rally." },
+      { type: "paragraph", text: "Corner drill: Hit the ball into the corner where the back glass and side glass meet. The double rebound that results — off both glass surfaces in quick succession — is one of the most disorienting situations in padel and one of the most useful to practice specifically. Even five minutes of corner drill practice per session builds the pattern recognition needed to handle these situations confidently in matches." },
+
+      { type: "heading", text: "Serve Practice" },
+      { type: "paragraph", text: "The serve is one of the few padel shots you can practice completely alone with no wall required. Consistent serve practice in isolation is valuable precisely because you can focus entirely on your technique, ball drop, contact point, and placement without the cognitive load of what happens next in the point." },
+      { type: "paragraph", text: "Set up a target in the service box — a spare ball, a water bottle, or a piece of court tape — and practice hitting specific zones within the service box. The most useful targets are the deep corner toward the side glass and the body serve aimed at where a right-handed receiver's backhand would be." },
+      { type: "paragraph", text: "Practice ten serves to each target zone before moving on. Track your accuracy honestly. A serve that lands consistently in the correct zone at 60 to 70 percent power is more valuable than an occasional fast serve with no placement control. Serve practice alone develops the muscle memory and ball drop consistency that make the technique automatic under match pressure." },
+      { type: "paragraph", text: "[Read our full guide on how to improve your padel serve.](https://joinplayy.com/blog/how-to-improve-your-padel-serve)" },
+
+      { type: "image", src: soloDrillsShoes, alt: "Close-up of white padel shoes pushing off the artificial turf court surface", float: "none" },
+
+      { type: "heading", text: "Footwork and Movement Drills" },
+      { type: "paragraph", text: "Footwork is the most underrated component of padel improvement and one of the most effectively developed through solo practice. Your positioning on every shot in padel is determined by how well and how quickly you move, and movement patterns can be drilled without a ball at all." },
+      { type: "paragraph", text: "Split step drill: The split step is a small hop performed as your opponent makes contact with the ball that loads your legs for rapid movement in any direction. Practice the split step timing by imagining a ball being struck and performing the hop at that moment, then moving immediately to an imaginary contact point. Twenty split step repetitions with directed movement takes four minutes and builds the reactive habit that makes your court coverage feel effortless." },
+      { type: "paragraph", text: "T-shape movement drill: Starting from the centre T-junction of the service line, sprint to the right sideline, return to centre, sprint to the left sideline, return to centre, sprint to the back glass, return to centre, sprint to the net. This covers all four primary directional movements in padel in a single drill. Three sets of four repetitions with thirty seconds rest between sets builds the specific movement patterns the sport demands." },
+      { type: "paragraph", text: "Lateral shuffle drill: From one side of the court to the other, perform a lateral shuffle maintaining a low athletic stance with your knees bent and your weight on the balls of your feet. This builds the lateral agility used constantly in padel net play and baseline defense. Four lengths of the court at full speed is a complete drill set." },
+
+      { type: "heading", text: "Racket Control and Touch Drills" },
+      { type: "paragraph", text: "Touch and racket control — the ability to feel the ball on your strings and direct it precisely — is developed through high-repetition low-intensity contact rather than match play. These drills are often called keepy-uppy equivalents for padel and are practiced by players at every level, including the professionals you see on the [Premier Padel](https://www.premierpadel.com) tour." },
+      { type: "paragraph", text: "Consecutive juggling: Bounce the ball continuously on your racket face without letting it hit the ground. Start with the forehand face, then switch to the backhand face, then alternate. This develops racket face awareness and soft hands more efficiently than any match situation because every contact requires conscious control." },
+      { type: "paragraph", text: "Low bounce control: Bounce the ball on the court surface and hit it back up very gently so it barely rises above net height. This develops the touch required for drop shots, dinks near the net, and soft defensive balls. The lower the ball stays during this drill the better your touch is developing." },
+      { type: "paragraph", text: "Around the world: Juggle the ball on your racket continuously while rotating the racket through forehand, edge, backhand, and edge in a continuous sequence. This builds full racket face awareness and wrist flexibility in a single drill. Professional padel players perform this drill as a standard warm-up." },
+
+      { type: "heading", text: "Shadow Swings for Technique" },
+      { type: "paragraph", text: "Shadow swings — practising the full motion of a shot without a ball — are one of the most underused improvement tools in amateur padel. The benefit is that without a ball to track and contact, your full attention goes to the mechanics of the swing itself. Coaches, including those following [LTA Padel](https://www.ltapadel.org.uk) technique frameworks, use shadow swings extensively when introducing new technique because they allow the player to develop muscle memory for the correct motion before adding the complexity of ball contact." },
+      { type: "paragraph", text: "Shadow your forehand volley twenty times focusing on the contact point position relative to your body — in front, not beside. Shadow your backhand volley twenty times focusing on compact backswing length. Shadow your lob motion twenty times focusing on the open racket face angle at contact." },
+      { type: "paragraph", text: "Record yourself on your phone during shadow swing practice occasionally. Watching your own technique is more informative than any verbal description and shows you exactly what your swing is actually doing versus what you think it is doing. Most players are surprised by the difference." },
+
+      { type: "heading", text: "How to Structure a Solo Practice Session" },
+      { type: "paragraph", text: "A well-structured 45-minute solo practice session covers the key areas without repetition fatigue setting in. A practical structure is five minutes of ball juggling and touch drills to warm up, ten minutes of back glass wall drills, five minutes of side glass drills, ten minutes of serve practice, ten minutes of footwork drills, and five minutes of shadow swings focused on one specific technique you are working on." },
+      { type: "paragraph", text: "Keep a simple note on your phone of what you worked on in each session and one specific thing you noticed — what improved, what still needs work, what you want to focus on next time. This minimal tracking turns disconnected practice sessions into a progressive improvement programme rather than random repetition." },
+      { type: "paragraph", text: "Solo practice sessions work best when they are shorter and more frequent rather than longer and occasional. Four 30-minute solo sessions per week produces more improvement than one two-hour session. The spacing between sessions allows the nervous system to consolidate the patterns developed in each practice." },
+
+      { type: "image", src: soloDrillsBalls, alt: "Padel player collecting balls on a court at golden hour during a solo practice session", float: "none" },
+
+      { type: "paragraph", text: "[Read our guide on how to find a padel partner in Dubai.](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai)" },
+
+      { type: "heading", text: "Find Partners to Apply What You Have Practised" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Solo practice develops your technical foundation but the real test is applying it in match play against real opponents. Playy connects you with padel players in Dubai at your skill level and availability so your next practice partner or match opponent is always available when you are ready." },
+      { type: "paragraph", text: "Download the app free on iOS or Android and find your next session today." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Solo padel practice is genuinely effective for developing the technical foundations that make you a better match player. Back glass wall drills build your wall reading ability. Serve practice builds consistency and placement. Footwork drills build the movement patterns that make court coverage feel automatic. Racket control drills develop the touch that produces precise shots under pressure." },
+      { type: "paragraph", text: "The players who improve fastest in padel are not necessarily those who play the most matches. They are the ones who combine match play with deliberate solo practice that targets the specific weaknesses holding their game back." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS or Android at joinplayy.com and find padel players in Dubai to test your improved game against today.",
+        href: "https://joinplayy.com",
+        label: "Download Playy",
+      },
+    ],
+  },
+  {
     slug: "padel-etiquette-what-you-need-to-know-before-you-play",
     title: "Padel Etiquette — What You Need to Know Before You Play",
     excerpt:
