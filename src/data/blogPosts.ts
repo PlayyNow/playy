@@ -94,6 +94,9 @@ import busyProPhone from "@/assets/blog/busy-pro-phone.png";
 import etiquetteHero from "@/assets/blog/etiquette-hero.png";
 import etiquetteCourt from "@/assets/blog/etiquette-court.png";
 import etiquetteSocial from "@/assets/blog/etiquette-social.png";
+import soloDrillsHero from "@/assets/blog/solo-drills-hero.png";
+import soloDrillsShoes from "@/assets/blog/solo-drills-shoes.jpg";
+import soloDrillsBalls from "@/assets/blog/solo-drills-balls.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
