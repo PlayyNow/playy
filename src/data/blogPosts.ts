@@ -121,7 +121,6 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
-  {
     slug: "best-padel-drills-you-can-practice-alone",
     title: "Best Padel Drills You Can Practice Alone",
     excerpt:
