@@ -97,6 +97,9 @@ import etiquetteSocial from "@/assets/blog/etiquette-social.png";
 import soloDrillsHero from "@/assets/blog/solo-drills-hero.png";
 import soloDrillsShoes from "@/assets/blog/solo-drills-shoes.jpg";
 import soloDrillsBalls from "@/assets/blog/solo-drills-balls.png";
+import doublesHero from "@/assets/blog/doubles-hero.png";
+import doublesCourt from "@/assets/blog/doubles-court.png";
+import doublesHighfive from "@/assets/blog/doubles-highfive.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
