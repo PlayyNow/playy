@@ -97,6 +97,9 @@ import etiquetteSocial from "@/assets/blog/etiquette-social.png";
 import soloDrillsHero from "@/assets/blog/solo-drills-hero.png";
 import soloDrillsShoes from "@/assets/blog/solo-drills-shoes.jpg";
 import soloDrillsBalls from "@/assets/blog/solo-drills-balls.png";
+import doublesHero from "@/assets/blog/doubles-hero.png";
+import doublesCourt from "@/assets/blog/doubles-court.png";
+import doublesHighfive from "@/assets/blog/doubles-highfive.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -121,6 +124,88 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "padel-doubles-strategy-for-beginners",
+    title: "Padel Doubles Strategy for Beginners",
+    excerpt:
+      "Move as one unit, take the net together, cover the middle, lob under pressure and talk constantly — the doubles strategy every beginner needs.",
+    date: "August 18, 2026",
+    image: doublesHero,
+    ogImage: "https://joinplayy.com/blog/doubles-hero.png",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Padel — governed globally by the [International Padel Federation](https://www.padelfip.com) — is always played in doubles, which means strategy is built into the sport from your very first session. You are never just playing the ball — you are playing as part of a pair, and how well you function as a unit determines your results far more than your individual technical ability. The good news is that the core strategic principles of padel doubles are simple enough to apply from day one, even as a complete beginner." },
+      { type: "paragraph", text: "Here is everything you need to understand about padel doubles strategy to start winning more points immediately." },
+      { type: "paragraph", text: "[Read our guide to the rules of padel before focusing on strategy.](https://joinplayy.com/blog/what-are-the-rules-of-padel)" },
+
+      { type: "heading", text: "The Core Principle: You Are One Unit Not Two Players" },
+      { type: "paragraph", text: "The single most important strategic concept in padel doubles is that you and your partner are one unit sharing a court, not two individuals playing side by side. Every movement, every shot selection, and every positioning decision should be made with awareness of where your partner is and what they need from you." },
+      { type: "paragraph", text: "Pairs who play as a unit — moving together, covering each other's weaknesses, communicating constantly — consistently outperform pairs with superior individual skills who play as two separate players on the same side of the net. Watch any [Premier Padel](https://www.premierpadel.com) match and you will see professional pairs moving as if connected by an invisible rope. This is why padel is so compelling as a team sport: chemistry and coordination matter as much as technique." },
+      { type: "paragraph", text: "The practical expression of this principle is that you should never make a movement without considering how it affects the coverage your pair provides. If you sprint wide to retrieve a ball and do not recover your position, you leave a gap your opponents will exploit. If you advance to the net and your partner does not come with you, you create a split that is easy to attack. Every individual decision has a team consequence." },
+
+      { type: "heading", text: "The Basic Positions — Net and Baseline" },
+      { type: "paragraph", text: "In padel doubles there are two primary positions: the net position approximately two to three metres from the net, and the baseline position near the back of the court. The team that controls the net controls the match — teams at the net win the majority of points because they have more angles, their opponents have less time to react, and they can put the ball away with angled volleys that are very difficult to defend. [LTA Padel](https://www.ltapadel.org.uk) publishes detailed positional guidance that echoes the same fundamentals." },
+      { type: "paragraph", text: "As a beginner the basic positional goal is simple: both players start at the baseline after the serve and return, and look to advance to the net together as quickly as possible when a good opportunity presents itself. When you are at the net together, your priority is to stay there. When you are forced back to the baseline by a lob, your priority is to rebuild and advance again." },
+      { type: "paragraph", text: "Never split your pair across both positions by choice — one player at the net and one at the baseline simultaneously creates a huge gap in the middle that any competent opponent will hit through immediately. Move together or stay together." },
+
+      { type: "heading", text: "How to Advance to the Net Together" },
+      { type: "paragraph", text: "The serve is the most natural opportunity to advance to the net together. The serving pair serves, and both players move forward toward the net immediately. Do not wait to see where the return goes — commit to the advance as the serve is struck and adjust if necessary." },
+      { type: "paragraph", text: "A strong return that lands deep in the opponents' court and gives them a difficult ball is the best opportunity for the returning pair to advance. When your return puts your opponents under pressure — they are scrambling defensively, playing a high defensive ball, or lobbing — step forward together to the net and prepare for the volley." },
+      { type: "paragraph", text: "The key word is together. If one player advances and the other hesitates, the advancing player is exposed on one side and the hesitating player is out of position on the other. Agree with your partner before the match that you advance together on good balls and hold together on defensive balls. A simple verbal signal — come or stay — during points builds this habit quickly." },
+
+      { type: "heading", text: "Covering the Middle" },
+      { type: "paragraph", text: "The middle of the court between you and your partner is the most dangerous space in padel. Most points at beginner and intermediate level are won by hitting the ball through the middle of the opposing pair rather than trying to beat them with pace down the line or into the corners. The middle is dangerous because it creates a communication problem — who takes it? — and that hesitation costs points." },
+      { type: "paragraph", text: "The tactical response is to shade toward the middle constantly. Your default position at the net should have both players slightly closer to the centre line than the sideline. The player on the forehand side should shade inward, the player on the backhand side should shade inward, and when a ball comes through the middle the forehand player takes it as the general rule." },
+      { type: "paragraph", text: "Establish the forehand rule explicitly with your partner before the match. Say it out loud: middle balls go to the forehand. This removes the hesitation entirely and eliminates one of the most common sources of beginner doubles errors." },
+
+      { type: "image", src: doublesCourt, alt: "Two padel players covering the middle of the court during a rally in Dubai", float: "none" },
+
+      { type: "paragraph", text: "[Read our detailed guide on how to win more points at the net in padel.](https://joinplayy.com/blog/how-to-win-more-points-at-the-net-in-padel)" },
+
+      { type: "heading", text: "When to Lob and When Not To" },
+      { type: "paragraph", text: "The lob is the primary weapon against a pair that controls the net and the primary defensive tool when you are under pressure at the baseline. As a beginner, learning when to lob and when not to is one of the highest-value strategic decisions you can develop." },
+      { type: "paragraph", text: "Lob when you are under pressure. If your opponents are at the net and you are in a difficult defensive position — low ball, tight angle, limited time — a high lob aimed deep toward the back corners resets the point and forces your opponents away from the net. A lob under pressure does not have to be perfect. It just has to be deep enough that your opponents cannot smash it easily." },
+      { type: "paragraph", text: "Do not lob when you have a comfortable ball and a better option available. A lob from a comfortable mid-court position against opponents at the baseline achieves nothing — it just gives them an easy ball to attack. Lobbing should be a deliberate tactical choice, not the automatic response every time you are unsure what to do." },
+      { type: "paragraph", text: "When you lob, both you and your partner retreat to the baseline together immediately. Do not stay at the net after lobbing. Your opponents will smash and you need to be in position to defend it." },
+      { type: "paragraph", text: "[Read our guide on how to improve your padel volley including how to handle lobs at the net.](https://joinplayy.com/blog/how-to-improve-your-padel-volley)" },
+
+      { type: "heading", text: "Talking to Your Partner" },
+      { type: "paragraph", text: "Communication between padel partners is one of the most immediate improvements any pair can make regardless of their technical level. Experienced pairs talk constantly during points — calling mine or yours on shared balls, calling lob when retreating, calling come when advancing, calling out when a ball is going out." },
+      { type: "paragraph", text: "As a beginner the most important calls to develop are mine and yours for any ball in the middle, lob when you read a lob coming so your partner can start retreating, and out if you are certain a ball is going out so your partner does not play it unnecessarily." },
+      { type: "paragraph", text: "Do not be embarrassed to talk on court. Silent pairs lose middle balls, miss lobs they could have read, and play balls that were going out. Talking pairs avoid all three of these and win more points for the same technical ability simply because they share information." },
+
+      { type: "heading", text: "Who Takes Which Ball" },
+      { type: "paragraph", text: "Beyond the middle ball forehand rule, there are general guidelines for shot assignment in padel doubles that reduce hesitation and keep both players in their optimal positions." },
+      { type: "paragraph", text: "The player closest to the ball takes it. If a ball is clearly on your side of the court you take it. If it is on your partner's side they take it. The difficulty is the middle which is why the forehand rule exists as a tiebreaker." },
+      { type: "paragraph", text: "The player in the better position takes it. If your partner is closer to the ball but badly out of position — leaning the wrong way, off balance — and you can reach it in a better position, call yours and take it. Position quality matters as much as proximity." },
+      { type: "paragraph", text: "The stronger player takes the smash. When your opponents lob and the ball is in the smash zone, the player with the stronger overhead should take it regardless of which side it is on. Agree this in advance rather than negotiating during the point." },
+
+      { type: "heading", text: "The Most Common Beginner Strategy Mistakes" },
+      { type: "paragraph", text: "Both players going for the same ball in the middle is the most common beginner error and the one that creates the most unnecessary lost points. Establish the forehand rule and stick to it." },
+      { type: "paragraph", text: "One player advancing while the other stays back creates the split position that is the easiest formation to attack in padel. Always advance together or hold together." },
+      { type: "paragraph", text: "Trying to win the point on every shot rather than building pressure is a natural beginner instinct that consistently produces unforced errors. Padel rewards patience — keep the ball in play, wait for a short ball or a weak response, and attack that rather than every ball." },
+      { type: "paragraph", text: "Forgetting to lob when under pressure and trying to drive a defensive ball past net players instead. Driving through a net pair from a defensive position is a very low percentage shot. Lob and reset." },
+      { type: "paragraph", text: "Not communicating at all and hoping your partner reads every situation correctly. They will not, and neither will you. Talk." },
+
+      { type: "image", src: doublesHighfive, alt: "Two padel players high-fiving over the net after winning a point", float: "none" },
+
+      { type: "paragraph", text: "[Read our guide on how to find a padel partner in Dubai.](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai)" },
+
+      { type: "heading", text: "Find the Right Partner to Build Strategy With" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Doubles strategy develops fastest when you play regularly with the same partner — you learn each other's tendencies, build the communication habits that make a pair function, and develop the trust that allows tactical decisions to happen automatically under pressure. Playy connects you with padel players in Dubai at your level and availability so you can find a consistent partner to develop your doubles game with." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Padel doubles strategy at beginner level is not complicated. Move as one unit, advance to the net together on good balls, cover the middle with the forehand player taking priority, lob when under pressure and retreat together when lobbed, and talk to your partner constantly. Apply these five principles consistently and you will win significantly more points than your technical level alone would suggest." },
+      { type: "paragraph", text: "The best padel pairs are not always the most technically gifted. They are the most connected — the pairs who move together, communicate clearly, and make decisions as a unit rather than as two individuals sharing a court." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS or Android and find your padel doubles partner in Dubai today.",
+        href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368",
+        label: "Download Playy",
+      },
+    ],
+  },
+  {
+
     slug: "best-padel-drills-you-can-practice-alone",
     title: "Best Padel Drills You Can Practice Alone",
     excerpt:
