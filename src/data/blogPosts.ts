@@ -100,6 +100,9 @@ import soloDrillsBalls from "@/assets/blog/solo-drills-balls.png";
 import doublesHero from "@/assets/blog/doubles-hero.png";
 import doublesCourt from "@/assets/blog/doubles-court.png";
 import doublesHighfive from "@/assets/blog/doubles-highfive.png";
+import chooseRacketHero from "@/assets/blog/choose-racket-hero.jpg";
+import chooseRacketGrip from "@/assets/blog/choose-racket-grip.jpg";
+import chooseRacketShop from "@/assets/blog/choose-racket-shop.jpg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
@@ -123,6 +126,89 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-choose-the-right-padel-racket-in-dubai",
+    title: "How to Choose the Right Padel Racket in Dubai",
+    excerpt:
+      "Shape, weight and core material — the three decisions that matter when buying a padel racket in Dubai, and the best beginner and intermediate rackets for 2026.",
+    date: "August 21, 2026",
+    image: chooseRacketHero,
+    ogImage: "https://joinplayy.com/blog/choose-racket-hero.jpg",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Walking into a padel shop in Dubai for the first time is genuinely overwhelming. There are dozens of rackets from multiple brands at wildly different price points, with technical specifications that mean nothing to someone who has not researched them. Most new players either buy the wrong racket for their level or overspend on something they are not ready to use. The sport is governed globally by the [International Padel Federation](https://www.padelfip.com), which sets the standards that manufacturers design around, but choosing the right racket still comes down to a few practical decisions rather than marketing specs." },
+      { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
+      { type: "paragraph", text: "This guide cuts through all of it. Here is exactly how to choose the right padel racket for where you are in your game right now. [Read our full padel gear guide for beginners for the complete picture beyond just the racket.](https://joinplayy.com/blog/what-padel-gear-do-beginners-need)" },
+
+      { type: "heading", text: "The Three Things That Actually Matter" },
+      { type: "paragraph", text: "Padel racket marketing is full of technical language — carbon fibre layers, EVA density ratings, balance points, sweet spot geometry — most of which is irrelevant at beginner and intermediate level. The three things that actually determine whether a racket is right for you are shape, weight, and core material. Everything else is secondary." },
+      { type: "paragraph", text: "Get these three right and you will have a racket that accelerates your improvement. Get them wrong — particularly the shape — and the racket actively works against your development regardless of how much you spend on it." },
+
+      { type: "heading", text: "Shape — The Most Important Decision" },
+      { type: "paragraph", text: "Padel rackets come in three shapes and the shape determines where the sweet spot is located and what kind of performance the racket prioritises. This is the most consequential decision you make when buying a padel racket and the one most often made incorrectly." },
+      { type: "paragraph", text: "Round rackets have the sweet spot located in the centre of the face, giving them the largest effective hitting area of the three shapes. The weight is distributed evenly across the racket which keeps the balance point low — toward the handle — making the racket easier to manoeuvre. Round rackets prioritise control and forgiveness over power. For beginners this is not a compromise — it is exactly what you need. A round racket makes consistent contact easier, reduces the penalty for off-centre hits, and lets you focus on technique rather than fighting the equipment. Every beginner should buy a round racket." },
+      { type: "paragraph", text: "Teardrop rackets sit between round and diamond. The sweet spot is slightly higher in the frame than a round racket, offering more power than round with more control than diamond. These work well for intermediate players who have developed consistent technique and want more variety in their shots without sacrificing too much forgiveness. The Babolat Air Veron 2026 is widely cited as the best all-round teardrop choice for intermediate players in 2026." },
+      { type: "paragraph", text: "Diamond rackets concentrate the weight at the top of the frame which generates maximum power on smashes and overhead shots. The sweet spot is small and high in the face which means off-centre contact produces poor results. Diamond rackets require consistent, technically correct swing mechanics to use effectively. They are designed for advanced players and should not be purchased by anyone below that level regardless of how impressive they look in the shop. The Bullpadel Vertex 05 and Bullpadel XPLO 26 are the leading power options in the 2026 range." },
+
+      { type: "image", src: chooseRacketGrip, alt: "Close-up of a player's hand gripping a Babolat padel racket on a Dubai court", float: "none" },
+
+      { type: "heading", text: "Weight — Lighter Than You Think" },
+      { type: "paragraph", text: "Padel rackets typically range from 330 grams to 385 grams. For most beginners and many intermediate players, a racket in the 340 to 365 gram range is ideal. Lighter rackets are easier to manoeuvre, reduce arm fatigue over a 90-minute session, and are more forgiving of late contact — the racket gets to the ball faster." },
+      { type: "paragraph", text: "The common mistake is buying a heavier racket assuming more weight means more power. At beginner level this is counterproductive. A heavier racket that you cannot swing comfortably produces less power than a lighter racket you can swing with full speed and technique. Power in padel comes from racket head speed and contact quality, not from the weight of the frame." },
+      { type: "paragraph", text: "Players with a history of elbow or shoulder problems should prioritise rackets at the lighter end of the range — 340 to 355 grams — and choose models specifically designed with arm comfort in mind, such as the Babolat Air series which features vibration-dampening technology across its 2026 range." },
+
+      { type: "heading", text: "Core Material — Control vs Power" },
+      { type: "paragraph", text: "The core material inside the racket face determines how the ball feels at contact and how much of the player's energy transfers to the ball. The two primary materials are EVA foam and foam rubber, with EVA being the standard in most modern padel rackets." },
+      { type: "paragraph", text: "Soft EVA cores produce a more comfortable, controlled feel. The ball stays on the strings slightly longer at contact which gives the player more influence over the shot. Soft cores are recommended for beginners and players who prioritise control and arm comfort." },
+      { type: "paragraph", text: "Hard EVA cores produce a sharper, more powerful response. The ball leaves the strings quickly with more pace. Hard cores reward technically correct swings but are less forgiving of errors. They are best suited to intermediate and advanced players who have developed consistent technique." },
+      { type: "paragraph", text: "The general rule for choosing core hardness mirrors the shape recommendation — beginners should choose soft cores, intermediate players can consider medium or hard depending on their playing style, and advanced players choose based on whether they prioritise control or power in their game." },
+
+      { type: "heading", text: "Which Racket for Which Level" },
+      { type: "paragraph", text: "Beginner — less than six months playing or fewer than 50 sessions: round shape, 340 to 365 grams, soft EVA core. Budget AED 150 to AED 400. You do not need to spend more than this. A well-chosen beginner racket will not limit your development — the limiting factor at this stage is technique and court time, not equipment." },
+      { type: "paragraph", text: "Intermediate — six months to two years playing, comfortable with basic technique, playing at least twice per week: teardrop shape or round depending on preference, 350 to 375 grams, medium EVA core. Budget AED 400 to AED 800. This is where brand quality starts to matter more because the equipment becomes a genuine influence on your development." },
+      { type: "paragraph", text: "Advanced — two or more years playing, consistent technique, competing in social tournaments: teardrop or diamond depending on playing style, 355 to 380 grams, medium or hard EVA core depending on preference. Budget AED 800 and above. At this level the specific characteristics of the racket should be matched to your style — power players toward diamond and hard core, control players toward teardrop and medium core." },
+
+      { type: "heading", text: "Best Beginner Rackets Available in Dubai 2026" },
+      { type: "paragraph", text: "The Bullpadel BP10 is the most consistently recommended beginner racket of 2026 across independent reviews. Round shape, approximately 355 grams, soft EVA core, and a large sweet spot that maximises forgiveness for off-centre contact. It combines comfort, control, and value in a way that no other beginner model in its price range currently matches. [Check beginner racket prices and stock on Noon.](https://s.noon.com/ScJE8usl0fw)" },
+      { type: "paragraph", text: "The HEAD Flash is the best value option for budget-conscious beginners. Available for under AED 200 at most Dubai retailers and online, it delivers reliable handling and a genuinely forgiving sweet spot. Many intermediate players continue to use it for recreational sessions because the performance is solid at the price point." },
+      { type: "paragraph", text: "The Babolat Air Origin combines a 345 gram weight, an oversized shape, and an even balance point designed specifically for new players who have already played a few times or have experience in another racket sport. The fiberglass face is forgiving and the large sweet spot makes consistent contact easier from the first session." },
+
+      { type: "heading", text: "Best Intermediate Rackets Available in Dubai 2026" },
+      { type: "paragraph", text: "The Babolat Air Veron 2026 is cited by multiple independent review sources as the best all-round intermediate choice of 2026. Teardrop shape, balanced playing characteristics, and premium build quality make it a safe choice for players who want a racket that performs well across all areas of the game rather than specialising in one." },
+      { type: "paragraph", text: "The HEAD Extreme Motion 2026 is the top recommendation for control-oriented intermediate players. Exceptional touch and placement precision make it ideal for players whose game is built on consistency and smart shot selection rather than power." },
+      { type: "paragraph", text: "The Bullpadel Vertex 05 is the power choice for intermediate players who are developing their attacking game and want a racket that supports aggressive smash play and net dominance. It is the weapon of choice for professional player Paquito Navarro and performs at the highest level while remaining accessible to serious recreational players." },
+
+      { type: "heading", text: "Where to Buy a Padel Racket in Dubai" },
+      { type: "paragraph", text: "[Decathlon UAE](https://www.decathlon.ae) at their outlets across Dubai stocks the Kuikma and Artengo padel ranges with reliable beginner and intermediate options starting from AED 150. Their stores are in Al Barsha, Al Quoz, and several other locations with staff who can advise on basics." },
+      { type: "paragraph", text: "Sun and Sand Sports stocks HEAD, Babolat, and Wilson padel rackets at most of their major Dubai locations including Mall of the Emirates and Dubai Mall. Good for trying rackets in person before purchasing." },
+      { type: "paragraph", text: "[Racketshop.ae](https://racketshop.ae) is the most specialist online option for Dubai-based padel players, stocking Bullpadel, NOX, Adidas, and other brands that are harder to find in general sports retailers. Delivery across the UAE is typically next day." },
+      { type: "paragraph", text: "Amazon.ae carries a broad range of padel rackets with reliable delivery across Dubai. Useful for comparing prices across brands and for accessing models that physical retailers in Dubai do not stock." },
+      { type: "paragraph", text: "Several Dubai padel venues including ISD Padel and Central Padel have pro shops attached where you can try demo rackets before committing to a purchase — a significant advantage for a buying decision of this size." },
+
+      { type: "heading", text: "What Else You Need" },
+      { type: "paragraph", text: "A padel racket alone is not enough to play. [Padel shoes](https://s.noon.com/WlP39WWK4PM) with a herringbone sole pattern and lateral ankle support are essential — running shoes on a padel court damage the turf surface and increase your injury risk significantly. [Padel balls](https://s.noon.com/x7KQxCSIcxk) with the correct pressure for sea-level play in Dubai are also required — standard altitude balls bounce too high on Dubai courts." },
+      { type: "paragraph", text: "[Read our guide on what padel gear beginners actually need — shoes are just as important as your racket.](https://joinplayy.com/blog/what-padel-gear-do-beginners-need)" },
+
+      { type: "image", src: chooseRacketShop, alt: "A player comparing padel rackets in a Dubai padel shop", float: "none" },
+
+      { type: "paragraph", text: "[Read our guide on how to find a padel partner in Dubai.](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai)" },
+
+      { type: "heading", text: "Find Players to Use Your New Racket With" },
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The best racket in the world only matters if you are getting on the court consistently. Playy connects padel players in Dubai by sport, skill level, and availability so you always have someone to play with — no group chat back and forth, just find your match and play." },
+      { type: "paragraph", text: "Download the app free on iOS or Android. Your first session with your new racket is closer than you think." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Choosing the right padel racket comes down to three decisions made in the right order. Shape first — round for beginners, teardrop for intermediate, diamond for advanced. Weight second — lighter than you assume, 340 to 365 grams for most players. Core third — soft for control and arm comfort, harder for power as your technique develops." },
+      { type: "paragraph", text: "Do not overspend on a beginner racket and do not buy a diamond racket because it looks impressive. Buy the right tool for your current level and upgrade as your game develops. The equipment should accelerate your improvement — not get ahead of it." },
+      { type: "paragraph", text: "Download Playy free on iOS or Android at joinplayy.com and find padel players in Dubai to test your new racket against today." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS or Android and find your next padel match in Dubai today.",
+        href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368",
+        label: "Download Playy",
+      },
+    ],
+  },
   {
     slug: "padel-doubles-strategy-for-beginners",
     title: "Padel Doubles Strategy for Beginners",
