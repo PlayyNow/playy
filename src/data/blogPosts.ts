@@ -100,6 +100,9 @@ import soloDrillsBalls from "@/assets/blog/solo-drills-balls.png";
 import doublesHero from "@/assets/blog/doubles-hero.png";
 import doublesCourt from "@/assets/blog/doubles-court.png";
 import doublesHighfive from "@/assets/blog/doubles-highfive.png";
+import chooseRacketHero from "@/assets/blog/choose-racket-hero.jpg";
+import chooseRacketGrip from "@/assets/blog/choose-racket-grip.jpg";
+import chooseRacketShop from "@/assets/blog/choose-racket-shop.jpg";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
