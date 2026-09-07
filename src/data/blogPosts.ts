@@ -103,6 +103,9 @@ import doublesHighfive from "@/assets/blog/doubles-highfive.png";
 import chooseRacketHero from "@/assets/blog/choose-racket-hero.jpg";
 import chooseRacketGrip from "@/assets/blog/choose-racket-grip.jpg";
 import chooseRacketShop from "@/assets/blog/choose-racket-shop.jpg";
+import mentalHealthHero from "@/assets/blog/mental-health-hero.jpg";
+import mentalHealthCourt from "@/assets/blog/mental-health-court.jpg";
+import mentalHealthCommunity from "@/assets/blog/mental-health-community.png";
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
