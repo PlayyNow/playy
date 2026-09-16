@@ -51,7 +51,15 @@ const SEO = ({
     document.title = title;
 
     upsertMeta('meta[name="description"]', "name", "description", description);
-    upsertLink("canonical", canonical);
+    if (canonical) upsertLink("canonical", canonical);
+
+    upsertMeta(
+      'meta[name="robots"]',
+      "name",
+      "robots",
+      noindex ? "noindex, follow" : "index, follow",
+    );
+
 
     upsertMeta('meta[property="og:type"]', "property", "og:type", type);
     upsertMeta('meta[property="og:title"]', "property", "og:title", title);
