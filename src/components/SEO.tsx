@@ -8,6 +8,7 @@ type SEOProps = {
   type?: "website" | "article";
   publishedTime?: string;
   jsonLd?: Record<string, unknown>;
+  noindex?: boolean;
 };
 
 const upsertMeta = (selector: string, attr: "name" | "property", key: string, content: string) => {
