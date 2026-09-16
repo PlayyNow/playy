@@ -94,7 +94,7 @@ const SEO = ({
       script.text = JSON.stringify(jsonLd);
       document.head.appendChild(script);
     }
-  }, [title, description, canonical, image, type, publishedTime, jsonLd]);
+  }, [title, description, canonical, image, type, publishedTime, jsonLd, noindex]);
 
   return null;
 };
