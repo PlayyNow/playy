@@ -41,12 +41,13 @@ async function run() {
   }
 
   for (const post of posts) {
-    const route = `/blog/${post.slug}`;
+    const route = `/blog/${post.slug}/`;
     const file = path.join(distDir, "blog", post.slug, "index.html");
     const html = await fs.readFile(file, "utf-8");
 
     assertIncludes(html, `<title>${post.title} | Playy Blog</title>`, route, "page title");
     assertIncludes(html, `property="og:url" content="https://joinplayy.com${route}"`, route, "OG URL");
+    assertIncludes(html, `rel="canonical" href="https://joinplayy.com${route}"`, route, "canonical URL");
     assertIncludes(html, post.title, route, "article title");
     assertIncludes(html, post.excerpt, route, "article excerpt metadata");
 

@@ -76,7 +76,7 @@ const BlogPost = () => {
         <SEO
           title="Post not found | Playy Blog"
           description="The blog post you are looking for could not be found."
-          canonical={`${SITE_URL}/blog`}
+          canonical={`${SITE_URL}/blog/`}
         />
         <Navbar />
         <section className="pt-40 pb-24 container mx-auto px-6 text-center">
@@ -90,7 +90,7 @@ const BlogPost = () => {
     );
   }
 
-  const canonical = `${SITE_URL}/blog/${post.slug}`;
+  const canonical = `${SITE_URL}/blog/${post.slug}/`;
   const isoDate = new Date(post.date).toISOString();
   const seoTitle = `${post.title} | Playy Blog`;
   // Always prefer the explicit absolute ogImage URL so social
@@ -142,7 +142,7 @@ const BlogPost = () => {
             "@type": "ListItem",
             position: 2,
             name: "Blog",
-            item: `${SITE_URL}/blog`,
+            item: `${SITE_URL}/blog/`,
           },
           {
             "@type": "ListItem",

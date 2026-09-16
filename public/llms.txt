@@ -6,36 +6,36 @@ Founded in Dubai, UAE. Playy connects padel players by skill level and availabil
 
 ## Pages
 - [Homepage](https://joinplayy.com/): Overview of the Playy Dubai padel app, how it works, and FAQ.
-- [Blog](https://joinplayy.com/blog): Guides and tips for padel players in Dubai.
-- [Privacy Policy](https://joinplayy.com/privacy): How Playy handles user data.
-- [Terms of Service](https://joinplayy.com/terms): Terms governing use of the Playy app and services.
+- [Blog](https://joinplayy.com/blog/): Guides and tips for padel players in Dubai.
+- [Privacy Policy](https://joinplayy.com/privacy/): How Playy handles user data.
+- [Terms of Service](https://joinplayy.com/terms/): Terms governing use of the Playy app and services.
 
 ## Blog
-- [Women's Padel in Dubai — Everything You Need to Know](https://joinplayy.com/blog/womens-padel-in-dubai-everything-you-need-to-know): A complete guide to women's padel in Dubai, including communities, the HER Padel Series UAE 2026, gear recommendations, and how to get started as a female beginner.
+- [Women's Padel in Dubai — Everything You Need to Know](https://joinplayy.com/blog/womens-padel-in-dubai-everything-you-need-to-know/): A complete guide to women's padel in Dubai, including communities, the HER Padel Series UAE 2026, gear recommendations, and how to get started as a female beginner.
 
-- [How Padel Improves Your Mental Health — What the Research Shows](https://joinplayy.com/blog/how-padel-improves-your-mental-health-what-the-research-shows): New 2025 and 2026 research on how padel reduces anxiety, builds confidence, raises BDNF, and supports mental wellbeing for Dubai players.
-- [How to Choose the Right Padel Racket in Dubai](https://joinplayy.com/blog/how-to-choose-the-right-padel-racket-in-dubai): Shape, weight and core material explained — plus the best beginner and intermediate padel rackets available in Dubai for 2026.
-- [Padel Doubles Strategy for Beginners](https://joinplayy.com/blog/padel-doubles-strategy-for-beginners): Positioning, covering the middle, when to lob and how to communicate as a padel pair.
-- [Best Padel Drills You Can Practice Alone](https://joinplayy.com/blog/best-padel-drills-you-can-practice-alone): Wall drills, serve targets, footwork, racket control and shadow swings you can do solo.
-- [Padel Etiquette: What You Need to Know Before You Play](https://joinplayy.com/blog/padel-etiquette-what-you-need-to-know-before-you-play): Unwritten rules of padel — timing, honesty about level, line calls, Americano etiquette and post-match manners.
-- [How to Win More Points at the Net in Padel](https://joinplayy.com/blog/how-to-win-more-points-at-the-net-in-padel): Net positioning, angles, the chiquita, lob reading and golden point strategy for padel.
-- [Why Padel is the Perfect Sport for Busy Professionals in Dubai](https://joinplayy.com/blog/why-padel-is-the-perfect-sport-for-busy-professionals-in-dubai): Why padel fits demanding Dubai work schedules — 90 minutes, three other people, built-in exercise and networking.
-- [Why Dubai Became a Padel City](https://joinplayy.com/blog/why-dubai-became-a-padel-city): How climate, expats, government investment and the Americano format turned Dubai into a global padel capital.
-- [Common Padel Injuries and How to Prevent Them](https://joinplayy.com/blog/common-padel-injuries-and-how-to-prevent-them): Padel elbow, shoulder, knee, ankle and back injuries — why they happen and exactly how to prevent them.
-- [How to Improve Your Padel Volley](https://joinplayy.com/blog/how-to-improve-your-padel-volley): Compact technique, positioning, lob counters and practice habits to dominate the net in padel.
-- [The Best Football Players to Watch at the 2026 World Cup](https://joinplayy.com/blog/best-football-players-to-watch-2026-world-cup): Messi, Ronaldo, Mbappe, Yamal and the breakout stars defining the 2026 FIFA World Cup.
-- [How to Find People to Watch the World Cup With in Dubai](https://joinplayy.com/blog/how-to-find-people-to-watch-the-world-cup-with-in-dubai): Nationality supporters clubs, Reddit, fan zones and sports bars for watching the 2026 World Cup with others in Dubai.
-- [Where to Watch the 2026 FIFA World Cup in Dubai](https://joinplayy.com/blog/where-to-watch-the-2026-fifa-world-cup-in-dubai): Match times, sports bars, fan zones and beach screenings for the 2026 FIFA World Cup in Dubai.
-- [Pickup Football in Dubai: The Complete Guide](https://joinplayy.com/blog/pickup-football-in-dubai): Venues, organised platforms and summer tips for casual football in Dubai.
-- [The Padel Scoring System Explained Simply](https://joinplayy.com/blog/the-padel-scoring-system-explained-simply): Points, games, sets, tiebreaks, the golden point and the 2026 Star Point rule explained simply.
-- [How Expats Make Friends Through Sport in Dubai](https://joinplayy.com/blog/how-expats-make-friends-through-sport-in-dubai): Why sport is the fastest way to build real friendships as a new expat in Dubai.
-- [How to Improve Your Padel Serve](https://joinplayy.com/blog/how-to-improve-your-padel-serve): Fix your grip, ball drop, contact point and net approach to build a consistent padel serve.
-- [How to Find Padel Players and Events in Dubai](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai): The most effective ways to plug into the Dubai padel community.
-- [What Padel Gear Do Beginners Actually Need?](https://joinplayy.com/blog/what-padel-gear-do-beginners-need): What to buy, what to skip, and where to find padel gear in Dubai.
-- [How to Get Better at Padel Fast](https://joinplayy.com/blog/how-to-get-better-at-padel-fast): Practical tips to improve quickly as a padel player.
-- [What is the Best Time to Play Padel in Dubai?](https://joinplayy.com/blog/what-is-the-best-time-to-play-padel-in-dubai): When to book courts across Dubai's seasons.
-- [What Are the Rules of Padel?](https://joinplayy.com/blog/what-are-the-rules-of-padel): Beginner-friendly guide to padel rules.
-- [Is Padel Hard to Learn as a Beginner?](https://joinplayy.com/blog/is-padel-hard-to-learn-as-a-beginner): What to expect on your first sessions.
+- [How Padel Improves Your Mental Health — What the Research Shows](https://joinplayy.com/blog/how-padel-improves-your-mental-health-what-the-research-shows/): New 2025 and 2026 research on how padel reduces anxiety, builds confidence, raises BDNF, and supports mental wellbeing for Dubai players.
+- [How to Choose the Right Padel Racket in Dubai](https://joinplayy.com/blog/how-to-choose-the-right-padel-racket-in-dubai/): Shape, weight and core material explained — plus the best beginner and intermediate padel rackets available in Dubai for 2026.
+- [Padel Doubles Strategy for Beginners](https://joinplayy.com/blog/padel-doubles-strategy-for-beginners/): Positioning, covering the middle, when to lob and how to communicate as a padel pair.
+- [Best Padel Drills You Can Practice Alone](https://joinplayy.com/blog/best-padel-drills-you-can-practice-alone/): Wall drills, serve targets, footwork, racket control and shadow swings you can do solo.
+- [Padel Etiquette: What You Need to Know Before You Play](https://joinplayy.com/blog/padel-etiquette-what-you-need-to-know-before-you-play/): Unwritten rules of padel — timing, honesty about level, line calls, Americano etiquette and post-match manners.
+- [How to Win More Points at the Net in Padel](https://joinplayy.com/blog/how-to-win-more-points-at-the-net-in-padel/): Net positioning, angles, the chiquita, lob reading and golden point strategy for padel.
+- [Why Padel is the Perfect Sport for Busy Professionals in Dubai](https://joinplayy.com/blog/why-padel-is-the-perfect-sport-for-busy-professionals-in-dubai/): Why padel fits demanding Dubai work schedules — 90 minutes, three other people, built-in exercise and networking.
+- [Why Dubai Became a Padel City](https://joinplayy.com/blog/why-dubai-became-a-padel-city/): How climate, expats, government investment and the Americano format turned Dubai into a global padel capital.
+- [Common Padel Injuries and How to Prevent Them](https://joinplayy.com/blog/common-padel-injuries-and-how-to-prevent-them/): Padel elbow, shoulder, knee, ankle and back injuries — why they happen and exactly how to prevent them.
+- [How to Improve Your Padel Volley](https://joinplayy.com/blog/how-to-improve-your-padel-volley/): Compact technique, positioning, lob counters and practice habits to dominate the net in padel.
+- [The Best Football Players to Watch at the 2026 World Cup](https://joinplayy.com/blog/best-football-players-to-watch-2026-world-cup/): Messi, Ronaldo, Mbappe, Yamal and the breakout stars defining the 2026 FIFA World Cup.
+- [How to Find People to Watch the World Cup With in Dubai](https://joinplayy.com/blog/how-to-find-people-to-watch-the-world-cup-with-in-dubai/): Nationality supporters clubs, Reddit, fan zones and sports bars for watching the 2026 World Cup with others in Dubai.
+- [Where to Watch the 2026 FIFA World Cup in Dubai](https://joinplayy.com/blog/where-to-watch-the-2026-fifa-world-cup-in-dubai/): Match times, sports bars, fan zones and beach screenings for the 2026 FIFA World Cup in Dubai.
+- [Pickup Football in Dubai: The Complete Guide](https://joinplayy.com/blog/pickup-football-in-dubai/): Venues, organised platforms and summer tips for casual football in Dubai.
+- [The Padel Scoring System Explained Simply](https://joinplayy.com/blog/the-padel-scoring-system-explained-simply/): Points, games, sets, tiebreaks, the golden point and the 2026 Star Point rule explained simply.
+- [How Expats Make Friends Through Sport in Dubai](https://joinplayy.com/blog/how-expats-make-friends-through-sport-in-dubai/): Why sport is the fastest way to build real friendships as a new expat in Dubai.
+- [How to Improve Your Padel Serve](https://joinplayy.com/blog/how-to-improve-your-padel-serve/): Fix your grip, ball drop, contact point and net approach to build a consistent padel serve.
+- [How to Find Padel Players and Events in Dubai](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai/): The most effective ways to plug into the Dubai padel community.
+- [What Padel Gear Do Beginners Actually Need?](https://joinplayy.com/blog/what-padel-gear-do-beginners-need/): What to buy, what to skip, and where to find padel gear in Dubai.
+- [How to Get Better at Padel Fast](https://joinplayy.com/blog/how-to-get-better-at-padel-fast/): Practical tips to improve quickly as a padel player.
+- [What is the Best Time to Play Padel in Dubai?](https://joinplayy.com/blog/what-is-the-best-time-to-play-padel-in-dubai/): When to book courts across Dubai's seasons.
+- [What Are the Rules of Padel?](https://joinplayy.com/blog/what-are-the-rules-of-padel/): Beginner-friendly guide to padel rules.
+- [Is Padel Hard to Learn as a Beginner?](https://joinplayy.com/blog/is-padel-hard-to-learn-as-a-beginner/): What to expect on your first sessions.
 
 ## Optional
 - [App Store](https://apps.apple.com/us/app/playy-find-your-game/id6759396368): Download Playy on iOS.

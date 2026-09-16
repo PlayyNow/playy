@@ -15,14 +15,26 @@ const projectRoot = path.resolve(__dirname, "..");
 const distDir = path.join(projectRoot, "dist");
 const SITE = "https://joinplayy.com";
 
-async function getBlogSlugs() {
+// Returns [{ slug, lastmod }] using each post's own publication date —
+// never the build date, so <lastmod> stays truthful.
+async function getBlogPosts() {
   const file = await fs.readFile(
     path.join(projectRoot, "src/data/blogPosts.ts"),
     "utf-8",
   );
-  return Array.from(file.matchAll(/slug:\s*["'`]([^"'`]+)["'`]/g)).map(
-    (m) => m[1],
-  );
+  return Array.from(
+    file.matchAll(
+      /slug:\s*["'`]([^"'`]+)["'`][\s\S]*?date:\s*["'`]([^"'`]+)["'`]/g,
+    ),
+  ).map((m) => {
+    const d = new Date(m[2]);
+    return {
+      slug: m[1],
+      lastmod: Number.isNaN(d.getTime())
+        ? undefined
+        : d.toISOString().split("T")[0],
+    };
+  });
 }
 
 function urlEntry(loc, { changefreq = "monthly", priority = "0.7", lastmod } = {}) {
@@ -34,19 +46,27 @@ function urlEntry(loc, { changefreq = "monthly", priority = "0.7", lastmod } = {
 }
 
 async function run() {
-  const today = new Date().toISOString().split("T")[0];
-  const slugs = await getBlogSlugs();
+  const posts = await getBlogPosts();
+  const newest = posts
+    .map((p) => p.lastmod)
+    .filter(Boolean)
+    .sort()
+    .pop();
 
   const urls = [
-    urlEntry(`${SITE}/`, { changefreq: "weekly", priority: "1.0", lastmod: today }),
-    urlEntry(`${SITE}/blog`, { changefreq: "weekly", priority: "0.9", lastmod: today }),
-    urlEntry(`${SITE}/privacy`, { changefreq: "yearly", priority: "0.3" }),
-    urlEntry(`${SITE}/terms`, { changefreq: "yearly", priority: "0.3" }),
-    ...slugs.map((s) =>
-      urlEntry(`${SITE}/blog/${s}`, {
+    urlEntry(`${SITE}/`, { changefreq: "weekly", priority: "1.0" }),
+    urlEntry(`${SITE}/blog/`, {
+      changefreq: "weekly",
+      priority: "0.9",
+      lastmod: newest,
+    }),
+    urlEntry(`${SITE}/privacy/`, { changefreq: "yearly", priority: "0.3" }),
+    urlEntry(`${SITE}/terms/`, { changefreq: "yearly", priority: "0.3" }),
+    ...posts.map((p) =>
+      urlEntry(`${SITE}/blog/${p.slug}/`, {
         changefreq: "monthly",
         priority: "0.8",
-        lastmod: today,
+        lastmod: p.lastmod,
       }),
     ),
   ];
