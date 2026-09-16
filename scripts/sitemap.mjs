@@ -39,11 +39,11 @@ async function run() {
 
   const urls = [
     urlEntry(`${SITE}/`, { changefreq: "weekly", priority: "1.0", lastmod: today }),
-    urlEntry(`${SITE}/blog`, { changefreq: "weekly", priority: "0.9", lastmod: today }),
-    urlEntry(`${SITE}/privacy`, { changefreq: "yearly", priority: "0.3" }),
-    urlEntry(`${SITE}/terms`, { changefreq: "yearly", priority: "0.3" }),
+    urlEntry(`${SITE}/blog/`, { changefreq: "weekly", priority: "0.9", lastmod: today }),
+    urlEntry(`${SITE}/privacy/`, { changefreq: "yearly", priority: "0.3" }),
+    urlEntry(`${SITE}/terms/`, { changefreq: "yearly", priority: "0.3" }),
     ...slugs.map((s) =>
-      urlEntry(`${SITE}/blog/${s}`, {
+      urlEntry(`${SITE}/blog/${s}/`, {
         changefreq: "monthly",
         priority: "0.8",
         lastmod: today,
