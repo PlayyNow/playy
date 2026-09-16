@@ -21,7 +21,7 @@ const TermsOfService = () => {
       <SEO
         title="Terms of Service | Playy"
         description="The terms that govern your access to and use of the Playy mobile app, website, and related services in Dubai, UAE."
-        canonical="https://joinplayy.com/terms"
+        canonical="https://joinplayy.com/terms/"
       />
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50">

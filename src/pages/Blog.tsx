@@ -35,12 +35,12 @@ const Blog = () => {
       <SEO
         title="Playy Blog — Dubai Padel Tips, Guides & Community"
         description="Guides, tips and stories for padel players in Dubai. Learn the rules, gear up, and find your next game with Playy."
-        canonical={`${SITE_URL}/blog`}
+        canonical={`${SITE_URL}/blog/`}
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "Blog",
           name: "Playy Blog",
-          url: `${SITE_URL}/blog`,
+          url: `${SITE_URL}/blog/`,
           description:
             "Guides, tips and stories for padel players in Dubai from the Playy community.",
           publisher: {
@@ -51,7 +51,7 @@ const Blog = () => {
           blogPost: blogPosts.map((p) => ({
             "@type": "BlogPosting",
             headline: p.title,
-            url: `${SITE_URL}/blog/${p.slug}`,
+            url: `${SITE_URL}/blog/${p.slug}/`,
             datePublished: p.date,
           })),
         }}
