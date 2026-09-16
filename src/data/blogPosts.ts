@@ -134,6 +134,82 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "womens-padel-in-dubai-everything-you-need-to-know",
+    title: "Women's Padel in Dubai — Everything You Need to Know",
+    excerpt:
+      "A complete guide to women's padel in Dubai: the fastest-growing player segment, dedicated communities, the HER Padel Series UAE, gear recommendations, and how to get started as a female beginner.",
+    date: "September 4, 2026",
+    image: womensPadelHero,
+    ogImage: "https://joinplayy.com/blog/womens-padel-hero.jpg",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Women's padel in Dubai is not a niche anymore. It is one of the fastest-growing segments of the city's sports community, with dedicated tournaments, women-specific training sessions, and an active social scene that is expanding rapidly as more female players discover the sport for the first time or bring their padel background from Europe and Latin America to Dubai. The sport is governed globally by the [International Padel Federation](https://www.padelfip.com), which sets the standards for clubs, coaches, and tournaments worldwide." },
+      { type: "paragraph", text: "If you are a woman thinking about trying padel in Dubai, or already playing and looking to get more involved, here is your complete guide to the women's padel scene in the city right now." },
+
+      { type: "heading", text: "Why Women's Padel is Growing So Fast in Dubai" },
+      { type: "paragraph", text: "Women's padel is experiencing unprecedented growth globally in 2025 and 2026 and Dubai is among the fastest-growing markets within that trend. The reasons are structural rather than coincidental." },
+      { type: "paragraph", text: "Padel has a lower barrier to entry than almost any other racket sport. The underhand serve, the smaller court, the forgiving solid racket face, and the social doubles format combine to make the sport genuinely accessible to players who have never picked up a racket before. This accessibility is particularly significant for female players who may not have grown up with racket sports in their background — padel meets you where you are." },
+      { type: "paragraph", text: "The social format is a second major driver. Padel is always played in doubles which means the experience is inherently collaborative and social rather than isolating. For women building a social life in Dubai — whether newly arrived expats or long-term residents looking to expand their community — padel provides an immediate and structured way to connect with people who share similar interests and schedules." },
+      { type: "paragraph", text: "The UAE's broader investment in women in sport has also created fertile ground. More women than ever are leading active lifestyles and embracing sport across the UAE, and padel is leading that charge according to the HER Padel Series organisers whose 2026 tournament attracted participants from across the country. The infrastructure — dedicated women's sessions at most major Dubai venues, women-specific coaching, women-only tournaments — now exists at a level that makes entry into the sport straightforward in a way it was not three or four years ago." },
+
+      { type: "heading", text: "Is Padel Good for Women? What the Research Shows" },
+      { type: "paragraph", text: "The physical benefits of padel apply equally regardless of gender — cardiovascular improvement, core and leg strength development, coordination, and calorie burn of 400 to 600 calories per hour. The mental health benefits including reduced anxiety, improved self-confidence, and the social wellbeing effects of the doubles format are also consistent across genders in the research literature. [Read our full guide on how padel improves mental health.](https://joinplayy.com/blog/how-padel-improves-your-mental-health-what-the-research-shows)" },
+      { type: "paragraph", text: "One specific consideration for female players is injury prevention. Research indicates that women may have slightly higher rates of ankle and knee injury in padel due to biomechanical differences in landing mechanics and lateral movement patterns. Padel-specific shoes with proper lateral ankle support are therefore particularly important for female players — more so than for male players — and are worth prioritising in your initial equipment purchase." },
+      { type: "paragraph", text: "The arm comfort consideration is also worth noting. Women's padel rackets in 2025 and 2026 are specifically engineered with lighter weights, improved vibration-reduction technology, and balance points designed to suit different swing speeds and arm strength profiles. Playing with a racket designed for your physiology rather than a unisex or male-default model reduces fatigue and injury risk over time." },
+
+      { type: "heading", text: "How to Get Started as a Female Beginner in Dubai" },
+      { type: "paragraph", text: "The best entry point for most women starting padel in Dubai is a beginner session or clinic at an established venue. Most major Dubai padel facilities run beginner programmes specifically designed to introduce the sport in a low-pressure, social environment. ISD Padel in Dubai Sports City, Central Padel in Al Quoz, and Padel Kingdom run regular beginner sessions and many offer women-specific introductory programmes that provide a more comfortable first experience than mixed beginner groups." },
+      { type: "paragraph", text: "A beginner clinic or lesson before your first free-play session is worth the investment. Even two hours of instruction on the serve, the basic volley, and the wall rules removes the confusion that makes first sessions feel overwhelming and accelerates the point at which playing becomes genuinely fun rather than frustrating. [Read our guide on whether padel is hard to learn as a beginner.](https://joinplayy.com/blog/is-padel-hard-to-learn-as-a-beginner)" },
+      { type: "paragraph", text: "If a formal clinic is not available or accessible, the Americano format is the most beginner-friendly way to enter the social padel scene. The rotating partner structure means you play with experienced players who naturally guide and encourage you through the session without any formal instruction required." },
+
+      { type: "image", src: womensPadelPhone, alt: "A woman sitting courtside on a bench checking her phone next to a padel racket", float: "none" },
+
+      { type: "heading", text: "Women's Padel Communities in Dubai" },
+      { type: "paragraph", text: "The women's padel community in Dubai has developed its own dedicated social infrastructure over the past three years. Several communities and groups are worth knowing about." },
+      { type: "paragraph", text: "The Padel Mob has a strong female membership and runs regular social sessions explicitly welcoming to women at all levels. Their Americano sessions at venues across Dubai attract a diverse mix of nationalities and skill levels and are one of the most accessible entry points into the broader Dubai padel community for women who want a social rather than competitive introduction." },
+      { type: "paragraph", text: "Padel Kingdom in Dubai runs women-specific sessions and has built one of the most active female padel communities in the city. Their coaching programme includes female coaches which many players find significantly more comfortable for technical instruction particularly in the early stages." },
+      { type: "paragraph", text: "Facebook groups including Dubai Women's Padel and Dubai Ladies Padel are active communities where sessions are organised, partners are found, and beginners get advice from experienced players. The tone in these groups is consistently welcoming and the willingness to help complete beginners is notable." },
+      { type: "paragraph", text: "WhatsApp groups at most major venues have female-specific threads or dedicated women's groups. Asking at reception at your nearest padel venue about women's groups or sessions is typically the fastest way to connect with the existing community at your skill level." },
+
+      { type: "heading", text: "The HER Padel Series UAE 2026" },
+      { type: "paragraph", text: "The most significant development in women's padel in the UAE this year is the [HER Padel Series UAE 2026](https://herpadelseries.com), a premium women-only indoor padel tournament series created specifically to empower, connect, and inspire women through sport, community, wellness, and competition." },
+      { type: "paragraph", text: "The series consists of city qualifiers in Sharjah, Abu Dhabi, and Dubai followed by a Dubai Grand Final. The Dubai qualifier runs on September 26th and 27th 2026 at [Padel Kingdom Dubai](https://www.padelkingdom.ae), with the Dubai Grand Finals on October 4th 2026 also at Padel Kingdom. The series is open to Category C lower intermediate and Category D beginner players — professional and ranked players are explicitly excluded to ensure the tournament remains community-driven, accessible, and enjoyable for amateur female players." },
+      { type: "paragraph", text: "Each city qualifier features 24 teams, group stages, and knockout rounds. The top four teams from each qualifier advance to the Dubai Grand Finals. The series is projected to reach over 2,000 players across the UAE and is building toward becoming a regional platform uniting women through padel across five countries." },
+      { type: "paragraph", text: "For any woman who has been playing padel for a few months and wants to experience competitive play in a supportive and professionally organised environment, the HER Padel Series is exactly the right entry point. Registration details are available at herpadelseries.com." },
+
+      { type: "heading", text: "Gear Recommendations for Female Players" },
+      { type: "paragraph", text: "Women's padel rackets in 2026 are purpose-built rather than simply lighter versions of men's models. They account for differences in arm strength, swing speed, wrist mobility, and injury risk in ways that make a meaningful difference to both performance and comfort over time. [Read our full padel gear guide for beginners.](https://joinplayy.com/blog/what-padel-gear-do-beginners-need)" },
+      { type: "paragraph", text: "For beginners, the Babolat Air Origin and the Bullpadel Indiga CTR 26 are the most widely recommended women-specific options in the Dubai market. Both feature round shapes for maximum forgiveness, soft EVA cores for arm comfort, and weights in the 340 to 360 gram range that are manageable for new players. The Siux Valkiria Pro 2026, designed with professional player Sofia Araújo, is the top recommendation for intermediate female players looking for a control-focused teardrop option." },
+      { type: "paragraph", text: "Padel shoes with lateral ankle support and a herringbone sole are non-negotiable regardless of gender but worth emphasising specifically for female players given the slightly higher ankle injury risk noted in the research. Several brands including HEAD, Babolat, and Adidas now produce women-specific padel shoe designs that account for foot shape differences rather than simply resizing men's models." },
+      { type: "paragraph", text: "For clothing, moisture-wicking fabrics are essential for Dubai conditions particularly from May through September. Padel-specific skirts and shorts with built-in compression shorts for ball storage are a practical choice that most experienced female players adopt within their first few months." },
+
+      { type: "heading", text: "What to Expect at Your First Session" },
+      { type: "paragraph", text: "Your first padel session will feel slightly chaotic and then start clicking. The wall rebounds take the most adjustment — the instinct to retreat from the glass is strong and the correction to hold your position takes a few sessions to feel natural. Everything else — the serve, the basic volley, the scoring — is more intuitive than most beginners expect." },
+      { type: "paragraph", text: "Most women describe their first padel session experience as unexpectedly fun. The social format, the manageable physical intensity compared to tennis or squash, and the immediate sense of being part of a team rather than exposed as a solo player all contribute to a first session that feels accessible rather than intimidating." },
+      { type: "paragraph", text: "The padel community in Dubai is genuinely welcoming to female beginners. The sport's growth has created a culture of inclusivity at most venues precisely because everyone was new relatively recently. Showing up with a willingness to learn and a positive attitude is all you need for a good first experience." },
+
+      { type: "image", src: womensPadelPlayers, alt: "Two women playing padel doubles on an indoor court", float: "none" },
+
+      { type: "paragraph", text: "[Read our guide on how to find a padel partner in Dubai.](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai)" },
+
+      { type: "heading", text: "Find Players on Playy" },
+      { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. For women in Dubai who want to find padel partners at their level and availability without navigating multiple WhatsApp groups or waiting for a venue to organise a session, Playy connects you directly with players near you who are looking for the same game." },
+      { type: "paragraph", text: "Set your sport as padel, add your skill level and available times, and find your match. The app is free to download on iOS or Android and is used by players across Dubai building exactly the kind of consistent playing network that makes padel a sustainable long-term habit rather than a one-off experience." },
+
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Women's padel in Dubai in 2026 is active, welcoming, well-organised, and genuinely accessible to players at every level from complete beginner to competitive amateur. The infrastructure — dedicated venues, women-specific coaching, the HER Padel Series, active community groups — is the best it has ever been." },
+      { type: "paragraph", text: "If you have been thinking about trying padel, September and October are the best months to start. The heat breaks, the courts fill up, and the community energy that makes Dubai padel what it is comes back in full. There has never been a better time to find your people on the court." },
+      { type: "paragraph", text: "Download Playy free on iOS or Android at joinplayy.com and find your padel community in Dubai today." },
+
+      {
+        type: "cta",
+        text: "Download Playy free on iOS or Android and find your next padel match in Dubai today.",
+        href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368",
+        label: "Download Playy",
+      },
+    ],
+  },
+
+  {
     slug: "how-padel-improves-your-mental-health-what-the-research-shows",
     title: "How Padel Improves Your Mental Health — What the Research Shows",
     excerpt:
