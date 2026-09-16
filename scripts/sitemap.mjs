@@ -46,19 +46,27 @@ function urlEntry(loc, { changefreq = "monthly", priority = "0.7", lastmod } = {
 }
 
 async function run() {
-  const today = new Date().toISOString().split("T")[0];
-  const slugs = await getBlogSlugs();
+  const posts = await getBlogPosts();
+  const newest = posts
+    .map((p) => p.lastmod)
+    .filter(Boolean)
+    .sort()
+    .pop();
 
   const urls = [
-    urlEntry(`${SITE}/`, { changefreq: "weekly", priority: "1.0", lastmod: today }),
-    urlEntry(`${SITE}/blog/`, { changefreq: "weekly", priority: "0.9", lastmod: today }),
+    urlEntry(`${SITE}/`, { changefreq: "weekly", priority: "1.0" }),
+    urlEntry(`${SITE}/blog/`, {
+      changefreq: "weekly",
+      priority: "0.9",
+      lastmod: newest,
+    }),
     urlEntry(`${SITE}/privacy/`, { changefreq: "yearly", priority: "0.3" }),
     urlEntry(`${SITE}/terms/`, { changefreq: "yearly", priority: "0.3" }),
-    ...slugs.map((s) =>
-      urlEntry(`${SITE}/blog/${s}/`, {
+    ...posts.map((p) =>
+      urlEntry(`${SITE}/blog/${p.slug}/`, {
         changefreq: "monthly",
         priority: "0.8",
-        lastmod: today,
+        lastmod: p.lastmod,
       }),
     ),
   ];
