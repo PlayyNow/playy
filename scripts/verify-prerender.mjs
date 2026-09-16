@@ -47,6 +47,7 @@ async function run() {
 
     assertIncludes(html, `<title>${post.title} | Playy Blog</title>`, route, "page title");
     assertIncludes(html, `property="og:url" content="https://joinplayy.com${route}"`, route, "OG URL");
+    assertIncludes(html, `rel="canonical" href="https://joinplayy.com${route}"`, route, "canonical URL");
     assertIncludes(html, post.title, route, "article title");
     assertIncludes(html, post.excerpt, route, "article excerpt metadata");
 
