@@ -106,6 +106,10 @@ import chooseRacketShop from "@/assets/blog/choose-racket-shop.jpg";
 import mentalHealthHero from "@/assets/blog/mental-health-hero.jpg";
 import mentalHealthCourt from "@/assets/blog/mental-health-court.jpg";
 import mentalHealthCommunity from "@/assets/blog/mental-health-community.png";
+import womensPadelHero from "@/assets/blog/womens-padel-hero.jpg";
+import womensPadelPhone from "@/assets/blog/womens-padel-phone.jpg";
+import womensPadelPlayers from "@/assets/blog/womens-padel-players.jpg";
+
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
