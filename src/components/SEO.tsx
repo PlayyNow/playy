@@ -39,6 +39,7 @@ const SEO = ({
   type = "website",
   publishedTime,
   jsonLd,
+  noindex = false,
 }: SEOProps) => {
   useEffect(() => {
     const absoluteImage = image
