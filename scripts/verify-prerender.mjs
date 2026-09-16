@@ -41,7 +41,7 @@ async function run() {
   }
 
   for (const post of posts) {
-    const route = `/blog/${post.slug}`;
+    const route = `/blog/${post.slug}/`;
     const file = path.join(distDir, "blog", post.slug, "index.html");
     const html = await fs.readFile(file, "utf-8");
 
