@@ -109,6 +109,9 @@ import mentalHealthCommunity from "@/assets/blog/mental-health-community.png";
 import womensPadelHero from "@/assets/blog/womens-padel-hero.jpg";
 import womensPadelPhone from "@/assets/blog/womens-padel-phone.jpg";
 import womensPadelPlayers from "@/assets/blog/womens-padel-players.jpg";
+import tournamentHero from "@/assets/blog/tournament-hero.jpg.asset.json";
+import tournamentPrep from "@/assets/blog/tournament-prep.webp.asset.json";
+import tournamentCommunity from "@/assets/blog/tournament-community.webp.asset.json";
 
 
 export type BlogBlock =
@@ -122,6 +125,7 @@ export type BlogPost = {
   title: string;
   excerpt: string;
   date: string;
+  author?: string;
   image: string;
   /**
    * Absolute, publicly-resolvable URL for og:image / twitter:image.
@@ -133,6 +137,70 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-prepare-for-your-first-padel-tournament-in-dubai",
+    title: "How to Prepare for Your First Padel Tournament in Dubai",
+    excerpt: "Your first padel tournament in Dubai? Learn how Americanos work, what to bring, how to prepare physically and mentally, and how to handle match-day nerves.",
+    date: "September 8, 2026",
+    author: "Playy",
+    image: `https://playy.lovable.app${tournamentHero.url}`,
+    ogImage: "https://playy.lovable.app/__l5e/assets-v1/0fe2795a-9f39-4987-8d75-9ce84f903e95/tournament-hero.jpg",
+    content: [
+      { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The sport is governed globally by the [International Padel Federation](https://www.padelfip.com). Your first padel tournament in Dubai is one of those experiences that sounds intimidating in advance and is almost always more enjoyable than expected on the day. The nerves are real, the preparation matters, and the social energy of a well-run tournament is genuinely unlike anything a regular session produces." },
+      { type: "paragraph", text: "Here is exactly how to prepare so you walk onto the court feeling ready rather than anxious." },
+      { type: "heading", text: "What Kind of Tournament Is It? Know Before You Go" },
+      { type: "paragraph", text: "Dubai padel tournaments come in several formats and knowing which one you are entering changes how you prepare. The most common at community level is the Americano — a social rotating format where partners change after every set, points are tracked individually, and the player with the highest total at the end wins. The Americano is the most beginner-friendly tournament format because it removes the pressure of a fixed partnership and gives you the experience of playing with and against everyone in the session." },
+      { type: "paragraph", text: "Formal competitive tournaments use a pairs format — you and a fixed partner play through group stages and knockout rounds together. These require more coordination and tactical development with your partner but reward consistent pairs play over the full session." },
+      { type: "paragraph", text: "Most first tournaments in Dubai are Americanos because the format is more social, more forgiving of skill variation, and more likely to result in a positive first competitive experience regardless of your level. If you are unsure which format your tournament uses, ask the organiser before the day so there are no surprises." },
+      { type: "paragraph", text: "[Read our full guide on what an Americano is and how it works.](https://joinplayy.com/blog/what-is-an-americano-in-padel/)" },
+      { type: "heading", text: "What to Expect at an Americano" },
+      { type: "paragraph", text: "An Americano typically runs for 90 minutes to two hours with a brief welcome at the start where the format is explained and pairings are announced for the first rotation. Sets are short — usually played to six games — and at the end of each set points are recorded and partners rotate. By the end of the session you will have played with and against every player present." },
+      { type: "paragraph", text: "The scoring is individual. Every game you win with any partner counts toward your personal total. This means you are always playing for yourself even when your partner is having a difficult set — your points are yours regardless of the partnership outcome. Keep track of your own score as you go rather than relying entirely on the organisers to record it, particularly in community events where scorekeeping can be informal." },
+      { type: "paragraph", text: "The atmosphere at a well-run Americano is social rather than fiercely competitive. Players cheer each other's good shots, laugh at errors, and generally treat the event as a community gathering with a competitive structure rather than a high-stakes competition. Coming in with that mindset — I am here to play, meet people, and enjoy the format — is the mental preparation that produces the best first tournament experience." },
+      { type: "heading", text: "Physical Preparation in the Days Before" },
+      { type: "paragraph", text: "Do not try to cram in extra practice sessions in the two or three days immediately before your first tournament. Playing more than usual right before a competition increases fatigue and the risk of minor muscle strain without meaningfully improving your skill level. Your game will be what it is based on everything you have done up to this point. Maintain your normal routine and arrive rested." },
+      { type: "paragraph", text: "Hydration in the days before matters significantly in Dubai. Arriving at a tournament already well-hydrated is far more effective than trying to drink large amounts immediately before play. Aim for consistent water intake in the 48 hours before the event and avoid alcohol the night before — it disrupts sleep quality and leaves you dehydrated even when you do not feel it the next day." },
+      { type: "paragraph", text: "Sleep is the most underestimated preparation tool. A good night of sleep two nights before the event matters as much as the night before — research consistently shows that sleep deprivation two nights prior has measurable effects on reaction time and decision-making that are not fully recovered in a single following night. Prioritise your sleep Wednesday if your tournament is Friday." },
+      { type: "paragraph", text: "[Read our guide on what to eat before playing padel.](https://joinplayy.com/blog/what-to-eat-before-and-after-playing-padel/)" },
+      { type: "image", src: `https://playy.lovable.app${tournamentPrep.url}`, alt: "Padel player taking a moment to breathe before a match on an outdoor court", float: "none" },
+      { type: "heading", text: "Mental Preparation — The Part Most Players Skip" },
+      { type: "paragraph", text: "First tournament nerves are completely normal and affect almost every player regardless of how long they have been playing. The nervousness you feel is not a sign that you are not ready — it is a sign that you care about performing well, which is a healthy competitive instinct rather than a problem to eliminate." },
+      { type: "paragraph", text: "The most effective mental preparation for a first tournament is expectation setting. Be honest with yourself about your current level, set a realistic goal for the day — I want to win at least one set per rotation, or I want to try the lob more deliberately, or simply I want to enjoy the experience — and commit to that goal rather than to an outcome you cannot control like finishing first." },
+      { type: "paragraph", text: "Remind yourself before the event that everyone you are playing against was a beginner once. The experienced players in the session remember what their first tournament felt like. The beginners are just as nervous as you. Nobody is watching and judging you the way your anxiety suggests they are." },
+      { type: "paragraph", text: "During play, focus on the next point rather than the overall score. Padel psychology research consistently shows that process focus — attending to what you are doing right now — produces better performance under pressure than outcome focus. When you are serving at a crucial point, think about your ball drop and your target, not about what happens if you double fault." },
+      { type: "heading", text: "What to Bring on the Day" },
+      { type: "paragraph", text: "Arrive ten to fifteen minutes before the announced start time. Tournaments run to a schedule and a late arrival creates a poor first impression and may cause you to miss the format briefing and the first rotation." },
+      { type: "paragraph", text: "Bring your own water — at least one litre, more for an outdoor event or any event during the warmer months. Bring an extra grip or overgrip in your bag in case yours gets slippery during the session. Bring a small towel. Bring your racket in a protective sleeve if you have one — courts at busy venues can get crowded in the changeover periods and an unprotected racket on a bench is an unnecessary risk." },
+      { type: "paragraph", text: "Wear your padel shoes. This sounds obvious but tournament organisers in Dubai regularly see players show up in running shoes for their first event. Padel-specific shoes are not optional for competitive play — they protect your ankles during the lateral movements that increase in intensity during a competitive format compared to casual sessions." },
+      { type: "paragraph", text: "Eat a proper meal two to three hours before the event. Not immediately before — solid food within an hour of intense play can cause discomfort. A banana or a small energy bar thirty minutes before is fine. A full meal thirty minutes before is not." },
+      { type: "heading", text: "Tactical Preparation — The Three Things That Matter" },
+      { type: "paragraph", text: "You do not need a complex tactical game plan for your first tournament. Most of what determines the outcome of your sets at community level comes down to three simple principles applied consistently." },
+      { type: "paragraph", text: "First, get to the net with your partner on every available opportunity. The team at the net wins the majority of points at all levels. Make advancing together a deliberate habit rather than something that happens accidentally." },
+      { type: "paragraph", text: "Second, cover the middle. Middle balls through the gap between you and your partner are the most common way points are lost at community tournament level. Shade toward the middle, communicate clearly with your partner about who takes what, and eliminate that vulnerability." },
+      { type: "paragraph", text: "Third, keep the ball in play. Unforced errors — balls hit into the net or out of court without your opponents doing anything special — lose more points at community level than any other factor. Play one more shot than feels necessary before going for a winner. Consistency beats power in every Americano. Watch how players on the [Premier Padel](https://www.premierpadel.com) tour build points patiently before attacking." },
+      { type: "paragraph", text: "[Read our padel doubles strategy guide for the core principles to apply.](https://joinplayy.com/blog/padel-doubles-strategy-for-beginners/)" },
+      { type: "heading", text: "How to Handle Nerves During Play" },
+      { type: "paragraph", text: "When nerves hit during play — and they will, particularly in the first rotation — your instinct will be to rush. Points feel more urgent, you serve faster than normal, you go for winners earlier in rallies, and you think less between shots. All of these nervous responses make your game worse." },
+      { type: "paragraph", text: "The antidote is slowing down deliberately. Take your full time between points. Bounce the ball twice before serving rather than serving immediately. Say the score out loud before each point — this forces a brief pause and a reset. These small rituals are used by professional padel players specifically because they interrupt the anxiety spiral that rushed play creates." },
+      { type: "paragraph", text: "If you lose a bad set or make a string of errors in a rotation, remind yourself that the format resets. A new partner, a new pair of opponents, a fresh six games. One difficult rotation does not define your day. The players who enjoy their first Americano most are the ones who treat each rotation as its own independent experience rather than tracking a cumulative narrative of how the day is going." },
+      { type: "heading", text: "Find Your First Tournament in Dubai" },
+      { type: "paragraph", text: "The most accessible first tournament format in Dubai is a community Americano at a local venue — exactly the kind of event that Playy organises for players who want a structured, social, well-run competitive experience without the intimidation of a formal club tournament. Venues such as [MVP LAB](https://www.mvplab.ae) are worth exploring when looking for padel events in Dubai." },
+      { type: "paragraph", text: "Playy regularly hosts community Americanos at venues across Dubai specifically designed for players who want their first competitive experience in a social and welcoming environment. The format is always beginner-friendly, the group sizes are kept small so everyone gets maximum court time, and the emphasis is on community over competition. " },
+      { type: "paragraph", text: "Events are announced through the app and fill up quickly — download Playy free on iOS to stay informed about what is coming up near you and secure your spot before they sell out." },
+      { type: "paragraph", text: "[Read our guide on how to find padel players and events in Dubai.](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai/)" },
+      { type: "image", src: `https://playy.lovable.app${tournamentCommunity.url}`, alt: "Padel players celebrating together after an Americano tournament", float: "none" },
+      { type: "heading", text: "The Bottom Line" },
+      { type: "paragraph", text: "Your first padel tournament will be better than you expect if you approach it with realistic expectations, proper physical preparation, and a focus on enjoying the format rather than winning at all costs. Arrive rested, arrive hydrated, cover the middle, get to the net, keep the ball in play, and take your time between points." },
+      { type: "paragraph", text: "The players who enjoy their first tournaments come back for more. The players who come back for more get better. And getting better at padel in Dubai, surrounded by the community this city has built around the sport, is one of the genuinely good things available here." },
+      { type: "paragraph", text: "Download Playy free on iOS at joinplayy.com — find your next padel event in Dubai and join the community today." },
+      {
+        type: "cta",
+        text: "Find your next padel event in Dubai and join the community today.",
+        href: "https://apps.apple.com/us/app/playy-find-your-game/id6759396368",
+        label: "Download Playy",
+      },
+    ],
+  },
   {
     slug: "womens-padel-in-dubai-everything-you-need-to-know",
     title: "Women's Padel in Dubai — Everything You Need to Know",

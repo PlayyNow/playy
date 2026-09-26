@@ -182,7 +182,7 @@ const BlogPost = () => {
               <ArrowLeft className="w-4 h-4" /> Back to Blog
             </Link>
 
-            <p className="text-sm text-muted-foreground mb-3">{post.date}</p>
+            <p className="text-sm text-muted-foreground mb-3">{post.date}{post.author ? ` · By ${post.author}` : ""}</p>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
               {post.title}
             </h1>
