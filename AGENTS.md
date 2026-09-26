@@ -1,0 +1,1 @@
+Blog posts may specify an optional `author` in their data entry; show it next to the date only when present so older posts retain their existing presentation.
