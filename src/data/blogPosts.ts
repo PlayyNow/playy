@@ -115,6 +115,9 @@ import tournamentCommunity from "@/assets/blog/tournament-community.webp.asset.j
 import octoberHero from "@/assets/blog/october-padel-hero.jpg.asset.json";
 import octoberCourts from "@/assets/blog/october-courts.jpg.asset.json";
 import octoberCommunity from "@/assets/blog/october-community.jpg.asset.json";
+import friendshipsHero from "@/assets/blog/friendships-hero.jpg.asset.json";
+import friendshipsNetworking from "@/assets/blog/friendships-networking.jpg.asset.json";
+import friendshipsCafe from "@/assets/blog/friendships-cafe.jpg.asset.json";
 
 
 export type BlogBlock =
