@@ -109,18 +109,18 @@ import mentalHealthCommunity from "@/assets/blog/mental-health-community.png";
 import womensPadelHero from "@/assets/blog/womens-padel-hero.jpg";
 import womensPadelPhone from "@/assets/blog/womens-padel-phone.jpg";
 import womensPadelPlayers from "@/assets/blog/womens-padel-players.jpg";
-import tournamentHero from "@/assets/blog/tournament-hero.jpg.asset.json";
-import tournamentPrep from "@/assets/blog/tournament-prep.webp.asset.json";
-import tournamentCommunity from "@/assets/blog/tournament-community.webp.asset.json";
-import octoberHero from "@/assets/blog/october-padel-hero.jpg.asset.json";
-import octoberCourts from "@/assets/blog/october-courts.jpg.asset.json";
-import octoberCommunity from "@/assets/blog/october-community.jpg.asset.json";
-import friendshipsHero from "@/assets/blog/friendships-hero.jpg.asset.json";
-import friendshipsNetworking from "@/assets/blog/friendships-networking.jpg.asset.json";
-import friendshipsCafe from "@/assets/blog/friendships-cafe.jpg.asset.json";
-import mideastHero from "@/assets/blog/mideast-hero.jpg.asset.json";
-import mideastPremier from "@/assets/blog/mideast-premier.jpg.asset.json";
-import mideastCommunity from "@/assets/blog/mideast-community.jpg.asset.json";
+import tournamentHero from "@/assets/blog/tournament-hero.jpg";
+import tournamentPrep from "@/assets/blog/tournament-prep.jpg";
+import tournamentCommunity from "@/assets/blog/tournament-community.jpg";
+import octoberHero from "@/assets/blog/october-padel-hero.jpg";
+import octoberCourts from "@/assets/blog/october-courts.jpg";
+import octoberCommunity from "@/assets/blog/october-community.jpg";
+import friendshipsHero from "@/assets/blog/friendships-hero.jpg";
+import friendshipsNetworking from "@/assets/blog/friendships-networking.jpg";
+import friendshipsCafe from "@/assets/blog/friendships-cafe.jpg";
+import mideastHero from "@/assets/blog/mideast-hero.jpg";
+import mideastPremier from "@/assets/blog/mideast-premier.jpg";
+import mideastCommunity from "@/assets/blog/mideast-community.jpg";
 
 
 export type BlogBlock =
@@ -152,8 +152,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: "A region that had almost no padel a decade ago now holds 85 percent of Asia's courts. The full picture of how padel is growing across the Middle East in 2026 — and where it goes next.",
     date: "September 28, 2026",
     author: "Playy",
-    image: `https://playy.lovable.app${mideastHero.url}`,
-    ogImage: "https://playy.lovable.app/__l5e/assets-v1/deb4f624-bcd5-471b-af4d-6bb82263a315/mideast-hero.jpg",
+    image: mideastHero,
+    ogImage: "https://joinplayy.com/blog/mideast-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The sport is governed globally by the [International Padel Federation](https://www.padelfip.com). The Middle East is one of the most remarkable padel growth stories in the world right now. A region that had almost no padel infrastructure a decade ago now accounts for 85 percent of all padel courts across Asia, hosts Premier Padel professional events, and is producing players, investment, and community at a pace that is attracting attention from the global padel industry." },
       { type: "paragraph", text: "Here is the full picture of how padel is growing across the Middle East in 2026 and where the region is headed next." },
@@ -171,7 +171,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Saudi Arabia is the most significant growth story in Middle East padel right now and arguably in global padel. The kingdom has 86 venues across 17 cities with 318 counted courts — a remarkable base for a market that was one of the last countries in the Gulf to discover the sport. The trajectory is even more striking than the current numbers: Saudi Arabia's General Authority for Sport's investment in padel infrastructure is expected to make it one of the top-5 padel court markets globally by 2028." },
       { type: "paragraph", text: "The demographic conditions in Saudi Arabia are exceptional for padel growth. Sixty-seven percent of the Saudi population is under 35 — a young, active demographic that is precisely the age group that drives padel participation globally. Rising female sports participation following the country's social liberalisation has added a further significant player base that was previously excluded from organised sport. The hosting of [Premier Padel](https://www.premierpadel.com) events in Saudi Arabia has accelerated awareness and aspiration in ways that organic community growth alone could not." },
       { type: "paragraph", text: "Spanish coach Adrian Blanco Antelo, who trains at Padel Rush in Riyadh, describes the current moment in Saudi padel as a genuine opportunity. People in Saudi Arabia are very open to trying new sports right now and the hosting of Premier Padel was a significant statement that the kingdom is taking the sport seriously. The professional infrastructure following community demand is a sequence that has driven padel growth in every mature market and is now playing out in Saudi Arabia at speed." },
-      { type: "image", src: `https://playy.lovable.app${mideastPremier.url}`, alt: "Premier Padel professionals competing in the Middle East" },
+      { type: "image", src: mideastPremier, alt: "Premier Padel professionals competing in the Middle East" },
       { type: "heading", text: "Kuwait, Qatar and the Broader Gulf" },
       { type: "paragraph", text: "Beyond the UAE and Saudi Arabia, the broader Gulf region is in various stages of padel adoption that collectively represent a significant and growing market. Kuwait and Qatar have both developed padel communities anchored by expatriate populations who brought knowledge of the sport from Europe and Latin America and domestic enthusiasm that has grown consistently since the early 2020s." },
       { type: "paragraph", text: "Qatar's investment in sports infrastructure — amplified by its role as a global sports hub through the 2022 FIFA World Cup and subsequent sporting investments — has created conditions where padel courts are appearing in sports complexes, residential developments, and hospitality venues at an accelerating rate. The Qatari government's sports participation initiatives have specifically targeted padel as a growth area, providing both funding and promotional support for the sport's development." },
@@ -191,7 +191,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "The trajectory of Middle East padel points strongly toward continued acceleration rather than plateau. Saudi Arabia's court density is currently 2.5 courts per 100,000 residents — well below the level of mature padel markets like Spain and Sweden — which means there is substantial room for infrastructure expansion even in the kingdom's most developed padel cities. The projection that Saudi Arabia will be a top-5 global padel market by 2028 is based on current investment commitments rather than speculative demand." },
       { type: "paragraph", text: "The Olympics question is significant for the Middle East specifically. Padel is under active consideration as a candidate sport for the Los Angeles 2028 Olympics. Inclusion would produce a surge in global awareness and participation that would benefit every established padel market — and the Middle East, with its existing infrastructure, government backing, and active communities, is better positioned to capitalise on that surge than almost any other region outside Europe and Latin America." },
       { type: "paragraph", text: "The Abu Dhabi Padel League 2026, which launched in May and runs through September, is the most visible example of the region's competitive infrastructure maturing beyond recreational community play into organised league structures with development pathways. More such initiatives across the region in the coming years will deepen the sport's roots and produce the next generation of competitive Middle Eastern padel players." },
-      { type: "image", src: `https://playy.lovable.app${mideastCommunity.url}`, alt: "Padel players from across the Middle East with UAE and Saudi flags at sunset in Dubai" },
+      { type: "image", src: mideastCommunity, alt: "Padel players from across the Middle East with UAE and Saudi flags at sunset in Dubai" },
       { type: "paragraph", text: "[Read our guide on how to find a padel partner in Dubai.](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai/)" },
       { type: "heading", text: "Be Part of the Community in Dubai" },
       { type: "paragraph", text: "Dubai sits at the centre of the Middle East's padel growth story — the most developed market, the largest community, and the city whose investment in the sport has been most visible to the global padel industry. Playing padel in Dubai right now means being part of one of the world's most dynamic sports communities at exactly the moment it is building toward something genuinely significant." },
@@ -207,8 +207,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Dubai runs on networking events, but real friendships are built on the padel court. The research-backed reasons sport creates the bonds mixers never will.",
     date: "September 26, 2026",
     author: "Playy",
-    image: `https://playy.lovable.app${friendshipsHero.url}`,
-    ogImage: "https://playy.lovable.app/__l5e/assets-v1/2097213a-fc3b-407c-81fc-c9a334fc3876/friendships-hero.jpg",
+    image: friendshipsHero,
+    ogImage: "https://joinplayy.com/blog/friendships-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The sport is governed globally by the [International Padel Federation](https://www.padelfip.com). Dubai runs on networking. Brunches, roundtables, industry mixers, rooftop happy hours — the city has an event for every professional category and a LinkedIn connection for every handshake. And yet ask most Dubai residents to name their five closest friends in the city and almost none of them will mention someone they met at a networking event. They will mention someone they play padel with." },
       { type: "paragraph", text: "This is not a coincidence. Here is exactly why padel builds better friendships than networking — and why the difference matters more in Dubai than almost anywhere else." },
@@ -228,7 +228,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Shared physical challenge activates trust pathways. Multiple studies have found that people who face a physical challenge together — even a relatively mild one — subsequently show higher levels of mutual trust than people who spent the equivalent time in conversation. The physiological arousal of competitive sport activates the same neurological systems involved in trust formation, producing a shortcut to the kind of mutual regard that normally takes much longer to develop." },
       { type: "paragraph", text: "The oxytocin effect of sport compounds over repeated sessions. Oxytocin — sometimes called the bonding hormone — is released during physical activity and social interaction simultaneously. Padel combines both. Players who meet through padel and play together regularly are experiencing repeated oxytocin-producing interactions that accumulate into genuine attachment in ways that intermittent social events cannot replicate." },
       { type: "paragraph", text: "[Read our guide on how padel improves your mental health — the social dimension is a core part of it.](https://joinplayy.com/blog/how-padel-improves-your-mental-health-what-the-research-shows/)" },
-      { type: "image", src: `https://playy.lovable.app${friendshipsNetworking.url}`, alt: "Professionals mingling at a business networking event", float: "none" },
+      { type: "image", src: friendshipsNetworking, alt: "Professionals mingling at a business networking event", float: "none" },
       { type: "heading", text: "The Specific Things Padel Does That Networking Cannot" },
       { type: "paragraph", text: "Padel gives you an automatic reason to meet again. After a good networking event conversation you have to manufacture a follow-up. After a good padel session the follow-up writes itself — same time next week? That single structural difference is responsible for more sustained friendships than any amount of social skill or conversational ability." },
       { type: "paragraph", text: "Padel reveals character under pressure. You cannot fake being a good person in a padel session the way you can in a conversation. How someone behaves when they miss a crucial shot at 5-5 in the third set tells you more about them than an hour of professional small talk ever could. Players who are generous, positive, and encouraging under pressure are the same in real life. Players who get quietly hostile when losing are worth knowing about before you invest more time in the relationship." },
@@ -243,7 +243,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "The pattern is recognisable to anyone who has experienced it. You meet someone at an Americano session. You play a few sets together, win some, lose some. You exchange numbers to coordinate the next session. You play together three or four times and gradually the conversation extends beyond padel — work, life in Dubai, where you are from, what you are trying to build here. By the time three months have passed you are not just padel partners. You are friends. Real ones." },
       { type: "paragraph", text: "This is how it happens for most people who have built genuine social lives in Dubai through sport. Not through a memorable conversation at a rooftop event, not through a LinkedIn introduction, not through a mutual friend's dinner party. On a padel court, over repeated sessions, through the accumulated shared experience of playing together." },
       { type: "paragraph", text: "The networking event got you a contact. The padel session got you a friend. That difference is worth understanding." },
-      { type: "image", src: `https://playy.lovable.app${friendshipsCafe.url}`, alt: "Two padel players laughing together over coffee after a game", float: "none" },
+      { type: "image", src: friendshipsCafe, alt: "Two padel players laughing together over coffee after a game", float: "none" },
       { type: "paragraph", text: "[Read our broader guide on how to meet people through sports in Dubai.](https://joinplayy.com/blog/how-to-meet-people-through-sports-in-dubai/)" },
       { type: "paragraph", text: "[Read our guide on how to find a padel partner in Dubai.](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai/)" },
       { type: "heading", text: "Find Your People on Playy" },
@@ -261,8 +261,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: "October is when Dubai padel season truly begins. Perfect weather, courts at their best, and a community restarting — here is why it is the best month to start playing.",
     date: "September 18, 2026",
     author: "Playy",
-    image: `https://playy.lovable.app${octoberHero.url}`,
-    ogImage: "https://playy.lovable.app/__l5e/assets-v1/85041134-e28f-4b4b-a116-5141397092a2/october-padel-hero.jpg",
+    image: octoberHero,
+    ogImage: "https://joinplayy.com/blog/october-padel-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The sport is governed globally by the [International Padel Federation](https://www.padelfip.com). Every year in late September and early October something shifts in Dubai. The heat breaks, the outdoor courts fill up again, and the padel community — which spent the summer adapting to indoor sessions and early morning slots — comes back together with an energy that anyone who has experienced it will recognise immediately. October is when Dubai padel season truly begins." },
       { type: "paragraph", text: "If you have been thinking about trying padel, this is the month to start. Here is exactly why." },
@@ -279,7 +279,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Dubai's padel courts are maintained year round but October marks the point when outdoor courts come back into genuine daily use after months of limited activity. Most quality venues perform maintenance on outdoor surfaces during the quieter summer period — repainting lines, refreshing the sand infill on artificial turf, servicing the glass panels. By October the courts are typically in the best condition they will be all year." },
       { type: "paragraph", text: "Court availability also shifts in October's favour in a way that sounds counterintuitive. As demand returns with the cooler weather, bookings do increase — but the first weeks of October before the full seasonal rush arrives offer a sweet spot of good conditions with easier availability than you will find from November through February when popular venues book out days in advance at peak times." },
       { type: "paragraph", text: "Starting in October means you can establish a regular court booking at your preferred venue and time slot before the highest-demand period of the season. Players who wait until November to start often find the sessions and time slots they want are already taken by the players who came back in October and locked in their spots first." },
-      { type: "image", src: `https://playy.lovable.app${octoberCourts.url}`, alt: "Padel players talking at the net on an outdoor court at sunset", float: "none" },
+      { type: "image", src: octoberCourts, alt: "Padel players talking at the net on an outdoor court at sunset", float: "none" },
       { type: "heading", text: "The Social Calendar Fills Up" },
       { type: "paragraph", text: "October is when Dubai's padel social calendar accelerates. Venues announce their autumn tournament series. Community groups organise season-opening Americanos. Corporate padel events — one of the fastest-growing segments of Dubai's padel market — ramp up as companies return to full operations after summer. The HER Padel Series UAE 2026 Grand Finals are scheduled for October 4th at Padel Kingdom in Dubai, bringing the city's women's padel community together for the season's premier women-only event." },
       { type: "paragraph", text: "For a new player this social energy is one of the most valuable things October offers. The sport is at its most accessible and most welcoming at the start of a new season when everyone is in a positive, forward-looking mood and actively looking to meet new playing partners. Walking into an Americano session in October as a newcomer is significantly easier than doing the same thing in February when established groups are mid-season and less naturally open to new additions." },
@@ -294,7 +294,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Get the right equipment before you start. A round beginner racket in the AED 200 to AED 400 range, padel-specific shoes with lateral ankle support, and a can of low-altitude padel balls suited to Dubai's sea-level courts is everything you need for your first month. Do not overspend on equipment before you know the sport is for you — the right beginner racket will not limit your development in the first six months." },
       { type: "paragraph", text: "Find a regular playing partner at a similar level as quickly as possible. The players who improve fastest in padel are not those who play the most solo or pick-up sessions — they are those who find a consistent partner at a similar stage and play together regularly. A weekly session with the same person builds the habit, the accountability, and the shared development that accelerates improvement more than any other approach." },
       { type: "paragraph", text: "[Read our padel gear guide for beginners before your first session.](https://joinplayy.com/blog/what-padel-gear-do-beginners-need/)" },
-      { type: "image", src: `https://playy.lovable.app${octoberCommunity.url}`, alt: "A padel player practising on an outdoor court at dusk", float: "none" },
+      { type: "image", src: octoberCommunity, alt: "A padel player practising on an outdoor court at dusk", float: "none" },
       { type: "paragraph", text: "[Read our guide on how to find a padel partner in Dubai.](https://joinplayy.com/blog/how-to-find-a-padel-partner-in-dubai/)" },
       { type: "heading", text: "Find Your First Players on Playy" },
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. October is when the Playy community is most active and most welcoming to new players. Whether you are a complete beginner looking for someone at the same starting point or an experienced player returning from summer looking to rebuild your regular group, Playy connects you with the right players at the right times." },
@@ -317,8 +317,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Your first padel tournament in Dubai? Learn how Americanos work, what to bring, how to prepare physically and mentally, and how to handle match-day nerves.",
     date: "September 8, 2026",
     author: "Playy",
-    image: `https://playy.lovable.app${tournamentHero.url}`,
-    ogImage: "https://playy.lovable.app/__l5e/assets-v1/0fe2795a-9f39-4987-8d75-9ce84f903e95/tournament-hero.jpg",
+    image: tournamentHero,
+    ogImage: "https://joinplayy.com/blog/tournament-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The sport is governed globally by the [International Padel Federation](https://www.padelfip.com). Your first padel tournament in Dubai is one of those experiences that sounds intimidating in advance and is almost always more enjoyable than expected on the day. The nerves are real, the preparation matters, and the social energy of a well-run tournament is genuinely unlike anything a regular session produces." },
       { type: "paragraph", text: "Here is exactly how to prepare so you walk onto the court feeling ready rather than anxious." },
@@ -336,7 +336,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Hydration in the days before matters significantly in Dubai. Arriving at a tournament already well-hydrated is far more effective than trying to drink large amounts immediately before play. Aim for consistent water intake in the 48 hours before the event and avoid alcohol the night before — it disrupts sleep quality and leaves you dehydrated even when you do not feel it the next day." },
       { type: "paragraph", text: "Sleep is the most underestimated preparation tool. A good night of sleep two nights before the event matters as much as the night before — research consistently shows that sleep deprivation two nights prior has measurable effects on reaction time and decision-making that are not fully recovered in a single following night. Prioritise your sleep Wednesday if your tournament is Friday." },
       { type: "paragraph", text: "[Read our guide on what to eat before playing padel.](https://joinplayy.com/blog/what-to-eat-before-and-after-playing-padel/)" },
-      { type: "image", src: `https://playy.lovable.app${tournamentPrep.url}`, alt: "Padel player taking a moment to breathe before a match on an outdoor court", float: "none" },
+      { type: "image", src: tournamentPrep, alt: "Padel player taking a moment to breathe before a match on an outdoor court", float: "none" },
       { type: "heading", text: "Mental Preparation — The Part Most Players Skip" },
       { type: "paragraph", text: "First tournament nerves are completely normal and affect almost every player regardless of how long they have been playing. The nervousness you feel is not a sign that you are not ready — it is a sign that you care about performing well, which is a healthy competitive instinct rather than a problem to eliminate." },
       { type: "paragraph", text: "The most effective mental preparation for a first tournament is expectation setting. Be honest with yourself about your current level, set a realistic goal for the day — I want to win at least one set per rotation, or I want to try the lob more deliberately, or simply I want to enjoy the experience — and commit to that goal rather than to an outcome you cannot control like finishing first." },
@@ -362,7 +362,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Playy regularly hosts community Americanos at venues across Dubai specifically designed for players who want their first competitive experience in a social and welcoming environment. The format is always beginner-friendly, the group sizes are kept small so everyone gets maximum court time, and the emphasis is on community over competition. " },
       { type: "paragraph", text: "Events are announced through the app and fill up quickly — download Playy free on iOS to stay informed about what is coming up near you and secure your spot before they sell out." },
       { type: "paragraph", text: "[Read our guide on how to find padel players and events in Dubai.](https://joinplayy.com/blog/how-to-find-padel-players-and-events-in-dubai/)" },
-      { type: "image", src: `https://playy.lovable.app${tournamentCommunity.url}`, alt: "Padel players celebrating together after an Americano tournament", float: "none" },
+      { type: "image", src: tournamentCommunity, alt: "Padel players celebrating together after an Americano tournament", float: "none" },
       { type: "heading", text: "The Bottom Line" },
       { type: "paragraph", text: "Your first padel tournament will be better than you expect if you approach it with realistic expectations, proper physical preparation, and a focus on enjoying the format rather than winning at all costs. Arrive rested, arrive hydrated, cover the middle, get to the net, keep the ball in play, and take your time between points." },
       { type: "paragraph", text: "The players who enjoy their first tournaments come back for more. The players who come back for more get better. And getting better at padel in Dubai, surrounded by the community this city has built around the sport, is one of the genuinely good things available here." },

@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Plus } from "lucide-react";
-import { useState } from "react";
-import SportVoteDialog from "./SportVoteDialog";
 
 const sports = [
   {
@@ -27,8 +25,6 @@ const sports = [
 ];
 
 const SportsGrid = () => {
-  const [voteOpen, setVoteOpen] = useState(false);
-
   return (
     <section className="py-24 bg-secondary/30" id="sports">
       <div className="container mx-auto px-6">
@@ -68,26 +64,23 @@ const SportsGrid = () => {
             </motion.div>
           ))}
 
-          <motion.button
-            type="button"
-            onClick={() => setVoteOpen(true)}
+          <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: sports.length * 0.1 }}
-            className="bg-card rounded-2xl p-6 text-center cursor-pointer group hover:border-primary/50 border border-border transition-all hover:scale-105 flex flex-col items-center justify-center"
+            className="bg-card rounded-2xl p-6 text-center border border-border flex flex-col items-center justify-center"
           >
             <span className="text-4xl mb-4 block">
               <Plus className="w-10 h-10 mx-auto text-primary" />
             </span>
             <h3 className="font-bold mb-2">More Sports Coming Soon</h3>
             <p className="text-xs text-muted-foreground mb-2 leading-snug">
-              Tell us what you want next
+              Padel first, more sports next
             </p>
-          </motion.button>
+          </motion.div>
         </div>
       </div>
-      <SportVoteDialog open={voteOpen} onOpenChange={setVoteOpen} />
     </section>
   );
 };
