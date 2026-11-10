@@ -40,6 +40,14 @@ async function run() {
 
   console.log(`[prerender] rendering ${routes.length} routes...`);
 
+  // On Vercel the build machine has no system Chrome, so use the serverless
+  // Chromium build bundled in @sparticuz/chromium. Locally, puppeteer's own Chrome.
+  let launchOptions = { args: ["--no-sandbox", "--disable-setuid-sandbox"] };
+  if (process.env.VERCEL || process.env.USE_SERVERLESS_CHROMIUM) {
+    const chromium = (await import("@sparticuz/chromium")).default;
+    launchOptions = { args: chromium.args, executablePath: await chromium.executablePath() };
+  }
+
   const prerenderer = new Prerenderer({
     staticDir: distDir,
     renderer: new PuppeteerRenderer({
@@ -47,9 +55,7 @@ async function run() {
       renderAfterTime: 2000,
       headless: true,
       maxConcurrentRoutes: 4,
-      launchOptions: {
-        args: ["--no-sandbox", "--disable-setuid-sandbox"],
-      },
+      launchOptions,
     }),
   });
 
