@@ -1,5 +1,5 @@
 import padelHero from "@/assets/blog/padel-hero.jpeg";
-import padelAmericano from "@/assets/blog/padel-americano.png";
+import padelAmericano from "@/assets/blog/padel-americano.jpg";
 import padelApp from "@/assets/blog/padel-app.jpeg";
 import americanoHero from "@/assets/blog/americano-hero.jpeg";
 import americanoLaughing from "@/assets/blog/americano-laughing.jpeg";
@@ -19,93 +19,93 @@ import rulesHighfive from "@/assets/blog/rules-highfive.jpeg";
 import bestTimeHero from "@/assets/blog/best-time-hero.jpeg";
 import bestTimeIndoor from "@/assets/blog/best-time-indoor.jpeg";
 import bestTimePhone from "@/assets/blog/best-time-phone.jpeg";
-import getBetterHero from "@/assets/blog/get-better-hero.png";
-import getBetterPartner from "@/assets/blog/get-better-partner.png";
-import getBetterServe from "@/assets/blog/get-better-serve.png";
-import gearHero from "@/assets/blog/gear-hero.png";
-import gearRackets from "@/assets/blog/gear-rackets.png";
-import gearShoes from "@/assets/blog/gear-shoes.png";
-import findPlayersHero from "@/assets/blog/find-players-hero.png";
-import findPlayersAmericano from "@/assets/blog/find-players-americano.png";
-import findPlayersPhone from "@/assets/blog/find-players-phone.png";
-import serveHero from "@/assets/blog/serve-hero.png";
-import serveGrip from "@/assets/blog/serve-grip.png";
-import serveCourt from "@/assets/blog/serve-court.png";
-import expatsHero from "@/assets/blog/expats-hero.png";
-import expatsFistbump from "@/assets/blog/expats-fistbump.png";
-import expatsPhone from "@/assets/blog/expats-phone.png";
-import scoringHero from "@/assets/blog/scoring-hero.png";
-import scoringAction from "@/assets/blog/scoring-action.png";
-import scoringFistbump from "@/assets/blog/scoring-fistbump.png";
-import footballHero from "@/assets/blog/football-hero.png";
-import footballIndoor from "@/assets/blog/football-indoor.png";
-import footballCelebration from "@/assets/blog/football-celebration.png";
-import worldcupHero from "@/assets/blog/worldcup-hero.png";
-import worldcupFanzone from "@/assets/blog/worldcup-fanzone.png";
-import worldcupBeach from "@/assets/blog/worldcup-beach.png";
-import watchTogetherHero from "@/assets/blog/watch-together-hero.png";
-import watchTogetherFanzone from "@/assets/blog/watch-together-fanzone.png";
-import watchTogetherPhones from "@/assets/blog/watch-together-phones.png";
-import playersHero from "@/assets/blog/players-hero.png";
-import playersCelebration from "@/assets/blog/players-celebration.png";
-import playersBar from "@/assets/blog/players-bar.png";
-import meetPeopleHero from "@/assets/blog/meet-people-hero.png";
-import meetPeoplePadel from "@/assets/blog/meet-people-padel.png";
-import meetPeoplePhone from "@/assets/blog/meet-people-phone.png";
-import gymBuddyHero from "@/assets/blog/gym-buddy-hero.png";
-import gymBuddyGroup from "@/assets/blog/gym-buddy-group.png";
-import gymBuddyPhone from "@/assets/blog/gym-buddy-phone.png";
-import volleyHero from "@/assets/blog/volley-hero.png";
-import volleyWomen from "@/assets/blog/volley-women.png";
-import volleyBackhand from "@/assets/blog/volley-backhand.png";
-import tennisPartnerHero from "@/assets/blog/tennis-partner-hero.png";
-import tennisPartnerHandshake from "@/assets/blog/tennis-partner-handshake.png";
-import tennisPartnerPhone from "@/assets/blog/tennis-partner-phone.png";
-import basketballHero from "@/assets/blog/basketball-hero.png";
-import basketballNight from "@/assets/blog/basketball-night.png";
-import basketballPhone from "@/assets/blog/basketball-phone.png";
-import summerFitHero from "@/assets/blog/summer-fit-hero.png";
-import summerFitPadel from "@/assets/blog/summer-fit-padel.png";
-import summerFitPhone from "@/assets/blog/summer-fit-phone.png";
+import getBetterHero from "@/assets/blog/get-better-hero.jpg";
+import getBetterPartner from "@/assets/blog/get-better-partner.jpg";
+import getBetterServe from "@/assets/blog/get-better-serve.jpg";
+import gearHero from "@/assets/blog/gear-hero.jpg";
+import gearRackets from "@/assets/blog/gear-rackets.jpg";
+import gearShoes from "@/assets/blog/gear-shoes.jpg";
+import findPlayersHero from "@/assets/blog/find-players-hero.jpg";
+import findPlayersAmericano from "@/assets/blog/find-players-americano.jpg";
+import findPlayersPhone from "@/assets/blog/find-players-phone.jpg";
+import serveHero from "@/assets/blog/serve-hero.jpg";
+import serveGrip from "@/assets/blog/serve-grip.jpg";
+import serveCourt from "@/assets/blog/serve-court.jpg";
+import expatsHero from "@/assets/blog/expats-hero.jpg";
+import expatsFistbump from "@/assets/blog/expats-fistbump.jpg";
+import expatsPhone from "@/assets/blog/expats-phone.jpg";
+import scoringHero from "@/assets/blog/scoring-hero.jpg";
+import scoringAction from "@/assets/blog/scoring-action.jpg";
+import scoringFistbump from "@/assets/blog/scoring-fistbump.jpg";
+import footballHero from "@/assets/blog/football-hero.jpg";
+import footballIndoor from "@/assets/blog/football-indoor.jpg";
+import footballCelebration from "@/assets/blog/football-celebration.jpg";
+import worldcupHero from "@/assets/blog/worldcup-hero.jpg";
+import worldcupFanzone from "@/assets/blog/worldcup-fanzone.jpg";
+import worldcupBeach from "@/assets/blog/worldcup-beach.jpg";
+import watchTogetherHero from "@/assets/blog/watch-together-hero.jpg";
+import watchTogetherFanzone from "@/assets/blog/watch-together-fanzone.jpg";
+import watchTogetherPhones from "@/assets/blog/watch-together-phones.jpg";
+import playersHero from "@/assets/blog/players-hero.jpg";
+import playersCelebration from "@/assets/blog/players-celebration.jpg";
+import playersBar from "@/assets/blog/players-bar.jpg";
+import meetPeopleHero from "@/assets/blog/meet-people-hero.jpg";
+import meetPeoplePadel from "@/assets/blog/meet-people-padel.jpg";
+import meetPeoplePhone from "@/assets/blog/meet-people-phone.jpg";
+import gymBuddyHero from "@/assets/blog/gym-buddy-hero.jpg";
+import gymBuddyGroup from "@/assets/blog/gym-buddy-group.jpg";
+import gymBuddyPhone from "@/assets/blog/gym-buddy-phone.jpg";
+import volleyHero from "@/assets/blog/volley-hero.jpg";
+import volleyWomen from "@/assets/blog/volley-women.jpg";
+import volleyBackhand from "@/assets/blog/volley-backhand.jpg";
+import tennisPartnerHero from "@/assets/blog/tennis-partner-hero.jpg";
+import tennisPartnerHandshake from "@/assets/blog/tennis-partner-handshake.jpg";
+import tennisPartnerPhone from "@/assets/blog/tennis-partner-phone.jpg";
+import basketballHero from "@/assets/blog/basketball-hero.jpg";
+import basketballNight from "@/assets/blog/basketball-night.jpg";
+import basketballPhone from "@/assets/blog/basketball-phone.jpg";
+import summerFitHero from "@/assets/blog/summer-fit-hero.jpg";
+import summerFitPadel from "@/assets/blog/summer-fit-padel.jpg";
+import summerFitPhone from "@/assets/blog/summer-fit-phone.jpg";
 import nutritionHero from "@/assets/blog/nutrition-hero.jpg";
 import nutritionSnacks from "@/assets/blog/nutrition-snacks.jpg";
 import nutritionCourt from "@/assets/blog/nutrition-court.jpg";
-import pickleballHero from "@/assets/blog/pickleball-hero.png";
-import pickleballRackets from "@/assets/blog/pickleball-rackets.png";
-import pickleballPlayers from "@/assets/blog/pickleball-players.png";
-import exerciseHero from "@/assets/blog/exercise-hero.png";
-import dubaiVsEuropeHero from "@/assets/blog/dubai-vs-europe-hero.png";
-import dubaiVsEuropeNight from "@/assets/blog/dubai-vs-europe-night.png";
+import pickleballHero from "@/assets/blog/pickleball-hero.jpg";
+import pickleballRackets from "@/assets/blog/pickleball-rackets.jpg";
+import pickleballPlayers from "@/assets/blog/pickleball-players.jpg";
+import exerciseHero from "@/assets/blog/exercise-hero.jpg";
+import dubaiVsEuropeHero from "@/assets/blog/dubai-vs-europe-hero.jpg";
+import dubaiVsEuropeNight from "@/assets/blog/dubai-vs-europe-night.jpg";
 import dubaiVsEuropeGroup from "@/assets/blog/dubai-vs-europe-group.jpg";
-import exerciseWatch from "@/assets/blog/exercise-watch.png";
-import exerciseSocial from "@/assets/blog/exercise-social.png";
+import exerciseWatch from "@/assets/blog/exercise-watch.jpg";
+import exerciseSocial from "@/assets/blog/exercise-social.jpg";
 import injuriesHero from "@/assets/blog/injuries-hero.jpg";
 import padelCityHero from "@/assets/blog/padel-city-hero.jpg";
-import padelCityCourt from "@/assets/blog/padel-city-court.png";
+import padelCityCourt from "@/assets/blog/padel-city-court.jpg";
 import padelCityCommunity from "@/assets/blog/padel-city-community.jpg";
 import injuriesElbow from "@/assets/blog/injuries-elbow.jpg";
 import injuriesCooldown from "@/assets/blog/injuries-cooldown.jpg";
-import netHero from "@/assets/blog/net-hero.png";
-import netAngle from "@/assets/blog/net-angle.png";
-import netFistbump from "@/assets/blog/net-fistbump.png";
-import busyProHero from "@/assets/blog/busy-pro-hero.png";
+import netHero from "@/assets/blog/net-hero.jpg";
+import netAngle from "@/assets/blog/net-angle.jpg";
+import netFistbump from "@/assets/blog/net-fistbump.jpg";
+import busyProHero from "@/assets/blog/busy-pro-hero.jpg";
 import busyProCourt from "@/assets/blog/busy-pro-court.jpg";
-import busyProPhone from "@/assets/blog/busy-pro-phone.png";
-import etiquetteHero from "@/assets/blog/etiquette-hero.png";
+import busyProPhone from "@/assets/blog/busy-pro-phone.jpg";
+import etiquetteHero from "@/assets/blog/etiquette-hero.jpg";
 import etiquetteCourt from "@/assets/blog/etiquette-court.png";
 import etiquetteSocial from "@/assets/blog/etiquette-social.png";
 import soloDrillsHero from "@/assets/blog/solo-drills-hero.png";
 import soloDrillsShoes from "@/assets/blog/solo-drills-shoes.jpg";
 import soloDrillsBalls from "@/assets/blog/solo-drills-balls.png";
 import doublesHero from "@/assets/blog/doubles-hero.png";
-import doublesCourt from "@/assets/blog/doubles-court.png";
-import doublesHighfive from "@/assets/blog/doubles-highfive.png";
+import doublesCourt from "@/assets/blog/doubles-court.jpg";
+import doublesHighfive from "@/assets/blog/doubles-highfive.jpg";
 import chooseRacketHero from "@/assets/blog/choose-racket-hero.jpg";
 import chooseRacketGrip from "@/assets/blog/choose-racket-grip.jpg";
 import chooseRacketShop from "@/assets/blog/choose-racket-shop.jpg";
 import mentalHealthHero from "@/assets/blog/mental-health-hero.jpg";
 import mentalHealthCourt from "@/assets/blog/mental-health-court.jpg";
-import mentalHealthCommunity from "@/assets/blog/mental-health-community.png";
+import mentalHealthCommunity from "@/assets/blog/mental-health-community.jpg";
 import womensPadelHero from "@/assets/blog/womens-padel-hero.jpg";
 import womensPadelPhone from "@/assets/blog/womens-padel-phone.jpg";
 import womensPadelPlayers from "@/assets/blog/womens-padel-players.jpg";
@@ -773,7 +773,7 @@ export const blogPosts: BlogPost[] = [
       "The unwritten rules of padel: arriving on time, honest levels, calling your own faults, line call conventions, Americano etiquette and post-match manners.",
     date: "August 11, 2026",
     image: etiquetteHero,
-    ogImage: "https://joinplayy.com/blog/etiquette-hero.png",
+    ogImage: "https://joinplayy.com/blog/etiquette-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Every sport has unwritten rules — the things experienced players know automatically that nobody explicitly teaches you when you are new. Padel is no different. The formal rules of the game as set out by the [International Padel Federation](https://www.padelfip.com) are straightforward, but the etiquette around how you show up, how you behave on court, and how you conduct yourself before and after a session shapes how welcome you feel in the community and how likely other players are to want to play with you again. With the sport growing as fast as it is under the support of the [Dubai Sports Council](https://www.dsc.gov.ae), more new players are joining every week." },
       { type: "paragraph", text: "Here is everything you need to know." },
@@ -851,7 +851,7 @@ export const blogPosts: BlogPost[] = [
       "Ninety minutes, three other people, built-in exercise, networking and mental reset — why padel fits a demanding Dubai work schedule better than any other sport.",
     date: "August 7, 2026",
     image: busyProHero,
-    ogImage: "https://joinplayy.com/blog/busy-pro-hero.png",
+    ogImage: "https://joinplayy.com/blog/busy-pro-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai runs on busy professionals. The city's workforce is full of people who want to stay fit, build connections, and have something in their lives beyond work — but whose schedules make the traditional gym-five-times-a-week approach quietly collapse within a few weeks of trying it. Padel, governed globally by the [International Padel Federation](https://www.padelfip.com), is the sport that fits around the reality of a demanding Dubai work life rather than requiring you to rebuild your schedule around it." },
       { type: "paragraph", text: "Here is exactly why." },
@@ -923,7 +923,7 @@ export const blogPosts: BlogPost[] = [
       "Net dominance decides padel matches. Positioning, angles, the chiquita, lob reading and golden point strategy to win more points at the net.",
     date: "August 4, 2026",
     image: netHero,
-    ogImage: "https://joinplayy.com/blog/net-hero.png",
+    ogImage: "https://joinplayy.com/blog/net-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The difference between a padel player who wins consistently and one who plays the same number of hours and keeps losing is almost always one thing: net dominance. The team that controls the net controls the match. This is not a preference or a style choice — it is the foundational tactical principle of padel at every level from beginner to professional, as recognised by the [International Padel Federation](https://www.padelfip.com)." },
       { type: "paragraph", text: "Here are the specific things you need to do differently to win more points at the net starting from your next session." },
@@ -1154,7 +1154,7 @@ export const blogPosts: BlogPost[] = [
       "Same glass walls, same scoring — completely different context. Here is how padel in Dubai compares to padel in Europe on weather, culture, cost and community.",
     date: "July 21, 2026",
     image: dubaiVsEuropeHero,
-    ogImage: "https://joinplayy.com/blog/dubai-vs-europe-hero.png",
+    ogImage: "https://joinplayy.com/blog/dubai-vs-europe-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. If you played padel regularly in Spain, Sweden, the UK, or anywhere else in Europe and have recently moved to Dubai, you will notice the game feels familiar but the context around it is completely different. Same glass walls, same underhand serve, same scoring — but almost everything else about the experience varies in ways that take a few sessions to adjust to. The [International Padel Federation](https://www.padelfip.com) governs the sport in both regions, yet the day-to-day reality of playing is not the same." },
       { type: "paragraph", text: "Here is a straight comparison of what is genuinely different about padel in Dubai versus padel in Europe, based on what players who have experienced both consistently describe." },
@@ -1229,7 +1229,7 @@ export const blogPosts: BlogPost[] = [
       "Is padel good exercise? The short answer is yes — but here is the science behind what padel actually does to your body, your fitness, and your health.",
     date: "July 17, 2026",
     image: exerciseHero,
-    ogImage: "https://joinplayy.com/blog/exercise-hero.png",
+    ogImage: "https://joinplayy.com/blog/exercise-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the most common questions from people considering padel for the first time is whether it actually counts as a proper workout. The short answer is yes — significantly so. But the more interesting answer is why, and what specifically padel does to your body that other sports do not. The [International Padel Federation](https://www.padelfip.com) tracks just how fast the sport is growing worldwide." },
       { type: "paragraph", text: "Here is the science behind padel as exercise, broken down simply." },
@@ -1297,7 +1297,7 @@ export const blogPosts: BlogPost[] = [
       "Padel and pickleball look similar but play completely differently. Here is a clear breakdown of courts, equipment, rules, and which one is right for you.",
     date: "July 13, 2026",
     image: pickleballHero,
-    ogImage: "https://joinplayy.com/blog/pickleball-hero.png",
+    ogImage: "https://joinplayy.com/blog/pickleball-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Two of the fastest-growing racket sports in the world right now are padel and pickleball. Both use solid paddles instead of strung rackets. Both are social, accessible, and easy to pick up. And both are frequently confused for each other by people who have not played either." },
       { type: "paragraph", text: "They are completely different sports. Here is a clear breakdown of every key difference." },
@@ -1434,7 +1434,7 @@ export const blogPosts: BlogPost[] = [
       "How to keep your fitness routine intact through Dubai summer — early morning and evening windows, indoor sports, gyms, home workouts, the Mallathon, and recovery essentials.",
     date: "July 6, 2026",
     image: summerFitHero,
-    ogImage: "https://joinplayy.com/blog/summer-fit-hero.png",
+    ogImage: "https://joinplayy.com/blog/summer-fit-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Every year when June arrives in Dubai the same thing happens — the outdoor sessions stop, the routines fall apart, and by September people are starting from scratch. It does not have to go that way. Dubai in summer is genuinely manageable for anyone who knows how to adapt." },
       { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
@@ -1502,7 +1502,7 @@ export const blogPosts: BlogPost[] = [
       "Where to find pickup basketball in Dubai — the best outdoor courts, indoor summer options, regular runs, WhatsApp and Facebook groups, and how Playy connects skill-matched players.",
     date: "July 2, 2026",
     image: basketballHero,
-    ogImage: "https://joinplayy.com/blog/basketball-hero.png",
+    ogImage: "https://joinplayy.com/blog/basketball-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Basketball has a strong and growing community in Dubai — courts exist across the city from JBR to Dubai Sports City, supported by initiatives from the [Dubai Sports Council](https://www.dsc.gov.ae), and the [NBA](https://www.nba.com)'s global reach means the sport connects players from dozens of nationalities under the same hoop. The challenge is not finding a court. It is finding the run." },
       { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
@@ -1568,7 +1568,7 @@ export const blogPosts: BlogPost[] = [
       "The most effective ways to find a reliable, skill-matched tennis hitting partner in Dubai — from club ladders to social nights, WhatsApp groups, and Playy.",
     date: "June 29, 2026",
     image: tennisPartnerHero,
-    ogImage: "https://joinplayy.com/blog/tennis-partner-hero.png",
+    ogImage: "https://joinplayy.com/blog/tennis-partner-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai has an active tennis scene with well-maintained courts across JBR, Dubai Sports City, Motor City, and most major residential communities, and the sport is governed globally by the [International Tennis Federation](https://www.itftennis.com). The courts are not the problem. Finding someone who plays at your level, is available when you are, and actually shows up is." },
       { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
@@ -1632,7 +1632,7 @@ export const blogPosts: BlogPost[] = [
       "The compact technique, positioning, and net habits that separate beginner padel players from intermediate ones in Dubai.",
     date: "June 25, 2026",
     image: volleyHero,
-    ogImage: "https://joinplayy.com/blog/volley-hero.png",
+    ogImage: "https://joinplayy.com/blog/volley-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. If there is one shot that separates beginner padel players from intermediate ones it is the volley. Players who control the net control the match — and controlling the net means being able to execute clean, consistent volleys under pressure without thinking about technique. According to the [International Padel Federation](https://www.padelfip.com), padel is now one of the fastest growing racket sports in the world, and the net game is where matches at every level are won and lost." },
       { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
@@ -1715,7 +1715,7 @@ export const blogPosts: BlogPost[] = [
       "The most effective ways to find a reliable gym training partner in Dubai — from gym choice to classes, online groups, and Playy.",
     date: "June 22, 2026",
     image: gymBuddyHero,
-    ogImage: "https://joinplayy.com/blog/gym-buddy-hero.png",
+    ogImage: "https://joinplayy.com/blog/gym-buddy-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai has some of the best gym facilities in the world — from massive multi-floor megaGyms in JBR and DIFC to specialist box gyms and boutique studios across every district. The infrastructure is not the problem. Finding someone reliable to train with is." },
       { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
@@ -1783,7 +1783,7 @@ export const blogPosts: BlogPost[] = [
       "Padel, running, football and the Dubai Mallathon — exactly how to use sport to build a real social life in Dubai right now.",
     date: "June 19, 2026",
     image: meetPeopleHero,
-    ogImage: "https://joinplayy.com/blog/meet-people-hero.png",
+    ogImage: "https://joinplayy.com/blog/meet-people-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai is home to over 3.5 million people from more than 200 nationalities, and yet one of the most common experiences in the city is a quiet kind of loneliness — the feeling of being surrounded by millions of people without quite belonging to any of them." },
       { type: "paragraph", text: "Sport solves this faster and more reliably than almost anything else. Here is exactly how to use it in Dubai right now." },
@@ -1845,7 +1845,7 @@ export const blogPosts: BlogPost[] = [
       "Messi, Ronaldo, Mbappe, Yamal and the breakout stars defining the 2026 FIFA World Cup — and who Dubai is watching.",
     date: "June 15, 2026",
     image: playersHero,
-    ogImage: "https://joinplayy.com/blog/players-hero.png",
+    ogImage: "https://joinplayy.com/blog/players-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The <a href=\"https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026\" target=\"_blank\" rel=\"noopener noreferrer\">2026 FIFA World Cup</a> is already underway and the early matches have delivered exactly what a 48-team expanded tournament promised — upsets, breakout performances, and moments that will be replayed for years. With the group stage in full swing, here are the players who are defining this tournament and who are worth clearing your schedule to watch. Follow <a href=\"https://www.aljazeera.com/sports/football/world-cup\" target=\"_blank\" rel=\"noopener noreferrer\">Al Jazeera World Cup coverage</a> for ongoing match analysis." },
       { type: "paragraph", text: "Check our guide on <a href=\"/blog/where-to-watch-the-2026-fifa-world-cup-in-dubai\">where to watch the World Cup in Dubai</a> for the best venues." },
@@ -1905,7 +1905,7 @@ export const blogPosts: BlogPost[] = [
       "Nationality supporters clubs, Reddit, fan zones and sports bars — how to find people to watch the 2026 World Cup with in Dubai.",
     date: "June 11, 2026",
     image: watchTogetherHero,
-    ogImage: "https://joinplayy.com/blog/watch-together-hero.png",
+    ogImage: "https://joinplayy.com/blog/watch-together-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The <a href=\"https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026\" target=\"_blank\" rel=\"noopener noreferrer\">2026 FIFA World Cup</a> kicked off on June 11 and runs until July 19 — and Dubai, with its 200-plus nationalities and deeply international character, is one of the most electric cities in the world to experience it from. Every match night feels like a micro-World Cup of its own, with fans from dozens of countries packed into the same venues cheering for completely different teams." },
       { type: "paragraph", text: "The problem is that watching a major tournament alone is one of the lonelier experiences a person can have. If you are new to Dubai, between social circles, or simply do not have the right people around for match nights, here is exactly how to fix that." },
@@ -1962,7 +1962,7 @@ export const blogPosts: BlogPost[] = [
       "Match times, the best sports bars, fan zones and beach screenings — the complete Dubai guide to the 2026 FIFA World Cup.",
     date: "June 8, 2026",
     image: worldcupHero,
-    ogImage: "https://joinplayy.com/blog/worldcup-hero.png",
+    ogImage: "https://joinplayy.com/blog/worldcup-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The <a href=\"https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026\" target=\"_blank\" rel=\"noopener noreferrer\">2026 FIFA World Cup</a> is here, running from June 11 to July 19, and Dubai is fully locked in. Sports bars are packed, fan zones are opening across the city, and the energy around football in Dubai right now is genuinely unlike anything outside of a host city." },
       { type: "paragraph", text: "Whether you are watching alone, with friends, or looking to meet new people over a match, here is the complete guide to where and how to watch every game in Dubai this summer." },
@@ -2027,7 +2027,7 @@ export const blogPosts: BlogPost[] = [
       "With World Cup fever in the air, here is how to actually get on the pitch — venues, platforms, communities and how to play through the Dubai summer.",
     date: "June 4, 2026",
     image: footballHero,
-    ogImage: "https://joinplayy.com/blog/football-hero.png",
+    ogImage: "https://joinplayy.com/blog/football-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai sports app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. With the 2026 FIFA World Cup dominating conversations and screens across Dubai right now, football fever is at an all-time high in the city. And for anyone wanting to get off the sofa and actually play rather than just watch, Dubai has one of the most active casual football scenes in the region." },
       { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
@@ -2090,7 +2090,7 @@ export const blogPosts: BlogPost[] = [
       "Points, games, sets, tiebreaks, the golden point and the 2026 Star Point rule — padel scoring made simple.",
     date: "June 1, 2026",
     image: scoringHero,
-    ogImage: "https://joinplayy.com/blog/scoring-hero.png",
+    ogImage: "https://joinplayy.com/blog/scoring-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Padel scoring is one of the first things new players get confused about — and one of the things experienced players get asked most often. The good news is that once you understand the structure, it is straightforward. And if you have ever watched or played tennis, you already know most of it." },
       { type: "paragraph", text: "Here is the complete padel scoring system explained clearly, including the golden point and the brand new 2026 Star Point rule that changed professional padel this year." },
@@ -2160,7 +2160,7 @@ export const blogPosts: BlogPost[] = [
       "Dubai can feel isolating at first — sport is the fastest, most reliable way to build real friendships here. Here is how to use it.",
     date: "May 29, 2026",
     image: expatsHero,
-    ogImage: "https://joinplayy.com/blog/expats-hero.png",
+    ogImage: "https://joinplayy.com/blog/expats-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai is home to over 3.5 million expats from more than 200 nationalities, making it one of the most international cities on the planet. And yet one of the most common experiences among people who move here is a period of genuine loneliness — a feeling that despite being surrounded by millions of people, real connection is hard to find." },
       { type: "paragraph", text: "Sport solves this faster and more reliably than almost any other approach. Here is why it works so well in Dubai specifically, and how to use it." },
@@ -2223,7 +2223,7 @@ export const blogPosts: BlogPost[] = [
       "The padel serve is not about power — it is about consistency, placement and what you do right after contact. Here is exactly what to fix.",
     date: "May 25, 2026",
     image: serveHero,
-    ogImage: "https://joinplayy.com/blog/serve-hero.png",
+    ogImage: "https://joinplayy.com/blog/serve-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. The padel serve is one of the most misunderstood shots in the game. Most beginners try to hit it hard. Most intermediate players try to make it too complicated. The reality is that a good padel serve is simple, consistent, and strategic — and improving it requires fixing a small number of specific things rather than starting from scratch. Global standards for the sport are set by the [International Padel Federation](https://www.padelfip.com)." },
       { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
@@ -2303,7 +2303,7 @@ export const blogPosts: BlogPost[] = [
       "Courts are not the problem in Dubai — finding the right players and events is. Here is how to plug into the padel community fast.",
     date: "May 21, 2026",
     image: findPlayersHero,
-    ogImage: "https://joinplayy.com/blog/find-players-hero.png",
+    ogImage: "https://joinplayy.com/blog/find-players-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Dubai has one of the most active padel communities in the world — courts are busy every evening and the social calendar around the sport has grown significantly over the past two years. The challenge is not finding courts. The challenge is finding the right players and events that match your level and schedule." },
       { type: "paragraph", text: "Here are the most effective ways to plug into the Dubai padel community right now." },
@@ -2405,7 +2405,7 @@ export const blogPosts: BlogPost[] = [
       "Never heard of a padel Americano? Here is everything you need to know about the format, how it works, and where to find one in Dubai.",
     date: "April 23, 2026",
     image: americanoHero,
-    ogImage: "https://joinplayy.com/blog/padel-americano.png",
+    ogImage: "https://joinplayy.com/blog/padel-americano.jpg",
     content: [
       { type: "paragraph", text: "If you have spent any time on a padel court in Dubai you have probably heard someone mention an Americano. It keeps coming up in WhatsApp groups, venue schedules, and conversations between players warming up. But if you have never played one, the format can sound confusing at first." },
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the best ways to meet those players is through the Americano format — and here is everything you need to know about how it works." },
@@ -2793,7 +2793,7 @@ export const blogPosts: BlogPost[] = [
       "Want to improve at padel quickly? These high-impact mindset and tactical changes will level up your game faster than hours of drilling.",
     date: "May 14, 2026",
     image: getBetterHero,
-    ogImage: "https://joinplayy.com/blog/get-better-hero.png",
+    ogImage: "https://joinplayy.com/blog/get-better-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. Once the padel bug bites — and it almost always does within the first session — the next question is how to actually improve. The good news is that padel has a steep initial improvement curve. Small adjustments to how you think about the game produce significant results quickly, without needing hours of drilling or expensive coaching. Governing bodies like the [International Padel Federation](https://www.padelfip.com) emphasise the same fundamentals at every level." },
       { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
@@ -2863,7 +2863,7 @@ export const blogPosts: BlogPost[] = [
       "A racket, shoes and balls — that is it. Here is exactly what padel gear beginners in Dubai need, what to skip, and where to buy it.",
     date: "May 18, 2026",
     image: gearHero,
-    ogImage: "https://joinplayy.com/blog/gear-hero.png",
+    ogImage: "https://joinplayy.com/blog/gear-hero.jpg",
     content: [
       { type: "paragraph", text: "Playy is a Dubai padel app where players discover skill-matched opponents, challenge them to games, chat, and join community events to build a consistent playing network. One of the first questions new players ask before stepping on court for the first time is what gear they actually need. The good news is that padel — a sport governed globally by the [International Padel Federation](https://www.padelfip.com) — is one of the most affordable racket sports to get into. You do not need much. But what you do need matters." },
       { type: "paragraph", text: "This post contains affiliate links. If you purchase through these links Playy may earn a small commission at no extra cost to you." },
