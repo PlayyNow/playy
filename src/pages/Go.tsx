@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { CalendarDays, Users, TrendingUp, Smile, Scale, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -71,6 +71,8 @@ const Go = () => {
   const d = useMemo(device, []);
   useNoIndex("Get Playy | Padel games and events in Dubai for every level");
   const go = (store: "ios" | "android") => navigate(`/go/${src}/${store}`);
+  const [sticky, setSticky] = useState(false);
+  useEffect(() => { const on = () => setSticky(window.scrollY > window.innerHeight * 0.6); on(); window.addEventListener("scroll", on, { passive: true }); return () => window.removeEventListener("scroll", on); }, []);
   const get = () => (d === "android" ? go("android") : d === "ios" ? go("ios") : document.getElementById("stores")?.scrollIntoView({ behavior: "smooth" }));
 
   const Cta = ({ big = false }: { big?: boolean }) => (
@@ -138,7 +140,7 @@ const Go = () => {
         </section>
       </div>
 
-      {d !== "desktop" && (
+      {d !== "desktop" && sticky && (
         <div className="fixed bottom-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-lg border-t border-border px-6 py-3" style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}>
           <div className="max-w-md mx-auto"><Cta /></div>
         </div>
