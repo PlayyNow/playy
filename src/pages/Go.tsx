@@ -85,10 +85,10 @@ const Go = () => {
     <main className="min-h-[100svh] bg-background text-foreground pb-28">
       <div className="w-full max-w-md mx-auto px-6">
         <section className="min-h-[100svh] flex flex-col pt-10 pb-6">
-          <div className="flex items-center gap-3 mb-10">
+          <a href="/" aria-label="Playy home" className="flex items-center gap-3 mb-10 self-start">
             <img src={logo} alt="Playy" className="w-11 h-11 rounded-xl" width={44} height={44} />
             <span className="text-xl font-bold text-gradient">Playy</span>
-          </div>
+          </a>
           <p className="text-sm font-semibold text-primary mb-3">Padel in Dubai, every level</p>
           <h1 className="text-5xl font-bold tracking-tight leading-[1.05] mb-5">
             Nobody too new.<br /><span className="text-gradient">Nobody too good.</span>
