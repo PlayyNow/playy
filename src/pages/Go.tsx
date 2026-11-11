@@ -1,17 +1,20 @@
 import { useEffect, useMemo } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Apple, Play, Users, CalendarDays, BadgeCheck } from "lucide-react";
+import { CalendarDays, Users, TrendingUp, Smile, Scale, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import logo from "@/assets/p-logo.jpeg";
 
-/* Bio funnel page. Each source gets its own path so Vercel Analytics counts visits per source:
-   /go/tt (TikTok bio), /go/ig (Instagram bio), /go/cap (post captions), /go (anything else).
+/* Bio funnel page, part of joinplayy.com.
+   Every link gets its own path so Vercel Analytics counts visits per account:
+   /go/playy-tt, /go/playy-ig, /go/karim-tt, /go/karim-ig, /go/nader-tt, /go/nader-ig, /go/cap (anything else).
    A store tap first opens /go/<src>/ios or /go/<src>/android (counted as a page view), then hands off to the store. */
 export const IOS_URL = "https://apps.apple.com/us/app/playy-find-your-game/id6759396368";
 export const ANDROID_URL = "https://play.google.com/store/apps/details?id=com.playynow.app";
-const SOURCES: Record<string, string> = { tt: "tiktok", ig: "instagram", cap: "caption", wa: "whatsapp", web: "website" };
+const PLAYERS = "380+";
 
-function platform(): "ios" | "android" | "desktop" {
+type Device = "ios" | "android" | "desktop";
+function device(): Device {
   if (typeof navigator === "undefined") return "desktop";
   const ua = navigator.userAgent || "";
   if (/android/i.test(ua)) return "android";
@@ -19,7 +22,7 @@ function platform(): "ios" | "android" | "desktop" {
   return "desktop";
 }
 function storeUrl(store: "ios" | "android", src: string) {
-  if (store === "android") return ANDROID_URL + "&referrer=" + encodeURIComponent("utm_source=" + (SOURCES[src] || "direct") + "&utm_medium=bio");
+  if (store === "android") return ANDROID_URL + "&referrer=" + encodeURIComponent("utm_source=" + src + "&utm_medium=bio");
   return IOS_URL;
 }
 function useNoIndex(title: string) {
@@ -45,56 +48,101 @@ export const GoOut = () => {
   );
 };
 
+const PILLARS = [
+  { icon: CalendarDays, title: "Discover", text: "Find padel games and events across Dubai, any day of the week. Or create your own." },
+  { icon: Users, title: "Playyers", text: "Meet players at your level and build a crew that actually shows up." },
+  { icon: TrendingUp, title: "Progress", text: "Log your games and watch your level climb." },
+];
+const VIBE = [
+  { icon: Smile, title: "All levels welcome", text: "First time with a racket or haven't played in months? There's a game for you." },
+  { icon: Scale, title: "Fair games", text: "You're matched with people at your level, so nobody gets dominated." },
+  { icon: Sparkles, title: "Just for fun", text: "No pressure, no judging. Come for the game, leave with new people to play with." },
+];
+const FAQ = [
+  { q: "Is Playy free?", a: "Yes. Download it, set your level and start finding games." },
+  { q: "I haven't played in a while. Will I get destroyed?", a: "No. Games and events are matched by level, and plenty are made for beginners and people getting back into it." },
+  { q: "Do I need a partner or a group?", a: "No. Join an event solo or find players at your level in the app. That's the whole point." },
+  { q: "Is it only padel?", a: "Padel is our main sport in Dubai. Football, basketball and tennis are in the app too." },
+];
+
 const Go = () => {
   const { src = "direct" } = useParams();
   const navigate = useNavigate();
-  const p = useMemo(platform, []);
-  useNoIndex("Get Playy | Find padel players at your level in Dubai");
+  const d = useMemo(device, []);
+  useNoIndex("Get Playy | Padel games and events in Dubai for every level");
   const go = (store: "ios" | "android") => navigate(`/go/${src}/${store}`);
-  const primary: "ios" | "android" = p === "android" ? "android" : "ios";
-  const other: "ios" | "android" = primary === "ios" ? "android" : "ios";
+  const get = () => (d === "android" ? go("android") : d === "ios" ? go("ios") : document.getElementById("stores")?.scrollIntoView({ behavior: "smooth" }));
+
+  const Cta = ({ big = false }: { big?: boolean }) => (
+    <Button size="lg" onClick={get} className={`w-full ${big ? "h-16 text-lg" : "h-14 text-base"} font-semibold rounded-2xl bg-brand-gradient hover:opacity-90`}>
+      Get Playy
+    </Button>
+  );
 
   return (
-    <main className="min-h-[100svh] bg-background text-foreground flex flex-col">
-      <div className="flex-1 w-full max-w-md mx-auto px-6 pt-10 pb-8 flex flex-col">
-        <div className="flex items-center gap-3 mb-10">
-          <img src={logo} alt="Playy" className="w-11 h-11 rounded-xl" width={44} height={44} />
-          <span className="text-xl font-bold text-gradient">Playy</span>
-        </div>
+    <main className="min-h-[100svh] bg-background text-foreground pb-28">
+      <div className="w-full max-w-md mx-auto px-6">
+        <section className="min-h-[100svh] flex flex-col pt-10 pb-6">
+          <div className="flex items-center gap-3 mb-10">
+            <img src={logo} alt="Playy" className="w-11 h-11 rounded-xl" width={44} height={44} />
+            <span className="text-xl font-bold text-gradient">Playy</span>
+          </div>
+          <p className="text-sm font-semibold text-primary mb-3">Padel in Dubai, every level</p>
+          <h1 className="text-5xl font-bold tracking-tight leading-[1.05] mb-5">
+            Nobody too new.<br /><span className="text-gradient">Nobody too good.</span>
+          </h1>
+          <p className="text-muted-foreground text-lg mb-6">
+            Find padel games and events in Dubai whenever you want to play. All levels welcome, fair games, just for fun and meeting new people.
+          </p>
+          <p className="flex items-center gap-2 text-sm mb-8"><Users className="w-4 h-4 text-primary" /> {PLAYERS} players already on Playy</p>
+          <div className="mt-auto"><Cta big /></div>
+        </section>
 
-        <h1 className="text-4xl font-bold tracking-tight leading-tight mb-4">
-          Find padel players <span className="text-gradient">at your level</span> in Dubai.
-        </h1>
-        <p className="text-muted-foreground text-lg mb-6">
-          Match with players who play like you, join games and events, and never be short of a 4th again.
-        </p>
+        <section className="py-10 border-t border-border">
+          <h2 className="text-2xl font-bold mb-6">What you get</h2>
+          <div className="space-y-5">
+            {PILLARS.map(({ icon: Icon, title, text }) => (
+              <div key={title} className="flex gap-4"><Icon className="w-6 h-6 text-primary shrink-0 mt-0.5" /><div><p className="font-semibold">{title}</p><p className="text-muted-foreground">{text}</p></div></div>
+            ))}
+          </div>
+        </section>
 
-        <ul className="space-y-3 mb-8">
-          <li className="flex items-center gap-3"><BadgeCheck className="w-5 h-5 text-primary shrink-0" /> Players matched to your level</li>
-          <li className="flex items-center gap-3"><CalendarDays className="w-5 h-5 text-primary shrink-0" /> Games and events across Dubai</li>
-          <li className="flex items-center gap-3"><Users className="w-5 h-5 text-primary shrink-0" /> 350+ players already on Playy</li>
-        </ul>
+        <section className="py-10 border-t border-border">
+          <h2 className="text-2xl font-bold mb-2">Our events</h2>
+          <p className="text-muted-foreground mb-6">Hosted by Playy and players in the community.</p>
+          <div className="grid gap-3">
+            {VIBE.map(({ icon: Icon, title, text }) => (
+              <div key={title} className="bg-card border border-border rounded-2xl p-5"><Icon className="w-5 h-5 text-primary mb-2" /><p className="font-semibold mb-1">{title}</p><p className="text-sm text-muted-foreground">{text}</p></div>
+            ))}
+          </div>
+        </section>
 
-        <div className="mt-auto space-y-3">
-          {p === "desktop" ? (
-            <>
-              <Button size="lg" onClick={() => go("ios")} className="w-full h-14 text-base font-semibold rounded-xl gap-3 bg-brand-gradient hover:opacity-90"><Apple className="w-5 h-5" /> Download on the App Store</Button>
-              <Button size="lg" variant="outline" onClick={() => go("android")} className="w-full h-14 text-base font-semibold rounded-xl gap-3 border-2"><Play className="w-5 h-5" /> Get it on Google Play</Button>
-              <p className="text-xs text-muted-foreground text-center">Playy is a phone app. Open this page on your phone to download it.</p>
-            </>
-          ) : (
-            <>
-              <Button size="lg" onClick={() => go(primary)} className="w-full h-16 text-lg font-semibold rounded-2xl gap-3 bg-brand-gradient hover:opacity-90">
-                {primary === "ios" ? <Apple className="w-5 h-5" /> : <Play className="w-5 h-5" />} Get Playy free
-              </Button>
-              <button type="button" onClick={() => go(other)} className="w-full text-sm text-muted-foreground underline underline-offset-4">
-                {other === "android" ? "On Android? Get it on Google Play" : "On iPhone? Get it on the App Store"}
-              </button>
-            </>
-          )}
-          <p className="text-center pt-4"><a href="/" className="text-xs text-muted-foreground hover:text-foreground">Visit joinplayy.com</a></p>
-        </div>
+        <section className="py-10 border-t border-border">
+          <h2 className="text-2xl font-bold mb-4">Questions</h2>
+          <Accordion type="single" collapsible>
+            {FAQ.map((f, i) => (
+              <AccordionItem key={f.q} value={"q" + i}><AccordionTrigger className="text-left">{f.q}</AccordionTrigger><AccordionContent className="text-muted-foreground">{f.a}</AccordionContent></AccordionItem>
+            ))}
+          </Accordion>
+        </section>
+
+        <section id="stores" className="py-10 border-t border-border text-center">
+          <p className="text-muted-foreground mb-4">{d === "desktop" ? "Playy is a phone app. Pick your store:" : "Here to Playy."}</p>
+          {d === "desktop" ? (
+            <div className="grid gap-3">
+              <Button size="lg" onClick={() => go("ios")} className="w-full h-14 rounded-2xl bg-brand-gradient font-semibold">App Store (iPhone)</Button>
+              <Button size="lg" variant="outline" onClick={() => go("android")} className="w-full h-14 rounded-2xl border-2 font-semibold">Google Play (Android)</Button>
+            </div>
+          ) : <Cta />}
+          <p className="mt-8 text-sm"><a href="/" className="text-muted-foreground hover:text-foreground underline underline-offset-4">More about Playy</a> · <a href="/blog/" className="text-muted-foreground hover:text-foreground underline underline-offset-4">Padel guides</a></p>
+        </section>
       </div>
+
+      {d !== "desktop" && (
+        <div className="fixed bottom-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-lg border-t border-border px-6 py-3" style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}>
+          <div className="max-w-md mx-auto"><Cta /></div>
+        </div>
+      )}
     </main>
   );
 };
