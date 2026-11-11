@@ -32,7 +32,7 @@ const Hero = () => {
             <span className="text-gradient">Build Your Squad.</span>
           </h1>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-10">
-            Find players. Book sessions. Build your squad.
+            Find players. Join games. Build your squad.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://apps.apple.com/us/app/playy-find-your-game/id6759396368" target="_blank" rel="noopener noreferrer">
