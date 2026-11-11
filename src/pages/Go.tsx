@@ -2,7 +2,7 @@ import { useEffect, useMemo } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Apple, Play, Users, CalendarDays, BadgeCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/playy-logo-3d.png";
+import logo from "@/assets/p-logo.jpeg";
 
 /* Bio funnel page. Each source gets its own path so Vercel Analytics counts visits per source:
    /go/tt (TikTok bio), /go/ig (Instagram bio), /go/cap (post captions), /go (anything else).
